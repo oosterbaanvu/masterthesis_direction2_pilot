@@ -1,0 +1,33 @@
+phase: free_gemini_generation_v1
+parent_commit: 37113d4b209210444a3bd65de6b4fc808741a493
+provider: Google_Gemini_Developer_API
+model: gemini-2.5-flash
+api_key_variable: DQP_GEMINI_API_KEY
+free_project_confirmation_variable: DQP_GEMINI_FREE_TIER_CONFIRMED
+user_authorized_free_generation: true
+paid_calls_authorized: false
+automatic_paid_fallback: false
+automatic_model_substitution: false
+endpoint_host: generativelanguage.googleapis.com
+source_inputs: public_metadata_and_self_authored_synthetic_examples_only
+real_person_records_transmitted: false
+excluded_model_inputs: [raha, jung, baf, gmsc, sec_fintables, finrule_bench, private_data, error_labels, prediction_targets]
+sources: [uci_credit, uci_bank_marketing, uci_wine_white, synthetic_balanced_journals]
+documentation_contexts: [provided, withheld]
+prompt_variants: [direct, cautious]
+seeds: [11, 23, 37]
+temperature: 0
+thinking_budget: 0
+max_output_tokens: 2048
+max_prompt_utf8_bytes: 16000
+max_rules_per_response: 4
+target_requests: 48
+max_attempts: 48
+max_attempts_per_invocation: 12
+max_attempts_per_pacific_day: 20
+minimum_seconds_between_generation_requests: 31
+quota_note: Local ceilings, NOT verified project allocations; first quota/access error stops the run.
+model_eligibility_note: Google currently limits Gemini 2.5 access to previous active users; no substitution if unavailable.
+cost_note: Use only a project without active billing; API key alone cannot prove its billing tier.
+local_cache: data/cache/free_gemini
+new_model_results: NOT_RUN_UNTIL_ACCESS_AVAILABLE

@@ -1,0 +1,11 @@
+{
+  "model": "gemini-2.5-flash",
+  "credential_present": false,
+  "free_project_confirmed": false,
+  "status": "BLOCKED_MISSING_FREE_API_BINDING",
+  "new_model_calls": 0,
+  "paid_calls": 0,
+  "automatic_paid_fallback": false,
+  "actual_quota": "UNKNOWN_WITHOUT_PROJECT_ACCESS",
+  "model_eligibility": "Google currently restricts 2.5 to prior active users; key alone does not guarantee access"
+}

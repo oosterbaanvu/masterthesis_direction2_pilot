@@ -1,0 +1,30 @@
+[
+  {
+    "key": "hf_search",
+    "url": "https://huggingface.co/api/models?search=Qwen3-Coder-30B-A3B-Instruct-GGUF&limit=5&sort=downloads&direction=-1",
+    "status": 200,
+    "sha256": "861b3485edfb8888ff8561a16449d441ac029ad84031505781b7d16576022c5b",
+    "bytes": 2800
+  },
+  {
+    "key": "llama_latest",
+    "url": "https://api.github.com/repos/ggml-org/llama.cpp/releases/latest",
+    "status": 200,
+    "sha256": "7364b85211726b6dc358aebbc7ccba2fe720372b7f955a9d56fee5ab9fe40ab7",
+    "bytes": 35722
+  },
+  {
+    "key": "thinking",
+    "url": "https://ai.google.dev/gemini-api/docs/thinking",
+    "status": 200,
+    "sha256": "542c4a75b79f0d1fffd4fe94974a3dd26a98e241819ee5d5edfd4f7698aaa444",
+    "bytes": 288268
+  },
+  {
+    "key": "models_api",
+    "url": "https://ai.google.dev/api/models",
+    "status": 200,
+    "sha256": "d17f33cc2d0b1ed46a812856a57cf0f89549f55c96fc3f99f3ef973341c27e7b",
+    "bytes": 114603
+  }
+]

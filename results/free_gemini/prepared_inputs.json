@@ -1,0 +1,1657 @@
+{
+  "status": "PREPARED_NOT_MODEL_OUTPUTS",
+  "config_sha256": "ea055087f42e798c40b846bfff51a518f6ee256e97add08cf9d13ceaafc0cc86",
+  "requests": [
+    {
+      "id": "uci_credit:provided:direct:11",
+      "source": "uci_credit",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "e0c97624c45d519c696ea33507df604ed2255984765183c15872640936e8fdf0",
+      "prompt_utf8_bytes": 10075,
+      "path": "data/cache/free_gemini/prompts/uci_credit_provided_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:provided:direct:11",
+      "source": "uci_bank_marketing",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d",
+      "prompt_utf8_bytes": 8000,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:provided:direct:11",
+      "source": "uci_wine_white",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb",
+      "prompt_utf8_bytes": 4291,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:provided:direct:11",
+      "source": "synthetic_balanced_journals",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21",
+      "prompt_utf8_bytes": 2610,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:withheld:direct:11",
+      "source": "uci_credit",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "9bcd8dfc787d13bf6e34ba6e952baf71a9322cb14c8afca4d79829f4ae60d2be",
+      "prompt_utf8_bytes": 5414,
+      "path": "data/cache/free_gemini/prompts/uci_credit_withheld_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:withheld:direct:11",
+      "source": "uci_bank_marketing",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "5e636ed25a84837cbd2df1eb4751e19e807bcfd82ee83781a79dac3d213f7cbb",
+      "prompt_utf8_bytes": 4742,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_withheld_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:withheld:direct:11",
+      "source": "uci_wine_white",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "bafb194541afea94860799bf53a143a594942c6e3653e0cdd65e8bb38863a95d",
+      "prompt_utf8_bytes": 3156,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_withheld_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:withheld:direct:11",
+      "source": "synthetic_balanced_journals",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 11,
+      "prompt_sha256": "1401c6ca9f0407a0f1c013b2b90c4b88e1cabd145d586d73efa174acbcab327b",
+      "prompt_utf8_bytes": 2283,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_withheld_direct_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:provided:cautious:11",
+      "source": "uci_credit",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "2fb52a721038c9070138ed88b4fa91e8b9c51939be605aaf8ef175f6ab5d8c6d",
+      "prompt_utf8_bytes": 10162,
+      "path": "data/cache/free_gemini/prompts/uci_credit_provided_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:provided:cautious:11",
+      "source": "uci_bank_marketing",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "1059fc17139ae2da9f6b4ad5e6fe359b67541ba19352fdc3bf434d515551046d",
+      "prompt_utf8_bytes": 8087,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:provided:cautious:11",
+      "source": "uci_wine_white",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "ee4e55f43d6da2648377d7cc521efdfb3a63169bff2ad203437f80beb9c30ce2",
+      "prompt_utf8_bytes": 4378,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:provided:cautious:11",
+      "source": "synthetic_balanced_journals",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "940ec620b44d50722224b3be8658f909338c785e3b6cda9c7ba20cf5fff28605",
+      "prompt_utf8_bytes": 2697,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:withheld:cautious:11",
+      "source": "uci_credit",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "e4489c4cb7c7eaee93a47d6be4ec433aa669c9a97cdd73e1eb79614682450590",
+      "prompt_utf8_bytes": 5501,
+      "path": "data/cache/free_gemini/prompts/uci_credit_withheld_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:withheld:cautious:11",
+      "source": "uci_bank_marketing",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "dc66b2a5a937bebfd9177dba71062b1a9e1742de8a402f9d4f4c402761dbee03",
+      "prompt_utf8_bytes": 4829,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_withheld_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:withheld:cautious:11",
+      "source": "uci_wine_white",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "d99a9e56cb3a59a9185e677e26a478c24b01a8be2c5e49b370420319f892f894",
+      "prompt_utf8_bytes": 3243,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_withheld_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:withheld:cautious:11",
+      "source": "synthetic_balanced_journals",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 11,
+      "prompt_sha256": "7a4056c66133d95fa529b778a0cfdda1ddb93cab55ea9298f751889ac3bdad10",
+      "prompt_utf8_bytes": 2370,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_withheld_cautious_11.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:provided:direct:23",
+      "source": "uci_credit",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "e0c97624c45d519c696ea33507df604ed2255984765183c15872640936e8fdf0",
+      "prompt_utf8_bytes": 10075,
+      "path": "data/cache/free_gemini/prompts/uci_credit_provided_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:provided:direct:23",
+      "source": "uci_bank_marketing",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d",
+      "prompt_utf8_bytes": 8000,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:provided:direct:23",
+      "source": "uci_wine_white",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb",
+      "prompt_utf8_bytes": 4291,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:provided:direct:23",
+      "source": "synthetic_balanced_journals",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21",
+      "prompt_utf8_bytes": 2610,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:withheld:direct:23",
+      "source": "uci_credit",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "9bcd8dfc787d13bf6e34ba6e952baf71a9322cb14c8afca4d79829f4ae60d2be",
+      "prompt_utf8_bytes": 5414,
+      "path": "data/cache/free_gemini/prompts/uci_credit_withheld_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:withheld:direct:23",
+      "source": "uci_bank_marketing",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "5e636ed25a84837cbd2df1eb4751e19e807bcfd82ee83781a79dac3d213f7cbb",
+      "prompt_utf8_bytes": 4742,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_withheld_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:withheld:direct:23",
+      "source": "uci_wine_white",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "bafb194541afea94860799bf53a143a594942c6e3653e0cdd65e8bb38863a95d",
+      "prompt_utf8_bytes": 3156,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_withheld_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:withheld:direct:23",
+      "source": "synthetic_balanced_journals",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 23,
+      "prompt_sha256": "1401c6ca9f0407a0f1c013b2b90c4b88e1cabd145d586d73efa174acbcab327b",
+      "prompt_utf8_bytes": 2283,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_withheld_direct_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:provided:cautious:23",
+      "source": "uci_credit",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "2fb52a721038c9070138ed88b4fa91e8b9c51939be605aaf8ef175f6ab5d8c6d",
+      "prompt_utf8_bytes": 10162,
+      "path": "data/cache/free_gemini/prompts/uci_credit_provided_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:provided:cautious:23",
+      "source": "uci_bank_marketing",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "1059fc17139ae2da9f6b4ad5e6fe359b67541ba19352fdc3bf434d515551046d",
+      "prompt_utf8_bytes": 8087,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:provided:cautious:23",
+      "source": "uci_wine_white",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "ee4e55f43d6da2648377d7cc521efdfb3a63169bff2ad203437f80beb9c30ce2",
+      "prompt_utf8_bytes": 4378,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:provided:cautious:23",
+      "source": "synthetic_balanced_journals",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "940ec620b44d50722224b3be8658f909338c785e3b6cda9c7ba20cf5fff28605",
+      "prompt_utf8_bytes": 2697,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:withheld:cautious:23",
+      "source": "uci_credit",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "e4489c4cb7c7eaee93a47d6be4ec433aa669c9a97cdd73e1eb79614682450590",
+      "prompt_utf8_bytes": 5501,
+      "path": "data/cache/free_gemini/prompts/uci_credit_withheld_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:withheld:cautious:23",
+      "source": "uci_bank_marketing",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "dc66b2a5a937bebfd9177dba71062b1a9e1742de8a402f9d4f4c402761dbee03",
+      "prompt_utf8_bytes": 4829,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_withheld_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:withheld:cautious:23",
+      "source": "uci_wine_white",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "d99a9e56cb3a59a9185e677e26a478c24b01a8be2c5e49b370420319f892f894",
+      "prompt_utf8_bytes": 3243,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_withheld_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:withheld:cautious:23",
+      "source": "synthetic_balanced_journals",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 23,
+      "prompt_sha256": "7a4056c66133d95fa529b778a0cfdda1ddb93cab55ea9298f751889ac3bdad10",
+      "prompt_utf8_bytes": 2370,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_withheld_cautious_23.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:provided:direct:37",
+      "source": "uci_credit",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "e0c97624c45d519c696ea33507df604ed2255984765183c15872640936e8fdf0",
+      "prompt_utf8_bytes": 10075,
+      "path": "data/cache/free_gemini/prompts/uci_credit_provided_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:provided:direct:37",
+      "source": "uci_bank_marketing",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d",
+      "prompt_utf8_bytes": 8000,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:provided:direct:37",
+      "source": "uci_wine_white",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb",
+      "prompt_utf8_bytes": 4291,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:provided:direct:37",
+      "source": "synthetic_balanced_journals",
+      "documentation": "provided",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21",
+      "prompt_utf8_bytes": 2610,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:withheld:direct:37",
+      "source": "uci_credit",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "9bcd8dfc787d13bf6e34ba6e952baf71a9322cb14c8afca4d79829f4ae60d2be",
+      "prompt_utf8_bytes": 5414,
+      "path": "data/cache/free_gemini/prompts/uci_credit_withheld_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:withheld:direct:37",
+      "source": "uci_bank_marketing",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "5e636ed25a84837cbd2df1eb4751e19e807bcfd82ee83781a79dac3d213f7cbb",
+      "prompt_utf8_bytes": 4742,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_withheld_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:withheld:direct:37",
+      "source": "uci_wine_white",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "bafb194541afea94860799bf53a143a594942c6e3653e0cdd65e8bb38863a95d",
+      "prompt_utf8_bytes": 3156,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_withheld_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:withheld:direct:37",
+      "source": "synthetic_balanced_journals",
+      "documentation": "withheld",
+      "prompt_variant": "direct",
+      "seed": 37,
+      "prompt_sha256": "1401c6ca9f0407a0f1c013b2b90c4b88e1cabd145d586d73efa174acbcab327b",
+      "prompt_utf8_bytes": 2283,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_withheld_direct_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:provided:cautious:37",
+      "source": "uci_credit",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "2fb52a721038c9070138ed88b4fa91e8b9c51939be605aaf8ef175f6ab5d8c6d",
+      "prompt_utf8_bytes": 10162,
+      "path": "data/cache/free_gemini/prompts/uci_credit_provided_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:provided:cautious:37",
+      "source": "uci_bank_marketing",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "1059fc17139ae2da9f6b4ad5e6fe359b67541ba19352fdc3bf434d515551046d",
+      "prompt_utf8_bytes": 8087,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:provided:cautious:37",
+      "source": "uci_wine_white",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "ee4e55f43d6da2648377d7cc521efdfb3a63169bff2ad203437f80beb9c30ce2",
+      "prompt_utf8_bytes": 4378,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:provided:cautious:37",
+      "source": "synthetic_balanced_journals",
+      "documentation": "provided",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "940ec620b44d50722224b3be8658f909338c785e3b6cda9c7ba20cf5fff28605",
+      "prompt_utf8_bytes": 2697,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_credit:withheld:cautious:37",
+      "source": "uci_credit",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "e4489c4cb7c7eaee93a47d6be4ec433aa669c9a97cdd73e1eb79614682450590",
+      "prompt_utf8_bytes": 5501,
+      "path": "data/cache/free_gemini/prompts/uci_credit_withheld_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_bank_marketing:withheld:cautious:37",
+      "source": "uci_bank_marketing",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "dc66b2a5a937bebfd9177dba71062b1a9e1742de8a402f9d4f4c402761dbee03",
+      "prompt_utf8_bytes": 4829,
+      "path": "data/cache/free_gemini/prompts/uci_bank_marketing_withheld_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "uci_wine_white:withheld:cautious:37",
+      "source": "uci_wine_white",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "d99a9e56cb3a59a9185e677e26a478c24b01a8be2c5e49b370420319f892f894",
+      "prompt_utf8_bytes": 3243,
+      "path": "data/cache/free_gemini/prompts/uci_wine_white_withheld_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    },
+    {
+      "id": "synthetic_balanced_journals:withheld:cautious:37",
+      "source": "synthetic_balanced_journals",
+      "documentation": "withheld",
+      "prompt_variant": "cautious",
+      "seed": 37,
+      "prompt_sha256": "7a4056c66133d95fa529b778a0cfdda1ddb93cab55ea9298f751889ac3bdad10",
+      "prompt_utf8_bytes": 2370,
+      "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_withheld_cautious_37.txt",
+      "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+      "real_person_records_transmitted": false
+    }
+  ],
+  "contexts_sha256": "5624d7f593c2c56a2f66a7662cbb5c41b9c2efd58873bca6de5791d4d5036488",
+  "source_contexts": {
+    "uci_credit": {
+      "source": "uci_credit",
+      "citation": "https://doi.org/10.24432/C55S3H",
+      "schema": [
+        {
+          "name": "LIMIT_BAL",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount of given credit, incl. supplementary credit (X1)"
+        },
+        {
+          "name": "SEX",
+          "type": "categorical",
+          "semantic": "code",
+          "description": "Gender (X2)",
+          "documented_values": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "EDUCATION",
+          "type": "categorical",
+          "semantic": "code",
+          "description": "Education (X3); data also contains undocumented 0, 5, 6",
+          "documented_values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "MARRIAGE",
+          "type": "categorical",
+          "semantic": "code",
+          "description": "Marital status (X4); data also contains undocumented 0",
+          "documented_values": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "AGE",
+          "type": "numeric",
+          "semantic": "age_years",
+          "unit": "years",
+          "description": "Age in years (X5)"
+        },
+        {
+          "name": "PAY_0",
+          "type": "categorical",
+          "semantic": "repayment_status",
+          "description": "Repayment status Sep 2005 (X6); data also contains undocumented -2 and 0",
+          "documented_values": [
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "PAY_2",
+          "type": "categorical",
+          "semantic": "repayment_status",
+          "description": "Repayment status Aug 2005 (X7)",
+          "documented_values": [
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "PAY_3",
+          "type": "categorical",
+          "semantic": "repayment_status",
+          "description": "Repayment status Jul 2005 (X8)",
+          "documented_values": [
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "PAY_4",
+          "type": "categorical",
+          "semantic": "repayment_status",
+          "description": "Repayment status Jun 2005 (X9)",
+          "documented_values": [
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "PAY_5",
+          "type": "categorical",
+          "semantic": "repayment_status",
+          "description": "Repayment status May 2005 (X10)",
+          "documented_values": [
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "PAY_6",
+          "type": "categorical",
+          "semantic": "repayment_status",
+          "description": "Repayment status Apr 2005 (X11)",
+          "documented_values": [
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "BILL_AMT1",
+          "type": "numeric",
+          "semantic": "money_amount_signed",
+          "unit": "NTD",
+          "description": "Bill statement amount Sep 2005 (X12); negative = credit balance"
+        },
+        {
+          "name": "BILL_AMT2",
+          "type": "numeric",
+          "semantic": "money_amount_signed",
+          "unit": "NTD",
+          "description": "Bill statement amount Aug 2005 (X13)"
+        },
+        {
+          "name": "BILL_AMT3",
+          "type": "numeric",
+          "semantic": "money_amount_signed",
+          "unit": "NTD",
+          "description": "Bill statement amount Jul 2005 (X14)"
+        },
+        {
+          "name": "BILL_AMT4",
+          "type": "numeric",
+          "semantic": "money_amount_signed",
+          "unit": "NTD",
+          "description": "Bill statement amount Jun 2005 (X15)"
+        },
+        {
+          "name": "BILL_AMT5",
+          "type": "numeric",
+          "semantic": "money_amount_signed",
+          "unit": "NTD",
+          "description": "Bill statement amount May 2005 (X16)"
+        },
+        {
+          "name": "BILL_AMT6",
+          "type": "numeric",
+          "semantic": "money_amount_signed",
+          "unit": "NTD",
+          "description": "Bill statement amount Apr 2005 (X17)"
+        },
+        {
+          "name": "PAY_AMT1",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount paid Sep 2005 (X18)"
+        },
+        {
+          "name": "PAY_AMT2",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount paid Aug 2005 (X19)"
+        },
+        {
+          "name": "PAY_AMT3",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount paid Jul 2005 (X20)"
+        },
+        {
+          "name": "PAY_AMT4",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount paid Jun 2005 (X21)"
+        },
+        {
+          "name": "PAY_AMT5",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount paid May 2005 (X22)"
+        },
+        {
+          "name": "PAY_AMT6",
+          "type": "numeric",
+          "semantic": "money_amount",
+          "unit": "NTD",
+          "description": "Amount paid Apr 2005 (X23)"
+        }
+      ],
+      "source_documentation": "One row per credit-card client of a Taiwanese bank (2005): credit limit, demographics, six months (Apr-Sep 2005) of repayment status, bill statement and payment amounts. Treated here as a monthly client snapshot delivered by an upstream card system.",
+      "convention_notes": [
+        {
+          "id": "D_NOT_NULL",
+          "status": "verified",
+          "evidence": "UCI metadata has_missing_values = no; 0 nulls in the published table."
+        },
+        {
+          "id": "D_UNIQUE_ID",
+          "status": "verified",
+          "evidence": "ID is the record key; unique 1..30000 in the published table."
+        },
+        {
+          "id": "D_SEX_DOMAIN",
+          "status": "verified",
+          "evidence": "Documented codes 1/2; 0 violations."
+        },
+        {
+          "id": "D_EDUCATION_DOCUMENTED",
+          "status": "unsupported",
+          "evidence": "Documented domain, but 345 untouched rows (1.15%) use 0/5/6. Enforcing it would flag published data; replaced by D_EDUCATION_OBSERVED."
+        },
+        {
+          "id": "D_EDUCATION_OBSERVED",
+          "status": "provisional",
+          "evidence": "Documented codes plus undocumented codes present in the published data (meaning unknown)."
+        },
+        {
+          "id": "D_MARRIAGE_OBSERVED",
+          "status": "provisional",
+          "evidence": "Documented 1-3 plus undocumented 0 (54 rows) present in published data."
+        },
+        {
+          "id": "D_PAY_{i}_DOMAIN",
+          "status": "provisional",
+          "evidence": "Documented scale -1, 1..9 plus undocumented -2 and 0, which make up most of the published values."
+        },
+        {
+          "id": "D_AGE_RANGE",
+          "status": "provisional",
+          "evidence": "Card holders are adults; plausible upper bound. Observed 21-79, 0 violations."
+        },
+        {
+          "id": "D_LIMIT_POSITIVE",
+          "status": "verified",
+          "evidence": "A granted credit amount is positive by definition; 0 violations."
+        },
+        {
+          "id": "D_LIMIT_GRANULARITY",
+          "status": "provisional",
+          "evidence": "Data-derived: 29,997 of 30,000 limits are multiples of 10,000 (3 untouched exceptions, status unknown)."
+        },
+        {
+          "id": "D_PAY_AMT{i}_NONNEG",
+          "status": "verified",
+          "evidence": "A payment amount is non-negative; 0 violations."
+        },
+        {
+          "id": "D_BILL_OVER_LIMIT",
+          "status": "unsupported",
+          "evidence": "Candidate business rule from the earlier pilot. Over-limit balances are plausible (interest, fees, supplementary cards) and the multiplier 1.5 is not documented. Replaced by the fitted statistical control S_BILL{i}_TO_LIMIT."
+        }
+      ],
+      "existing_controls": [
+        {
+          "id": "D_NOT_NULL",
+          "kind": "not_null",
+          "columns": "all",
+          "status": "verified",
+          "evidence": "UCI metadata has_missing_values = no; 0 nulls in the published table."
+        },
+        {
+          "id": "D_UNIQUE_ID",
+          "kind": "unique",
+          "columns": [
+            "ID"
+          ],
+          "status": "verified",
+          "evidence": "ID is the record key; unique 1..30000 in the published table."
+        },
+        {
+          "id": "D_SEX_DOMAIN",
+          "kind": "accepted_values",
+          "columns": [
+            "SEX"
+          ],
+          "values": [
+            1,
+            2
+          ],
+          "status": "verified",
+          "evidence": "Documented codes 1/2; 0 violations."
+        },
+        {
+          "id": "D_EDUCATION_DOCUMENTED",
+          "kind": "accepted_values",
+          "columns": [
+            "EDUCATION"
+          ],
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "status": "unsupported",
+          "enabled": false,
+          "evidence": "Documented domain, but 345 untouched rows (1.15%) use 0/5/6. Enforcing it would flag published data; replaced by D_EDUCATION_OBSERVED."
+        },
+        {
+          "id": "D_EDUCATION_OBSERVED",
+          "kind": "accepted_values",
+          "columns": [
+            "EDUCATION"
+          ],
+          "values": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "status": "provisional",
+          "evidence": "Documented codes plus undocumented codes present in the published data (meaning unknown)."
+        },
+        {
+          "id": "D_MARRIAGE_OBSERVED",
+          "kind": "accepted_values",
+          "columns": [
+            "MARRIAGE"
+          ],
+          "values": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "status": "provisional",
+          "evidence": "Documented 1-3 plus undocumented 0 (54 rows) present in published data."
+        },
+        {
+          "id": "D_PAY_{i}_DOMAIN",
+          "kind": "accepted_values",
+          "for_each": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "columns": [
+            "PAY_{i}"
+          ],
+          "values": [
+            -2,
+            -1,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "status": "provisional",
+          "evidence": "Documented scale -1, 1..9 plus undocumented -2 and 0, which make up most of the published values."
+        },
+        {
+          "id": "D_AGE_RANGE",
+          "kind": "range",
+          "columns": [
+            "AGE"
+          ],
+          "min": 18,
+          "max": 100,
+          "status": "provisional",
+          "evidence": "Card holders are adults; plausible upper bound. Observed 21-79, 0 violations."
+        },
+        {
+          "id": "D_LIMIT_POSITIVE",
+          "kind": "range",
+          "columns": [
+            "LIMIT_BAL"
+          ],
+          "min": 1,
+          "status": "verified",
+          "evidence": "A granted credit amount is positive by definition; 0 violations."
+        },
+        {
+          "id": "D_LIMIT_GRANULARITY",
+          "kind": "expression",
+          "columns": [
+            "LIMIT_BAL"
+          ],
+          "expression": "\"LIMIT_BAL\" % 10000 = 0",
+          "status": "provisional",
+          "evidence": "Data-derived: 29,997 of 30,000 limits are multiples of 10,000 (3 untouched exceptions, status unknown)."
+        },
+        {
+          "id": "D_PAY_AMT{i}_NONNEG",
+          "kind": "range",
+          "for_each": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "columns": [
+            "PAY_AMT{i}"
+          ],
+          "min": 0,
+          "status": "verified",
+          "evidence": "A payment amount is non-negative; 0 violations."
+        },
+        {
+          "id": "D_BILL_OVER_LIMIT",
+          "kind": "expression",
+          "columns": [
+            "BILL_AMT1",
+            "LIMIT_BAL"
+          ],
+          "expression": "\"BILL_AMT1\" <= 1.5 * \"LIMIT_BAL\"",
+          "status": "unsupported",
+          "enabled": false,
+          "evidence": "Candidate business rule from the earlier pilot. Over-limit balances are plausible (interest, fees, supplementary cards) and the multiplier 1.5 is not documented. Replaced by the fitted statistical control S_BILL{i}_TO_LIMIT."
+        }
+      ],
+      "sample": [],
+      "sample_note": "No individual records are transmitted; schema/documentation-only generation.",
+      "source_contract_sha256": "f778c089dc6c99d8cc28cee2874b5984ce53051207a2daf1e92483e456b001ab",
+      "raw_rows_transmitted": false,
+      "licence_basis": "UCI public dataset metadata, CC BY 4.0, citation retained; inherited provisional assumptions remain marked"
+    },
+    "uci_bank_marketing": {
+      "source": "uci_bank_marketing",
+      "citation": "https://doi.org/10.24432/C5K306",
+      "schema": [
+        {
+          "name": "age",
+          "type": "numeric",
+          "semantic": "age_years",
+          "unit": "years"
+        },
+        {
+          "name": "job",
+          "type": "categorical",
+          "semantic": "code",
+          "documented_values": [
+            "admin.",
+            "blue-collar",
+            "entrepreneur",
+            "housemaid",
+            "management",
+            "retired",
+            "self-employed",
+            "services",
+            "student",
+            "technician",
+            "unemployed",
+            "unknown"
+          ]
+        },
+        {
+          "name": "marital",
+          "type": "categorical",
+          "semantic": "code",
+          "documented_values": [
+            "divorced",
+            "married",
+            "single",
+            "unknown"
+          ]
+        },
+        {
+          "name": "education",
+          "type": "categorical",
+          "semantic": "code",
+          "documented_values": [
+            "basic.4y",
+            "basic.6y",
+            "basic.9y",
+            "high.school",
+            "illiterate",
+            "professional.course",
+            "university.degree",
+            "unknown"
+          ]
+        },
+        {
+          "name": "default",
+          "type": "categorical",
+          "semantic": "flag",
+          "documented_values": [
+            "no",
+            "yes",
+            "unknown"
+          ]
+        },
+        {
+          "name": "housing",
+          "type": "categorical",
+          "semantic": "flag",
+          "documented_values": [
+            "no",
+            "yes",
+            "unknown"
+          ]
+        },
+        {
+          "name": "loan",
+          "type": "categorical",
+          "semantic": "flag",
+          "documented_values": [
+            "no",
+            "yes",
+            "unknown"
+          ]
+        },
+        {
+          "name": "contact",
+          "type": "categorical",
+          "semantic": "channel",
+          "documented_values": [
+            "cellular",
+            "telephone"
+          ]
+        },
+        {
+          "name": "month",
+          "type": "categorical",
+          "semantic": "calendar_month",
+          "documented_values": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+          ]
+        },
+        {
+          "name": "day_of_week",
+          "type": "categorical",
+          "semantic": "weekday",
+          "documented_values": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ]
+        },
+        {
+          "name": "duration",
+          "type": "numeric",
+          "semantic": "seconds",
+          "unit": "s",
+          "description": "Last contact duration"
+        },
+        {
+          "name": "campaign",
+          "type": "numeric",
+          "semantic": "count",
+          "description": "Contacts in this campaign incl. last"
+        },
+        {
+          "name": "pdays",
+          "type": "numeric",
+          "semantic": "days_with_sentinel",
+          "description": "Days since previous-campaign contact; 999 = not previously contacted"
+        },
+        {
+          "name": "previous",
+          "type": "numeric",
+          "semantic": "count",
+          "description": "Contacts before this campaign"
+        },
+        {
+          "name": "poutcome",
+          "type": "categorical",
+          "semantic": "code",
+          "documented_values": [
+            "failure",
+            "nonexistent",
+            "success"
+          ]
+        },
+        {
+          "name": "emp.var.rate",
+          "type": "numeric",
+          "semantic": "macro_indicator_quarterly"
+        },
+        {
+          "name": "cons.price.idx",
+          "type": "numeric",
+          "semantic": "macro_indicator_monthly"
+        },
+        {
+          "name": "cons.conf.idx",
+          "type": "numeric",
+          "semantic": "macro_indicator_monthly"
+        },
+        {
+          "name": "euribor3m",
+          "type": "numeric",
+          "semantic": "interest_rate_percent_daily",
+          "unit": "percent"
+        },
+        {
+          "name": "nr.employed",
+          "type": "numeric",
+          "semantic": "macro_indicator_quarterly",
+          "unit": "thousands"
+        }
+      ],
+      "source_documentation": "One row per telemarketing contact of a Portuguese bank (May 2008 - Nov 2010), ordered by date, with client attributes, contact attributes, previous-campaign attributes and national macro-economic indicators. Treated as a monthly delivery from a CRM/campaign system.",
+      "convention_notes": [
+        {
+          "id": "D_NOT_NULL",
+          "status": "verified",
+          "evidence": "Documentation: missing values are coded 'unknown' (categorical) or 999 (pdays); no empty fields."
+        },
+        {
+          "id": "D_DOMAIN_{i}",
+          "status": "verified",
+          "evidence": "Documented category list in bank-additional-names.txt."
+        },
+        {
+          "id": "D_AGE_RANGE",
+          "status": "provisional",
+          "evidence": "Plausible adult client ages; observed 17-98, 0 violations."
+        },
+        {
+          "id": "D_DURATION_NONNEG",
+          "status": "verified",
+          "evidence": "A duration in seconds is non-negative."
+        },
+        {
+          "id": "D_CAMPAIGN_MIN1",
+          "status": "verified",
+          "evidence": "Documented: number of contacts in this campaign, includes the last contact."
+        },
+        {
+          "id": "D_PREVIOUS_NONNEG",
+          "status": "verified",
+          "evidence": "A count is non-negative."
+        },
+        {
+          "id": "D_PDAYS_RANGE",
+          "status": "verified",
+          "evidence": "Days >= 0 or the documented sentinel 999."
+        },
+        {
+          "id": "D_POUTCOME_PREVIOUS",
+          "status": "verified",
+          "evidence": "poutcome is the outcome of the previous campaign, 'nonexistent' iff there was no previous contact; 0 violations."
+        },
+        {
+          "id": "D_PDAYS_PREVIOUS",
+          "status": "verified",
+          "evidence": "A known number of days since a previous contact implies at least one previous contact; 0 violations."
+        },
+        {
+          "id": "D_PDAYS999_NO_PREVIOUS",
+          "status": "unsupported",
+          "evidence": "Literal reading of the documentation (999 = not previously contacted) is contradicted by 4,110 untouched rows with previous > 0."
+        }
+      ],
+      "existing_controls": [
+        {
+          "id": "D_NOT_NULL",
+          "kind": "not_null",
+          "columns": "all",
+          "status": "verified",
+          "evidence": "Documentation: missing values are coded 'unknown' (categorical) or 999 (pdays); no empty fields."
+        },
+        {
+          "id": "D_DOMAIN_{i}",
+          "kind": "accepted_values",
+          "for_each": [
+            "job",
+            "marital",
+            "education",
+            "default",
+            "housing",
+            "loan",
+            "contact",
+            "month",
+            "day_of_week",
+            "poutcome"
+          ],
+          "columns": [
+            "{i}"
+          ],
+          "from_documented": true,
+          "status": "verified",
+          "evidence": "Documented category list in bank-additional-names.txt."
+        },
+        {
+          "id": "D_AGE_RANGE",
+          "kind": "range",
+          "columns": [
+            "age"
+          ],
+          "min": 17,
+          "max": 100,
+          "status": "provisional",
+          "evidence": "Plausible adult client ages; observed 17-98, 0 violations."
+        },
+        {
+          "id": "D_DURATION_NONNEG",
+          "kind": "range",
+          "columns": [
+            "duration"
+          ],
+          "min": 0,
+          "status": "verified",
+          "evidence": "A duration in seconds is non-negative."
+        },
+        {
+          "id": "D_CAMPAIGN_MIN1",
+          "kind": "range",
+          "columns": [
+            "campaign"
+          ],
+          "min": 1,
+          "status": "verified",
+          "evidence": "Documented: number of contacts in this campaign, includes the last contact."
+        },
+        {
+          "id": "D_PREVIOUS_NONNEG",
+          "kind": "range",
+          "columns": [
+            "previous"
+          ],
+          "min": 0,
+          "status": "verified",
+          "evidence": "A count is non-negative."
+        },
+        {
+          "id": "D_PDAYS_RANGE",
+          "kind": "range",
+          "columns": [
+            "pdays"
+          ],
+          "min": 0,
+          "max": 999,
+          "status": "verified",
+          "evidence": "Days >= 0 or the documented sentinel 999."
+        },
+        {
+          "id": "D_POUTCOME_PREVIOUS",
+          "kind": "expression",
+          "columns": [
+            "previous",
+            "poutcome"
+          ],
+          "expression": "(\"previous\" = 0) = (\"poutcome\" = 'nonexistent')",
+          "status": "verified",
+          "evidence": "poutcome is the outcome of the previous campaign, 'nonexistent' iff there was no previous contact; 0 violations."
+        },
+        {
+          "id": "D_PDAYS_PREVIOUS",
+          "kind": "expression",
+          "columns": [
+            "pdays",
+            "previous"
+          ],
+          "expression": "\"pdays\" = 999 or \"previous\" > 0",
+          "status": "verified",
+          "evidence": "A known number of days since a previous contact implies at least one previous contact; 0 violations."
+        },
+        {
+          "id": "D_PDAYS999_NO_PREVIOUS",
+          "kind": "expression",
+          "columns": [
+            "pdays",
+            "previous"
+          ],
+          "expression": "\"pdays\" < 999 or \"previous\" = 0",
+          "status": "unsupported",
+          "enabled": false,
+          "evidence": "Literal reading of the documentation (999 = not previously contacted) is contradicted by 4,110 untouched rows with previous > 0."
+        }
+      ],
+      "sample": [],
+      "sample_note": "No individual records are transmitted; schema/documentation-only generation.",
+      "source_contract_sha256": "1e011985f715f6e4956adf0db6ef07402ae8106a00b28bdf91e7b65083ce4981",
+      "raw_rows_transmitted": false,
+      "licence_basis": "UCI public dataset metadata, CC BY 4.0, citation retained; inherited provisional assumptions remain marked"
+    },
+    "uci_wine_white": {
+      "source": "uci_wine_white",
+      "citation": "https://doi.org/10.24432/C56S3T",
+      "schema": [
+        {
+          "name": "fixed acidity",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "volatile acidity",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "citric acid",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "residual sugar",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "chlorides",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "free sulfur dioxide",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "total sulfur dioxide",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "density",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "pH",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "sulphates",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        },
+        {
+          "name": "alcohol",
+          "type": "numeric",
+          "semantic": "physicochemical_measurement"
+        }
+      ],
+      "source_documentation": "White Vinho Verde physicochemical inputs; sensory quality target excluded. Historical measurements are not assumed verified error-free.",
+      "convention_notes": [
+        {
+          "id": "D_REQUIRED",
+          "status": "verified",
+          "evidence": "UCI winequality.names: no missing values in the published measurements."
+        },
+        {
+          "id": "D_NONNEG_{i}",
+          "status": "provisional",
+          "evidence": "Nonnegative concentration, density, percentage or pH; no clean-test range fitting."
+        },
+        {
+          "id": "D_PH",
+          "status": "provisional",
+          "evidence": "Conventional aqueous pH screening range, not an empirical min/max."
+        },
+        {
+          "id": "D_FREE_TOTAL",
+          "status": "provisional",
+          "evidence": "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations."
+        }
+      ],
+      "existing_controls": [
+        {
+          "id": "D_REQUIRED",
+          "kind": "not_null",
+          "columns": "all",
+          "status": "verified",
+          "evidence": "UCI winequality.names: no missing values in the published measurements."
+        },
+        {
+          "id": "D_NONNEG_{i}",
+          "kind": "range",
+          "for_each": [
+            "fixed acidity",
+            "volatile acidity",
+            "citric acid",
+            "residual sugar",
+            "chlorides",
+            "free sulfur dioxide",
+            "total sulfur dioxide",
+            "density",
+            "pH",
+            "sulphates",
+            "alcohol"
+          ],
+          "columns": [
+            "{i}"
+          ],
+          "min": 0,
+          "status": "provisional",
+          "evidence": "Nonnegative concentration, density, percentage or pH; no clean-test range fitting."
+        },
+        {
+          "id": "D_PH",
+          "kind": "range",
+          "columns": [
+            "pH"
+          ],
+          "min": 0,
+          "max": 14,
+          "status": "provisional",
+          "evidence": "Conventional aqueous pH screening range, not an empirical min/max."
+        },
+        {
+          "id": "D_FREE_TOTAL",
+          "kind": "expression",
+          "columns": [
+            "free sulfur dioxide",
+            "total sulfur dioxide"
+          ],
+          "expression": "\"free sulfur dioxide\" <= \"total sulfur dioxide\"",
+          "status": "provisional",
+          "evidence": "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations."
+        }
+      ],
+      "sample": [],
+      "sample_note": "No individual records are transmitted; schema/documentation-only generation.",
+      "source_contract_sha256": "a127d67b165ef86722f50a2ccc1759dd1c59bac8bb002475e02facbe45bdd646",
+      "raw_rows_transmitted": false,
+      "licence_basis": "UCI public dataset metadata, CC BY 4.0, citation retained; inherited provisional assumptions remain marked"
+    },
+    "synthetic_balanced_journals": {
+      "source": "synthetic_balanced_journals",
+      "citation": "Self-authored controlled engineering scenario v1",
+      "schema": [
+        {
+          "name": "journal_id",
+          "type": "string"
+        },
+        {
+          "name": "currency",
+          "type": "string"
+        },
+        {
+          "name": "total_debits",
+          "type": "numeric"
+        },
+        {
+          "name": "total_credits",
+          "type": "numeric"
+        }
+      ],
+      "source_documentation": "One row is a whole balanced journal within one currency. IDs are unique and required. Currency is USD or EUR. Amounts are nonnegative integer cents, not rounded display values. Total debits equal total credits exactly. No presentation blanks or missing-value sentinels exist. These are stipulated synthetic semantics, not independently verified accounting records.",
+      "convention_notes": [],
+      "existing_controls": [
+        {
+          "kind": "not_null",
+          "columns": "all"
+        },
+        {
+          "kind": "unique",
+          "column": "journal_id"
+        },
+        {
+          "kind": "allowed",
+          "column": "currency",
+          "values": [
+            "USD",
+            "EUR"
+          ]
+        }
+      ],
+      "sample": [
+        {
+          "journal_id": "SYNTHETIC_0",
+          "currency": "USD",
+          "total_debits": 10000,
+          "total_credits": 10000
+        },
+        {
+          "journal_id": "SYNTHETIC_1",
+          "currency": "USD",
+          "total_debits": 10001,
+          "total_credits": 10001
+        },
+        {
+          "journal_id": "SYNTHETIC_2",
+          "currency": "USD",
+          "total_debits": 10002,
+          "total_credits": 10002
+        },
+        {
+          "journal_id": "SYNTHETIC_3",
+          "currency": "USD",
+          "total_debits": 10003,
+          "total_credits": 10003
+        },
+        {
+          "journal_id": "SYNTHETIC_4",
+          "currency": "USD",
+          "total_debits": 10004,
+          "total_credits": 10004
+        }
+      ],
+      "sample_note": "Entirely self-authored artificial examples, not bank/customer data.",
+      "raw_rows_transmitted": false,
+      "licence_basis": "Self-authored synthetic content"
+    }
+  },
+  "requests_planned": 48,
+  "model_calls": 0,
+  "statistical_unit_note": "Three public source schemas and one synthetic scenario; repeated prompts are not independent domains."
+}

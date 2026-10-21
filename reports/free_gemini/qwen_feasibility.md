@@ -1,0 +1,15 @@
+# Qwen from LeDQeR: practical feasibility in this environment
+
+The original paper configuration, Qwen3-Coder-30B-A3B-Instruct **AWQ 4-bit on its GPU inference stack**, is unavailable here because no NVIDIA/CUDA device exists. That does **not** imply every Qwen deployment requires a GPU.
+
+Measured task limits are **4 equivalent vCPUs** under cgroup quota and **32 GiB RAM**, with approximately 31 GB free disk when inspected. No Ollama/llama-cli/llama-bench runtime is installed. A C++ compiler is present; CMake would need installation. These are actual observations, not paper hardware assumptions.
+
+A public CPU-compatible alternative exists: `unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF`, revision `b17cb02dd882d5b6ab62fc777ad2995f19668350`, file `Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf`. Publisher metadata reports **18,556,689,568 bytes**, Apache 2.0 and LFS SHA-256 `fadc3e5f8d42bf7e894a785b05082e47daee4df26680389817e2093056f088ad`. This is community quantization of the intended base model, not the paper's exact AWQ weights. Full file integrity has not been checked because the weights were not downloaded.
+
+Pinned official llama.cpp source at `620d2225cc436ab0b001e3200e590e3b286ef9ab` contains the Qwen3-MoE architecture. The official base model configuration allows an explicit KV-memory estimate. At an 8,192-token context, FP16 K/V for one sequence is about 0.75 GiB. Weights plus that cache and a **planning allowance** of 4 GiB runtime overhead fit the 32 GiB limit. This is sizing, not measured peak resident memory. A full native 262k context would not fit this simple allocation; start at 4k–8k context and one sequence. The 3B active parameter count does not remove the need to store the model's full expert weights.
+
+Disk sizing also permits the weight file plus a roughly 1 GB runtime allowance and an 8 GB free reserve. An eight-megabyte bounded download probe was attempted, but the model-download path returned a connection-level `URLError`; no model bytes or weights were retained. The required public CDN hostname `us.aws.cdn.hf.co` has been added to the saved network draft. Saving a destination does not establish that it is active in this running task.
+
+**Conclusion:** the GGUF CPU route is plausible in memory/disk terms, while the faithful AWQ/GPU route is not available. Actual load, throughput and rule quality remain **NOT BENCHMARKED**. Do not promise a 48-request CPU runtime or invent tokens/second. Once download/runtime access works, verify the entire file hash and run a short 256-token, four-thread CPU benchmark before committing to a full pilot. That would be a genuine local Qwen experiment with a documented quantization/runtime deviation, not a faithful reproduction of paper scores.
+
+The chosen first experiment remains free Gemini if the configured account is eligible. Qwen is an independently assessed open-weight option; it is not a concealed paid fallback and no rented GPU or external inference endpoint was provisioned. Machine-readable sizing, source hashes and the failed probe are in `results/free_gemini/qwen_feasibility.json` and related access manifests. **Actual Qwen generations: 0.**

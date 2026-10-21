@@ -1,0 +1,110 @@
+{
+  "status": "PIPELINE_PREFLIGHT_PASSED_NOT_MODEL_RESEARCH",
+  "records": [
+    {
+      "source": "uci_credit",
+      "origin": "HANDWRITTEN_SOFTWARE_PREFLIGHT_NOT_MODEL_OUTPUT",
+      "result": {
+        "status": "TRIAGED",
+        "rows": 256,
+        "role": "UNLABELLED_DEVELOPMENT_ONLY",
+        "results": [
+          {
+            "id": "HANDWRITTEN_SOFTWARE_PREFLIGHT",
+            "semantic_validity": "NOT_ADJUDICATED",
+            "status": "EXECUTED",
+            "technical_pass": true,
+            "columns": [
+              "LIMIT_BAL"
+            ],
+            "unexpected_count": 0,
+            "unexpected_rows": [],
+            "interpretation": "Unlabelled development workload, not error precision/recall"
+          }
+        ],
+        "held_out_error_performance": "NOT_MEASURED",
+        "independent_semantic_judgments": 0
+      }
+    },
+    {
+      "source": "uci_bank_marketing",
+      "origin": "HANDWRITTEN_SOFTWARE_PREFLIGHT_NOT_MODEL_OUTPUT",
+      "result": {
+        "status": "TRIAGED",
+        "rows": 256,
+        "role": "UNLABELLED_DEVELOPMENT_ONLY",
+        "results": [
+          {
+            "id": "HANDWRITTEN_SOFTWARE_PREFLIGHT",
+            "semantic_validity": "NOT_ADJUDICATED",
+            "status": "EXECUTED",
+            "technical_pass": true,
+            "columns": [
+              "age"
+            ],
+            "unexpected_count": 0,
+            "unexpected_rows": [],
+            "interpretation": "Unlabelled development workload, not error precision/recall"
+          }
+        ],
+        "held_out_error_performance": "NOT_MEASURED",
+        "independent_semantic_judgments": 0
+      }
+    },
+    {
+      "source": "uci_wine_white",
+      "origin": "HANDWRITTEN_SOFTWARE_PREFLIGHT_NOT_MODEL_OUTPUT",
+      "result": {
+        "status": "TRIAGED",
+        "rows": 256,
+        "role": "UNLABELLED_DEVELOPMENT_ONLY",
+        "results": [
+          {
+            "id": "HANDWRITTEN_SOFTWARE_PREFLIGHT",
+            "semantic_validity": "NOT_ADJUDICATED",
+            "status": "EXECUTED",
+            "technical_pass": true,
+            "columns": [
+              "pH"
+            ],
+            "unexpected_count": 0,
+            "unexpected_rows": [],
+            "interpretation": "Unlabelled development workload, not error precision/recall"
+          }
+        ],
+        "held_out_error_performance": "NOT_MEASURED",
+        "independent_semantic_judgments": 0
+      }
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "origin": "HANDWRITTEN_SOFTWARE_PREFLIGHT_NOT_MODEL_OUTPUT",
+      "result": {
+        "status": "TRIAGED",
+        "rows": 5,
+        "role": "SELF_AUTHORED_SYNTHETIC",
+        "results": [
+          {
+            "id": "HANDWRITTEN_SOFTWARE_PREFLIGHT",
+            "semantic_validity": "NOT_ADJUDICATED",
+            "status": "EXECUTED",
+            "technical_pass": true,
+            "columns": [
+              "total_credits",
+              "total_debits"
+            ],
+            "unexpected_count": 0,
+            "unexpected_rows": [],
+            "interpretation": "Unlabelled development workload, not error precision/recall"
+          }
+        ],
+        "held_out_error_performance": "NOT_MEASURED",
+        "independent_semantic_judgments": 0
+      }
+    }
+  ],
+  "runtime_seconds": 9.429521129000932,
+  "model_generations": 0,
+  "paid_calls": 0,
+  "reserved_sec_accessed": false
+}

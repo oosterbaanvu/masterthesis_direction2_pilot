@@ -1,0 +1,14 @@
+[
+  {
+    "key": "qwen_gguf_metadata",
+    "url": "https://huggingface.co/api/models/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+    "sha256": "7c2457b2a0ceaca725f3861e23bfdddd7fba45c285e21a20bb18d19a33dc52b9",
+    "status": 200
+  },
+  {
+    "key": "qwen_gguf_tree",
+    "url": "https://huggingface.co/api/models/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/tree/main?recursive=true",
+    "sha256": "1564f01f5e76d0f184cd048311f864dc665870bd6601bd2333623eb8ee088ee0",
+    "status": 200
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "key": "qwen_model_config",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct/raw/main/config.json",
+    "sha256": "e2c8d8eea39471785cd93379d8b48241ad7dcda299013155dd02526e34a0de62",
+    "status": 200
+  },
+  {
+    "key": "llama_architecture",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/620d2225cc436ab0b001e3200e590e3b286ef9ab/src/llama-arch.cpp",
+    "sha256": "c4b9cf539f74a3564922de6edbbd6a921df586fe1d1a0e091233fdabe94c2473",
+    "status": 200
+  }
+]

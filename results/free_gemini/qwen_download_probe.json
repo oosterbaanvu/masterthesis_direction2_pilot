@@ -1,0 +1,7 @@
+{
+  "status": "DOWNLOAD_PROBE_BLOCKED",
+  "exception_type": "URLError",
+  "http_status": null,
+  "full_model_downloaded": false,
+  "model_inference_ran": false
+}

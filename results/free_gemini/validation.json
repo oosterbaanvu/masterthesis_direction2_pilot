@@ -1,0 +1,15 @@
+{
+  "software_tests_passed": 21,
+  "software_tests_failed": 0,
+  "software_tests_skipped": 0,
+  "test_report": "results/free_gemini/software_tests.xml",
+  "test_model_responses": "MOCKED_SOFTWARE_FIXTURES_NOT_RESEARCH_OUTPUTS",
+  "local_preflight_sources": 4,
+  "local_preflight_origin": "HANDWRITTEN_NOT_MODEL_GENERATED",
+  "ruff": "PASSED",
+  "actual_gemini_generation_attempts": 0,
+  "actual_qwen_generations": 0,
+  "paid_calls": 0,
+  "billing_project_confirmation_present": false,
+  "parent_final_freeze": "VERIFIED_UNCHANGED"
+}

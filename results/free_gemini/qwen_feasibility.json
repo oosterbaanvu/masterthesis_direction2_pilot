@@ -1,0 +1,51 @@
+{
+  "status": "CPU_GGUF_POTENTIALLY_FITS_NOT_BENCHMARKED",
+  "cpu_affinity_count": 5,
+  "cpu_quota_equivalent_vcpus": 4.0,
+  "memory_limit_bytes": 34359738368,
+  "disk_free_bytes": 31079444480,
+  "nvidia_device_present": false,
+  "installed_runtimes": {
+    "ollama": null,
+    "llama-cli": null,
+    "llama-bench": null,
+    "cmake": null,
+    "g++": "/usr/bin/g++"
+  },
+  "paper_exact_AWQ_stack": "NOT_AVAILABLE_NO_CUDA_DEVICE",
+  "alternative_quantization": "GGUF Q4_K_M, CPU llama.cpp; differs from paper AWQ",
+  "weights_repository": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+  "weights_revision": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
+  "weights_file": "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+  "weights_bytes": 18556689568,
+  "weights_sha256_publisher_LFS": "fadc3e5f8d42bf7e894a785b05082e47daee4df26680389817e2093056f088ad",
+  "licence": "apache-2.0",
+  "llama_cpp_reference_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+  "qwen3moe_architecture_in_pinned_runtime_source": true,
+  "fp16_KV_cache_bytes_single_sequence_estimate": {
+    "4096": 402653184,
+    "8192": 805306368,
+    "16384": 1610612736,
+    "262144": 25769803776
+  },
+  "sizing_not_measured_runtime_memory": true,
+  "weights_plus_8192_KV_plus_4GiB_planning_overhead_fits_memory": true,
+  "weights_plus_1GB_runtime_and_8GB_reserve_fits_disk": true,
+  "generation_tokens_per_second": null,
+  "model_loaded": false,
+  "actual_model_generations": 0,
+  "download_probe": {
+    "status": "DOWNLOAD_PROBE_BLOCKED",
+    "exception_type": "URLError",
+    "http_status": null,
+    "full_model_downloaded": false,
+    "model_inference_ran": false
+  },
+  "recommended_if_runtime_and_download_are_available": {
+    "context_tokens": 8192,
+    "cpu_threads": 4,
+    "gpu_layers": 0,
+    "max_initial_generation_tokens": 256,
+    "benchmark_before_full_pilot": true
+  }
+}

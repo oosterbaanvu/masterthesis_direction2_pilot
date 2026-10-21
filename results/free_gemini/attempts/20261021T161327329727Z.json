@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-21T16:13:27.329624+00:00",
+  "provider": "Google_Gemini_Developer_API",
+  "requested_model": "gemini-2.5-flash",
+  "access": {
+    "credential_present": false,
+    "free_project_confirmed": false,
+    "model": "gemini-2.5-flash",
+    "paid_fallback": false,
+    "billing_tier_verified_via_api": false
+  },
+  "planned_requests": 48,
+  "paid_calls": 0,
+  "automatic_paid_fallback": false,
+  "reserved_sec_accessed": false,
+  "real_person_records_transmitted": false,
+  "records": [],
+  "status": "BLOCKED_OR_STOPPED",
+  "reason": "MISSING_DQP_GEMINI_API_KEY",
+  "durable_attempt_status_counts": {},
+  "new_generation_attempts_total": 0,
+  "finished_utc": "2026-10-21T16:13:27.329705+00:00"
+}

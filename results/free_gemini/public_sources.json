@@ -1,0 +1,56 @@
+[
+  {
+    "key": "pricing",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "http_status": 200,
+    "bytes": 258519,
+    "sha256": "db2b5339f53ead2d6a0e92519d0912d988f98564416b26db7fa622272988e66e"
+  },
+  {
+    "key": "rate_limits",
+    "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "final_url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "http_status": 200,
+    "bytes": 105733,
+    "sha256": "e4ab589043ce76d93a8890c938bd8cba8b9387ba0c6c218c12c9f04d12e90b43"
+  },
+  {
+    "key": "terms",
+    "url": "https://ai.google.dev/gemini-api/terms",
+    "final_url": "https://ai.google.dev/gemini-api/terms",
+    "http_status": 200,
+    "bytes": 113282,
+    "sha256": "dcc0b04c682daf0d6e80535c1230b3840e7a6e44896b03cfe8c2f82db8d38b76"
+  },
+  {
+    "key": "models",
+    "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+    "final_url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+    "http_status": 200,
+    "bytes": 107826,
+    "sha256": "7612361600f483ba9b056edd0a4ae92f98d0ac80bdefd2ddce3ceaa62180f2a2"
+  },
+  {
+    "key": "deprecations",
+    "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "final_url": "https://ai.google.dev/gemini-api/docs/deprecations",
+    "http_status": 200,
+    "bytes": 121410,
+    "sha256": "b8be04a0836bc98a2dfec311957c8cf4d6b86d57d7f7674aa5f8a2b22607965b"
+  },
+  {
+    "key": "qwen_awq",
+    "url": "https://huggingface.co/cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit/raw/main/README.md",
+    "final_url": "https://huggingface.co/cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit/raw/main/README.md",
+    "http_status": 200,
+    "bytes": 8258,
+    "sha256": "a0e0a3d5e73d6a4302396ac9dbd26b9c4008b395239f358aa5b18aa73a58d221"
+  },
+  {
+    "key": "qwen_gguf",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct-GGUF/raw/main/README.md",
+    "http_status": 401,
+    "exception_type": "HTTPError"
+  }
+]
