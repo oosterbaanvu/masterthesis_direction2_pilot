@@ -1,0 +1,310 @@
+[
+  {
+    "id": "sec08001:Net sales to external customers",
+    "kind": "signed_linear_equality",
+    "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+    "evidence": {
+      "table_header_row": 1,
+      "period_row": 0,
+      "column_headers": [
+        "Agribusiness",
+        "Refined and Specialty Oils",
+        "Milling",
+        "Sugar and\nBioenergy",
+        "Corporate and Other",
+        "Eliminations",
+        "Total"
+      ],
+      "proposal": "Displayed total versus explicitly headed segments including eliminations"
+    },
+    "unit_evidence": {
+      "row": 1,
+      "text": "(US$ in millions)"
+    },
+    "dash_is_zero": true,
+    "dash_policy_status": "ANALYST_PROPOSED_REQUIRES_REVIEW",
+    "absolute_tolerance_base_units": "3500000",
+    "terms": [
+      {
+        "row": "Net sales to external customers",
+        "column": 1,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Net sales to external customers",
+        "column": 2,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Net sales to external customers",
+        "column": 3,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Net sales to external customers",
+        "column": 4,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Net sales to external customers",
+        "column": 5,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Net sales to external customers",
+        "column": 6,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Net sales to external customers",
+        "column": 7,
+        "coefficient": -1,
+        "unit": "USD",
+        "scale": 1000000
+      }
+    ]
+  },
+  {
+    "id": "sec08001:Cost of goods sold",
+    "kind": "signed_linear_equality",
+    "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+    "evidence": {
+      "table_header_row": 1,
+      "period_row": 0,
+      "column_headers": [
+        "Agribusiness",
+        "Refined and Specialty Oils",
+        "Milling",
+        "Sugar and\nBioenergy",
+        "Corporate and Other",
+        "Eliminations",
+        "Total"
+      ],
+      "proposal": "Displayed total versus explicitly headed segments including eliminations"
+    },
+    "unit_evidence": {
+      "row": 1,
+      "text": "(US$ in millions)"
+    },
+    "dash_is_zero": true,
+    "dash_policy_status": "ANALYST_PROPOSED_REQUIRES_REVIEW",
+    "absolute_tolerance_base_units": "3500000",
+    "terms": [
+      {
+        "row": "Cost of goods sold",
+        "column": 1,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Cost of goods sold",
+        "column": 2,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Cost of goods sold",
+        "column": 3,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Cost of goods sold",
+        "column": 4,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Cost of goods sold",
+        "column": 5,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Cost of goods sold",
+        "column": 6,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Cost of goods sold",
+        "column": 7,
+        "coefficient": -1,
+        "unit": "USD",
+        "scale": 1000000
+      }
+    ]
+  },
+  {
+    "id": "sec08001:Gross profit",
+    "kind": "signed_linear_equality",
+    "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+    "evidence": {
+      "table_header_row": 1,
+      "period_row": 0,
+      "column_headers": [
+        "Agribusiness",
+        "Refined and Specialty Oils",
+        "Milling",
+        "Sugar and\nBioenergy",
+        "Corporate and Other",
+        "Eliminations",
+        "Total"
+      ],
+      "proposal": "Displayed total versus explicitly headed segments including eliminations"
+    },
+    "unit_evidence": {
+      "row": 1,
+      "text": "(US$ in millions)"
+    },
+    "dash_is_zero": true,
+    "dash_policy_status": "ANALYST_PROPOSED_REQUIRES_REVIEW",
+    "absolute_tolerance_base_units": "3500000",
+    "terms": [
+      {
+        "row": "Gross profit",
+        "column": 1,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Gross profit",
+        "column": 2,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Gross profit",
+        "column": 3,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Gross profit",
+        "column": 4,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Gross profit",
+        "column": 5,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Gross profit",
+        "column": 6,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Gross profit",
+        "column": 7,
+        "coefficient": -1,
+        "unit": "USD",
+        "scale": 1000000
+      }
+    ]
+  },
+  {
+    "id": "sec08001:Total assets",
+    "kind": "signed_linear_equality",
+    "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+    "evidence": {
+      "table_header_row": 1,
+      "period_row": 0,
+      "column_headers": [
+        "Agribusiness",
+        "Refined and Specialty Oils",
+        "Milling",
+        "Sugar and\nBioenergy",
+        "Corporate and Other",
+        "Eliminations",
+        "Total"
+      ],
+      "proposal": "Displayed total versus explicitly headed segments including eliminations"
+    },
+    "unit_evidence": {
+      "row": 1,
+      "text": "(US$ in millions)"
+    },
+    "dash_is_zero": true,
+    "dash_policy_status": "ANALYST_PROPOSED_REQUIRES_REVIEW",
+    "absolute_tolerance_base_units": "3500000",
+    "terms": [
+      {
+        "row": "Total assets",
+        "column": 1,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Total assets",
+        "column": 2,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Total assets",
+        "column": 3,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Total assets",
+        "column": 4,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Total assets",
+        "column": 5,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Total assets",
+        "column": 6,
+        "coefficient": 1,
+        "unit": "USD",
+        "scale": 1000000
+      },
+      {
+        "row": "Total assets",
+        "column": 7,
+        "coefficient": -1,
+        "unit": "USD",
+        "scale": 1000000
+      }
+    ]
+  }
+]

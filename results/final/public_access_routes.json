@@ -1,0 +1,26 @@
+[
+  {
+    "key": "finrule_data_query2",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=data",
+    "final_url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=data",
+    "http_status": 200,
+    "sha256": "b885c7ad5a32bd8a02cd2d7bae7433389d9581565aa3a4d29eef3b50e93cf90a",
+    "bytes": 94,
+    "preview": "[{\"name\":\"multi_rule_violation\",\"path\":\"data\"},{\"name\":\"single_rule_violation\",\"path\":\"data\"}]"
+  },
+  {
+    "key": "finrule_page",
+    "url": "https://anonymous.4open.science/r/FinRule-Bench-6723/",
+    "final_url": "https://anonymous.4open.science/r/FinRule-Bench-6723/",
+    "http_status": 200,
+    "sha256": "8d1f22e56e87220d7e35a739e3dfd5efefa72dfbde2395f42c67ad44d4dcf1ce",
+    "bytes": 15460,
+    "preview": "<!-- index.html -->\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta\n      name=\"viewport\"\n      content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"\n    />\n\n    <title>Anonymous Github</title>\n\n    <link\n      rel=\"apple-touch-icon\"\n      sizes=\"180x180\"\n      href=\"/favicon/apple-touch-icon.png\"\n    />\n    <link\n      rel=\"icon\"\n      type=\"image/png\"\n      sizes=\"32x32\"\n      href=\"/favicon/favicon-32x32.png\"\n    />\n    <link\n      rel=\"icon\"\n      type=\"image/png\"\n      sizes=\"16x16\"\n      href=\"/favicon/favicon-16x16.png\"\n    />\n    <link rel=\"manifest\" href=\"/favicon/site.webmanifest\" />\n    <link rel=\"shortcut icon\" href=\"/favicon.ico\" />\n    <meta name=\"msapplication-config\" content=\"/favicon/browserconfig.xml\" />\n    <meta name=\"theme-color\" content=\"#FAF9F6\" />\n\n    \n    \n    <style type=\"text/css\">@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/greek/wght/normal.woff2);unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:'Inter';font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20A"
+  },
+  {
+    "key": "openai_pricing_platform2",
+    "url": "https://platform.openai.com/docs/pricing",
+    "http_status": null,
+    "exception_type": "URLError"
+  }
+]

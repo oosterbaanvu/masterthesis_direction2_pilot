@@ -1,0 +1,26 @@
+phase: final_feasibility_v1
+parent_commit: 103d272827bcc5b3211d6b65f4f1a6bd6d8dd36f
+ledqer_commit: fb42051026ee6ccded9347349ff95b597804962d
+seed: 20261021
+paid_model_calls_authorized: false
+model_selected: false
+new_model_outputs: NOT_RUN
+candidate_provenance_required: true
+allow_human_fixture_as_model_output: false
+reserved_sec_access: forbidden
+reproduction_datasets: [flights, beers, hospital, tax]
+component_reproduction:
+  candidates: handwritten_GX_fixtures_only
+  purpose: verify_original_evaluation_and_selection_code_not_model_effectiveness
+  gx_version: 1.9.1
+  precision_thresholds: [0.0, 0.8, 1.0]
+financial:
+  permitted_sec_partition: development
+  use_groundtruth_for_contracts: false
+  review_state: PENDING_INDEPENDENT_HUMAN_ADJUDICATION
+primary_planned_outcomes:
+  - incremental_labelled_detections_over_existing_controls
+  - invalid_rule_false_promotion_with_independent_adjudication
+  - useful_rule_rejection_and_detection_lost
+  - additional_unadjudicated_alerts
+independent_unit: source_group_or_canonical_financial_table

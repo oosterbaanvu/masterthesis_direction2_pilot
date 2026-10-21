@@ -1,0 +1,12 @@
+{
+  "status": "ALL_COMPONENT_METRICS_PROMPT_AND_FIXTURE_HASHES_MATCH",
+  "excluded_fields": [
+    "runtime_seconds"
+  ],
+  "first_runtime_seconds": 2.0358390040000813,
+  "repeat_runtime_seconds": 2.119592275999821,
+  "datasets": 4,
+  "candidates": 57,
+  "new_model_calls": 0,
+  "independent_replication": false
+}

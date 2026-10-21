@@ -1,0 +1,894 @@
+{
+  "status": "ACQUIRED_BOUNDED_RESEARCH_SNAPSHOT",
+  "repository": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/",
+  "revision": "ANONYMOUS_SERVICE_NO_FULL_GIT_COMMIT_EXPOSED_CONTENT_SHA256_PINNED",
+  "licence_notice": "MIT (Copyright 2026 Anonymous); README says strictly research and evaluation",
+  "raw_redistribution": false,
+  "external_model_transmission": "NOT_INFERRED",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "3d9685342ea6ef1a6e2f4a58cabba83b856c75623ed8862470aff97037aceb48",
+      "bytes": 1066,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "README.md",
+      "sha256": "af229d08eefa59a59f417eef9958fe5deabfedb5b76b8b5a36b32a03e3007336",
+      "bytes": 1632,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "aggregate_results_fingpt.py",
+      "sha256": "3e1131b3f21f42060a8022d27dcc7b17c39010b8103d7748a26a755884a7f655",
+      "bytes": 13823,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/BS/BS-HARD-truth.json",
+      "sha256": "e3ab305c7eb812d1bef1fbd81caedb4b14dca17f06b07b0cad8e96073c315e41",
+      "bytes": 56902,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/BS/BS-HARD.md",
+      "sha256": "96859f4b3bdd69b3c5de3efb7df56dbbaedb05b21cd5370ea649602fb033eef7",
+      "bytes": 538068,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/BS/BS-MIXED-100-truth.json",
+      "sha256": "ae517a0c679a1211502bcfc866955b435da46c810862587df3b19b4bcfd79791",
+      "bytes": 30612,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/BS/BS-MIXED-100.md",
+      "sha256": "bfeccac5e1c755ce01f3d925df7728b148e608fcb38e9c6218d90d5dd92e97ed",
+      "bytes": 251951,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/CF/CF-HARD-truth.json",
+      "sha256": "039dbb989845320e3f1eec9df547f89a372534090f8e75088b5d325d992f8d85",
+      "bytes": 205442,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/CF/CF-HARD.md",
+      "sha256": "f95049b23b7d19450b9593324b54affb3d0ff223615f2bed048f1bd2533788fd",
+      "bytes": 919445,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/CF/CF-MIXED-100-truth.json",
+      "sha256": "c949e503bb41cba00cfbb3b77f95ecce9229f94b3ee41b7427adf96737c29767",
+      "bytes": 62030,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/CF/CF-MIXED-100.md",
+      "sha256": "ae291bc0c8d220534e96717a5e247aeeb05c40d3d28aa30252f082c4cdbf9879",
+      "bytes": 309298,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SE/SE-HARD-truth.json",
+      "sha256": "7a36dc4f9f75224c8a300dc88de58a63455e3906274ad32b27a9bcf0dd304119",
+      "bytes": 56217,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SE/SE-HARD.md",
+      "sha256": "458ee3af0029662646e9faa893e7abbcb80a055872afed90956b7743288d2e26",
+      "bytes": 99837,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SE/SE-MIXED-100-truth.json",
+      "sha256": "8500f0876c6f68b5939da2d845051cac1cfcd32cffca6a3b505fa11bc3daf72f",
+      "bytes": 54723,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SE/SE-MIXED-100.md",
+      "sha256": "10ab0dba35c56e54dbf06ef8e9fc645af79edbf31e76e681d4d6b426e8b4f5c6",
+      "bytes": 110836,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SI/SI-HARD-truth.json",
+      "sha256": "1b54317b3acc656287360a5b4471f0b0cc447ff38b5eb2c29cd26aee4850d80e",
+      "bytes": 90070,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SI/SI-HARD.md",
+      "sha256": "7671c27f1ff03f14f667f374adbd0b3de0820c9fef0c08a7f2f3bca66be1839f",
+      "bytes": 240133,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SI/SI-MIXED-100-truth.json",
+      "sha256": "3a0749fa0619ba07012cbb7b5fc3c3244147620b0b533f02c89ce9608292391e",
+      "bytes": 48543,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/multi_rule_violation/SI/SI-MIXED-100.md",
+      "sha256": "6aed70f54ebb451da225de67c0843fc1482f4d49a93d252bb2f58d5ee8426d78",
+      "bytes": 154597,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-00.md",
+      "sha256": "edc261c4cbef57e65e30c620eebcee1891554e5869ead53e50c115aa62801ae2",
+      "bytes": 538477,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-01.md",
+      "sha256": "895f50389dcc49fc9d8f8e3740460582df3da66dc594be707392dd5a31c4afda",
+      "bytes": 538482,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-02.md",
+      "sha256": "41c247c18d30ab2bed3cbda845c571d9ea5aaee7efc61c1f2b4780fdce81ce94",
+      "bytes": 539934,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-03.md",
+      "sha256": "0437c9e8f3ebdd06a7ffc6b1374bd44783a7601fee4ec3909d8a12528ba95777",
+      "bytes": 539095,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-04.md",
+      "sha256": "d3506e917fa44c832f92d8d36756fef645df28e47bb6ab932767c1b0721ec0ff",
+      "bytes": 538403,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-05.md",
+      "sha256": "e4f840dfc321728a853d3a59e54c75918f6f257750e1177b5546369c467b0255",
+      "bytes": 538445,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/bs_prompts.json",
+      "sha256": "3be57443cc50afc318e77fefbdaf6ca73e739a272a4c28ff91bf4cd996555e5b",
+      "bytes": 6240,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/verify_output/bs_injection_verification_summary.csv",
+      "sha256": "3345639a2d49af72b495b1f9635bb189e420527b035cb8d3d3bd88bc2bc849dc",
+      "bytes": 122314,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-00.md",
+      "sha256": "d658db0a8744c667a10f8b1d9c98aaa2a58a1bb815fa57dab42023e9b56d9324",
+      "bytes": 972865,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-01.md",
+      "sha256": "1408d4ec696e272b6da09a1ba250fdb58b77bb528f215bc141f036a6ebe2cdaf",
+      "bytes": 949978,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-02.md",
+      "sha256": "387d0eb75e83c8093488068ce3f4d92e3a098bc81bfe43a28859b136041732fe",
+      "bytes": 995992,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-03.md",
+      "sha256": "e4b5de8dfd0548b43d35fcba9c2a0f81d4f7a8c5be846accd06917f88c9cffbd",
+      "bytes": 977728,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/verify_output/cf_injection_verification_summary.csv",
+      "sha256": "2f360a91a6f30d7e8d9cbeacd6239a8d960767b1aa637a67d9bfd5b22b8612ef",
+      "bytes": 54675,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-00.md",
+      "sha256": "49f3593af5fbfa03bd0ed94d31a9a28eed852c00eefcb549392e75a51f4855d5",
+      "bytes": 368205,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-01.md",
+      "sha256": "a5246db2cb28ae258b912b2539f3b9eac31206700cfece01ca2a1a0f68c20cfa",
+      "bytes": 366636,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-02.md",
+      "sha256": "4d21e3dab996a588ce6ad69aedd1062e4a08e0a8f2aa86409676d14a3c3691e8",
+      "bytes": 355388,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-03.md",
+      "sha256": "da74c204b1572b58f107bba16a9b5872aabd3977a961e5a53ead84aee086196b",
+      "bytes": 354641,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-00.md",
+      "sha256": "77fe322bc39a83b7354e6332407c7d07e64cad60406d5f40beaa8a5da856ae4a",
+      "bytes": 416214,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-01.md",
+      "sha256": "1db4a3c0b81c54191c38ca1055f9003b5dd26166355992b2fc861d40bff1c40c",
+      "bytes": 415662,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-02.md",
+      "sha256": "903477539a12f42ce8161b57ae653a94c8a0ce4788820ec31ac1fb46f480187c",
+      "bytes": 418947,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-03.md",
+      "sha256": "48ea8e5300b74bcde002d42f128ed6ecd025fefcd4b1aa277dc89616f822c5a4",
+      "bytes": 388425,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-04.md",
+      "sha256": "50ccc3372ef6b95731cda8abf0bac72b3d22c2c643ec7bf1278c876e9363f2b2",
+      "bytes": 436823,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-05.md",
+      "sha256": "41766f29c9aaeea63e93283a78d925604ab36b15874439b07f8bc66253d6b85c",
+      "bytes": 378940,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI/SI-01.md",
+      "sha256": "1db4a3c0b81c54191c38ca1055f9003b5dd26166355992b2fc861d40bff1c40c",
+      "bytes": 415662,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI/SI-02.md",
+      "sha256": "903477539a12f42ce8161b57ae653a94c8a0ce4788820ec31ac1fb46f480187c",
+      "bytes": 418947,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI/SI-03.md",
+      "sha256": "48ea8e5300b74bcde002d42f128ed6ecd025fefcd4b1aa277dc89616f822c5a4",
+      "bytes": 388425,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI/SI-04.md",
+      "sha256": "50ccc3372ef6b95731cda8abf0bac72b3d22c2c643ec7bf1278c876e9363f2b2",
+      "bytes": 436823,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI/SI-05.md",
+      "sha256": "41766f29c9aaeea63e93283a78d925604ab36b15874439b07f8bc66253d6b85c",
+      "bytes": 378940,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI/si_final.md",
+      "sha256": "77fe322bc39a83b7354e6332407c7d07e64cad60406d5f40beaa8a5da856ae4a",
+      "bytes": 416214,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/si_final.md",
+      "sha256": "7f82702e7fa3b1f73a145826b5eb7e875b6a97e4cb9f0959c0c2e2202f2df248",
+      "bytes": 415914,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/si_split_by_time.json",
+      "sha256": "b42cfc42017ce8586009930fed23160e4adbf4966234a7efac15367a20f0a8e9",
+      "bytes": 1299748,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/si_tables.md",
+      "sha256": "eac9132f360325e92cb040f1d30cbeb5068bcb37d905894d3919ca334171fb17",
+      "bytes": 334110,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/verify_output/si_injection_verification_details.json",
+      "sha256": "67fdafc34b4806aa39ab565f1c02466a862fd3927f82acd5d15f09e1bd0ac5cd",
+      "bytes": 217773,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/verify_output/si_injection_verification_summary.csv",
+      "sha256": "46a885a23e5873322379d8156ca90ef258fba3cf5d6f5e8462d0c679d171f338",
+      "bytes": 42957,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "extract/Inject Prompt.txt",
+      "sha256": "9fe7a7cb3e9b4c33112d9b8775244681d7a54f2498d14e1d88600f8dba799a06",
+      "bytes": 23062,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "extract/comparison_tool.py",
+      "sha256": "88774805675df703f87352f09563bb3b01f672d1a13c7dc57a4dcef3748626fb",
+      "bytes": 15070,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "extract/data.json",
+      "sha256": "a773dee16f9141c2f41d98b3a6f8367ad728806ad1c220fc1203f9266741ee7e",
+      "bytes": 2280504,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "run_all_fingpt.py",
+      "sha256": "9e749c1ec85d61598a77d9d328d9c5315f5f325818b1cfd7099e7f3185dc754c",
+      "bytes": 9064,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/FinGPT/fewshot_counterfactual_easy_BS_fingpt.py",
+      "sha256": "021890909fd4577d51d6374fd5c5486f2b957d8a77b3c08ec30f1806451c1f89",
+      "bytes": 15417,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/FinGPT/fewshot_easy_BS_fingpt.py",
+      "sha256": "a7057210e51f3412c37df7137ac19b760feb1bc84695407c46e8a67c0ccd7747",
+      "bytes": 14805,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/FinGPT/zero_shot_easy_BS_fingpt.py",
+      "sha256": "e059cd99efd81ba877bdfcc0f15a0454fa1d736f3e15d06bcafbb7abe7e0cf40",
+      "bytes": 16119,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/GPT-4o/fewshot_counterfactual_easy_BS_gpt.py",
+      "sha256": "0a34b562fc71bc46aa05d40d1ca9091af915d633639f7e39b4741082e48ff369",
+      "bytes": 20585,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/GPT-4o/fewshot_easy_BS_gpt.py",
+      "sha256": "b60fa8056fb7681a80d9802b6ef9018539ecd6628f0a1e320c9cebb44e3c07b8",
+      "bytes": 19860,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/GPT-4o/zero_shot_easy_BS_gpt.py",
+      "sha256": "dd3a6d3532fadc1535e0a2b8ef0ae182dfc2def08d8b5240311aaa8489b054a0",
+      "bytes": 20204,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/Gemini-2.5pro/fewshot_counterfactual_easy_BS_gemini.py",
+      "sha256": "2690f1246e8d893a90ecb43d877b614df2486d719c0d4cfed855f047faf4967a",
+      "bytes": 21150,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/Gemini-2.5pro/fewshot_easy_BS_gemini.py",
+      "sha256": "2f9c97e94dea3882db94005b3746f02ab900bfc0f3df00156eb3208ca403be7a",
+      "bytes": 20428,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/BS/Gemini-2.5pro/zero_shot_easy_BS_gemini.py",
+      "sha256": "6c934b4c8914881cde8f8dd15a1f11286ad1a5d97e4ac23e2f068d67928a8cff",
+      "bytes": 18081,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/FinGPT/fewshot_counterfactual_easy_CF_fingpt.py",
+      "sha256": "675832c7a5a4aced2db5d232368cd13ee4fdd938afa06a98b97d284915eb665c",
+      "bytes": 13254,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/FinGPT/fewshot_easy_CF_fingpt.py",
+      "sha256": "0c64c26c9a3d270966a5d5d319dce00a86eba2b45ffd76f627b4e56ea78e2206",
+      "bytes": 12923,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/FinGPT/zero_shot_easy_CF_fingpt.py",
+      "sha256": "38baf04628fc7014ea1f9ee22f80a48234d8f48fd37464fdd6040c0a1f7e39f7",
+      "bytes": 13130,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/GPT-4o/few_shot_easy_CF_gpt.py",
+      "sha256": "86c4226656d69dbaf83489aa1deeeba2292824c4b45fc19ee4a4b68368c8531a",
+      "bytes": 18051,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/GPT-4o/fewshot_counterfactual_easy_CF_gpt.py",
+      "sha256": "265d1cc9d7b60450b0beb710774d67f8e771b28b487d83b262c6100d4e7be638",
+      "bytes": 19091,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/GPT-4o/zero_shot_easy_CF_gpt.py",
+      "sha256": "f5105e8f8937f1496c1df3b9ec78f3b138e1e0d18a98e0abda275d216f315b5e",
+      "bytes": 18055,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/Gemini-2.5pro/fewshot_counterfactual_CF_easy_gemini.py",
+      "sha256": "73d3a5b78542faacd79a6abb17226af8df98496dc633f89c0f0aa57d8a9b22c1",
+      "bytes": 19659,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/Gemini-2.5pro/fewshot_easy_CF_gemini.py",
+      "sha256": "3035f4b4861750b3a127e37746bfe63e2d1b92fe2e0131d86461b2b93d8ba19a",
+      "bytes": 18624,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/CF/Gemini-2.5pro/zero_shot_easy_CF_gemini.py",
+      "sha256": "7b73fd20decd869526e7213d77bea8c1e0ca4b2285628b6096e2fc8f6f89dc7d",
+      "bytes": 18605,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/FinGPT/fewshot_counterfactual_easy_SE_fingpt.py",
+      "sha256": "2edb000c2b07655b214128276a04c07151bb54e0a940469e8ca8715960b3fbfa",
+      "bytes": 10408,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/FinGPT/fewshot_easy_SE_fingpt.py",
+      "sha256": "ce19838d833acce386620a0b55922908a8603c2ee666733eb1d17c00fa4c5c08",
+      "bytes": 10754,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/FinGPT/zero_shot_easy_SE_fingpt.py",
+      "sha256": "8da2199eaa95728a40ee1a4a9f1f49bee34148aa01d5a0f337199de7098e6a04",
+      "bytes": 12401,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/GPT-4o/few_shot_counterfactual_SE_easy_gpt.py",
+      "sha256": "5cbebbbd49fe4a70f747ccb4402fffc5009748a0342524e2448d16861a104458",
+      "bytes": 18486,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/GPT-4o/few_shot_easy_SE_gpt.py",
+      "sha256": "7724e42375a84709e64d340d65048d293a6409317764601702be51576012d19d",
+      "bytes": 18517,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/GPT-4o/zero_shot_easy_SE_gpt.py",
+      "sha256": "7ac1bf0011308a95e48ef5004111df79186f14c37a3f29985a10aca1dbb97ecb",
+      "bytes": 18199,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/Gemini-2.5pro/fewshot_counterfactual_easy_SE_gemini.py",
+      "sha256": "58c98957dab6962c9dbc4af1526a88a4a0f8647ed747b07f76ce5400b46ab439",
+      "bytes": 19256,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/Gemini-2.5pro/fewshot_easy_SE_gemini.py",
+      "sha256": "df3bf5bba1a2fa435487e91fcb93448cfe361a79d69a6eedd9aadda4dc8a6018",
+      "bytes": 19090,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SE/Gemini-2.5pro/zero_shot_easy_SE_gemini.py",
+      "sha256": "cea2a03577bffb5a72b04a1c46a8e87abbfb7801df36f1099115d281763639a9",
+      "bytes": 18968,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/FinGPT/fewshot_counterfactual_easy_SI_fingpt.py",
+      "sha256": "da3fbe44e472bbadd193b1c5f6ab93eb6ddc80950d90d44e0b93f0d718e11432",
+      "bytes": 10867,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/FinGPT/fewshot_easy_SI_fingpt.py",
+      "sha256": "ba227f16d7468fcf56631f7b02bc26b5d581120732ad436cfa8917ae2154bcb0",
+      "bytes": 10706,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/FinGPT/zero_shot_easy_SI_fingpt.py",
+      "sha256": "e9efa54da7e5a4acbfbf138470938055d87e74f80936faa66aa9ff760d8ea0dd",
+      "bytes": 10133,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/GPT-4o/fewshot_counterfactual_easy_SI_gpt.py",
+      "sha256": "bad7c6576bdb735a1cbdeea692a775961027cf86ac57f8f733f3ffd7889a572f",
+      "bytes": 20616,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/GPT-4o/fewshot_easy_SI_gpt.py",
+      "sha256": "e59b55f249b0d29efccb52db2c7909694db7701961142e18791b4462040251b7",
+      "bytes": 20437,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/GPT-4o/zero_shot_easy_SI_gpt.py",
+      "sha256": "ac658437bc1930419e2129ae9b14159e0f0a2dfcd3be08c5a5433ee58da7ced6",
+      "bytes": 19258,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/Gemini-2.5pro/fewshot_counterfactual_easy_SI_gemini.py",
+      "sha256": "5ea47fdd88fa39c72185dd9910531598b909096ff1ac60b3aedc04ba32a8177a",
+      "bytes": 21389,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/Gemini-2.5pro/fewshot_easy_SI_gemini.py",
+      "sha256": "b962c447f0d0a74a8aae3a5ca248d52eb657ea2388f05046e37a50b6595a352a",
+      "bytes": 21010,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/easy/SI/Gemini-2.5pro/zero_shot_easy_SI_gemini.py",
+      "sha256": "74300a4c81e7b2bd80bc1eeb7efcb35653e66b49be9a262fdd63d90d54aa7493",
+      "bytes": 20027,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/BS/FinGPT/hard_counterfactual_few_shot_BS_fingpt.py",
+      "sha256": "471a04e2c4a16b2df5b297762b538aa107d8a0a2ea8e34d78e237f4892607e44",
+      "bytes": 9183,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/BS/FinGPT/hard_few_shot_BS_fingpt.py",
+      "sha256": "8487febc5c033161b450b8700fff5a9bd578c5829194625537f465891d92f68f",
+      "bytes": 8760,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/BS/FinGPT/hard_zero_shot_BS_fingpt.py",
+      "sha256": "5823a8126b9163cdacce467ba342160ac30c23019cf004b187f13dbdf9538527",
+      "bytes": 8598,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/BS/GPT-4o/hard_CF_few_shot_BS_GPT.py",
+      "sha256": "7df8987cfe41320c2083597b356844f8366c30631656e6c5714a5f7c0a3d9113",
+      "bytes": 43654,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/BS/GPT-4o/hard_few_shot_BS_gpt.py",
+      "sha256": "4ae8d8fda17ba78806a1361f021332f228882a25efb8b6eef4f440a1a93e3663",
+      "bytes": 41620,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/BS/GPT-4o/hard_zero_shot_BS_gpt.py",
+      "sha256": "a41b71441c833ae51e208d1f7f1b06f3c2180989dd24b0600648a548be10ff59",
+      "bytes": 36366,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/CF/FinGPT/hard_counterfactual_few_shot_CF_fingpt.py",
+      "sha256": "6301fc9f08a9dbf6df50f9a7b84b135034ddcd0ba0f5149af514023dae551d1c",
+      "bytes": 8467,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/CF/FinGPT/hard_few_shot_CF_fingpt.py",
+      "sha256": "4e14386b0382bb61dd5f72192f563bca69ead84fe314ed26ac7c87491d8bca17",
+      "bytes": 8390,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/CF/FinGPT/hard_zero_shot_CF_fingpt.py",
+      "sha256": "c2d33735cf8f133b17f20a1d05656b41c4ece1b38b574c7df2bc7d5570b0d05a",
+      "bytes": 8419,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/CF/GPT-4o/hard_few_shot_CF_gpt.py",
+      "sha256": "ef3cdd6f1406d55b6b75dc2043aa4c76354f98564f396a9fa7bacaf48c7e5cfa",
+      "bytes": 34402,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/CF/GPT-4o/hard_few_shot_counterfactual_CF_gpt.py",
+      "sha256": "3c537daef2153f1ed36ab265149fd70102cf123a3b4283e73d5a14b9a1b69c50",
+      "bytes": 35423,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/CF/GPT-4o/hard_zero_shot_CF_gpt.py",
+      "sha256": "d16882997f65e7d4a0b435732a5336bf900a13d8e85a2a6afc0f722c4a8090e9",
+      "bytes": 34916,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/FinGPT/hard_counterfactual_few_shot_SE_fingpt.py",
+      "sha256": "93169924218f04d3651f30970054c437567365279939a783dfad9437dc054915",
+      "bytes": 8495,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/FinGPT/hard_few_shot_SE_fingpt.py",
+      "sha256": "68f5e2c2d6883ff786ed72674d853c2a3246d4b5ad59147950c27d25005b7618",
+      "bytes": 8320,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/FinGPT/hard_zero_shot_SE_fingpt.py",
+      "sha256": "2bf2b9388ec8c0b2f657bb7acdf747d3a2b126a2d9f88b7a675c255704f4c4bf",
+      "bytes": 8253,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/GPT-4o/hard_CF_few_shot_SE_gpt.py",
+      "sha256": "64c81dc6949e7b89f7dd904dbd0e49eee423a74e5ab1e4663e5eb569aef93db4",
+      "bytes": 35428,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/GPT-4o/hard_few_shot_CF_gpt.py",
+      "sha256": "ef3cdd6f1406d55b6b75dc2043aa4c76354f98564f396a9fa7bacaf48c7e5cfa",
+      "bytes": 34402,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/GPT-4o/hard_few_shot_SE_gpt.py",
+      "sha256": "8c4f4d47bd11da50786b744090ccff4b142f0c6915b2dfe7c2ee69980e710f39",
+      "bytes": 33912,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/GPT-4o/hard_few_shot_counterfactual_CF_gpt.py",
+      "sha256": "3c537daef2153f1ed36ab265149fd70102cf123a3b4283e73d5a14b9a1b69c50",
+      "bytes": 35423,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/GPT-4o/hard_zero_shot_CF_gpt.py",
+      "sha256": "d16882997f65e7d4a0b435732a5336bf900a13d8e85a2a6afc0f722c4a8090e9",
+      "bytes": 34916,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SE/GPT-4o/hard_zero_shot_SE_gpt.py",
+      "sha256": "3b146369dbab5b6faa19dfecc5a6654b19f044a1f3c480c6932b1db1a9751696",
+      "bytes": 33342,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/FinGPT/hard_counterfactual_few_shot_SI_fingpt.py",
+      "sha256": "86f671c58c45963e26bd6270ec54bea5d6b2431cabebddbd0db710761471686b",
+      "bytes": 8868,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/FinGPT/hard_few_shot_SI_fingpt.py",
+      "sha256": "48e0a6a42a890899ee390b150efc8ac0c80772dfbf0488c8faa21e9eef53e78a",
+      "bytes": 8620,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/FinGPT/hard_zero_shot_SI_fingpt.py",
+      "sha256": "c563fb7f923fd68dd07200cf1a4b5b25aee140fbbce1b81c870ed94ddfebebb1",
+      "bytes": 8415,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/GPT-4o/hard_CF_few_shot_SI_gpt.py",
+      "sha256": "bc90f6907a96665212b3ebe6b99e89e739bfa2a74e7dcb1bb2513f760cf543e0",
+      "bytes": 43037,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/GPT-4o/hard_few_shot_CF_gpt.py",
+      "sha256": "ef3cdd6f1406d55b6b75dc2043aa4c76354f98564f396a9fa7bacaf48c7e5cfa",
+      "bytes": 34402,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/GPT-4o/hard_few_shot_SI_gpt.py",
+      "sha256": "f7ea5c687832d1d41c94279b6a7231cac6a9b17cbe9689fbb753424f40da930c",
+      "bytes": 35888,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/GPT-4o/hard_few_shot_counterfactual_CF_gpt.py",
+      "sha256": "3c537daef2153f1ed36ab265149fd70102cf123a3b4283e73d5a14b9a1b69c50",
+      "bytes": 35423,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/GPT-4o/hard_zero_shot_CF_gpt.py",
+      "sha256": "d16882997f65e7d4a0b435732a5336bf900a13d8e85a2a6afc0f722c4a8090e9",
+      "bytes": 34916,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/hard/SI/GPT-4o/hard_zero_shot_SI_gpt.py",
+      "sha256": "f26612f24379c006b35c08a3ef522a1a922ec658826a2092687debe6d67122a0",
+      "bytes": 34369,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/BS/FinGPT/few_shot_counterfactual_medium_BS_fingpt.py",
+      "sha256": "50975096462d540f20506379f6a67b84b8751b9b77d7fa847039ca56e0bfef27",
+      "bytes": 9486,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/BS/FinGPT/few_shot_medium_BS_fingpt.py",
+      "sha256": "1a9140a92239c97082a80715c2dba54367939add3a451b0732fa7bfacd2a7c5f",
+      "bytes": 9249,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/BS/FinGPT/zero_shot_medium_BS_fingpt.py",
+      "sha256": "9e060738303243b0a3ab24df9ed167339eee7f94d6d018f4f699a4a09171f2d3",
+      "bytes": 12350,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/BS/GPT-4o/few_shot_counterfactual_medium_BS_gpt.py",
+      "sha256": "10dbde8c1ec51c77bccc5d68165aee393eab98c0e832814d82f23db17204879b",
+      "bytes": 25772,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/BS/GPT-4o/few_shot_medium_BS_gpt.py",
+      "sha256": "fddd21a802714d2697180dfde971962f7bfc7d910151e8c2d334826f1516ad3d",
+      "bytes": 31591,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/BS/GPT-4o/zero_shot_medium_BS_gpt.py",
+      "sha256": "63515660fe2073e85c4c4eba729ff672a1f0ce7dfffbcb45dbc0cafbe813efb3",
+      "bytes": 25487,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/CF/FinGPT/few_shot_counterfactual_medium_CF_fingpt.py",
+      "sha256": "656d114cea30d46ef6b8dbe8830e08c2b58280ec0dca8fa43124a82cade00376",
+      "bytes": 7457,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/CF/FinGPT/few_shot_medium_CF_fingpt.py",
+      "sha256": "71960ecc20b045ac27e8ccb10eb48193f70edabfce6c68c7158e505fe849461f",
+      "bytes": 7524,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/CF/FinGPT/zero_shot_medium_CF_fingpt.py",
+      "sha256": "b4d8794e7030d4054e77a38eaa7f23afcb7bbfeb846a2fe3aa370c962390b2c2",
+      "bytes": 8100,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/CF/GPT-4o/few_shot_counterfactual_medium_CF_gpt.py",
+      "sha256": "f4b5d1fb10852eb3f53d41a4bb09082af118ee7606983f66611f3470e067c584",
+      "bytes": 24807,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/CF/GPT-4o/few_shot_medium_CF_gpt.py",
+      "sha256": "d7e41fd8659ae8c7b60db0019ac34a2393f80dca415d7863a163111e84b57ac1",
+      "bytes": 27240,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/CF/GPT-4o/zero_shot_medium_CF_gpt.py",
+      "sha256": "371410f0f16bb94946b692f7c2944964f2978d74daba46c8c497594f157dc59c",
+      "bytes": 24587,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SE/FinGPT/few_shot_counterfactual_medium_SE_fingpt.py",
+      "sha256": "8ab23ea7e2b21c3ef85398eca896cb8863ed203a52d5b9ae0c1eb369e6647cd3",
+      "bytes": 7534,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SE/FinGPT/few_shot_medium_SE_fingpt.py",
+      "sha256": "00e7383ade719ffa3ad899544cb6edb370dd669e49c525a91fdba8b526f842ce",
+      "bytes": 8291,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SE/FinGPT/zero_shot_medium_SE_fingpt.py",
+      "sha256": "37857e1e9bccebc101fd856ae7b1b4f332ea824bc111bc1b820e5274fee2ba35",
+      "bytes": 7427,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SE/GPT-4o/few_shot_counterfactual_medium_SE_gpt.py",
+      "sha256": "dd6ce97d62b0dcb32bd69d08aa4a64223232571fd7ecd6a08d43e834cc9ca698",
+      "bytes": 24428,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SE/GPT-4o/few_shot_medium_SE_gpt.py",
+      "sha256": "e59e76362b059329d22462802101c5e4952f2d7c2ace1c83724a7c641024cc54",
+      "bytes": 28252,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SE/GPT-4o/zero_shot_medium_SE_gpt.py",
+      "sha256": "785ec3f6ca907a465e2a65536f2adf97e2894e967c71cf4954a4fbd4327b7ef7",
+      "bytes": 24595,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SI/FinGPT/few_shot_counterfactual_medium_SI_fingpt.py",
+      "sha256": "bedac2ee5fdbca7fd82ae1028f295cf3222ad53dc03a91455652189708b417e1",
+      "bytes": 8278,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SI/FinGPT/few_shot_medium_SI_fingpt.py",
+      "sha256": "35924d800ce9b4e37dffb25cf406ad79d48e00610bbf230f6ce3d72d0e742ef4",
+      "bytes": 8604,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SI/FinGPT/zero_shot_medium_SI_fingpt.py",
+      "sha256": "2134ffbde0d61a59a5e469a8bbff6028b246d9aef13d1e5b854bb8ff13fbc1c8",
+      "bytes": 8289,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SI/GPT-4o/few_shot_counterfactual_medium_SI_gpt.py",
+      "sha256": "2362a7a8612813731f1cee99d22a9645974a68afba3b0d45e79a63113c4b382f",
+      "bytes": 26252,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SI/GPT-4o/few_shot_medium_SI_gpt.py",
+      "sha256": "a56b713d538202ebd85d0c1add803046bfbcddcf67515796b4739ffac984a1e7",
+      "bytes": 28310,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "task/medium/SI/GPT-4o/zero_shot_medium_SI_gpt.py",
+      "sha256": "de6ecf948ed6a21edcba045ac9773447e712b171871e5c16b313c7df76f33502",
+      "bytes": 25552,
+      "status": "ACQUIRED"
+    }
+  ],
+  "listed_bytes": 20999378,
+  "paid_model_calls": 0
+}

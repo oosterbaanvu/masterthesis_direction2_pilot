@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data/single_rule_violation",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=data/single_rule_violation",
+    "http_status": 200,
+    "sha256": "eeeaf9a342dbdbb7feb834cc75d04107d51cdf6e1a6bec760f518d54ca83068c",
+    "body": "[{\"name\":\"BS_data\",\"path\":\"data/single_rule_violation\"},{\"name\":\"CF_data\",\"path\":\"data/single_rule_violation\"},{\"name\":\"SE_data\",\"path\":\"data/single_rule_violation\"},{\"name\":\"SI_data\",\"path\":\"data/single_rule_violation\"}]"
+  },
+  {
+    "path": "data/multi_rule_violation",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=data/multi_rule_violation",
+    "http_status": 200,
+    "sha256": "3860eb88ba3f3c794b27bb514c280c07538edcdeae6a4c1404b73d1512be1412",
+    "body": "[{\"name\":\"BS\",\"path\":\"data/multi_rule_violation\"},{\"name\":\"CF\",\"path\":\"data/multi_rule_violation\"},{\"name\":\"SE\",\"path\":\"data/multi_rule_violation\"},{\"name\":\"SI\",\"path\":\"data/multi_rule_violation\"}]"
+  },
+  {
+    "path": "task",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=task",
+    "http_status": 200,
+    "sha256": "1dd79d86b4ec96927f181c55e75a81aa65ce05a6c522df7ee4b311b03ded1ce5",
+    "body": "[{\"name\":\"easy\",\"path\":\"task\"},{\"name\":\"hard\",\"path\":\"task\"},{\"name\":\"medium\",\"path\":\"task\"}]"
+  },
+  {
+    "path": "extract",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=extract",
+    "http_status": 200,
+    "sha256": "8c6c26208825c7fc85d6fbb25811106d2c7eb266028d068e09f7f06586b3a411",
+    "body": "[{\"name\":\"Inject Prompt.txt\",\"path\":\"extract\",\"size\":23062,\"sha\":\"0439a3b4\"},{\"name\":\"combine_company.py\",\"path\":\"extract\",\"size\":839,\"sha\":\"c4d2dccd\"},{\"name\":\"combine_table.py\",\"path\":\"extract\",\"size\":4964,\"sha\":\"f1095e85\"},{\"name\":\"comparison_tool.py\",\"path\":\"extract\",\"size\":15070,\"sha\":\"55f0864f\"},{\"name\":\"data.json\",\"path\":\"extract\",\"size\":2280504,\"sha\":\"eaf06a1f\"},{\"name\":\"extract.py\",\"path\":\"extract\",\"size\":11893,\"sha\":\"db6b2255\"},{\"name\":\"final_data_images\",\"path\":\"extract\"},{\"name\":\"multiple_combined_table_v2\",\"path\":\"extract\"},{\"name\":\"past_version\",\"path\":\"extract\"},{\"name\":\"raw_table_data_v2\",\"path\":\"extract\"},{\"name\":\"visual_tables_md_v2\",\"path\":\"extract\"},{\"name\":\"visualize.py\",\"path\":\"extract\",\"size\":10568,\"sha\":\"06307ff4\"}]"
+  }
+]

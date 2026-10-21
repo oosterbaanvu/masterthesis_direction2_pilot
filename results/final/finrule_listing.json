@@ -1,0 +1,1188 @@
+{
+  "data": [
+    {
+      "name": "multi_rule_violation",
+      "path": "data"
+    },
+    {
+      "name": "single_rule_violation",
+      "path": "data"
+    }
+  ],
+  "task": [
+    {
+      "name": "easy",
+      "path": "task"
+    },
+    {
+      "name": "hard",
+      "path": "task"
+    },
+    {
+      "name": "medium",
+      "path": "task"
+    }
+  ],
+  "data/multi_rule_violation": [
+    {
+      "name": "BS",
+      "path": "data/multi_rule_violation"
+    },
+    {
+      "name": "CF",
+      "path": "data/multi_rule_violation"
+    },
+    {
+      "name": "SE",
+      "path": "data/multi_rule_violation"
+    },
+    {
+      "name": "SI",
+      "path": "data/multi_rule_violation"
+    }
+  ],
+  "data/single_rule_violation": [
+    {
+      "name": "BS_data",
+      "path": "data/single_rule_violation"
+    },
+    {
+      "name": "CF_data",
+      "path": "data/single_rule_violation"
+    },
+    {
+      "name": "SE_data",
+      "path": "data/single_rule_violation"
+    },
+    {
+      "name": "SI_data",
+      "path": "data/single_rule_violation"
+    }
+  ],
+  "task/easy": [
+    {
+      "name": "BS",
+      "path": "task/easy"
+    },
+    {
+      "name": "CF",
+      "path": "task/easy"
+    },
+    {
+      "name": "SE",
+      "path": "task/easy"
+    },
+    {
+      "name": "SI",
+      "path": "task/easy"
+    }
+  ],
+  "task/hard": [
+    {
+      "name": "BS",
+      "path": "task/hard"
+    },
+    {
+      "name": "CF",
+      "path": "task/hard"
+    },
+    {
+      "name": "SE",
+      "path": "task/hard"
+    },
+    {
+      "name": "SI",
+      "path": "task/hard"
+    }
+  ],
+  "task/medium": [
+    {
+      "name": "BS",
+      "path": "task/medium"
+    },
+    {
+      "name": "CF",
+      "path": "task/medium"
+    },
+    {
+      "name": "SE",
+      "path": "task/medium"
+    },
+    {
+      "name": "SI",
+      "path": "task/medium"
+    }
+  ],
+  "data/multi_rule_violation/BS": [
+    {
+      "name": "BS-HARD-truth.json",
+      "path": "data/multi_rule_violation/BS",
+      "size": 56902,
+      "sha": "6f1cf27b"
+    },
+    {
+      "name": "BS-HARD.md",
+      "path": "data/multi_rule_violation/BS",
+      "size": 538068,
+      "sha": "54972d5a"
+    },
+    {
+      "name": "BS-MIXED-100-truth.json",
+      "path": "data/multi_rule_violation/BS",
+      "size": 30612,
+      "sha": "9a997481"
+    },
+    {
+      "name": "BS-MIXED-100.md",
+      "path": "data/multi_rule_violation/BS",
+      "size": 251951,
+      "sha": "79b9bb2b"
+    }
+  ],
+  "data/multi_rule_violation/CF": [
+    {
+      "name": "CF-HARD-truth.json",
+      "path": "data/multi_rule_violation/CF",
+      "size": 205442,
+      "sha": "9acbef15"
+    },
+    {
+      "name": "CF-HARD.md",
+      "path": "data/multi_rule_violation/CF",
+      "size": 919445,
+      "sha": "3568a417"
+    },
+    {
+      "name": "CF-MIXED-100-truth.json",
+      "path": "data/multi_rule_violation/CF",
+      "size": 62030,
+      "sha": "9de61e7b"
+    },
+    {
+      "name": "CF-MIXED-100.md",
+      "path": "data/multi_rule_violation/CF",
+      "size": 309298,
+      "sha": "a71a2c7a"
+    }
+  ],
+  "data/multi_rule_violation/SE": [
+    {
+      "name": "SE-HARD-truth.json",
+      "path": "data/multi_rule_violation/SE",
+      "size": 56217,
+      "sha": "47ae9fac"
+    },
+    {
+      "name": "SE-HARD.md",
+      "path": "data/multi_rule_violation/SE",
+      "size": 99837,
+      "sha": "fc4aac89"
+    },
+    {
+      "name": "SE-MIXED-100-truth.json",
+      "path": "data/multi_rule_violation/SE",
+      "size": 54723,
+      "sha": "501d5c7e"
+    },
+    {
+      "name": "SE-MIXED-100.md",
+      "path": "data/multi_rule_violation/SE",
+      "size": 110836,
+      "sha": "37e46a5e"
+    }
+  ],
+  "data/multi_rule_violation/SI": [
+    {
+      "name": "SI-HARD-truth.json",
+      "path": "data/multi_rule_violation/SI",
+      "size": 90070,
+      "sha": "a40184f9"
+    },
+    {
+      "name": "SI-HARD.md",
+      "path": "data/multi_rule_violation/SI",
+      "size": 240133,
+      "sha": "53029ab2"
+    },
+    {
+      "name": "SI-MIXED-100-truth.json",
+      "path": "data/multi_rule_violation/SI",
+      "size": 48543,
+      "sha": "896306a7"
+    },
+    {
+      "name": "SI-MIXED-100.md",
+      "path": "data/multi_rule_violation/SI",
+      "size": 154597,
+      "sha": "85aa404d"
+    }
+  ],
+  "data/single_rule_violation/BS_data": [
+    {
+      "name": "BS-00.md",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 538477,
+      "sha": "2d0dfff2"
+    },
+    {
+      "name": "BS-01.md",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 538482,
+      "sha": "c0c6df2e"
+    },
+    {
+      "name": "BS-02.md",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 539934,
+      "sha": "698a6e74"
+    },
+    {
+      "name": "BS-03.md",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 539095,
+      "sha": "449debe6"
+    },
+    {
+      "name": "BS-04.md",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 538403,
+      "sha": "b772cdd9"
+    },
+    {
+      "name": "BS-05.md",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 538445,
+      "sha": "e329f5f4"
+    },
+    {
+      "name": "bs_prompts.json",
+      "path": "data/single_rule_violation/BS_data",
+      "size": 6240,
+      "sha": "1d0dd696"
+    },
+    {
+      "name": "verify_output",
+      "path": "data/single_rule_violation/BS_data"
+    }
+  ],
+  "data/single_rule_violation/CF_data": [
+    {
+      "name": "CF-00.md",
+      "path": "data/single_rule_violation/CF_data",
+      "size": 972865,
+      "sha": "edb39621"
+    },
+    {
+      "name": "CF-01.md",
+      "path": "data/single_rule_violation/CF_data",
+      "size": 949978,
+      "sha": "13729b3a"
+    },
+    {
+      "name": "CF-02.md",
+      "path": "data/single_rule_violation/CF_data",
+      "size": 995992,
+      "sha": "4ac5fde5"
+    },
+    {
+      "name": "CF-03.md",
+      "path": "data/single_rule_violation/CF_data",
+      "size": 977728,
+      "sha": "35a93df6"
+    },
+    {
+      "name": "verify_output",
+      "path": "data/single_rule_violation/CF_data"
+    }
+  ],
+  "data/single_rule_violation/SE_data": [
+    {
+      "name": "SE-00.md",
+      "path": "data/single_rule_violation/SE_data",
+      "size": 368205,
+      "sha": "94fd8aeb"
+    },
+    {
+      "name": "SE-01.md",
+      "path": "data/single_rule_violation/SE_data",
+      "size": 366636,
+      "sha": "90d0240f"
+    },
+    {
+      "name": "SE-02.md",
+      "path": "data/single_rule_violation/SE_data",
+      "size": 355388,
+      "sha": "49c70fee"
+    },
+    {
+      "name": "SE-03.md",
+      "path": "data/single_rule_violation/SE_data",
+      "size": 354641,
+      "sha": "8e67e4d5"
+    }
+  ],
+  "data/single_rule_violation/SI_data": [
+    {
+      "name": "SI",
+      "path": "data/single_rule_violation/SI_data"
+    },
+    {
+      "name": "SI-00.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 416214,
+      "sha": "fa3b65e3"
+    },
+    {
+      "name": "SI-01.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 415662,
+      "sha": "acd8fa0b"
+    },
+    {
+      "name": "SI-02.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 418947,
+      "sha": "48157636"
+    },
+    {
+      "name": "SI-03.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 388425,
+      "sha": "64384c3d"
+    },
+    {
+      "name": "SI-04.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 436823,
+      "sha": "3314d0df"
+    },
+    {
+      "name": "SI-05.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 378940,
+      "sha": "8b82fd0f"
+    },
+    {
+      "name": "si_final.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 415914,
+      "sha": "51364afa"
+    },
+    {
+      "name": "si_split_by_time.json",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 1299748,
+      "sha": "04bd7d3b"
+    },
+    {
+      "name": "si_tables.md",
+      "path": "data/single_rule_violation/SI_data",
+      "size": 334110,
+      "sha": "843955df"
+    },
+    {
+      "name": "verify_output",
+      "path": "data/single_rule_violation/SI_data"
+    }
+  ],
+  "task/easy/BS": [
+    {
+      "name": "FinGPT",
+      "path": "task/easy/BS"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/easy/BS"
+    },
+    {
+      "name": "Gemini-2.5pro",
+      "path": "task/easy/BS"
+    }
+  ],
+  "task/easy/CF": [
+    {
+      "name": "FinGPT",
+      "path": "task/easy/CF"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/easy/CF"
+    },
+    {
+      "name": "Gemini-2.5pro",
+      "path": "task/easy/CF"
+    }
+  ],
+  "task/easy/SE": [
+    {
+      "name": "FinGPT",
+      "path": "task/easy/SE"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/easy/SE"
+    },
+    {
+      "name": "Gemini-2.5pro",
+      "path": "task/easy/SE"
+    }
+  ],
+  "task/easy/SI": [
+    {
+      "name": "FinGPT",
+      "path": "task/easy/SI"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/easy/SI"
+    },
+    {
+      "name": "Gemini-2.5pro",
+      "path": "task/easy/SI"
+    }
+  ],
+  "task/hard/BS": [
+    {
+      "name": "FinGPT",
+      "path": "task/hard/BS"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/hard/BS"
+    }
+  ],
+  "task/hard/CF": [
+    {
+      "name": "FinGPT",
+      "path": "task/hard/CF"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/hard/CF"
+    }
+  ],
+  "task/hard/SE": [
+    {
+      "name": "FinGPT",
+      "path": "task/hard/SE"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/hard/SE"
+    }
+  ],
+  "task/hard/SI": [
+    {
+      "name": "FinGPT",
+      "path": "task/hard/SI"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/hard/SI"
+    }
+  ],
+  "task/medium/BS": [
+    {
+      "name": "FinGPT",
+      "path": "task/medium/BS"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/medium/BS"
+    }
+  ],
+  "task/medium/CF": [
+    {
+      "name": "FinGPT",
+      "path": "task/medium/CF"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/medium/CF"
+    }
+  ],
+  "task/medium/SE": [
+    {
+      "name": "FinGPT",
+      "path": "task/medium/SE"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/medium/SE"
+    }
+  ],
+  "task/medium/SI": [
+    {
+      "name": "FinGPT",
+      "path": "task/medium/SI"
+    },
+    {
+      "name": "GPT-4o",
+      "path": "task/medium/SI"
+    }
+  ],
+  "data/single_rule_violation/BS_data/verify_output": [
+    {
+      "name": "bs_injection_verification_summary.csv",
+      "path": "data/single_rule_violation/BS_data/verify_output",
+      "size": 122314,
+      "sha": "6e76d346"
+    }
+  ],
+  "data/single_rule_violation/CF_data/verify_output": [
+    {
+      "name": "cf_injection_verification_summary.csv",
+      "path": "data/single_rule_violation/CF_data/verify_output",
+      "size": 54675,
+      "sha": "e6e95d7b"
+    }
+  ],
+  "data/single_rule_violation/SI_data/SI": [
+    {
+      "name": "SI-01.md",
+      "path": "data/single_rule_violation/SI_data/SI",
+      "size": 415662,
+      "sha": "acd8fa0b"
+    },
+    {
+      "name": "SI-02.md",
+      "path": "data/single_rule_violation/SI_data/SI",
+      "size": 418947,
+      "sha": "48157636"
+    },
+    {
+      "name": "SI-03.md",
+      "path": "data/single_rule_violation/SI_data/SI",
+      "size": 388425,
+      "sha": "64384c3d"
+    },
+    {
+      "name": "SI-04.md",
+      "path": "data/single_rule_violation/SI_data/SI",
+      "size": 436823,
+      "sha": "3314d0df"
+    },
+    {
+      "name": "SI-05.md",
+      "path": "data/single_rule_violation/SI_data/SI",
+      "size": 378940,
+      "sha": "8b82fd0f"
+    },
+    {
+      "name": "si_final.md",
+      "path": "data/single_rule_violation/SI_data/SI",
+      "size": 416214,
+      "sha": "fa3b65e3"
+    }
+  ],
+  "data/single_rule_violation/SI_data/verify_output": [
+    {
+      "name": "si_injection_verification_details.json",
+      "path": "data/single_rule_violation/SI_data/verify_output",
+      "size": 217773,
+      "sha": "8d2506fa"
+    },
+    {
+      "name": "si_injection_verification_summary.csv",
+      "path": "data/single_rule_violation/SI_data/verify_output",
+      "size": 42957,
+      "sha": "411c106a"
+    }
+  ],
+  "task/easy/BS/FinGPT": [
+    {
+      "name": "fewshot_counterfactual_easy_BS_fingpt.py",
+      "path": "task/easy/BS/FinGPT",
+      "size": 15417,
+      "sha": "b59423aa"
+    },
+    {
+      "name": "fewshot_easy_BS_fingpt.py",
+      "path": "task/easy/BS/FinGPT",
+      "size": 14805,
+      "sha": "f4d0d8eb"
+    },
+    {
+      "name": "zero_shot_easy_BS_fingpt.py",
+      "path": "task/easy/BS/FinGPT",
+      "size": 16119,
+      "sha": "9ab38950"
+    }
+  ],
+  "task/easy/BS/GPT-4o": [
+    {
+      "name": "fewshot_counterfactual_easy_BS_gpt.py",
+      "path": "task/easy/BS/GPT-4o",
+      "size": 20585,
+      "sha": "3c3b1e9e"
+    },
+    {
+      "name": "fewshot_easy_BS_gpt.py",
+      "path": "task/easy/BS/GPT-4o",
+      "size": 19860,
+      "sha": "78e7f100"
+    },
+    {
+      "name": "zero_shot_easy_BS_gpt.py",
+      "path": "task/easy/BS/GPT-4o",
+      "size": 20204,
+      "sha": "7acf857d"
+    }
+  ],
+  "task/easy/BS/Gemini-2.5pro": [
+    {
+      "name": "fewshot_counterfactual_easy_BS_gemini.py",
+      "path": "task/easy/BS/Gemini-2.5pro",
+      "size": 21150,
+      "sha": "cd5781d1"
+    },
+    {
+      "name": "fewshot_easy_BS_gemini.py",
+      "path": "task/easy/BS/Gemini-2.5pro",
+      "size": 20428,
+      "sha": "19580a8e"
+    },
+    {
+      "name": "zero_shot_easy_BS_gemini.py",
+      "path": "task/easy/BS/Gemini-2.5pro",
+      "size": 18081,
+      "sha": "b92b2117"
+    }
+  ],
+  "task/easy/CF/FinGPT": [
+    {
+      "name": "fewshot_counterfactual_easy_CF_fingpt.py",
+      "path": "task/easy/CF/FinGPT",
+      "size": 13254,
+      "sha": "a13e8b6b"
+    },
+    {
+      "name": "fewshot_easy_CF_fingpt.py",
+      "path": "task/easy/CF/FinGPT",
+      "size": 12923,
+      "sha": "ee04bd17"
+    },
+    {
+      "name": "zero_shot_easy_CF_fingpt.py",
+      "path": "task/easy/CF/FinGPT",
+      "size": 13130,
+      "sha": "3fc5f64b"
+    }
+  ],
+  "task/easy/CF/GPT-4o": [
+    {
+      "name": "few_shot_easy_CF_gpt.py",
+      "path": "task/easy/CF/GPT-4o",
+      "size": 18051,
+      "sha": "79895cf7"
+    },
+    {
+      "name": "fewshot_counterfactual_easy_CF_gpt.py",
+      "path": "task/easy/CF/GPT-4o",
+      "size": 19091,
+      "sha": "86ecb669"
+    },
+    {
+      "name": "zero_shot_easy_CF_gpt.py",
+      "path": "task/easy/CF/GPT-4o",
+      "size": 18055,
+      "sha": "8983f616"
+    }
+  ],
+  "task/easy/CF/Gemini-2.5pro": [
+    {
+      "name": "fewshot_counterfactual_CF_easy_gemini.py",
+      "path": "task/easy/CF/Gemini-2.5pro",
+      "size": 19659,
+      "sha": "8db3cdff"
+    },
+    {
+      "name": "fewshot_easy_CF_gemini.py",
+      "path": "task/easy/CF/Gemini-2.5pro",
+      "size": 18624,
+      "sha": "3f4cf2bd"
+    },
+    {
+      "name": "zero_shot_easy_CF_gemini.py",
+      "path": "task/easy/CF/Gemini-2.5pro",
+      "size": 18605,
+      "sha": "1935498e"
+    }
+  ],
+  "task/easy/SE/FinGPT": [
+    {
+      "name": "fewshot_counterfactual_easy_SE_fingpt.py",
+      "path": "task/easy/SE/FinGPT",
+      "size": 10408,
+      "sha": "f44ca688"
+    },
+    {
+      "name": "fewshot_easy_SE_fingpt.py",
+      "path": "task/easy/SE/FinGPT",
+      "size": 10754,
+      "sha": "04d4eebf"
+    },
+    {
+      "name": "zero_shot_easy_SE_fingpt.py",
+      "path": "task/easy/SE/FinGPT",
+      "size": 12401,
+      "sha": "3c0f2344"
+    }
+  ],
+  "task/easy/SE/GPT-4o": [
+    {
+      "name": "few_shot_counterfactual_SE_easy_gpt.py",
+      "path": "task/easy/SE/GPT-4o",
+      "size": 18486,
+      "sha": "b429d183"
+    },
+    {
+      "name": "few_shot_easy_SE_gpt.py",
+      "path": "task/easy/SE/GPT-4o",
+      "size": 18517,
+      "sha": "55a13df4"
+    },
+    {
+      "name": "zero_shot_easy_SE_gpt.py",
+      "path": "task/easy/SE/GPT-4o",
+      "size": 18199,
+      "sha": "0c084dca"
+    }
+  ],
+  "task/easy/SE/Gemini-2.5pro": [
+    {
+      "name": "fewshot_counterfactual_easy_SE_gemini.py",
+      "path": "task/easy/SE/Gemini-2.5pro",
+      "size": 19256,
+      "sha": "2215dbf3"
+    },
+    {
+      "name": "fewshot_easy_SE_gemini.py",
+      "path": "task/easy/SE/Gemini-2.5pro",
+      "size": 19090,
+      "sha": "37ffecd5"
+    },
+    {
+      "name": "zero_shot_easy_SE_gemini.py",
+      "path": "task/easy/SE/Gemini-2.5pro",
+      "size": 18968,
+      "sha": "ff8526de"
+    }
+  ],
+  "task/easy/SI/FinGPT": [
+    {
+      "name": "fewshot_counterfactual_easy_SI_fingpt.py",
+      "path": "task/easy/SI/FinGPT",
+      "size": 10867,
+      "sha": "e658f537"
+    },
+    {
+      "name": "fewshot_easy_SI_fingpt.py",
+      "path": "task/easy/SI/FinGPT",
+      "size": 10706,
+      "sha": "12ddd945"
+    },
+    {
+      "name": "zero_shot_easy_SI_fingpt.py",
+      "path": "task/easy/SI/FinGPT",
+      "size": 10133,
+      "sha": "2304d22e"
+    }
+  ],
+  "task/easy/SI/GPT-4o": [
+    {
+      "name": "fewshot_counterfactual_easy_SI_gpt.py",
+      "path": "task/easy/SI/GPT-4o",
+      "size": 20616,
+      "sha": "f519192d"
+    },
+    {
+      "name": "fewshot_easy_SI_gpt.py",
+      "path": "task/easy/SI/GPT-4o",
+      "size": 20437,
+      "sha": "fe23592a"
+    },
+    {
+      "name": "zero_shot_easy_SI_gpt.py",
+      "path": "task/easy/SI/GPT-4o",
+      "size": 19258,
+      "sha": "cc60c386"
+    }
+  ],
+  "task/easy/SI/Gemini-2.5pro": [
+    {
+      "name": "fewshot_counterfactual_easy_SI_gemini.py",
+      "path": "task/easy/SI/Gemini-2.5pro",
+      "size": 21389,
+      "sha": "83642740"
+    },
+    {
+      "name": "fewshot_easy_SI_gemini.py",
+      "path": "task/easy/SI/Gemini-2.5pro",
+      "size": 21010,
+      "sha": "f04eccd6"
+    },
+    {
+      "name": "zero_shot_easy_SI_gemini.py",
+      "path": "task/easy/SI/Gemini-2.5pro",
+      "size": 20027,
+      "sha": "f05b3aee"
+    }
+  ],
+  "task/hard/BS/FinGPT": [
+    {
+      "name": "hard_counterfactual_few_shot_BS_fingpt.py",
+      "path": "task/hard/BS/FinGPT",
+      "size": 9183,
+      "sha": "b7c4584a"
+    },
+    {
+      "name": "hard_few_shot_BS_fingpt.py",
+      "path": "task/hard/BS/FinGPT",
+      "size": 8760,
+      "sha": "54420aaf"
+    },
+    {
+      "name": "hard_zero_shot_BS_fingpt.py",
+      "path": "task/hard/BS/FinGPT",
+      "size": 8598,
+      "sha": "d7f6d623"
+    }
+  ],
+  "task/hard/BS/GPT-4o": [
+    {
+      "name": "hard_CF_few_shot_BS_GPT.py",
+      "path": "task/hard/BS/GPT-4o",
+      "size": 43654,
+      "sha": "8653b0e1"
+    },
+    {
+      "name": "hard_few_shot_BS_gpt.py",
+      "path": "task/hard/BS/GPT-4o",
+      "size": 41620,
+      "sha": "b7586ee2"
+    },
+    {
+      "name": "hard_zero_shot_BS_gpt.py",
+      "path": "task/hard/BS/GPT-4o",
+      "size": 36366,
+      "sha": "f44a302f"
+    }
+  ],
+  "task/hard/CF/FinGPT": [
+    {
+      "name": "hard_counterfactual_few_shot_CF_fingpt.py",
+      "path": "task/hard/CF/FinGPT",
+      "size": 8467,
+      "sha": "9354e3a8"
+    },
+    {
+      "name": "hard_few_shot_CF_fingpt.py",
+      "path": "task/hard/CF/FinGPT",
+      "size": 8390,
+      "sha": "c36f20f7"
+    },
+    {
+      "name": "hard_zero_shot_CF_fingpt.py",
+      "path": "task/hard/CF/FinGPT",
+      "size": 8419,
+      "sha": "06dfb224"
+    }
+  ],
+  "task/hard/CF/GPT-4o": [
+    {
+      "name": "hard_few_shot_CF_gpt.py",
+      "path": "task/hard/CF/GPT-4o",
+      "size": 34402,
+      "sha": "0b85d73a"
+    },
+    {
+      "name": "hard_few_shot_counterfactual_CF_gpt.py",
+      "path": "task/hard/CF/GPT-4o",
+      "size": 35423,
+      "sha": "9c771276"
+    },
+    {
+      "name": "hard_zero_shot_CF_gpt.py",
+      "path": "task/hard/CF/GPT-4o",
+      "size": 34916,
+      "sha": "7b4dac80"
+    }
+  ],
+  "task/hard/SE/FinGPT": [
+    {
+      "name": "hard_counterfactual_few_shot_SE_fingpt.py",
+      "path": "task/hard/SE/FinGPT",
+      "size": 8495,
+      "sha": "163a31ba"
+    },
+    {
+      "name": "hard_few_shot_SE_fingpt.py",
+      "path": "task/hard/SE/FinGPT",
+      "size": 8320,
+      "sha": "4b0e763a"
+    },
+    {
+      "name": "hard_zero_shot_SE_fingpt.py",
+      "path": "task/hard/SE/FinGPT",
+      "size": 8253,
+      "sha": "7ed2c9ea"
+    }
+  ],
+  "task/hard/SE/GPT-4o": [
+    {
+      "name": "hard_CF_few_shot_SE_gpt.py",
+      "path": "task/hard/SE/GPT-4o",
+      "size": 35428,
+      "sha": "45d40a6d"
+    },
+    {
+      "name": "hard_few_shot_CF_gpt.py",
+      "path": "task/hard/SE/GPT-4o",
+      "size": 34402,
+      "sha": "0b85d73a"
+    },
+    {
+      "name": "hard_few_shot_SE_gpt.py",
+      "path": "task/hard/SE/GPT-4o",
+      "size": 33912,
+      "sha": "ce2b005b"
+    },
+    {
+      "name": "hard_few_shot_counterfactual_CF_gpt.py",
+      "path": "task/hard/SE/GPT-4o",
+      "size": 35423,
+      "sha": "9c771276"
+    },
+    {
+      "name": "hard_zero_shot_CF_gpt.py",
+      "path": "task/hard/SE/GPT-4o",
+      "size": 34916,
+      "sha": "7b4dac80"
+    },
+    {
+      "name": "hard_zero_shot_SE_gpt.py",
+      "path": "task/hard/SE/GPT-4o",
+      "size": 33342,
+      "sha": "eda4235a"
+    }
+  ],
+  "task/hard/SI/FinGPT": [
+    {
+      "name": "hard_counterfactual_few_shot_SI_fingpt.py",
+      "path": "task/hard/SI/FinGPT",
+      "size": 8868,
+      "sha": "9e610d46"
+    },
+    {
+      "name": "hard_few_shot_SI_fingpt.py",
+      "path": "task/hard/SI/FinGPT",
+      "size": 8620,
+      "sha": "4b1d8759"
+    },
+    {
+      "name": "hard_zero_shot_SI_fingpt.py",
+      "path": "task/hard/SI/FinGPT",
+      "size": 8415,
+      "sha": "b75d43b0"
+    }
+  ],
+  "task/hard/SI/GPT-4o": [
+    {
+      "name": "hard_CF_few_shot_SI_gpt.py",
+      "path": "task/hard/SI/GPT-4o",
+      "size": 43037,
+      "sha": "e9309411"
+    },
+    {
+      "name": "hard_few_shot_CF_gpt.py",
+      "path": "task/hard/SI/GPT-4o",
+      "size": 34402,
+      "sha": "0b85d73a"
+    },
+    {
+      "name": "hard_few_shot_SI_gpt.py",
+      "path": "task/hard/SI/GPT-4o",
+      "size": 35888,
+      "sha": "220e5220"
+    },
+    {
+      "name": "hard_few_shot_counterfactual_CF_gpt.py",
+      "path": "task/hard/SI/GPT-4o",
+      "size": 35423,
+      "sha": "9c771276"
+    },
+    {
+      "name": "hard_zero_shot_CF_gpt.py",
+      "path": "task/hard/SI/GPT-4o",
+      "size": 34916,
+      "sha": "7b4dac80"
+    },
+    {
+      "name": "hard_zero_shot_SI_gpt.py",
+      "path": "task/hard/SI/GPT-4o",
+      "size": 34369,
+      "sha": "1c43d9c1"
+    }
+  ],
+  "task/medium/BS/FinGPT": [
+    {
+      "name": "few_shot_counterfactual_medium_BS_fingpt.py",
+      "path": "task/medium/BS/FinGPT",
+      "size": 9486,
+      "sha": "d209f220"
+    },
+    {
+      "name": "few_shot_medium_BS_fingpt.py",
+      "path": "task/medium/BS/FinGPT",
+      "size": 9249,
+      "sha": "e68f7fe3"
+    },
+    {
+      "name": "zero_shot_medium_BS_fingpt.py",
+      "path": "task/medium/BS/FinGPT",
+      "size": 12350,
+      "sha": "a65d9cc1"
+    }
+  ],
+  "task/medium/BS/GPT-4o": [
+    {
+      "name": "few_shot_counterfactual_medium_BS_gpt.py",
+      "path": "task/medium/BS/GPT-4o",
+      "size": 25772,
+      "sha": "9f72b97c"
+    },
+    {
+      "name": "few_shot_medium_BS_gpt.py",
+      "path": "task/medium/BS/GPT-4o",
+      "size": 31591,
+      "sha": "4d4aa974"
+    },
+    {
+      "name": "zero_shot_medium_BS_gpt.py",
+      "path": "task/medium/BS/GPT-4o",
+      "size": 25487,
+      "sha": "90fe9d91"
+    }
+  ],
+  "task/medium/CF/FinGPT": [
+    {
+      "name": "few_shot_counterfactual_medium_CF_fingpt.py",
+      "path": "task/medium/CF/FinGPT",
+      "size": 7457,
+      "sha": "07a15674"
+    },
+    {
+      "name": "few_shot_medium_CF_fingpt.py",
+      "path": "task/medium/CF/FinGPT",
+      "size": 7524,
+      "sha": "9d6497b6"
+    },
+    {
+      "name": "zero_shot_medium_CF_fingpt.py",
+      "path": "task/medium/CF/FinGPT",
+      "size": 8100,
+      "sha": "839cad6f"
+    }
+  ],
+  "task/medium/CF/GPT-4o": [
+    {
+      "name": "few_shot_counterfactual_medium_CF_gpt.py",
+      "path": "task/medium/CF/GPT-4o",
+      "size": 24807,
+      "sha": "2353194f"
+    },
+    {
+      "name": "few_shot_medium_CF_gpt.py",
+      "path": "task/medium/CF/GPT-4o",
+      "size": 27240,
+      "sha": "575eef23"
+    },
+    {
+      "name": "zero_shot_medium_CF_gpt.py",
+      "path": "task/medium/CF/GPT-4o",
+      "size": 24587,
+      "sha": "0f791068"
+    }
+  ],
+  "task/medium/SE/FinGPT": [
+    {
+      "name": "few_shot_counterfactual_medium_SE_fingpt.py",
+      "path": "task/medium/SE/FinGPT",
+      "size": 7534,
+      "sha": "2d114036"
+    },
+    {
+      "name": "few_shot_medium_SE_fingpt.py",
+      "path": "task/medium/SE/FinGPT",
+      "size": 8291,
+      "sha": "1d767ecc"
+    },
+    {
+      "name": "zero_shot_medium_SE_fingpt.py",
+      "path": "task/medium/SE/FinGPT",
+      "size": 7427,
+      "sha": "eb4a1c0f"
+    }
+  ],
+  "task/medium/SE/GPT-4o": [
+    {
+      "name": "few_shot_counterfactual_medium_SE_gpt.py",
+      "path": "task/medium/SE/GPT-4o",
+      "size": 24428,
+      "sha": "838d5a9b"
+    },
+    {
+      "name": "few_shot_medium_SE_gpt.py",
+      "path": "task/medium/SE/GPT-4o",
+      "size": 28252,
+      "sha": "f78e3b09"
+    },
+    {
+      "name": "zero_shot_medium_SE_gpt.py",
+      "path": "task/medium/SE/GPT-4o",
+      "size": 24595,
+      "sha": "a3ee2163"
+    }
+  ],
+  "task/medium/SI/FinGPT": [
+    {
+      "name": "few_shot_counterfactual_medium_SI_fingpt.py",
+      "path": "task/medium/SI/FinGPT",
+      "size": 8278,
+      "sha": "970236c0"
+    },
+    {
+      "name": "few_shot_medium_SI_fingpt.py",
+      "path": "task/medium/SI/FinGPT",
+      "size": 8604,
+      "sha": "13cddf82"
+    },
+    {
+      "name": "zero_shot_medium_SI_fingpt.py",
+      "path": "task/medium/SI/FinGPT",
+      "size": 8289,
+      "sha": "a354f94f"
+    }
+  ],
+  "task/medium/SI/GPT-4o": [
+    {
+      "name": "few_shot_counterfactual_medium_SI_gpt.py",
+      "path": "task/medium/SI/GPT-4o",
+      "size": 26252,
+      "sha": "090934d7"
+    },
+    {
+      "name": "few_shot_medium_SI_gpt.py",
+      "path": "task/medium/SI/GPT-4o",
+      "size": 28310,
+      "sha": "28001e67"
+    },
+    {
+      "name": "zero_shot_medium_SI_gpt.py",
+      "path": "task/medium/SI/GPT-4o",
+      "size": 25552,
+      "sha": "879094bd"
+    }
+  ]
+}

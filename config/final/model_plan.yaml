@@ -1,0 +1,51 @@
+status: PROPOSAL_NOT_AUTHORIZATION
+paid_calls_authorized: false
+primary_provider: OpenAI
+primary_model_alias: gpt-4.1-mini
+preferred_snapshot_to_verify: gpt-4.1-mini-2025-04-14
+optional_comparator_alias: gpt-5.4-mini
+endpoint_to_verify: https://api.openai.com/v1/chat/completions
+credential_binding: DQP_MODEL_API_KEY
+pricing_source_type: PRIMARY_LAUNCH_PRICES_AND_CURRENT_SECONDARY_CATALOG_GEMINI_CURRENT_PRIMARY
+primary_price_sources:
+  gpt-4.1-mini: https://openai.com/index/gpt-4-1/
+  gpt-5.4-mini: https://openai.com/index/introducing-gpt-5-4-mini-and-nano/
+  gemini-2.5-flash: https://ai.google.dev/gemini-api/docs/pricing
+pricing_limit: OpenAI current API pricing documentation is unreachable; provider launch rates match pinned current catalog. Recheck account billing before calls.
+pricing_catalog_repository: https://github.com/anomalyco/models.dev
+pricing_catalog_commit: 42565000781fc2900a5b63fd7abce690972e89b0
+pricing_date: '2026-10-21'
+rates_usd_per_million_tokens:
+  gpt-4.1-mini: {input: 0.4, output: 1.6}
+  gpt-5-mini: {input: 0.25, output: 2.0}
+  gpt-5.4-mini: {input: 0.75, output: 4.5}
+  gemini-2.5-flash: {input: 0.3, output: 2.5}
+input_cap_tokens: 20000
+rendered_prompt_cap_utf8_bytes: 16000
+reserved_request_overhead_tokens: 4000
+output_cap_tokens: 2000
+pilot:
+  source_groups: 4
+  documentation_contexts: 2
+  prompt_variants: 2
+  repetitions: 3
+  calls_per_model: 48
+  absolute_call_cap: 60
+  proposed_spend_cap_usd: 2
+full:
+  source_groups: 40
+  prompt_variants: 2
+  repetitions: 3
+  calls_per_model: 240
+  proposed_models: [gpt-4.1-mini, gpt-5.4-mini]
+  absolute_call_cap_including_retries: 576
+  proposed_spend_cap_usd: 15
+preflight_required:
+  - explicit_user_model_and_budget_authorization
+  - current_official_provider_price_and_model_availability_verification
+  - provider_request_contract_including_output_or_reasoning_token_cap
+  - dataset_licence_and_external_processing_permission
+  - frozen_source_partition_prompt_and_candidate_provenance
+  - durable_pre_call_cost_reservation_and_response_cache
+  - provider_project_budget_and_no_unbounded_retry
+new_paid_calls: 0

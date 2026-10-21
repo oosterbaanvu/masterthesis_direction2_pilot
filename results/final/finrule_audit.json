@@ -1,0 +1,389 @@
+{
+  "status": "ACQUIRED_AND_AUDITED_CONDITIONAL_RESEARCH_RESOURCE",
+  "snapshot_files": 147,
+  "snapshot_bytes": 23343599,
+  "single_rule_variants": [
+    {
+      "path": "data/single_rule_violation/BS_data/BS-00.md",
+      "tables": 212,
+      "unique_titles": 212,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 7029,
+        "5": 1
+      }
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-01.md",
+      "tables": 212,
+      "unique_titles": 212,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 7029,
+        "5": 1
+      }
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-02.md",
+      "tables": 212,
+      "unique_titles": 212,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 7029,
+        "5": 1
+      }
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-03.md",
+      "tables": 212,
+      "unique_titles": 212,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 7029,
+        "5": 1
+      }
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-04.md",
+      "tables": 212,
+      "unique_titles": 212,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 7029,
+        "5": 1
+      }
+    },
+    {
+      "path": "data/single_rule_violation/BS_data/BS-05.md",
+      "tables": 212,
+      "unique_titles": 212,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 7029,
+        "5": 1
+      }
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-00.md",
+      "tables": 323,
+      "unique_titles": 323,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 11293,
+        "5": 3
+      }
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-01.md",
+      "tables": 323,
+      "unique_titles": 323,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 10978,
+        "5": 3
+      }
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-02.md",
+      "tables": 323,
+      "unique_titles": 323,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 11616,
+        "5": 3
+      }
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/CF-03.md",
+      "tables": 323,
+      "unique_titles": 323,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "4": 11293,
+        "5": 3
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-00.md",
+      "tables": 287,
+      "unique_titles": 287,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "10": 435,
+        "7": 760,
+        "6": 143,
+        "16": 46,
+        "9": 756,
+        "5": 105,
+        "8": 499,
+        "11": 316,
+        "12": 65,
+        "4": 21,
+        "13": 48
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-01.md",
+      "tables": 287,
+      "unique_titles": 287,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "10": 435,
+        "7": 760,
+        "6": 143,
+        "16": 46,
+        "9": 756,
+        "5": 105,
+        "8": 499,
+        "11": 316,
+        "12": 65,
+        "4": 21,
+        "13": 48
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-02.md",
+      "tables": 287,
+      "unique_titles": 287,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "10": 416,
+        "7": 726,
+        "6": 131,
+        "16": 43,
+        "9": 717,
+        "5": 96,
+        "8": 461,
+        "11": 296,
+        "12": 59,
+        "4": 21,
+        "13": 47
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SE_data/SE-03.md",
+      "tables": 287,
+      "unique_titles": 287,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "10": 421,
+        "7": 729,
+        "6": 129,
+        "16": 43,
+        "9": 725,
+        "5": 96,
+        "8": 467,
+        "11": 302,
+        "12": 62,
+        "4": 21,
+        "13": 45
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-00.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 6958
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-01.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 6958
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-02.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 7000
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-03.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 6489
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-04.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 7250
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/SI-05.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 6397
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/si_final.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "3": 6958
+      }
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/si_tables.md",
+      "tables": 300,
+      "unique_titles": 300,
+      "issuer_groups": 102,
+      "schema_shapes": {
+        "2": 6841,
+        "4": 535,
+        "5": 134,
+        "3": 147,
+        "6": 38
+      }
+    }
+  ],
+  "multi_rule_integrity": [
+    {
+      "path": "data/multi_rule_violation/BS/BS-HARD-truth.json",
+      "truth_records": 189,
+      "markdown_tables": 212,
+      "unique_markdown_titles": 212,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 23
+    },
+    {
+      "path": "data/multi_rule_violation/BS/BS-MIXED-100-truth.json",
+      "truth_records": 100,
+      "markdown_tables": 100,
+      "unique_markdown_titles": 100,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    },
+    {
+      "path": "data/multi_rule_violation/CF/CF-HARD-truth.json",
+      "truth_records": 297,
+      "markdown_tables": 297,
+      "unique_markdown_titles": 297,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    },
+    {
+      "path": "data/multi_rule_violation/CF/CF-MIXED-100-truth.json",
+      "truth_records": 97,
+      "markdown_tables": 100,
+      "unique_markdown_titles": 97,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    },
+    {
+      "path": "data/multi_rule_violation/SE/SE-HARD-truth.json",
+      "truth_records": 93,
+      "markdown_tables": 93,
+      "unique_markdown_titles": 93,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    },
+    {
+      "path": "data/multi_rule_violation/SE/SE-MIXED-100-truth.json",
+      "truth_records": 95,
+      "markdown_tables": 100,
+      "unique_markdown_titles": 95,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    },
+    {
+      "path": "data/multi_rule_violation/SI/SI-HARD-truth.json",
+      "truth_records": 160,
+      "markdown_tables": 160,
+      "unique_markdown_titles": 160,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    },
+    {
+      "path": "data/multi_rule_violation/SI/SI-MIXED-100-truth.json",
+      "truth_records": 90,
+      "markdown_tables": 100,
+      "unique_markdown_titles": 90,
+      "truth_titles_missing_in_markdown": 0,
+      "markdown_titles_missing_in_truth": 0
+    }
+  ],
+  "provided_balance_equation_diagnostic": [
+    {
+      "variant": "BS-00",
+      "tables": 212,
+      "status_counts": {
+        "DISPLAY_EQUATION_SATISFIED": 29,
+        "UNRESOLVED_TOTAL_SCOPE": 169,
+        "DISPLAY_EQUATION_VIOLATION": 10,
+        "UNRESOLVED_NUMERIC_FORMAT": 2,
+        "UNRESOLVED_DUPLICATE_TOTAL": 1,
+        "UNRESOLVED_LAYOUT": 1
+      },
+      "role": "FIXED_PUBLISHED_PRINCIPLE_COMPONENT_NOT_GENERATED_RULE_SELECTION",
+      "independent_semantic_precision": "NOT_MEASURED"
+    },
+    {
+      "variant": "BS-01",
+      "tables": 212,
+      "status_counts": {
+        "DISPLAY_EQUATION_VIOLATION": 19,
+        "UNRESOLVED_TOTAL_SCOPE": 169,
+        "DISPLAY_EQUATION_SATISFIED": 20,
+        "UNRESOLVED_NUMERIC_FORMAT": 2,
+        "UNRESOLVED_DUPLICATE_TOTAL": 1,
+        "UNRESOLVED_LAYOUT": 1
+      },
+      "role": "FIXED_PUBLISHED_PRINCIPLE_COMPONENT_NOT_GENERATED_RULE_SELECTION",
+      "independent_semantic_precision": "NOT_MEASURED"
+    }
+  ],
+  "upstream_verification_artifacts": [
+    {
+      "path": "data/single_rule_violation/BS_data/verify_output/bs_injection_verification_summary.csv",
+      "rows": 510,
+      "result_counts": {
+        "PASS": 307,
+        "FAIL": 203
+      },
+      "meaning": "UPSTREAM_INJECTION_VERIFICATION_LOG_NOT_OUR_MODEL_DETECTION_ACCURACY"
+    },
+    {
+      "path": "data/single_rule_violation/CF_data/verify_output/cf_injection_verification_summary.csv",
+      "rows": 306,
+      "result_counts": {
+        "FAIL": 306
+      },
+      "meaning": "UPSTREAM_INJECTION_VERIFICATION_LOG_NOT_OUR_MODEL_DETECTION_ACCURACY"
+    },
+    {
+      "path": "data/single_rule_violation/SI_data/verify_output/si_injection_verification_summary.csv",
+      "rows": 510,
+      "result_counts": {
+        "FAIL": 367,
+        "PASS": 143
+      },
+      "meaning": "UPSTREAM_INJECTION_VERIFICATION_LOG_NOT_OUR_MODEL_DETECTION_ACCURACY"
+    }
+  ],
+  "full_original_images_acquired": false,
+  "all_claimed_deterministic_validator_implementations_found": false,
+  "new_model_calls": 0,
+  "semantic_rule_ground_truth_independently_verified": false,
+  "all_inspected_finrule_material_is_exploratory": true,
+  "reserved_sec_accessed": false
+}

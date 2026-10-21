@@ -1,0 +1,16 @@
+[
+  {
+    "key": "openai_gpt41_announcement",
+    "url": "https://openai.com/index/gpt-4-1/",
+    "http_status": 200,
+    "sha256": "9aa033cd763df60eed6851d7e707671202b4f5c01dd567b46a367244b9600b1a",
+    "bytes": 809042
+  },
+  {
+    "key": "openai_gpt54_announcement",
+    "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+    "http_status": 200,
+    "sha256": "36fb44935717acbcd1857bbd0bd4589a7c7bc0a5f5fade10e8a038a9ef0dfd8e",
+    "bytes": 567512
+  }
+]

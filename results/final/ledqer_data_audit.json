@@ -1,0 +1,168 @@
+{
+  "beers_clean.csv": {
+    "rows": 2410,
+    "columns": [
+      "index",
+      "id",
+      "beer-name",
+      "style",
+      "ounces",
+      "abv",
+      "ibu",
+      "brewery_id",
+      "brewery-name",
+      "city",
+      "state",
+      "pk"
+    ]
+  },
+  "beers_dirty_lab.csv": {
+    "rows": 2410,
+    "columns": [
+      "index",
+      "id",
+      "beer-name",
+      "style",
+      "ounces",
+      "abv",
+      "ibu",
+      "brewery_id",
+      "brewery-name",
+      "city",
+      "state",
+      "isDirty",
+      "errRule",
+      "errCol",
+      "pk"
+    ]
+  },
+  "flights_clean.csv": {
+    "rows": 2376,
+    "columns": [
+      "tuple_id",
+      "src",
+      "flight",
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time",
+      "pk"
+    ]
+  },
+  "flights_dirty_lab.csv": {
+    "rows": 2376,
+    "columns": [
+      "tuple_id",
+      "src",
+      "flight",
+      "sched_dep_time",
+      "act_dep_time",
+      "sched_arr_time",
+      "act_arr_time",
+      "isDirty",
+      "errRule",
+      "errCol",
+      "pk"
+    ]
+  },
+  "hospital_clean.csv": {
+    "rows": 1000,
+    "columns": [
+      "index",
+      "ProviderNumber",
+      "HospitalName",
+      "Address1",
+      "Address2",
+      "Address3",
+      "City",
+      "State",
+      "ZipCode",
+      "CountyName",
+      "PhoneNumber",
+      "HospitalType",
+      "HospitalOwner",
+      "EmergencyService",
+      "Condition",
+      "MeasureCode",
+      "MeasureName",
+      "Score",
+      "Sample",
+      "Stateavg",
+      "pk"
+    ]
+  },
+  "hospital_dirty_lab.csv": {
+    "rows": 1000,
+    "columns": [
+      "index",
+      "ProviderNumber",
+      "HospitalName",
+      "Address1",
+      "Address2",
+      "Address3",
+      "City",
+      "State",
+      "ZipCode",
+      "CountyName",
+      "PhoneNumber",
+      "HospitalType",
+      "HospitalOwner",
+      "EmergencyService",
+      "Condition",
+      "MeasureCode",
+      "MeasureName",
+      "Score",
+      "Sample",
+      "Stateavg",
+      "isDirty",
+      "errRule",
+      "errCol",
+      "pk"
+    ]
+  },
+  "tax_clean.csv": {
+    "rows": 6000,
+    "columns": [
+      "f_name",
+      "l_name",
+      "gender",
+      "area_code",
+      "phone",
+      "city",
+      "state",
+      "zip",
+      "marital_status",
+      "has_child",
+      "salary",
+      "rate",
+      "single_exemp",
+      "married_exemp",
+      "child_exemp",
+      "pk"
+    ]
+  },
+  "tax_dirty_lab.csv": {
+    "rows": 6000,
+    "columns": [
+      "f_name",
+      "l_name",
+      "gender",
+      "area_code",
+      "phone",
+      "city",
+      "state",
+      "zip",
+      "marital_status",
+      "has_child",
+      "salary",
+      "rate",
+      "single_exemp",
+      "married_exemp",
+      "child_exemp",
+      "isDirty",
+      "errRule",
+      "errCol",
+      "pk"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "existing_tests": {
+    "passed": 36,
+    "failed": 0,
+    "skipped": 0,
+    "report": "results/final/existing_software_tests.xml"
+  },
+  "new_tests": {
+    "passed": 38,
+    "failed": 0,
+    "skipped": 0,
+    "report": "results/final/software_tests.xml"
+  },
+  "ruff": "PASSED",
+  "parent_freeze": "VERIFIED_UNCHANGED",
+  "inference": {
+    "new_model_calls": 0,
+    "new_cost_usd": 0
+  },
+  "component_repeat": "MATCH_EXCLUDING_RUNTIME",
+  "reserved_sec_read": false,
+  "independent_reviewers": 0
+}

@@ -1,0 +1,45 @@
+{
+  "cutoff": "2026-10-21",
+  "parent_sources_manifest": "config/literature_sources.json",
+  "parent_manifest_sha256": "f95b08b538535dc71d6583b7fe01fb7b6cf93708baad3d26c5a750c9ffb17b0a",
+  "sources": [
+    {
+      "key": "ledqer",
+      "url": "https://arxiv.org/pdf/2609.06053v1",
+      "sha256": "1b136385fa600e183fe867b196320d9c7f29f6507b8a88c6b8af815d4db06f83",
+      "access": "FULL_PDF_ACQUIRED",
+      "redistributed": false
+    },
+    {
+      "key": "finrule",
+      "url": "https://arxiv.org/pdf/2603.11339v1",
+      "sha256": "e152033c8b13dee52732f02ec94cdc683037b31437c6c5da8a84276548b77dc2",
+      "access": "FULL_PDF_ACQUIRED",
+      "redistributed": false
+    },
+    {
+      "key": "spade",
+      "url": "https://www.vldb.org/pvldb/vol17/p4173-shankar.pdf",
+      "sha256": "36be0fd3a5022e88fa833d83068a2b4677b899fcb527fc28b700c38c729b230c",
+      "access": "FULL_PDF_ACQUIRED",
+      "redistributed": false
+    },
+    {
+      "key": "baf_datasheet",
+      "url": "https://raw.githubusercontent.com/feedzai/bank-account-fraud/3377cfd8fc20edcda3dd9dd14c10ed3dd276c6de/documents/datasheet.pdf",
+      "sha256": "367846738d63ed352183ba5e130809c8a313bd9219aa426c916ac2be709a81b0",
+      "access": "FULL_PDF_ACQUIRED",
+      "redistributed": false
+    }
+  ],
+  "web_model_and_pricing_sources_manifests": [
+    "results/final/public_source_access.json",
+    "results/final/openai_primary_price_access.json",
+    "results/final/closest_work_access_followup.json",
+    "results/final/additional_public_access.json"
+  ],
+  "blocked_full_text": [
+    "Bayesian-inspired verification, DOI 10.1108/DTA-07-2026-0785",
+    "LLM-DQR, DOI 10.1016/j.jbi.2025.104951"
+  ]
+}

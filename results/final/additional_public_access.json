@@ -1,0 +1,42 @@
+[
+  {
+    "key": "openai_platform_pricing",
+    "url": "https://platform.openai.com/docs/pricing",
+    "exception_type": "URLError"
+  },
+  {
+    "key": "openai_developer_pricing",
+    "url": "https://developers.openai.com/api/docs/pricing/",
+    "exception_type": "URLError"
+  },
+  {
+    "key": "qwen3_model_card",
+    "url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct/raw/main/README.md",
+    "final_url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct/raw/main/README.md",
+    "http_status": 200,
+    "sha256": "98e8f0e00f2d6c7f1743fc4ef2b6297dcc57bec73d71f36588aed984370ac3f3",
+    "bytes": 5425,
+    "preview": "---\nlibrary_name: transformers\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct/blob/main/LICENSE\npipeline_tag: text-g"
+  },
+  {
+    "key": "qwen25_model_card",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
+    "final_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
+    "http_status": 200,
+    "sha256": "3c090be37f829adc1e4cdb78733667437732541470430ab2cd785d7f0d460077",
+    "bytes": 6392,
+    "preview": "---\nlicense: apache-2.0\nlicense_link: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/blob/main/LICENSE\nlanguage:\n- en\nbase_model:\n- Qwen/Qwen2.5-Coder-7B"
+  },
+  {
+    "key": "finrule_license_query",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/file?path=LICENSE",
+    "http_status": 403,
+    "body_excerpt": "error code: 1010\n"
+  },
+  {
+    "key": "finrule_data_query",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files?path=data",
+    "http_status": 403,
+    "body_excerpt": "error code: 1010\n"
+  }
+]

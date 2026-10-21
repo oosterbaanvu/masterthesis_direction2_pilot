@@ -1,0 +1,27 @@
+[
+  {
+    "key": "finrule_license",
+    "status": 403,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "finrule_readme",
+    "status": 403,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "finrule_data_listing",
+    "status": 403,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "finrule_task_listing",
+    "status": 403,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "finrule_extract_listing",
+    "status": 403,
+    "exception_type": "HTTPError"
+  }
+]

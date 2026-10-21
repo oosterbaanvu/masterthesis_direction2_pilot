@@ -1,0 +1,11 @@
+{
+  "token_present": false,
+  "sdk_version": "2.2.4",
+  "local_sdk_authentication_succeeded": false,
+  "exception_type": "SystemExit",
+  "authenticated_operation": "NOT_RUN_MISSING_CREDENTIAL",
+  "credential_value_logged": false,
+  "config_directory": "data/cache/kaggle",
+  "existing_legacy_file_present": false,
+  "existing_access_token_file_present": false
+}

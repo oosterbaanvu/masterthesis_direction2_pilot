@@ -1,0 +1,809 @@
+{
+  "status": "PARTIAL_COMPONENT_REPRODUCTION",
+  "original_commit": "fb42051026ee6ccded9347349ff95b597804962d",
+  "great_expectations_version": "1.9.1",
+  "runtime_seconds": 2.0358390040000813,
+  "records": [
+    {
+      "dataset": "flights",
+      "status": "COMPONENT_REPRODUCTION_ONLY",
+      "candidate_origin": "HUMAN_WRITTEN_FIXTURES_NOT_MODEL_OUTPUTS",
+      "rows": 2376,
+      "groups": 100,
+      "group_key": "flight",
+      "development_rows": 1563,
+      "evaluation_rows": 436,
+      "labelled_evaluation_cells": 851,
+      "candidate_count": 8,
+      "executed_candidates": 8,
+      "execution_failures": [],
+      "technical_fixture_agreement": {
+        "tp": 424,
+        "fp": 0,
+        "fn": 427,
+        "precision": 1.0,
+        "recall": 0.4982373678025852,
+        "f1": 0.6650980392156862
+      },
+      "original_greedy": [
+        {
+          "precision_threshold": 0.0,
+          "selected_fixtures": [
+            3,
+            5,
+            6,
+            4,
+            7
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 424,
+            "fp": 0,
+            "fn": 427,
+            "precision": 1.0,
+            "recall": 0.4982373678025852,
+            "f1": 0.6650980392156862
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 0.8,
+          "selected_fixtures": [
+            3,
+            5,
+            6,
+            4,
+            7
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 424,
+            "fp": 0,
+            "fn": 427,
+            "precision": 1.0,
+            "recall": 0.4982373678025852,
+            "f1": 0.6650980392156862
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 1.0,
+          "selected_fixtures": [
+            3,
+            5,
+            6,
+            4,
+            7
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 424,
+            "fp": 0,
+            "fn": 427,
+            "precision": 1.0,
+            "recall": 0.4982373678025852,
+            "f1": 0.6650980392156862
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        }
+      ],
+      "data_sha256": "14b5226b4eda868d28e8f36f2b2ab554d433b59cf538e8a1880419dc9a4b6403",
+      "semantic_precision_claim": false
+    },
+    {
+      "dataset": "beers",
+      "status": "COMPONENT_REPRODUCTION_ONLY",
+      "candidate_origin": "HUMAN_WRITTEN_FIXTURES_NOT_MODEL_OUTPUTS",
+      "rows": 2410,
+      "groups": 558,
+      "group_key": "brewery_id",
+      "development_rows": 1311,
+      "evaluation_rows": 560,
+      "labelled_evaluation_cells": 790,
+      "candidate_count": 12,
+      "executed_candidates": 12,
+      "execution_failures": [],
+      "technical_fixture_agreement": {
+        "tp": 599,
+        "fp": 271,
+        "fn": 191,
+        "precision": 0.6885057471264368,
+        "recall": 0.7582278481012659,
+        "f1": 0.7216867469879517
+      },
+      "original_greedy": [
+        {
+          "precision_threshold": 0.0,
+          "selected_fixtures": [
+            11,
+            10,
+            5
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 599,
+            "fp": 0,
+            "fn": 191,
+            "precision": 1.0,
+            "recall": 0.7582278481012659,
+            "f1": 0.8624910007199424
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 0.8,
+          "selected_fixtures": [
+            11,
+            10,
+            5
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 599,
+            "fp": 0,
+            "fn": 191,
+            "precision": 1.0,
+            "recall": 0.7582278481012659,
+            "f1": 0.8624910007199424
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 1.0,
+          "selected_fixtures": [
+            11,
+            10,
+            5
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 599,
+            "fp": 0,
+            "fn": 191,
+            "precision": 1.0,
+            "recall": 0.7582278481012659,
+            "f1": 0.8624910007199424
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        }
+      ],
+      "data_sha256": "869568578da72503ed91baf558ca990483e8b1d34589dabdb3d8cd38f55d5589",
+      "semantic_precision_claim": false
+    },
+    {
+      "dataset": "hospital",
+      "status": "COMPONENT_REPRODUCTION_ONLY",
+      "candidate_origin": "HUMAN_WRITTEN_FIXTURES_NOT_MODEL_OUTPUTS",
+      "rows": 1000,
+      "groups": 72,
+      "group_key": "ProviderNumber",
+      "development_rows": 635,
+      "evaluation_rows": 263,
+      "labelled_evaluation_cells": 118,
+      "candidate_count": 21,
+      "executed_candidates": 21,
+      "execution_failures": [],
+      "technical_fixture_agreement": {
+        "tp": 6,
+        "fp": 257,
+        "fn": 112,
+        "precision": 0.022813688212927757,
+        "recall": 0.05084745762711865,
+        "f1": 0.031496062992125984
+      },
+      "original_greedy": [
+        {
+          "precision_threshold": 0.0,
+          "selected_fixtures": [
+            20
+          ],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 6,
+            "fp": 257,
+            "fn": 112,
+            "precision": 0.022813688212927757,
+            "recall": 0.05084745762711865,
+            "f1": 0.031496062992125984
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 0.8,
+          "selected_fixtures": [],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 118,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 6
+        },
+        {
+          "precision_threshold": 1.0,
+          "selected_fixtures": [],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 118,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 6
+        }
+      ],
+      "data_sha256": "85cef1ad7779cb5db9f9d28827171e8d5db63297687a9197ef34b594d873322f",
+      "semantic_precision_claim": false
+    },
+    {
+      "dataset": "tax",
+      "status": "COMPONENT_REPRODUCTION_ONLY",
+      "candidate_origin": "HUMAN_WRITTEN_FIXTURES_NOT_MODEL_OUTPUTS",
+      "rows": 6000,
+      "groups": 6000,
+      "group_key": "pk",
+      "development_rows": 3591,
+      "evaluation_rows": 1218,
+      "labelled_evaluation_cells": 1224,
+      "candidate_count": 16,
+      "executed_candidates": 16,
+      "execution_failures": [],
+      "technical_fixture_agreement": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1224,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "original_greedy": [
+        {
+          "precision_threshold": 0.0,
+          "selected_fixtures": [],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1224,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 0.8,
+          "selected_fixtures": [],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1224,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        },
+        {
+          "precision_threshold": 1.0,
+          "selected_fixtures": [],
+          "development_label_access": true,
+          "evaluated_on_separate_groups": true,
+          "author_label_agreement": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1224,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "evaluation_labelled_hits_lost_vs_technical": 0
+        }
+      ],
+      "data_sha256": "df2d41fa2a3946f24be3e3ec7b2d786e8d285dd34fedd5edd11a30233e2a6390",
+      "semantic_precision_claim": false
+    }
+  ],
+  "original_scorer_checks": [
+    {
+      "dataset": "flights",
+      "fixture": "not_null:tuple_id",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "not_null:src",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "not_null:flight",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "not_null:sched_dep_time",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "not_null:act_dep_time",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "not_null:sched_arr_time",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "not_null:act_arr_time",
+      "match": true
+    },
+    {
+      "dataset": "flights",
+      "fixture": "format_fixture:act_dep_time",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:index",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:id",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:beer-name",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:style",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:ounces",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:abv",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:ibu",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:brewery_id",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:brewery-name",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:city",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "not_null:state",
+      "match": true
+    },
+    {
+      "dataset": "beers",
+      "fixture": "format_fixture:ounces",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:index",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:ProviderNumber",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:HospitalName",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Address1",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Address2",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Address3",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:City",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:State",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:ZipCode",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:CountyName",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:PhoneNumber",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:HospitalType",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:HospitalOwner",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:EmergencyService",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Condition",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:MeasureCode",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:MeasureName",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Score",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Sample",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "not_null:Stateavg",
+      "match": true
+    },
+    {
+      "dataset": "hospital",
+      "fixture": "format_fixture:State",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:f_name",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:l_name",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:gender",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:area_code",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:phone",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:city",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:state",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:zip",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:marital_status",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:has_child",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:salary",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:rate",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:single_exemp",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:married_exemp",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "not_null:child_exemp",
+      "match": true
+    },
+    {
+      "dataset": "tax",
+      "fixture": "format_fixture:rate",
+      "match": true
+    }
+  ],
+  "rendered_prompts": [
+    {
+      "dataset": "flights",
+      "prompt": 0,
+      "syntax_list": 0,
+      "sha256": "5c536ec5641d23a44da31b90250670485c0f074ac4e4caa816757d45a04cee75",
+      "utf8_bytes": 6334,
+      "model_called": false
+    },
+    {
+      "dataset": "flights",
+      "prompt": 0,
+      "syntax_list": 2,
+      "sha256": "9a9bcee30fc58b76790a3a118ff64fef14e8d0ab3f2637544666dc9d407c1e1e",
+      "utf8_bytes": 9097,
+      "model_called": false
+    },
+    {
+      "dataset": "flights",
+      "prompt": 1,
+      "syntax_list": 0,
+      "sha256": "512a50b7c57b19c13f9753cdd7fdfea0ebe2d1bbdf83502aa4a6092b2d4dedac",
+      "utf8_bytes": 5948,
+      "model_called": false
+    },
+    {
+      "dataset": "flights",
+      "prompt": 1,
+      "syntax_list": 2,
+      "sha256": "ac6544c26b92e30e73c92f8104c4559fe526e89fa21c048c4963676356635a5e",
+      "utf8_bytes": 8711,
+      "model_called": false
+    },
+    {
+      "dataset": "flights",
+      "prompt": 2,
+      "syntax_list": 0,
+      "sha256": "ab49ad0d7a0a8d8b0b4d6241a8a820eec45bdb579e91fca82c514d4b575e7f3d",
+      "utf8_bytes": 6081,
+      "model_called": false
+    },
+    {
+      "dataset": "flights",
+      "prompt": 2,
+      "syntax_list": 2,
+      "sha256": "a061206a9172a289d5997dcc552cdd734eaa0d26e1f19e93e313270fa668f09f",
+      "utf8_bytes": 8844,
+      "model_called": false
+    },
+    {
+      "dataset": "beers",
+      "prompt": 0,
+      "syntax_list": 0,
+      "sha256": "31af41794ceda0c498fe07158638c44f9889ab4ff860f91091dcc95191f3c0a4",
+      "utf8_bytes": 6520,
+      "model_called": false
+    },
+    {
+      "dataset": "beers",
+      "prompt": 0,
+      "syntax_list": 2,
+      "sha256": "048d7aef31fe64c9f44453763fa51b7e31489a3fdb771d6bb8a95c009eb5d8a8",
+      "utf8_bytes": 9283,
+      "model_called": false
+    },
+    {
+      "dataset": "beers",
+      "prompt": 1,
+      "syntax_list": 0,
+      "sha256": "415049a5a4889ba19845119e2267f2d4c930f130e6062516f095d559bb70cfbe",
+      "utf8_bytes": 6041,
+      "model_called": false
+    },
+    {
+      "dataset": "beers",
+      "prompt": 1,
+      "syntax_list": 2,
+      "sha256": "ac7d0e06ee1753ad1123f25a3f1cf1296565c127f9963e16a9fa056c66c2e473",
+      "utf8_bytes": 8804,
+      "model_called": false
+    },
+    {
+      "dataset": "beers",
+      "prompt": 2,
+      "syntax_list": 0,
+      "sha256": "e47891304e81957e5452b0da8cf68bef3ffe8cffedca300bba3c7bc9b64fb266",
+      "utf8_bytes": 6164,
+      "model_called": false
+    },
+    {
+      "dataset": "beers",
+      "prompt": 2,
+      "syntax_list": 2,
+      "sha256": "80e99a103f38f2befe4818d00bf84fc10727db56891b8b2f94d4bab0e4ceacbd",
+      "utf8_bytes": 8927,
+      "model_called": false
+    },
+    {
+      "dataset": "hospital",
+      "prompt": 0,
+      "syntax_list": 0,
+      "sha256": "aa68c85ee5b672ca2bd945ade3d48e0f5f78e34b1c068105414ba5a3296b9aad",
+      "utf8_bytes": 8842,
+      "model_called": false
+    },
+    {
+      "dataset": "hospital",
+      "prompt": 0,
+      "syntax_list": 2,
+      "sha256": "c9dad4ef36143df1f617a1e7e2ceb8a05867bfa9393930e7ce692e43c17c7280",
+      "utf8_bytes": 11605,
+      "model_called": false
+    },
+    {
+      "dataset": "hospital",
+      "prompt": 1,
+      "syntax_list": 0,
+      "sha256": "dac24e35735c145156488fc20c9d4749917fd0b3d07b82f59a57327a003c82c2",
+      "utf8_bytes": 7202,
+      "model_called": false
+    },
+    {
+      "dataset": "hospital",
+      "prompt": 1,
+      "syntax_list": 2,
+      "sha256": "33deb1231126c62772fcb61257d015c2026c31a81d9905001f256a148f2de398",
+      "utf8_bytes": 9965,
+      "model_called": false
+    },
+    {
+      "dataset": "hospital",
+      "prompt": 2,
+      "syntax_list": 0,
+      "sha256": "dcfc3fd94819154cacf2e269fe363785533952354dd9cc02479f4b8797128535",
+      "utf8_bytes": 7329,
+      "model_called": false
+    },
+    {
+      "dataset": "hospital",
+      "prompt": 2,
+      "syntax_list": 2,
+      "sha256": "ea5df2a84662f5cb86d49b7f54d2b29245d310e6e9e4f2516e98a8fecba26327",
+      "utf8_bytes": 10092,
+      "model_called": false
+    },
+    {
+      "dataset": "tax",
+      "prompt": 0,
+      "syntax_list": 0,
+      "sha256": "87d8247d24c76de2e36cd2dece1c3c98107e5fda78ac15b7620df740fccd3ef7",
+      "utf8_bytes": 6826,
+      "model_called": false
+    },
+    {
+      "dataset": "tax",
+      "prompt": 0,
+      "syntax_list": 2,
+      "sha256": "f1ea2df89b06b00f5af8a0841e2bf2777fbffc66d7bff97170fcda9751248993",
+      "utf8_bytes": 9589,
+      "model_called": false
+    },
+    {
+      "dataset": "tax",
+      "prompt": 1,
+      "syntax_list": 0,
+      "sha256": "da400ade66328e953646159951dad7bedfb07f26e5255428ac100f4a89916a65",
+      "utf8_bytes": 6194,
+      "model_called": false
+    },
+    {
+      "dataset": "tax",
+      "prompt": 1,
+      "syntax_list": 2,
+      "sha256": "473ae8f7bf0ed47ccd836952bf97f9ccf3580bb640e9108cac6fb169e336c21b",
+      "utf8_bytes": 8957,
+      "model_called": false
+    },
+    {
+      "dataset": "tax",
+      "prompt": 2,
+      "syntax_list": 0,
+      "sha256": "48560a232b6d41c69743e473c4f16a6bff8ac4afe881ebbda2485d27087ba447",
+      "utf8_bytes": 6315,
+      "model_called": false
+    },
+    {
+      "dataset": "tax",
+      "prompt": 2,
+      "syntax_list": 2,
+      "sha256": "3948b7ecbd17bf2e514abf991268e9941aee92528abdf3612dd44039f666c970",
+      "utf8_bytes": 9078,
+      "model_called": false
+    }
+  ],
+  "candidate_fixture_sha256": "d5903515646cdcb04bbbc14dc4eea23840df223964a27c7c19ea9e1691d1bf21",
+  "new_model_calls": 0,
+  "paper_performance_reproduction": "NOT_RUN_NO_MODEL_OR_RELEASED_GENERATED_RULES",
+  "reserved_sec_accessed": false
+}

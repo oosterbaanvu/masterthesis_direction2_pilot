@@ -1,0 +1,32 @@
+[
+  {
+    "key": "bayesian_full",
+    "url": "https://www.emerald.com/dta/article-pdf/doi/10.1108/DTA-07-2026-0785/11918457/dta-07-2026-0785en.pdf",
+    "http_status": 403,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "glm_flash_model_card",
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash/raw/main/README.md",
+    "http_status": 200,
+    "sha256": "7bfcbced42741ceb3fff8809f8d6c84ada9696850e257c4e53e6c2fe9ef4f9bf",
+    "bytes": 8174,
+    "is_pdf": false
+  },
+  {
+    "key": "gemma4_model_card",
+    "url": "https://huggingface.co/google/gemma-4-31B-it/raw/main/README.md",
+    "http_status": 200,
+    "sha256": "e209f5c435b1e66055bd6d7c29185103ae8d2027a03a96b359335154f206b82b",
+    "bytes": 27963,
+    "is_pdf": false
+  },
+  {
+    "key": "raha_arxiv_search",
+    "url": "https://export.arxiv.org/api/query?search_query=ti:Raha&start=0&max_results=5",
+    "http_status": 200,
+    "sha256": "5db8a4f210ad75bd7b0ce5f84a64d2a21338379788d570c8ea86c2ced79e349e",
+    "bytes": 3394,
+    "is_pdf": false
+  }
+]

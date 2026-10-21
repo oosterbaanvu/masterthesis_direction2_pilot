@@ -1,0 +1,12 @@
+[project]
+name = "dq-final-feasibility-environment"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "great-expectations==1.9.1", "kaggle==2.2.4",
+  "pandas==2.3.3", "numpy==2.3.4", "PyYAML==6.0.3", "xlrd==2.0.2",
+  "scikit-learn==1.7.2", "openai==3.35.1", "ollama==0.6.3",
+  "plotnine==0.15.0", "matplotlib==3.11.2", "seaborn==0.13.2",
+  "python-dotenv==1.1.1", "tqdm==4.67.1", "tabulate==0.9.0",
+  "pytest==8.4.2", "ruff==0.14.1",
+]

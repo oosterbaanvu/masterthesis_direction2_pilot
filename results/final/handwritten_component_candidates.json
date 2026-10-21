@@ -1,0 +1,352 @@
+{
+  "flights": [
+    {
+      "id": "not_null:tuple_id",
+      "column": "tuple_id",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='tuple_id')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:src",
+      "column": "src",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='src')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:flight",
+      "column": "flight",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='flight')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:sched_dep_time",
+      "column": "sched_dep_time",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='sched_dep_time')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:act_dep_time",
+      "column": "act_dep_time",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='act_dep_time')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:sched_arr_time",
+      "column": "sched_arr_time",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='sched_arr_time')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:act_arr_time",
+      "column": "act_arr_time",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='act_arr_time')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "format_fixture:act_dep_time",
+      "column": "act_dep_time",
+      "code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='act_dep_time', regex='^\\\\d{1,2}:\\\\d{2}.*$')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE_NOT_A_BUSINESS_TRUTH"
+    }
+  ],
+  "beers": [
+    {
+      "id": "not_null:index",
+      "column": "index",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='index')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:id",
+      "column": "id",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='id')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:beer-name",
+      "column": "beer-name",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='beer-name')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:style",
+      "column": "style",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='style')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:ounces",
+      "column": "ounces",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='ounces')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:abv",
+      "column": "abv",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='abv')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:ibu",
+      "column": "ibu",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='ibu')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:brewery_id",
+      "column": "brewery_id",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='brewery_id')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:brewery-name",
+      "column": "brewery-name",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='brewery-name')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:city",
+      "column": "city",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='city')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:state",
+      "column": "state",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='state')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "format_fixture:ounces",
+      "column": "ounces",
+      "code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='ounces', regex='^\\\\d+(\\\\.\\\\d+)?$')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE_NOT_A_BUSINESS_TRUTH"
+    }
+  ],
+  "hospital": [
+    {
+      "id": "not_null:index",
+      "column": "index",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='index')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:ProviderNumber",
+      "column": "ProviderNumber",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='ProviderNumber')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:HospitalName",
+      "column": "HospitalName",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='HospitalName')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Address1",
+      "column": "Address1",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Address1')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Address2",
+      "column": "Address2",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Address2')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Address3",
+      "column": "Address3",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Address3')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:City",
+      "column": "City",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='City')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:State",
+      "column": "State",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='State')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:ZipCode",
+      "column": "ZipCode",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='ZipCode')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:CountyName",
+      "column": "CountyName",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='CountyName')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:PhoneNumber",
+      "column": "PhoneNumber",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='PhoneNumber')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:HospitalType",
+      "column": "HospitalType",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='HospitalType')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:HospitalOwner",
+      "column": "HospitalOwner",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='HospitalOwner')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:EmergencyService",
+      "column": "EmergencyService",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='EmergencyService')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Condition",
+      "column": "Condition",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Condition')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:MeasureCode",
+      "column": "MeasureCode",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='MeasureCode')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:MeasureName",
+      "column": "MeasureName",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='MeasureName')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Score",
+      "column": "Score",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Score')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Sample",
+      "column": "Sample",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Sample')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:Stateavg",
+      "column": "Stateavg",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='Stateavg')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "format_fixture:State",
+      "column": "State",
+      "code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='State', regex='^[A-Z]{2}$')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE_NOT_A_BUSINESS_TRUTH"
+    }
+  ],
+  "tax": [
+    {
+      "id": "not_null:f_name",
+      "column": "f_name",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='f_name')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:l_name",
+      "column": "l_name",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='l_name')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:gender",
+      "column": "gender",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='gender')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:area_code",
+      "column": "area_code",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='area_code')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:phone",
+      "column": "phone",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='phone')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:city",
+      "column": "city",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='city')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:state",
+      "column": "state",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='state')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:zip",
+      "column": "zip",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='zip')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:marital_status",
+      "column": "marital_status",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='marital_status')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:has_child",
+      "column": "has_child",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='has_child')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:salary",
+      "column": "salary",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='salary')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:rate",
+      "column": "rate",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='rate')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:single_exemp",
+      "column": "single_exemp",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='single_exemp')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:married_exemp",
+      "column": "married_exemp",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='married_exemp')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "not_null:child_exemp",
+      "column": "child_exemp",
+      "code": "gx.expectations.ExpectColumnValuesToNotBeNull(column='child_exemp')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE"
+    },
+    {
+      "id": "format_fixture:rate",
+      "column": "rate",
+      "code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='rate', regex='^\\\\d+\\\\.\\\\d+$')",
+      "origin": "HUMAN_WRITTEN_COMPONENT_FIXTURE_NOT_A_BUSINESS_TRUTH"
+    }
+  ]
+}

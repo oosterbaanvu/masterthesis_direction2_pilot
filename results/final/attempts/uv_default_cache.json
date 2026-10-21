@@ -1,0 +1,6 @@
+{
+  "status": "DIAGNOSED_AND_FIXED",
+  "failure": "Default home UV cache is read-only",
+  "correction": "UV_CACHE_DIR=/workspace/.cache/uv",
+  "lockfiles_changed": false
+}

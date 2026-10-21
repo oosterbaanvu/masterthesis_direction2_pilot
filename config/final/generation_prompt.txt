@@ -1,0 +1,24 @@
+You propose at most four data-quality checks for a new tabular source.
+Use only SOURCE_SCHEMA, SOURCE_DOCUMENTATION and UNLABELLED_DEVELOPMENT_SAMPLE below.
+No prediction target, dirty/clean reference, errCol, errRule, held-out batch or error label is provided.
+Return JSON with "rules": [{"description": str, "gx_code": str|null,
+"financial_contract": object|null,
+"source_document_reference": str|null, "assumptions": [str], "intended_scope": str}],
+and "abstentions": [str]. Each gx_code is one standard gx.expectations.Expect... constructor
+with literal keyword arguments. No imports, queries, arbitrary functions or file/network access.
+Execution compatibility is not evidence of business validity. Do not infer non-nullness,
+non-negativity, universal formats, functional dependencies or accounting identities from
+a small sample alone. Where documentation is silent, state the assumption or abstain.
+Do not add a check already present in EXISTING_CONTROLS. Keep currency, scale,
+period, scope, missing-value conventions and rounding explicit. If the required financial
+structure cannot be expressed in a standard expectation, a financial_contract may instead
+use kind=signed_linear_equality, 2..32 explicit terms with row label, numeric column index,
+coefficient, currency unit and scale, plus semantic evidence, unit_evidence and an absolute
+rounding tolerance in base units. Its review_state must be PENDING_INDEPENDENT_HUMAN_ADJUDICATION.
+This is a separate proposed-contract representation, not a change to the LeDQeR reproduction.
+If scope, units, missing conventions or coordinates are ambiguous, abstain; do not invent Python.
+
+SOURCE_SCHEMA: {{schema}}
+SOURCE_DOCUMENTATION: {{documentation_or_explicitly_unavailable}}
+UNLABELLED_DEVELOPMENT_SAMPLE: {{development_only_sample}}
+EXISTING_CONTROLS: {{frozen_control_descriptions}}

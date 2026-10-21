@@ -1,5 +1,7 @@
 # Pilot 2: qualification of generated data-quality rules
 
+The additive **final feasibility phase** is available on `codex/final-research-feasibility`: [new report index](reports/final/README.md), [supervisor proposal](reports/final/thesis_proposal.md), and [model recommendation and bounded costs](reports/final/model_access_and_costs.md). It adds LeDQeR component reproduction and a real FinRule release audit. New research-model inference remains unexecuted; the historical pilot below is preserved.
+
 Executed MSc AI feasibility pilot, 21 October 2026. Start with [the measured pilot report](reports/pilot_report.md), [decision](reports/go_no_go.md), and [comparison with Pilot 1](reports/pilot1_vs_pilot2.md).
 
 **Verdict: CONDITIONAL GO for a bounded continuation of Pilot 2 feasibility assessment.** Novelty, independent semantic evaluation and the live same-candidate C/D comparison remain gates before a thesis commitment. Close prior art limits any broad novelty claim. Pilot 1's greater experiment count does not resolve its validity problems or justify preferring it. See [the decision correction](reports/decision_revision.md); the results themselves are unchanged.

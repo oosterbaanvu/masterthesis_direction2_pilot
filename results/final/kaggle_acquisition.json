@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-21T12:55:19.296844+00:00",
+  "token_present": false,
+  "sdk_version": "2.2.4",
+  "credential_value_logged": false,
+  "datasets": {
+    "baf": {
+      "status": "BLOCKED_CURRENT_TASK_CREDENTIAL_UNAVAILABLE",
+      "downloaded": false,
+      "hash": null
+    },
+    "gmsc": {
+      "status": "BLOCKED_CURRENT_TASK_CREDENTIAL_UNAVAILABLE",
+      "downloaded": false,
+      "hash": null
+    }
+  },
+  "authentication_exception_type": "SystemExit",
+  "local_sdk_authentication_succeeded": false,
+  "authenticated_operation": "NOT_RUN_MISSING_CREDENTIAL"
+}

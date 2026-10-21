@@ -1,0 +1,9 @@
+{
+  "base_manifest_sha256": "b86862bab7d10b29cba263b7c4cdd9b9777dc61da824ac3f4a4024569a4cdc85",
+  "base_manifest_is_historical": true,
+  "kaggle_manifest": "results/final/kaggle_acquisition.json",
+  "finrule_status": "ACQUIRED_BOUNDED_RESEARCH_SNAPSHOT",
+  "reserved_sec_read": false,
+  "registered_sources": 14,
+  "new_ledqer_manifest": "results/final/ledqer_acquisition.json"
+}

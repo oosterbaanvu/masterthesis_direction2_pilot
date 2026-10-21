@@ -1,0 +1,6 @@
+{
+  "initial_status": "FAILED",
+  "reason": "SDK tried to create default configuration in read-only home",
+  "correction": "Official KAGGLE_CONFIG_DIR override to ignored writable directory",
+  "credential_value_logged": false
+}

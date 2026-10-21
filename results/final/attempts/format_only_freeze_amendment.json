@@ -1,0 +1,6 @@
+{
+  "reason": "Final pre-publication formatting of SVG/CSV/Markdown; SVG IDs and timestamp made reproducible",
+  "scientific_measurements_changed": false,
+  "preserved_initial_manifest": "results/final/attempts/preformat_manifest.json",
+  "csv_review_values_changed": false
+}

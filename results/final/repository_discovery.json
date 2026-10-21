@@ -1,0 +1,138 @@
+{
+  "discovery_complete": true,
+  "project_membership": [
+    "masterthesis_direction2_pilot"
+  ],
+  "other_valid_checkouts": "Read-only paper/source references or ignored vendor dependencies, not independent requested projects",
+  "records": [
+    {
+      "path": "/workspace/.cache/uv/sdists-v9",
+      "classification": "dependency_build_cache"
+    },
+    {
+      "path": "/workspace",
+      "classification": "empty_git_directory_not_a_checkout",
+      "has_HEAD_or_config": false
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot",
+      "real_root": "/workspace/masterthesis_direction2_pilot",
+      "within_workspace": true,
+      "head": "103d272827bcc5b3211d6b65f4f1a6bd6d8dd36f",
+      "host": "github.com",
+      "repository": "oosterbaanvu/masterthesis_direction2_pilot",
+      "classification": "requested_project",
+      "status_clean": false
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/ledqer",
+      "real_root": "/workspace/masterthesis_direction2_pilot/data/vendor/ledqer",
+      "within_workspace": true,
+      "head": "fb42051026ee6ccded9347349ff95b597804962d",
+      "host": "github.com",
+      "repository": "Anna-Christina-Glock/dq_rule_generation",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/llm_dqr",
+      "real_root": "/workspace/masterthesis_direction2_pilot/data/vendor/llm_dqr",
+      "within_workspace": true,
+      "head": "b92f83ad5878d6a81245872270677d203075a4a2",
+      "host": "github.com",
+      "repository": "casperx6/LLM-DQR",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/pilot1",
+      "real_root": "/workspace/masterthesis_direction2_pilot/data/vendor/pilot1",
+      "within_workspace": true,
+      "head": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6",
+      "host": "github.com",
+      "repository": "oosterbaanvu/masterthesis2",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/sec",
+      "real_root": "/workspace/masterthesis_direction2_pilot/data/vendor/sec",
+      "within_workspace": true,
+      "head": "f82f80363da1afedbe8b35cede0bae802edab20c",
+      "host": "github.com",
+      "repository": "XIEFOX/SEC-Fintables",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/acl-anthology",
+      "real_root": "/workspace/research-sources/acl-anthology",
+      "within_workspace": true,
+      "head": "2dd9f3c21ed7281fad3e5f57b2ac5cdaf18d7ca0",
+      "host": "github.com",
+      "repository": "acl-org/acl-anthology",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/baf-publisher",
+      "real_root": "/workspace/research-sources/baf-publisher",
+      "within_workspace": true,
+      "head": "3377cfd8fc20edcda3dd9dd14c10ed3dd276c6de",
+      "host": "github.com",
+      "repository": "feedzai/bank-account-fraud",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/ledqer",
+      "real_root": "/workspace/research-sources/ledqer",
+      "within_workspace": true,
+      "head": "fb42051026ee6ccded9347349ff95b597804962d",
+      "host": "github.com",
+      "repository": "Anna-Christina-Glock/dq_rule_generation",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/llm-dqr",
+      "real_root": "/workspace/research-sources/llm-dqr",
+      "within_workspace": true,
+      "head": "b92f83ad5878d6a81245872270677d203075a4a2",
+      "host": "github.com",
+      "repository": "casperx6/LLM-DQR",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/models-dev",
+      "real_root": "/workspace/research-sources/models-dev",
+      "within_workspace": true,
+      "head": "42565000781fc2900a5b63fd7abce690972e89b0",
+      "host": "github.com",
+      "repository": "anomalyco/models.dev",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/pilot1",
+      "real_root": "/workspace/research-sources/pilot1",
+      "within_workspace": true,
+      "head": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6",
+      "host": "github.com",
+      "repository": "oosterbaanvu/masterthesis2",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    },
+    {
+      "path": "/workspace/research-sources/sec-fintables",
+      "real_root": "/workspace/research-sources/sec-fintables",
+      "within_workspace": true,
+      "head": "f82f80363da1afedbe8b35cede0bae802edab20c",
+      "host": "github.com",
+      "repository": "XIEFOX/SEC-Fintables",
+      "classification": "read_only_research_reference_or_vendor_dependency",
+      "status_clean": true
+    }
+  ]
+}

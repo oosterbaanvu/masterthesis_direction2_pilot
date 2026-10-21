@@ -1,0 +1,44 @@
+[
+  {
+    "key": "openai_developer_pricing2",
+    "url": "https://developers.openai.com/api/docs/pricing/",
+    "http_status": null,
+    "exception_type": "URLError"
+  },
+  {
+    "key": "finrule_license2",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/file/LICENSE",
+    "final_url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/file/LICENSE",
+    "http_status": 200,
+    "sha256": "3d9685342ea6ef1a6e2f4a58cabba83b856c75623ed8862470aff97037aceb48",
+    "bytes": 1066,
+    "preview": "MIT License\n\nCopyright (c) 2026 Anonymous\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  {
+    "key": "finrule_readme2",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/file/README.md",
+    "final_url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/file/README.md",
+    "http_status": 200,
+    "sha256": "af229d08eefa59a59f417eef9958fe5deabfedb5b76b8b5a36b32a03e3007336",
+    "bytes": 1632,
+    "preview": "# FinRule-Bench\n\n**FinRule-Bench** is a benchmark for evaluating **rule-based joint reasoning** over real-world financial tables under **explicit accounting principles**.\n\nUnlike QA or anomaly-detection benchmarks, FinRule-Bench evaluates whether models can *verify, identify, and localize accounting rule violations* with diagnostic completeness.\n\n## What This Benchmark Tests\n\nFinRule-Bench targets **auditing-style reasoning** over structured financial statements:\n\n- Exhaustive violation detection\n- Violation detection among accounting principles on the financial statements\n- Record-level localization of multiple simultaneous violations\n\n## Financial Statements Covered\n- Balance Sheet (BS)\n- Income Statement (SI)\n- Cash Flow Statement (CF)\n- Statement of Equity (SE)\n\nAll base tables are **ground-truth financial statements** derived from real corporate filings.\n\n## Tasks\n\n1. **Rule Verification**  \n   Binary compliance check for a given accounting rule.\n\n2. **Rule Identification**  \n   Identify the *single violated rule* from a provided rule set.\n\n3. **Joint Rule Diagnosis**  \n   Detect and localize **multiple violated rules** at record level.\n\n## Key Design Features\n\n- Human-curated accounting rules with **deterministic validators**\n- Controlled, minimal **rule-aware error injection**\n- Exact-match, validator-based evaluation\n- **causal–counterfactual prompting** strategy for diagnostic analysis\n\n## What This Is *Not*\n\n- Not a question-answering benchmark  \n- Not an anomaly detection on noisy data  \n- Not a deployment-ready auditing system  \n\nThis benchmark is strictly for **research and evaluation**.\n\n\n"
+  },
+  {
+    "key": "finrule_data_listing2",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files/data",
+    "http_status": 401,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "finrule_task_listing2",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files/task",
+    "http_status": 401,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "finrule_extract_listing2",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files/extract",
+    "http_status": 401,
+    "exception_type": "HTTPError"
+  }
+]

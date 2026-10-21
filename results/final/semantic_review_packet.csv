@@ -1,0 +1,9 @@
+rule_id,source_group,candidate_origin,reviewer_id,validity,applicability,unit_and_rounding_supported,missing_policy_supported,evidence_reference,rationale,cannot_judge_reason
+sec08001:Net sales to external customers,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R1,,,,,,,
+sec08001:Net sales to external customers,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R2,,,,,,,
+sec08001:Cost of goods sold,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R1,,,,,,,
+sec08001:Cost of goods sold,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R2,,,,,,,
+sec08001:Gross profit,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R1,,,,,,,
+sec08001:Gross profit,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R2,,,,,,,
+sec08001:Total assets,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R1,,,,,,,
+sec08001:Total assets,08001,ANALYST_PROPOSAL_NOT_MODEL_OUTPUT,R2,,,,,,,

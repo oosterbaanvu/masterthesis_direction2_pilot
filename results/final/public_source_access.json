@@ -1,0 +1,54 @@
+[
+  {
+    "key": "qwen3coder_readme",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-Coder/main/README.md",
+    "http_status": 200,
+    "sha256": "7553f06c6f17a7ce22a76995a210b07fb6724d32a0cdc7bd4961ed2866d80fd4",
+    "bytes": 21967,
+    "local_file": "qwen3coder_readme.txt",
+    "access": "ACQUIRED"
+  },
+  {
+    "key": "qwen3coder_licence",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen3-Coder/main/LICENSE",
+    "access": "BLOCKED",
+    "exception_type": "HTTPError",
+    "http_status": 404
+  },
+  {
+    "key": "spade",
+    "url": "https://www.vldb.org/pvldb/vol17/p4173-shankar.pdf",
+    "http_status": 200,
+    "sha256": "36be0fd3a5022e88fa833d83068a2b4677b899fcb527fc28b700c38c729b230c",
+    "bytes": 1320966,
+    "local_file": "spade.pdf",
+    "access": "ACQUIRED"
+  },
+  {
+    "key": "openai_prices",
+    "url": "https://openai.com/api/pricing/",
+    "http_status": 200,
+    "sha256": "8b09419041f3b4d60b41a296ed329d426797147fa93d466e5ad2a88519460144",
+    "bytes": 864674,
+    "local_file": "openai_prices.txt",
+    "access": "ACQUIRED"
+  },
+  {
+    "key": "gemini_prices",
+    "url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "http_status": 200,
+    "sha256": "5f586bbc8943801c831fa5a30a946135d9278a6eb1bc8ea41ebb78af3ce80e61",
+    "bytes": 258515,
+    "local_file": "gemini_prices.txt",
+    "access": "ACQUIRED"
+  },
+  {
+    "key": "finrule_repository",
+    "url": "https://anonymous.4open.science/api/repo/FinRule-Bench-6723/files",
+    "http_status": 200,
+    "sha256": "dae9c1868e795225512da51821f59945b0a2219e35c54932728fa97f55e7d08c",
+    "bytes": 505,
+    "local_file": "finrule_repository.txt",
+    "access": "ACQUIRED"
+  }
+]

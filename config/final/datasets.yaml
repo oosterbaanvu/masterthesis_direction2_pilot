@@ -1,0 +1,467 @@
+phase: final_feasibility_v1
+base_registry_sha256: cc7ce4bc2bd4b8afe510ac8ffdf611d9f8068fc227bbde9abe647e44c13d8aec
+acquisition_manifest_reference: results/acquisition.json
+datasets:
+  uci_credit:
+    base_registry_reference: config/datasets.yaml#datasets.uci_credit
+    source: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+    citation: Yeh, I-C. (2009). Default of Credit Card Clients [Dataset]. UCI Machine
+      Learning Repository. https://doi.org/10.24432/C55S3H
+    version: UCI static archive; member dated 2023-05-22
+    licence: CC BY 4.0 (UCI dataset page)
+    roles:
+    - controlled_financial_injection
+    - engineering_demonstration
+    dimensions:
+      rows: 30000
+      columns:
+      - ID
+      - LIMIT_BAL
+      - SEX
+      - EDUCATION
+      - MARRIAGE
+      - AGE
+      - PAY_0
+      - PAY_2
+      - PAY_3
+      - PAY_4
+      - PAY_5
+      - PAY_6
+      - BILL_AMT1
+      - BILL_AMT2
+      - BILL_AMT3
+      - BILL_AMT4
+      - BILL_AMT5
+      - BILL_AMT6
+      - PAY_AMT1
+      - PAY_AMT2
+      - PAY_AMT3
+      - PAY_AMT4
+      - PAY_AMT5
+      - PAY_AMT6
+      - default payment next month
+    observed_status: ACQUIRED
+    label_qualification: false
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  uci_bank_marketing:
+    base_registry_reference: config/datasets.yaml#datasets.uci_bank_marketing
+    source: https://archive.ics.uci.edu/dataset/222/bank+marketing
+    citation: Moro, S., Rita, P., & Cortez, P. (2014). Bank Marketing [Dataset]. UCI
+      Machine Learning Repository. https://doi.org/10.24432/C5K306
+    version: UCI static archive; members dated 2023-05-22
+    licence: CC BY 4.0 (UCI dataset page)
+    roles:
+    - controlled_financial_injection
+    - delivery_monitoring_demonstration
+    dimensions:
+      rows: 41188
+      columns:
+      - age
+      - job
+      - marital
+      - education
+      - default
+      - housing
+      - loan
+      - contact
+      - month
+      - day_of_week
+      - duration
+      - campaign
+      - pdays
+      - previous
+      - poutcome
+      - emp.var.rate
+      - cons.price.idx
+      - cons.conf.idx
+      - euribor3m
+      - nr.employed
+      - y
+    observed_status: ACQUIRED
+    label_qualification: false
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  raha_flights:
+    base_registry_reference: config/datasets.yaml#datasets.raha_flights
+    source: https://github.com/BigDaMa/raha/tree/master/datasets/flights
+    citation: Mahdavi et al. (2019) Raha, SIGMOD; data originally from Li, Dong, Lyons,
+      Meng, Srivastava (2012) Truth Finding on the Deep Web, PVLDB 6(2)
+    version: BigDaMa/raha commit 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+    licence: Repository Apache-2.0 (BigDaMa/raha LICENSE.md); upstream data from Li
+      et al. (PVLDB 2012), no separate data licence stated
+    roles:
+    - published_reference_agreement
+    - ledqer_component_reproduction
+    dimensions:
+      rows: 2376
+      columns:
+      - tuple_id
+      - src
+      - flight
+      - sched_dep_time
+      - act_dep_time
+      - sched_arr_time
+      - act_arr_time
+    observed_status: ACQUIRED
+    label_qualification: true
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  raha_tax:
+    base_registry_reference: config/datasets.yaml#datasets.raha_tax
+    source: https://github.com/BigDaMa/raha/tree/master/datasets/tax
+    citation: Mahdavi et al. (2019) Raha, SIGMOD (benchmark copy)
+    version: BigDaMa/raha commit 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+    licence: Repository Apache-2.0 (BigDaMa/raha LICENSE.md); synthetic generator
+      origin, see docs/dataset_qualification.md
+    roles:
+    - synthetic_and_normalization_sensitivity
+    - ledqer_component_reproduction_subset
+    dimensions:
+      rows: 200000
+      columns:
+      - f_name
+      - l_name
+      - gender
+      - area_code
+      - phone
+      - city
+      - state
+      - zip
+      - marital_status
+      - has_child
+      - salary
+      - rate
+      - single_exemp
+      - married_exemp
+      - child_exemp
+    observed_status: ACQUIRED
+    label_qualification: true
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  raha_beers:
+    base_registry_reference: config/datasets.yaml#datasets.raha_beers
+    source: https://github.com/BigDaMa/raha/tree/master/datasets/beers
+    citation: Mahdavi et al. (2019) Raha, SIGMOD (benchmark copy)
+    version: BigDaMa/raha commit 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+    licence: Repository Apache-2.0 (BigDaMa/raha LICENSE.md)
+    roles:
+    - representation_sensitivity
+    - ledqer_component_reproduction
+    dimensions:
+      rows: 2410
+      columns:
+      - index
+      - id
+      - beer_name
+      - style
+      - ounces
+      - abv
+      - ibu
+      - brewery_id
+      - brewery_name
+      - city
+      - state
+    observed_status: ACQUIRED
+    label_qualification: true
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  raha_hospital:
+    base_registry_reference: config/datasets.yaml#datasets.raha_hospital
+    source: https://github.com/BigDaMa/raha/tree/master/datasets/hospital
+    citation: Mahdavi et al. (2019) Raha, SIGMOD (benchmark copy)
+    version: BigDaMa/raha commit 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+    licence: Repository Apache-2.0 (BigDaMa/raha LICENSE.md)
+    roles:
+    - synthetic_typo_sanity
+    - ledqer_component_reproduction
+    dimensions:
+      rows: 1000
+      columns:
+      - index
+      - provider_number
+      - name
+      - address_1
+      - address_2
+      - address_3
+      - city
+      - state
+      - zip
+      - county
+      - phone
+      - type
+      - owner
+      - emergency_service
+      - condition
+      - measure_code
+      - measure_name
+      - score
+      - sample
+      - state_average
+    observed_status: ACQUIRED
+    label_qualification: true
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  baf:
+    base_registry_reference: config/datasets.yaml#datasets.baf
+    source: https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022
+    citation: 'Jesus et al. (2022). Turning the Tables: Biased, Imbalanced, Dynamic
+      Tabular Datasets for ML Evaluation. NeurIPS Datasets and Benchmarks.'
+    version: Kaggle sgpjesus/bank-account-fraud-dataset-neurips-2022; Base.csv dated
+      2023-11-29
+    licence: 'Publisher datasheet Q44: CC BY-NC-ND 4.0; prior Kaggle metadata NC-SA
+      conflict unresolved; no commercial/external-processing grant inferred'
+    roles:
+    - optional_engineering_not_primary_gold
+    dimensions:
+      rows: 1000000
+      columns:
+      - fraud_bool
+      - income
+      - name_email_similarity
+      - prev_address_months_count
+      - current_address_months_count
+      - customer_age
+      - days_since_request
+      - intended_balcon_amount
+      - payment_type
+      - zip_count_4w
+      - velocity_6h
+      - velocity_24h
+      - velocity_4w
+      - bank_branch_count_8w
+      - date_of_birth_distinct_emails_4w
+      - employment_status
+      - credit_risk_score
+      - email_is_free
+      - housing_status
+      - phone_home_valid
+      - phone_mobile_valid
+      - bank_months_count
+      - has_other_cards
+      - proposed_credit_limit
+      - foreign_request
+      - source
+      - session_length_in_minutes
+      - device_os
+      - keep_alive_session
+      - device_distinct_emails_8w
+      - device_fraud_count
+      - month
+    observed_status: BLOCKED_CURRENT_TASK_TOKEN_UNAVAILABLE
+    label_qualification: false
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+    licence_primary: https://github.com/feedzai/bank-account-fraud/blob/3377cfd8fc20edcda3dd9dd14c10ed3dd276c6de/documents/datasheet.pdf
+  gmsc:
+    base_registry_reference: config/datasets.yaml#datasets.gmsc
+    source: https://www.kaggle.com/competitions/GiveMeSomeCredit
+    citation: Kaggle competition 'Give Me Some Credit' (2011), https://www.kaggle.com/competitions/GiveMeSomeCredit
+      (take the exact citation text from the competition page)
+    version: Kaggle competition GiveMeSomeCredit; cs-training.csv 7,564,965 bytes
+      per API file listing (2026-10-20)
+    licence: 'UNRESOLVED: Kaggle competition rules must be accepted per account; no
+      open data licence is shown by the API (checked 2026-10-20)'
+    roles:
+    - optional_engineering_not_primary_gold
+    dimensions:
+      rows: 150000
+      columns: null
+    observed_status: BLOCKED_CURRENT_TASK_TOKEN_UNAVAILABLE
+    label_qualification: false
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  raha_rayyan:
+    base_registry_reference: config/datasets.yaml#datasets.raha_rayyan
+    source: https://github.com/BigDaMa/raha/tree/master/datasets/rayyan
+    citation: 'Mahdavi et al. (2019), Raha: A Configuration-Free Error Detection System,
+      SIGMOD, doi:10.1145/3299869.3324956'
+    version: BigDaMa/raha commit 7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c
+    licence: Raha repository Apache-2.0; upstream dataset-specific redistribution
+      terms not independently confirmed
+    roles:
+    - workload_and_adjudication_only
+    dimensions:
+      rows: 1000
+      columns:
+      - id
+      - article_title
+      - article_language
+      - journal_title
+      - jounral_abbreviation
+      - journal_issn
+      - article_jvolumn
+      - article_jissue
+      - article_jcreated_at
+      - article_pagination
+      - author_list
+    observed_status: ACQUIRED
+    label_qualification: Published owner-corrected reference; strict cell differences
+      are candidate errors, not independently re-adjudicated. Date/format differences
+      need inspection.
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  jung_restaurant:
+    base_registry_reference: config/datasets.yaml#datasets.jung_restaurant
+    source: https://github.com/calgo-lab/error-paper/tree/main/data/restaurant
+    citation: Jung, Jaeger, Chandler, Biessmann (2025), Towards Realistic Error Models
+      for Tabular Data, Journal of Data and Information Quality, doi:10.1145/3774914
+    version: calgo-lab/error-paper commit b8950a91ba0d1488c4e3b053fdccde154644ddd6;
+      released restaurant_3_1 variant
+    licence: Repository source openly accessible; verify original data and code reuse
+      rights before redistribution; raw files kept outside Git
+    roles:
+    - published_synthetic_missingness
+    dimensions:
+      rows: 864
+      columns:
+      - name
+      - addr
+      - city
+      - phone
+      - type
+      - class
+    observed_status: ACQUIRED
+    label_qualification: Published synthetic corruptions relative to provided clean.csv,
+      not independent naturally occurring error labels
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  jung_cars:
+    base_registry_reference: config/datasets.yaml#datasets.jung_cars
+    source: https://github.com/calgo-lab/error-paper/tree/main/data/cars
+    citation: Jung, Jaeger, Chandler, Biessmann (2025), Towards Realistic Error Models
+      for Tabular Data, Journal of Data and Information Quality, doi:10.1145/3774914
+    version: calgo-lab/error-paper commit b8950a91ba0d1488c4e3b053fdccde154644ddd6;
+      released cars_3_1 variant
+    licence: Repository source openly accessible; verify original data and code reuse
+      rights before redistribution; raw files kept outside Git
+    roles:
+    - published_synthetic_missingness_numeric_adapter
+    dimensions:
+      rows: 406
+      columns:
+      - Car
+      - MPG
+      - Cylinders
+      - Displacement
+      - Horsepower
+      - Weight
+      - Acceleration
+      - Model
+      - Origin
+    observed_status: ACQUIRED
+    label_qualification: Published synthetic pair; many strict string differences
+      are numerically identical (e.g. 3504. vs 3504.0); exclude formatting-only differences
+      for numerical-value detection
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  uci_wine_white:
+    base_registry_reference: config/datasets.yaml#datasets.uci_wine_white
+    source: https://archive.ics.uci.edu/dataset/186/wine+quality
+    citation: Cortez et al. (2009), Modeling wine preferences by data mining from
+      physicochemical properties, Decision Support Systems 47(4), doi:10.1016/j.dss.2009.05.016
+    version: UCI static archive acquired 2026-10-21; byte-pinned archive and members
+    licence: CC BY 4.0 (UCI dataset landing page); cite Cortez et al. (2009)
+    roles:
+    - controlled_nonfinancial_generalization
+    dimensions:
+      rows: 4898
+      columns:
+      - fixed acidity
+      - volatile acidity
+      - citric acid
+      - residual sugar
+      - chlorides
+      - free sulfur dioxide
+      - total sulfur dioxide
+      - density
+      - pH
+      - sulphates
+      - alcohol
+      - quality
+    observed_status: ACQUIRED
+    label_qualification: false
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+  sec_fintables:
+    base_registry_reference: config/datasets.yaml#datasets.sec_fintables
+    source: https://github.com/XIEFOX/SEC-Fintables
+    citation: f82f80363da1afedbe8b35cede0bae802edab20c
+    version: f82f80363da1afedbe8b35cede0bae802edab20c
+    licence: No repository licence found; paper research-use assertion is not an explicit
+      redistribution licence
+    roles:
+    - conditional_financial_logical_participation
+    - development_arithmetic_diagnostic
+    dimensions:
+      tables: 3000
+      canonical_base_ids: 1000
+      conditions:
+      - 1
+      - 10
+      - 50
+    observed_status: ACQUIRED
+    label_qualification: Logical violation participants; not exclusively corrupted
+      cells; no independent semantic rule gold
+    prediction_targets_are_DQ_gold: false
+    raw_redistribution: false
+    external_model_transmission: REQUIRES_SOURCE_RIGHTS_AND_PROVIDER_REVIEW
+    new_model_generation_status: NOT_RUN
+    reserved_partition_policy: 'No new reads: 210 reserved base IDs per condition'
+  finrule_bench:
+    source: https://arxiv.org/abs/2603.11339
+    citation: Malarkkan et al. (2026), FinRule-Bench, arXiv:2603.11339v1
+    official_repository: https://anonymous.4open.science/r/FinRule-Bench-6723/
+    observed_status: ACQUIRED_AND_AUDITED_CONDITIONAL_RESEARCH_RESOURCE
+    licence: Repository MIT notice (2026 Anonymous) and README explicitly research/evaluation;
+      no raw redistribution or external-model permission inferred
+    dimensions:
+      paper_original_statements: 1117
+      release_original_statements: 1122
+      release_BS: 212
+      release_CF: 323
+      release_SE: 287
+      release_SI: 300
+      snapshot_files: 147
+      snapshot_bytes: 23343599
+    roles:
+    - conditional_provided_principle_verification
+    - not_yet_qualified_for_open_ended_rule_validity
+    label_qualification: 'Paper: model-transcribed original tables, principle-based
+      synthetic variants, deterministic validators; not independently adjudicated
+      natural DQ errors'
+    raw_redistribution: false
+    external_model_transmission: NOT_AUTHORIZED_BY_PUBLIC_ACCESS_ALONE
+    new_model_generation_status: NOT_RUN
+    qualification: Exploratory provided-principle verification; unresolved release/log/scope
+      issues; not independent semantic validity gold
+    manifest: results/final/finrule_acquisition.json
+    audit: results/final/finrule_audit.json
+normalization_policy: Only documented typed adapters; dirty/clean differences are
+  candidate discrepancies, not automatically substantive errors
+test_policy: Group duplicate/entity/source/issuer families; existing public-source
+  diagnostics are not a fresh unseen-source confirmation

@@ -1,0 +1,60 @@
+{
+  "status": "COST_PROPOSAL_PRIMARY_LAUNCH_AND_CURRENT_CATALOG_CORROBORATION",
+  "records": [
+    {
+      "model": "gpt-4.1-mini",
+      "input_usd_per_M": 0.4,
+      "output_usd_per_M": 1.6,
+      "per_call_ceiling_usd": 0.0112,
+      "pilot_48_calls_usd": 0.5376,
+      "pilot_60_call_cap_usd": 0.672,
+      "full_240_calls_one_model_usd": 2.688
+    },
+    {
+      "model": "gpt-5-mini",
+      "input_usd_per_M": 0.25,
+      "output_usd_per_M": 2.0,
+      "per_call_ceiling_usd": 0.009,
+      "pilot_48_calls_usd": 0.432,
+      "pilot_60_call_cap_usd": 0.54,
+      "full_240_calls_one_model_usd": 2.16
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "input_usd_per_M": 0.75,
+      "output_usd_per_M": 4.5,
+      "per_call_ceiling_usd": 0.024,
+      "pilot_48_calls_usd": 1.152,
+      "pilot_60_call_cap_usd": 1.44,
+      "full_240_calls_one_model_usd": 5.76
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "input_usd_per_M": 0.3,
+      "output_usd_per_M": 2.5,
+      "per_call_ceiling_usd": 0.011,
+      "pilot_48_calls_usd": 0.528,
+      "pilot_60_call_cap_usd": 0.66,
+      "full_240_calls_one_model_usd": 2.64
+    }
+  ],
+  "price_sources": {
+    "gpt-4.1-mini": "https://openai.com/index/gpt-4-1/",
+    "gpt-5.4-mini": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+    "gemini-2.5-flash": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  "pricing_limit": "OpenAI current API pricing documentation is unreachable; provider launch rates match pinned current catalog. Recheck account billing before calls.",
+  "input_token_ceiling": 20000,
+  "output_token_ceiling": 2000,
+  "actual_prompt_bytes_range": [
+    5948,
+    11605
+  ],
+  "input_budget_basis": "UTF8 bytes upper-bound token count plus explicit 4000-token request overhead reserve; not measured billing",
+  "price_catalog_commit": "42565000781fc2900a5b63fd7abce690972e89b0",
+  "cache_or_batch_discount_assumed": false,
+  "actual_new_model_calls": 0,
+  "actual_new_inference_cost_usd": 0,
+  "proposed_full_pair_with_20pct_retry_ceiling_usd": 10.1376,
+  "tax_gpu_energy_and_human_review_costs_included": false
+}

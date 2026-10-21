@@ -1,0 +1,464 @@
+{
+  "status": "ENGINEERING_DIAGNOSTIC_NOT_SEMANTIC_EVALUATION",
+  "base_id": "08001",
+  "source_partition": "development",
+  "source_sha256": "9a38c9bcf94a70e07f1f1c44abcdd47689f3e23b26cd9bb24aa3b3cd93126472",
+  "rows": 13,
+  "contracts_proposed": 4,
+  "independent_reviewers": 0,
+  "groundtruth_file_read": false,
+  "reserved_sec_accessed": false,
+  "production_status_counts": {
+    "NEEDS_REVIEW": 4
+  },
+  "diagnostic_status_counts": {
+    "SATISFIED": 4
+  },
+  "records": [
+    {
+      "rule_id": "sec08001:Net sales to external customers",
+      "production_gate": {
+        "rule_id": "sec08001:Net sales to external customers",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [],
+        "status": "NEEDS_REVIEW",
+        "detection_claim": false
+      },
+      "arithmetic_only_diagnostic": {
+        "rule_id": "sec08001:Net sales to external customers",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 1,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "28689000000"
+          },
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 2,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "9519000000"
+          },
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 3,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "1189000000"
+          },
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 4,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "130000000"
+          },
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 5,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "39000000"
+          },
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 6,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "0"
+          },
+          {
+            "row_offset": 2,
+            "row_label": "Net sales to external customers",
+            "column": 7,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": -1,
+            "contribution": "-39566000000"
+          }
+        ],
+        "status": "SATISFIED",
+        "residual_base_units": "0",
+        "tolerance_base_units": "3500000",
+        "detection_claim": false
+      }
+    },
+    {
+      "rule_id": "sec08001:Cost of goods sold",
+      "production_gate": {
+        "rule_id": "sec08001:Cost of goods sold",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [],
+        "status": "NEEDS_REVIEW",
+        "detection_claim": false
+      },
+      "arithmetic_only_diagnostic": {
+        "rule_id": "sec08001:Cost of goods sold",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 1,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "-27554000000"
+          },
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 2,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "-8507000000"
+          },
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 3,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "-1020000000"
+          },
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 4,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "-127000000"
+          },
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 5,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "-46000000"
+          },
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 6,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "0"
+          },
+          {
+            "row_offset": 4,
+            "row_label": "Cost of goods sold",
+            "column": 7,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": -1,
+            "contribution": "37254000000"
+          }
+        ],
+        "status": "SATISFIED",
+        "residual_base_units": "0",
+        "tolerance_base_units": "3500000",
+        "detection_claim": false
+      }
+    },
+    {
+      "rule_id": "sec08001:Gross profit",
+      "production_gate": {
+        "rule_id": "sec08001:Gross profit",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [],
+        "status": "NEEDS_REVIEW",
+        "detection_claim": false
+      },
+      "arithmetic_only_diagnostic": {
+        "rule_id": "sec08001:Gross profit",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 1,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "1135000000"
+          },
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 2,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "1012000000"
+          },
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 3,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "169000000"
+          },
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 4,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "3000000"
+          },
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 5,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "-7000000"
+          },
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 6,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "0"
+          },
+          {
+            "row_offset": 5,
+            "row_label": "Gross profit",
+            "column": 7,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": -1,
+            "contribution": "-2312000000"
+          }
+        ],
+        "status": "SATISFIED",
+        "residual_base_units": "0",
+        "tolerance_base_units": "3500000",
+        "detection_claim": false
+      }
+    },
+    {
+      "rule_id": "sec08001:Total assets",
+      "production_gate": {
+        "rule_id": "sec08001:Total assets",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [],
+        "status": "NEEDS_REVIEW",
+        "detection_claim": false
+      },
+      "arithmetic_only_diagnostic": {
+        "rule_id": "sec08001:Total assets",
+        "review_state": "PENDING_INDEPENDENT_HUMAN_ADJUDICATION",
+        "evidence": {
+          "table_header_row": 1,
+          "period_row": 0,
+          "column_headers": [
+            "Agribusiness",
+            "Refined and Specialty Oils",
+            "Milling",
+            "Sugar and\nBioenergy",
+            "Corporate and Other",
+            "Eliminations",
+            "Total"
+          ],
+          "proposal": "Displayed total versus explicitly headed segments including eliminations"
+        },
+        "participants": [
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 1,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "15911000000"
+          },
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 2,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "4018000000"
+          },
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 3,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "911000000"
+          },
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 4,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "391000000"
+          },
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 5,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "4036000000"
+          },
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 6,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": 1,
+            "contribution": "0"
+          },
+          {
+            "row_offset": 12,
+            "row_label": "Total assets",
+            "column": 7,
+            "unit": "USD",
+            "scale": 1000000,
+            "coefficient": -1,
+            "contribution": "-25267000000"
+          }
+        ],
+        "status": "SATISFIED",
+        "residual_base_units": "0",
+        "tolerance_base_units": "3500000",
+        "detection_claim": false
+      }
+    }
+  ],
+  "accuracy_or_error_localization_claim": false
+}
