@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "new_output_directory": "results/local/reproduction-01",
+  "scientific_artifacts_match": {
+    "regular_experiments.json": true,
+    "published_pairs.json": true,
+    "sec_audit.json": true,
+    "sec_splits.json": true,
+    "sec_reproduction.json": true,
+    "sec_baseline.json": true,
+    "service_demo.json": true,
+    "robustness.json": true
+  },
+  "floating_tolerance": 1e-12,
+  "ignored_non_scientific_fields": [
+    "runtime_seconds",
+    "timestamp"
+  ],
+  "new_cloud_task": false,
+  "not_independent_experiments": true,
+  "fresh_run_manifest_sha256": "344b6be1f868fa66ad12bc921f9f4d29c3a0d4b9c0f537baf88a4a9c45d91d57"
+}

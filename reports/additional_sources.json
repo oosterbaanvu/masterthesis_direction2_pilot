@@ -1,0 +1,11 @@
+{
+  "holoclean": {
+    "url": "https://www.vldb.org/pvldb/vol10/p1190-rekatsinas.pdf",
+    "sha256": "9285c2bde869c5743a9b6b1a58925c326c749d4011fc6c6c7c60a9d60bf90cda",
+    "access": "Full PDF acquired; abstract/problem description and official README inspected"
+  },
+  "failed_primary_source": {
+    "url": "https://www.vldb.org/pvldb/vol6/p1498-chu.pdf",
+    "reason": "Returned HTML, not a PDF; excluded from read-paper claims"
+  }
+}

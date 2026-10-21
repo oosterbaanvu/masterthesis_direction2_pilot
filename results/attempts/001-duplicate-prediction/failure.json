@@ -1,0 +1,6 @@
+{
+  "status": "FAILED",
+  "stage": "corrected released-output scoring",
+  "cause": "qwen2.5-7b_10%.json contains 24 duplicate IDs (1024 records); strict evaluator rejected them",
+  "correction": "Official compatibility keeps upstream last-wins semantics; corrected scorer excludes all 24 ambiguous IDs and reports coverage. No model outputs changed."
+}

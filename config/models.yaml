@@ -1,0 +1,12 @@
+provider: openai_compatible
+enabled: false
+api_key_variable: DQP_MODEL_API_KEY
+base_url_variable: DQP_MODEL_BASE_URL
+model: null
+temperature: 0
+max_output_tokens: 1500
+max_calls: 0
+max_spend_usd: 0
+input_price_usd_per_million: null
+output_price_usd_per_million: null
+public_data_only: true

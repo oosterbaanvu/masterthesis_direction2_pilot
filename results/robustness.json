@@ -1,0 +1,755 @@
+{
+  "sec_formatting": [
+    {
+      "condition": "1000test_1%",
+      "missing_heuristic": false,
+      "tables": 208,
+      "changed_prediction_tables": 28,
+      "results": {
+        "original": {
+          "tables": 208,
+          "table": {
+            "tp": 31,
+            "fp": 7,
+            "fn": 95,
+            "precision": 0.8157894736842105,
+            "recall": 0.24603174603174602,
+            "f1": 0.3780487804878049
+          },
+          "missing_table": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 72,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "error_count_accuracy": 0.36538461538461536,
+          "missing_count_accuracy": 0.6538461538461539,
+          "type_macro_f1_fixed_labels": 0.1277777777777778,
+          "type_micro": {
+            "tp": 23,
+            "fp": 15,
+            "fn": 186,
+            "precision": 0.6052631578947368,
+            "recall": 0.11004784688995216,
+            "f1": 0.1862348178137652
+          },
+          "location": {
+            "tp": 17,
+            "fp": 68,
+            "fn": 851,
+            "precision": 0.2,
+            "recall": 0.019585253456221197,
+            "f1": 0.035676810073452254
+          },
+          "mean_location_iou": 0.36960912076862307,
+          "counts": {
+            "errNum": {
+              "mae": 3.9663461538461537,
+              "rmse": 5.828890249306599,
+              "r2": -0.6504859601530641
+            },
+            "missNum": {
+              "mae": 0.3701923076923077,
+              "rmse": 0.6467373738769322,
+              "r2": -0.48730171776115716
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        },
+        "dollar_symbol_removed": {
+          "tables": 208,
+          "table": {
+            "tp": 16,
+            "fp": 3,
+            "fn": 110,
+            "precision": 0.8421052631578947,
+            "recall": 0.12698412698412698,
+            "f1": 0.2206896551724138
+          },
+          "missing_table": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 72,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "error_count_accuracy": 0.38461538461538464,
+          "missing_count_accuracy": 0.6538461538461539,
+          "type_macro_f1_fixed_labels": 0.099009900990099,
+          "type_micro": {
+            "tp": 15,
+            "fp": 4,
+            "fn": 194,
+            "precision": 0.7894736842105263,
+            "recall": 0.07177033492822966,
+            "f1": 0.13157894736842105
+          },
+          "location": {
+            "tp": 14,
+            "fp": 18,
+            "fn": 854,
+            "precision": 0.4375,
+            "recall": 0.016129032258064516,
+            "f1": 0.03111111111111111
+          },
+          "mean_location_iou": 0.3884421668075514,
+          "counts": {
+            "errNum": {
+              "mae": 4.086538461538462,
+              "rmse": 6.0526535820758305,
+              "r2": -0.7796381797603436
+            },
+            "missNum": {
+              "mae": 0.3701923076923077,
+              "rmse": 0.6467373738769322,
+              "r2": -0.48730171776115716
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        }
+      },
+      "interpretation": "Formatting sensitivity, not a correction to primary baseline"
+    },
+    {
+      "condition": "1000test_1%",
+      "missing_heuristic": true,
+      "tables": 208,
+      "changed_prediction_tables": 31,
+      "results": {
+        "original": {
+          "tables": 208,
+          "table": {
+            "tp": 61,
+            "fp": 9,
+            "fn": 65,
+            "precision": 0.8714285714285714,
+            "recall": 0.48412698412698413,
+            "f1": 0.6224489795918368
+          },
+          "missing_table": {
+            "tp": 47,
+            "fp": 5,
+            "fn": 25,
+            "precision": 0.9038461538461539,
+            "recall": 0.6527777777777778,
+            "f1": 0.7580645161290323
+          },
+          "error_count_accuracy": 0.3557692307692308,
+          "missing_count_accuracy": 0.8461538461538461,
+          "type_macro_f1_fixed_labels": 0.3825203252032521,
+          "type_micro": {
+            "tp": 70,
+            "fp": 20,
+            "fn": 139,
+            "precision": 0.7777777777777778,
+            "recall": 0.3349282296650718,
+            "f1": 0.4682274247491639
+          },
+          "location": {
+            "tp": 66,
+            "fp": 92,
+            "fn": 802,
+            "precision": 0.4177215189873418,
+            "recall": 0.07603686635944701,
+            "f1": 0.1286549707602339
+          },
+          "mean_location_iou": 0.39615987762551674,
+          "counts": {
+            "errNum": {
+              "mae": 3.8173076923076925,
+              "rmse": 5.640683264668182,
+              "r2": -0.545622765571385
+            },
+            "missNum": {
+              "mae": 0.25,
+              "rmse": 0.8933515114874565,
+              "r2": -1.837840059176461
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        },
+        "dollar_symbol_removed": {
+          "tables": 208,
+          "table": {
+            "tp": 61,
+            "fp": 4,
+            "fn": 65,
+            "precision": 0.9384615384615385,
+            "recall": 0.48412698412698413,
+            "f1": 0.6387434554973822
+          },
+          "missing_table": {
+            "tp": 50,
+            "fp": 5,
+            "fn": 22,
+            "precision": 0.9090909090909091,
+            "recall": 0.6944444444444444,
+            "f1": 0.7874015748031497
+          },
+          "error_count_accuracy": 0.375,
+          "missing_count_accuracy": 0.8605769230769231,
+          "type_macro_f1_fixed_labels": 0.35826916024935823,
+          "type_micro": {
+            "tp": 64,
+            "fp": 10,
+            "fn": 145,
+            "precision": 0.8648648648648649,
+            "recall": 0.3062200956937799,
+            "f1": 0.45229681978798586
+          },
+          "location": {
+            "tp": 66,
+            "fp": 42,
+            "fn": 802,
+            "precision": 0.6111111111111112,
+            "recall": 0.07603686635944701,
+            "f1": 0.13524590163934427
+          },
+          "mean_location_iou": 0.4262161649781842,
+          "counts": {
+            "errNum": {
+              "mae": 3.923076923076923,
+              "rmse": 5.844951799498567,
+              "r2": -0.6595943445376642
+            },
+            "missNum": {
+              "mae": 0.23557692307692307,
+              "rmse": 0.8852422528064542,
+              "r2": -1.786553793046766
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        }
+      },
+      "interpretation": "Formatting sensitivity, not a correction to primary baseline"
+    },
+    {
+      "condition": "1000test_10%",
+      "missing_heuristic": false,
+      "tables": 208,
+      "changed_prediction_tables": 29,
+      "results": {
+        "original": {
+          "tables": 208,
+          "table": {
+            "tp": 31,
+            "fp": 7,
+            "fn": 94,
+            "precision": 0.8157894736842105,
+            "recall": 0.248,
+            "f1": 0.3803680981595092
+          },
+          "missing_table": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 76,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "error_count_accuracy": 0.3701923076923077,
+          "missing_count_accuracy": 0.6346153846153846,
+          "type_macro_f1_fixed_labels": 0.14444444444444446,
+          "type_micro": {
+            "tp": 26,
+            "fp": 12,
+            "fn": 187,
+            "precision": 0.6842105263157895,
+            "recall": 0.12206572769953052,
+            "f1": 0.20717131474103584
+          },
+          "location": {
+            "tp": 22,
+            "fp": 66,
+            "fn": 867,
+            "precision": 0.25,
+            "recall": 0.024746906636670417,
+            "f1": 0.04503582395087002
+          },
+          "mean_location_iou": 0.37856851073762837,
+          "counts": {
+            "errNum": {
+              "mae": 4.052884615384615,
+              "rmse": 5.977924131592581,
+              "r2": -0.6224369757599477
+            },
+            "missNum": {
+              "mae": 0.39903846153846156,
+              "rmse": 0.6898996582558499,
+              "r2": -0.5027366270159821
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        },
+        "dollar_symbol_removed": {
+          "tables": 208,
+          "table": {
+            "tp": 21,
+            "fp": 3,
+            "fn": 104,
+            "precision": 0.875,
+            "recall": 0.168,
+            "f1": 0.2818791946308725
+          },
+          "missing_table": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 76,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "error_count_accuracy": 0.38461538461538464,
+          "missing_count_accuracy": 0.6346153846153846,
+          "type_macro_f1_fixed_labels": 0.12578616352201258,
+          "type_micro": {
+            "tp": 20,
+            "fp": 4,
+            "fn": 193,
+            "precision": 0.8333333333333334,
+            "recall": 0.09389671361502347,
+            "f1": 0.16877637130801687
+          },
+          "location": {
+            "tp": 21,
+            "fp": 16,
+            "fn": 868,
+            "precision": 0.5675675675675675,
+            "recall": 0.023622047244094488,
+            "f1": 0.04535637149028078
+          },
+          "mean_location_iou": 0.39989278083028085,
+          "counts": {
+            "errNum": {
+              "mae": 4.163461538461538,
+              "rmse": 6.200961463912115,
+              "r2": -0.7457622672040982
+            },
+            "missNum": {
+              "mae": 0.39903846153846156,
+              "rmse": 0.6898996582558499,
+              "r2": -0.5027366270159821
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        }
+      },
+      "interpretation": "Formatting sensitivity, not a correction to primary baseline"
+    },
+    {
+      "condition": "1000test_10%",
+      "missing_heuristic": true,
+      "tables": 208,
+      "changed_prediction_tables": 35,
+      "results": {
+        "original": {
+          "tables": 208,
+          "table": {
+            "tp": 60,
+            "fp": 9,
+            "fn": 65,
+            "precision": 0.8695652173913043,
+            "recall": 0.48,
+            "f1": 0.6185567010309279
+          },
+          "missing_table": {
+            "tp": 46,
+            "fp": 5,
+            "fn": 30,
+            "precision": 0.9019607843137255,
+            "recall": 0.6052631578947368,
+            "f1": 0.7244094488188977
+          },
+          "error_count_accuracy": 0.3605769230769231,
+          "missing_count_accuracy": 0.8221153846153846,
+          "type_macro_f1_fixed_labels": 0.38591426071741036,
+          "type_micro": {
+            "tp": 72,
+            "fp": 17,
+            "fn": 141,
+            "precision": 0.8089887640449438,
+            "recall": 0.3380281690140845,
+            "f1": 0.4768211920529802
+          },
+          "location": {
+            "tp": 71,
+            "fp": 90,
+            "fn": 818,
+            "precision": 0.4409937888198758,
+            "recall": 0.0798650168728909,
+            "f1": 0.13523809523809524
+          },
+          "mean_location_iou": 0.39854501056070624,
+          "counts": {
+            "errNum": {
+              "mae": 3.894230769230769,
+              "rmse": 5.72947842974586,
+              "r2": -0.49038069023125574
+            },
+            "missNum": {
+              "mae": 0.27884615384615385,
+              "rmse": 0.9146247654303166,
+              "r2": -1.6411734656644534
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        },
+        "dollar_symbol_removed": {
+          "tables": 208,
+          "table": {
+            "tp": 63,
+            "fp": 4,
+            "fn": 62,
+            "precision": 0.9402985074626866,
+            "recall": 0.504,
+            "f1": 0.65625
+          },
+          "missing_table": {
+            "tp": 52,
+            "fp": 5,
+            "fn": 24,
+            "precision": 0.9122807017543859,
+            "recall": 0.6842105263157895,
+            "f1": 0.7819548872180451
+          },
+          "error_count_accuracy": 0.3798076923076923,
+          "missing_count_accuracy": 0.8509615384615384,
+          "type_macro_f1_fixed_labels": 0.38643779259469424,
+          "type_micro": {
+            "tp": 72,
+            "fp": 9,
+            "fn": 141,
+            "precision": 0.8888888888888888,
+            "recall": 0.3380281690140845,
+            "f1": 0.48979591836734687
+          },
+          "location": {
+            "tp": 77,
+            "fp": 40,
+            "fn": 812,
+            "precision": 0.6581196581196581,
+            "recall": 0.08661417322834646,
+            "f1": 0.15308151093439365
+          },
+          "mean_location_iou": 0.43104442699394624,
+          "counts": {
+            "errNum": {
+              "mae": 3.9711538461538463,
+              "rmse": 5.912828296301057,
+              "r2": -0.5872947245696676
+            },
+            "missNum": {
+              "mae": 0.24519230769230768,
+              "rmse": 0.8906566289930316,
+              "r2": -1.504561045026637
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        }
+      },
+      "interpretation": "Formatting sensitivity, not a correction to primary baseline"
+    },
+    {
+      "condition": "1000test_50%",
+      "missing_heuristic": false,
+      "tables": 208,
+      "changed_prediction_tables": 29,
+      "results": {
+        "original": {
+          "tables": 208,
+          "table": {
+            "tp": 31,
+            "fp": 8,
+            "fn": 91,
+            "precision": 0.7948717948717948,
+            "recall": 0.2540983606557377,
+            "f1": 0.3850931677018633
+          },
+          "missing_table": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 77,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "error_count_accuracy": 0.3798076923076923,
+          "missing_count_accuracy": 0.6298076923076923,
+          "type_macro_f1_fixed_labels": 0.14067278287461774,
+          "type_micro": {
+            "tp": 23,
+            "fp": 16,
+            "fn": 184,
+            "precision": 0.5897435897435898,
+            "recall": 0.1111111111111111,
+            "f1": 0.1869918699186992
+          },
+          "location": {
+            "tp": 21,
+            "fp": 65,
+            "fn": 857,
+            "precision": 0.2441860465116279,
+            "recall": 0.023917995444191344,
+            "f1": 0.04356846473029046
+          },
+          "mean_location_iou": 0.3870031136221747,
+          "counts": {
+            "errNum": {
+              "mae": 4.019230769230769,
+              "rmse": 5.91364133560312,
+              "r2": -0.6136378179832513
+            },
+            "missNum": {
+              "mae": 0.3798076923076923,
+              "rmse": 0.6316949117560324,
+              "r2": -0.5661798058604737
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        },
+        "dollar_symbol_removed": {
+          "tables": 208,
+          "table": {
+            "tp": 20,
+            "fp": 3,
+            "fn": 102,
+            "precision": 0.8695652173913043,
+            "recall": 0.16393442622950818,
+            "f1": 0.2758620689655172
+          },
+          "missing_table": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 77,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "error_count_accuracy": 0.40384615384615385,
+          "missing_count_accuracy": 0.6298076923076923,
+          "type_macro_f1_fixed_labels": 0.12186379928315412,
+          "type_micro": {
+            "tp": 17,
+            "fp": 6,
+            "fn": 190,
+            "precision": 0.7391304347826086,
+            "recall": 0.0821256038647343,
+            "f1": 0.14782608695652172
+          },
+          "location": {
+            "tp": 19,
+            "fp": 16,
+            "fn": 859,
+            "precision": 0.5428571428571428,
+            "recall": 0.02164009111617312,
+            "f1": 0.0416210295728368
+          },
+          "mean_location_iou": 0.41150001174039635,
+          "counts": {
+            "errNum": {
+              "mae": 4.110576923076923,
+              "rmse": 6.137448104120248,
+              "r2": -0.7380880263814649
+            },
+            "missNum": {
+              "mae": 0.3798076923076923,
+              "rmse": 0.6316949117560324,
+              "r2": -0.5661798058604737
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        }
+      },
+      "interpretation": "Formatting sensitivity, not a correction to primary baseline"
+    },
+    {
+      "condition": "1000test_50%",
+      "missing_heuristic": true,
+      "tables": 208,
+      "changed_prediction_tables": 31,
+      "results": {
+        "original": {
+          "tables": 208,
+          "table": {
+            "tp": 64,
+            "fp": 10,
+            "fn": 58,
+            "precision": 0.8648648648648649,
+            "recall": 0.5245901639344263,
+            "f1": 0.6530612244897959
+          },
+          "missing_table": {
+            "tp": 48,
+            "fp": 4,
+            "fn": 29,
+            "precision": 0.9230769230769231,
+            "recall": 0.6233766233766234,
+            "f1": 0.744186046511628
+          },
+          "error_count_accuracy": 0.3701923076923077,
+          "missing_count_accuracy": 0.8317307692307693,
+          "type_macro_f1_fixed_labels": 0.38873479837849373,
+          "type_micro": {
+            "tp": 71,
+            "fp": 20,
+            "fn": 136,
+            "precision": 0.7802197802197802,
+            "recall": 0.34299516908212563,
+            "f1": 0.47651006711409394
+          },
+          "location": {
+            "tp": 70,
+            "fp": 89,
+            "fn": 808,
+            "precision": 0.44025157232704404,
+            "recall": 0.07972665148063782,
+            "f1": 0.13500482160077146
+          },
+          "mean_location_iou": 0.4107457057930757,
+          "counts": {
+            "errNum": {
+              "mae": 3.8701923076923075,
+              "rmse": 5.722341505685614,
+              "r2": -0.5109275746884692
+            },
+            "missNum": {
+              "mae": 0.25961538461538464,
+              "rmse": 0.8933515114874565,
+              "r2": -2.1323596117209473
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        },
+        "dollar_symbol_removed": {
+          "tables": 208,
+          "table": {
+            "tp": 61,
+            "fp": 4,
+            "fn": 61,
+            "precision": 0.9384615384615385,
+            "recall": 0.5,
+            "f1": 0.6524064171122995
+          },
+          "missing_table": {
+            "tp": 53,
+            "fp": 4,
+            "fn": 24,
+            "precision": 0.9298245614035088,
+            "recall": 0.6883116883116883,
+            "f1": 0.7910447761194029
+          },
+          "error_count_accuracy": 0.3942307692307692,
+          "missing_count_accuracy": 0.8557692307692307,
+          "type_macro_f1_fixed_labels": 0.3855453913229551,
+          "type_micro": {
+            "tp": 70,
+            "fp": 10,
+            "fn": 137,
+            "precision": 0.875,
+            "recall": 0.33816425120772947,
+            "f1": 0.4878048780487805
+          },
+          "location": {
+            "tp": 73,
+            "fp": 40,
+            "fn": 805,
+            "precision": 0.6460176991150443,
+            "recall": 0.08314350797266515,
+            "f1": 0.14732593340060546
+          },
+          "mean_location_iou": 0.44540079978781905,
+          "counts": {
+            "errNum": {
+              "mae": 3.9471153846153846,
+              "rmse": 5.921359641163505,
+              "r2": -0.6178527091767738
+            },
+            "missNum": {
+              "mae": 0.23557692307692307,
+              "rmse": 0.8797945564382981,
+              "r2": -2.038011430645015
+            }
+          },
+          "missing_predictions": 0,
+          "extra_prediction_ids": 0
+        }
+      },
+      "interpretation": "Formatting sensitivity, not a correction to primary baseline"
+    }
+  ],
+  "bank_history_period_1_applied_to_deliveries": [
+    {
+      "period": 1,
+      "rows": 7763,
+      "alerts": 16,
+      "column_alerts": {
+        "age": 4,
+        "duration": 8,
+        "campaign": 4,
+        "pdays": 0,
+        "previous": 0,
+        "emp.var.rate": 0,
+        "cons.price.idx": 0,
+        "cons.conf.idx": 0,
+        "euribor3m": 0,
+        "nr.employed": 0
+      },
+      "error_accuracy": null,
+      "interpretation": "Unlabelled delivery shift; no verified error labels"
+    },
+    {
+      "period": 2,
+      "rows": 4374,
+      "alerts": 21272,
+      "column_alerts": {
+        "age": 2,
+        "duration": 2,
+        "campaign": 3,
+        "pdays": 0,
+        "previous": 0,
+        "emp.var.rate": 4374,
+        "cons.price.idx": 4374,
+        "cons.conf.idx": 4374,
+        "euribor3m": 3769,
+        "nr.employed": 4374
+      },
+      "error_accuracy": null,
+      "interpretation": "Unlabelled delivery shift; no verified error labels"
+    },
+    {
+      "period": 3,
+      "rows": 6685,
+      "alerts": 33436,
+      "column_alerts": {
+        "age": 7,
+        "duration": 1,
+        "campaign": 3,
+        "pdays": 0,
+        "previous": 0,
+        "emp.var.rate": 6685,
+        "cons.price.idx": 6685,
+        "cons.conf.idx": 6685,
+        "euribor3m": 6685,
+        "nr.employed": 6685
+      },
+      "error_accuracy": null,
+      "interpretation": "Unlabelled delivery shift; no verified error labels"
+    }
+  ],
+  "reserved_sec_evaluated": 0,
+  "C_D_robustness": "NOT_RUN: no live generated candidates"
+}

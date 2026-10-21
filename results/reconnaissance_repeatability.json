@@ -1,0 +1,6 @@
+{
+  "initial_cases": 72,
+  "same_initial_metrics_in_final_run": true,
+  "not_independent_observations": true,
+  "archive": "/workspace/pilot2-run-preservation/initial-results"
+}

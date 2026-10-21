@@ -1,0 +1,94 @@
+{
+  "batches": [
+    {
+      "batch": 1,
+      "source": "uci_credit",
+      "rows": 30000,
+      "findings": 0
+    },
+    {
+      "batch": 2,
+      "source": "uci_bank_marketing",
+      "rows": 41188,
+      "findings": 0
+    },
+    {
+      "batch": 3,
+      "source": "raha_flights",
+      "rows": 2376,
+      "findings": 2312
+    },
+    {
+      "batch": 4,
+      "source": "raha_tax",
+      "rows": 200000,
+      "findings": 206
+    },
+    {
+      "batch": 5,
+      "source": "raha_beers",
+      "rows": 2410,
+      "findings": 1199
+    },
+    {
+      "batch": 6,
+      "source": "raha_hospital",
+      "rows": 1000,
+      "findings": 0
+    },
+    {
+      "batch": 7,
+      "source": "raha_rayyan",
+      "rows": 1000,
+      "findings": 1682
+    },
+    {
+      "batch": 8,
+      "source": "jung_restaurant",
+      "rows": 864,
+      "findings": 156
+    },
+    {
+      "batch": 9,
+      "source": "jung_cars",
+      "rows": 406,
+      "findings": 110
+    },
+    {
+      "batch": 10,
+      "source": "uci_wine_white",
+      "rows": 4898,
+      "findings": 0
+    },
+    {
+      "batch": 11,
+      "source": "sec_fintables",
+      "rows": 9,
+      "findings": 1
+    },
+    {
+      "batch": 12,
+      "source": "uci_bank_marketing",
+      "rows": 7763,
+      "findings": 0
+    },
+    {
+      "batch": 13,
+      "source": "uci_bank_marketing",
+      "rows": 4374,
+      "findings": 0
+    },
+    {
+      "batch": 14,
+      "source": "uci_bank_marketing",
+      "rows": 6685,
+      "findings": 0
+    }
+  ],
+  "bank_monitoring_rows": 84,
+  "events": 567,
+  "findings": 5666,
+  "exceptions_exercised": true,
+  "governance": "Local attributed-actor simulation; no authentication/RBAC",
+  "qualification_fixture": "Synthetic clean fixture for lifecycle test only; no real deployment recommendation"
+}

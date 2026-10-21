@@ -1,0 +1,611 @@
+{
+  "search_date": "2026-10-21",
+  "range": "2024-01-01 to 2026-10-21",
+  "successful_queries": [
+    {
+      "query_artifact": "rules-crossref.json",
+      "response_sha256": "fa78f7dfd9ccb4667aa0aead6da441ec3268fa0ed7daf78b7bb411c9926418b8",
+      "candidates": [
+        {
+          "title": [
+            "AI-Augmented Data Quality Validation in P&amp;C Insurance: A Hybrid Framework Using Large Language Models and Rule-Based Agents"
+          ],
+          "doi": "10.22399/ijcesen.3613",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                31
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Finding the Dark Matter: Large Language Model-based Enzyme Kinetic Data Extractor and Its Validation"
+          ],
+          "doi": "10.26434/chemrxiv-2025-pb73x-v2",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Finding the Dark Matter: Large Language Model-based Enzyme Kinetic Data Extractor and Its Validation"
+          ],
+          "doi": "10.26434/chemrxiv-2025-pb73x",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                21
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "MoRE-LLM: Mixture of Rule Experts Guided by a Large Language Model"
+          ],
+          "doi": "10.1109/icdm59182.2024.00085",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                9
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Agent-Based Large Language Model System for Extracting Structured Data from Breast Cancer Synoptic Reports: A Dual-Validation Study"
+          ],
+          "doi": "10.1101/2025.11.25.25340989",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                26
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "A large language model pipeline for automated citation quality scoring across engineering journal quartiles with expert validation"
+          ],
+          "doi": "10.1038/s41598-026-60947-3",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Quantifying the Quality of Corrective Actions in Medical Safety Incident Reports Using a Hybrid Rule-Based and Large-Language-Model Classification System: A Cross-Sectional Pilot Feasibility Analysis of 11,507 Japanese National Reports (2010, Interim)"
+          ],
+          "doi": "10.64898/2026.08.04.26359750",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Applying computational approaches to energy discourse: a comparative methodological study of rule-based and large language model qualitative content analysis"
+          ],
+          "doi": "10.46298/jdmdh.13147",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                4
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query_artifact": "discovery-crossref.json",
+      "response_sha256": "03d6d921917afce96eb4536df2fa012d8d0f8b11906371322cce1e7aaa28232f",
+      "candidates": [
+        {
+          "title": [
+            "Enhancing Data Quality Monitoring at CMS with Interactive Visualization Tools and Automated Reference Run Selection"
+          ],
+          "doi": "10.2172/2405963",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                16
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Training data composition determines machine learning generalization and biological rule discovery"
+          ],
+          "doi": "10.1038/s42256-025-01089-5",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Training data composition determines machine learning generalization and biological rule discovery"
+          ],
+          "doi": "10.1101/2024.06.17.599333",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                6,
+                19
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "A generative artificial intelligence framework for automated data quality rule generation in power grid systems"
+          ],
+          "doi": "10.1007/s10791-026-09963-5",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "AUTOMATED RULE GENERATION FOR OPTIMAL DATA SELECTION IN ROBUST NEURAL NETWORK TRAINING"
+          ],
+          "doi": "10.15589/znp2025.3(501).20",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Automated concentration-QT data preparation, model selection and reporting in R"
+          ],
+          "doi": "10.70534/tebv4805",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Review for \"A Data-Driven approach to the Generalization of Free Radical Polymerization Kinetic Models via Automated Flow Chemistry\""
+          ],
+          "doi": "10.1039/d5re00264h/v2/review2",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                17
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "New Automated Approach to Selection of Mapper Clustering Parameters"
+          ],
+          "doi": "10.1145/3746065",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                17
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query_artifact": "quality_rules-search.json",
+      "response_sha256": "5c9e001893eb84a0821f95161a594ece8b160c61d813e357ca910b7774e00dfd",
+      "candidates": [
+        {
+          "title": [
+            "Large Language Models for Quality Control of Large Language Models"
+          ],
+          "doi": "10.5220/0014649700004058",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Beyond Rules: How Large Language Models Are Redefining Cryptographic Misuse Detection"
+          ],
+          "doi": "10.5220/0013524100003979",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Automating Legal Contracts Using Logic Rules with Large Language Models"
+          ],
+          "doi": "10.2139/ssrn.4954859",
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Enhancing Data Quality in Medical Concept Normalization Through Large Language Models"
+          ],
+          "doi": "10.2139/ssrn.4979696",
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Review for \"Prompting large language models for quality ecological statistics\""
+          ],
+          "doi": "10.1111/2041-210x.70267/v1/review3",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Review for \"Prompting large language models for quality ecological statistics\""
+          ],
+          "doi": "10.1111/2041-210x.70267/v2/review1",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                5
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Review for \"Prompting large language models for quality ecological statistics\""
+          ],
+          "doi": "10.1111/2041-210x.70267/v1/review1",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                14
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "LLMFactCheck: Enhancing SemMedDB Quality Using Large Language Models"
+          ],
+          "doi": "10.36227/techrxiv.176240436.62966402/v1",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Review for \"Prompting large language models for quality ecological statistics\""
+          ],
+          "doi": "10.1111/2041-210x.70267/v2/review2",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                10
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Generation, Migration and Optimization of Cross-Language Static-Analysis Rules Based on Large Language Models"
+          ],
+          "doi": "10.1109/qrs65678.2025.00015",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                16
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Privacy and security in large language models and data"
+          ],
+          "doi": "10.1016/b978-0-443-33592-1.00011-5",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Automating Legal Contracts Using Logic Rules with Large Language Models"
+          ],
+          "doi": "10.2139/ssrn.5023212",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query_artifact": "2026_rules-search.json",
+      "response_sha256": "8d6038657e3971c7046684d0188ae7156716ef58c5c7e2908cf360efaab0ddaa",
+      "candidates": [
+        {
+          "title": [
+            "A generative artificial intelligence framework for automated data quality rule generation in power grid systems"
+          ],
+          "doi": "10.1007/s10791-026-09963-5",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                12
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "A Generative Artificial Intelligence-Based Framework for Automated Power Data Quality Rule Generation"
+          ],
+          "doi": "10.1109/wses70604.2026.11683191",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Bayesian-inspired verification of data quality rule candidates"
+          ],
+          "doi": "10.1108/dta-07-2026-0785",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Adaptive density clustering for data-driven password mangling rule generation"
+          ],
+          "doi": "10.1016/j.cose.2026.104913",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "GoldenVizR: Rule-Based Quality Checks for 'ggplot2' Visualizations Based on the 25 Golden Rules of Data Visualization"
+          ],
+          "doi": "10.32614/cran.package.goldenvizr",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "HDP-FedCD: Data-quality-driven hierarchical federated learning for optimizing privacy protection in non-IID data"
+          ],
+          "doi": "10.1016/j.future.2025.108140",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "SigmaForge: Retrieval-Enhanced Sigma Rule Generation with\u00a0DAG-Based Quality Evaluation"
+          ],
+          "doi": "10.1007/978-3-032-23335-6_4",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Selecting Context for Rule-Grounded Explanation Generation: A Small Language Model Study in Injection Moulding Quality Prediction"
+          ],
+          "doi": "10.3390/pr14193158",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                10,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "From Association to Detection: Applying the Objective Astronomical Point Rule (OAPR) to Operationalise Culture-Outcome Relationships in Healthcare Quality Data"
+          ],
+          "doi": "10.2139/ssrn.7196979",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "FedTVD: balancing data quality and quantity for robust federated learning"
+          ],
+          "doi": "10.1016/j.future.2025.108177",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Personalized Music Composition with Large Language Models: A Pilot Study of Profile-Conditioned Generation and Rule-Based Quality Evaluation"
+          ],
+          "doi": "10.1145/3839592.3839710",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                22
+              ]
+            ]
+          }
+        },
+        {
+          "title": [
+            "Research on Lightweight Intelligent Dialogue Systems Based on Semantic Entity Enhanced Intention Recognition and Rule Retrieval Generation Hybrid Models"
+          ],
+          "doi": "10.38007/ijbdit.2026.070108",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                30
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "failed_queries": [
+    "Crossref Auto-Test bibliographic query HTTP error; resolved using verified DOI 10.1145/3725396",
+    "Crossref data validation bibliographic query HTTP error"
+  ],
+  "discarded_wrong_doi": "10.1145/3725260 is an ANNS paper, not Auto-Test; not used as evidence"
+}

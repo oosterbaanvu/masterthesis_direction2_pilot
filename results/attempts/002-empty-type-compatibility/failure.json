@@ -1,0 +1,5 @@
+{
+  "status": "FAILED_COMPARISON",
+  "cause": "Compatibility implementation normalized empty-string errType while official script includes empty string as a fourth class",
+  "correction": "Preserve raw split semantics in compatibility scorer; fixed VAL/FMT/MISS corrected metrics retain normalization. Original outputs untouched."
+}

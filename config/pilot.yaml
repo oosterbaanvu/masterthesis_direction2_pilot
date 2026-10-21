@@ -1,0 +1,23 @@
+protocol_version: 1
+seed: 20261021
+sec_partition_salt: dq-rules-pilot2-v1
+sec_partitions: {development: 60, exploratory: 20, reserved: 20}
+evaluate_reserved: false
+regular_seeds: [11, 12, 13]
+injection_rates: [0.01, 0.02]
+injection_families: [missing, invalid_type, gross_scale, plausible_swap]
+qualification:
+  max_unlabelled_alert_fraction: 0.01
+  require_evidence: true
+  formatting_invariance: true
+  automatic_activation: false
+bootstrap_repetitions: 1000
+paid_inference_authorized: false
+regular_numeric_columns:
+  uci_credit: [AGE, LIMIT_BAL, BILL_AMT1, PAY_AMT1]
+  uci_bank_marketing: [age, duration, previous, euribor3m]
+  uci_wine_white: [alcohol, density, pH, total sulfur dioxide]
+regular_categorical_columns:
+  uci_credit: [SEX, EDUCATION]
+  uci_bank_marketing: [contact, job]
+  uci_wine_white: []

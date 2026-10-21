@@ -1,0 +1,6 @@
+{
+  "status": "INVALID_LABELS_EXCLUDED",
+  "archive": "/workspace/pilot2-run-preservation/expanded-invalid-labels",
+  "cause": "0 -> 0.0 had been counted as a numeric scale corruption via string comparison",
+  "correction": "Numeric semantic equality before assignment; no replacement sampling; partial/failed realizations reported"
+}

@@ -1,0 +1,13 @@
+# Exploratory amendments
+
+The initial 72 scenarios used AGE, age and alcohol (four families, two rates, three dependent seeds). They demonstrated pipeline execution and exposed the expected plausible-swap detection gap. They are preserved as a reconnaissance run, not independent evidence from the expanded run.
+
+Before expanded outcomes, scaling was fixed to four numerical fields per UCI source (demographics, amounts/counts, macro/chemistry) and two categorical fields where available, as enumerated in `config/pilot.yaml`. Each numeric field gets all four families; each categorical field gets missing/invalid-code/plausible-swap families. Planned total: 360 scenarios. No field is chosen for a favorable score; initial fields remain included. Zero-valued multiplicative errors can realize fewer changes, and these failures/partial realizations remain reported. This increases breadth but does not turn exploratory analysis into confirmation. The primary question, thresholds, algorithms, splits and untouched holdouts do not change.
+
+An accounting-format sensitivity is added after development-table inspection showed ordinary `$(163)` values are not understood by the conservative lexical parser. The primary parser/results remain unchanged. The sensitivity removes an outer dollar symbol before parsing; it tests representational instability, not a newly optimized winner. It is evaluated on the existing exploratory partition only. The initial sample also shows `(1).00` and `$32` labelled FMT: numerical equivalence alone cannot settle intended benchmark formatting semantics.
+
+Two evaluator implementation failures were corrected without changing predictions: duplicate canonical prediction IDs and official handling of an empty-string error-type class. Both attempts are retained under `results/attempts`. Their fixes restore scoring fidelity, not model performance.
+
+Later CLI, budget validation and service duplicate checks complete the artifact. A new complete freeze and run use the finished code. Repeated initial-source outcomes are a repeatability check, not extra observations.
+
+During expanded injection-log validation, zero multiplication exposed an implementation defect: `str(0) != str(0.0)` had counted a format-only change as a numeric scale error. The entire affected expanded run is retained as an invalid-label attempt and excluded from reported research results. A semantic numeric comparison now rejects those changes before assignment; partially realized and zero-change cases remain visible. A dedicated invariant test and a fresh run verify the correction. This does not change the predeclared error family or retry failures to force an intended error count.

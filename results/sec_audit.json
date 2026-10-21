@@ -1,0 +1,127 @@
+{
+  "conditions": {
+    "1000test_1%": {
+      "tables": 1000,
+      "zero_error_tables": 369,
+      "positive_tables": 631,
+      "locations": 4364,
+      "multiline_tables": 410,
+      "irregular_width_tables": 0,
+      "duplicate_row_label_tables": 484,
+      "duplicate_nonempty_row_label_tables": 0,
+      "labelled_blank_locations": 405,
+      "locations_ambiguous_row": 10,
+      "locations_missing_row": 1,
+      "locations_invalid_column": 1,
+      "unreferenced_csvs": 0,
+      "unique_ids": 1000,
+      "duplicate_gt_ids": 0,
+      "missing_references": 0
+    },
+    "1000test_10%": {
+      "tables": 1000,
+      "zero_error_tables": 373,
+      "positive_tables": 627,
+      "locations": 4408,
+      "multiline_tables": 410,
+      "irregular_width_tables": 0,
+      "duplicate_row_label_tables": 484,
+      "duplicate_nonempty_row_label_tables": 0,
+      "labelled_blank_locations": 400,
+      "locations_ambiguous_row": 8,
+      "locations_missing_row": 1,
+      "locations_invalid_column": 1,
+      "unreferenced_csvs": 0,
+      "unique_ids": 1000,
+      "duplicate_gt_ids": 0,
+      "missing_references": 0
+    },
+    "1000test_50%": {
+      "tables": 1000,
+      "zero_error_tables": 376,
+      "positive_tables": 624,
+      "locations": 4451,
+      "multiline_tables": 410,
+      "irregular_width_tables": 0,
+      "duplicate_row_label_tables": 484,
+      "duplicate_nonempty_row_label_tables": 0,
+      "labelled_blank_locations": 415,
+      "locations_ambiguous_row": 10,
+      "locations_missing_row": 1,
+      "locations_invalid_column": 1,
+      "unreferenced_csvs": 0,
+      "unique_ids": 1000,
+      "duplicate_gt_ids": 0,
+      "missing_references": 0
+    }
+  },
+  "same_base_ids_across_conditions": true,
+  "partition_counts": {
+    "development": 582,
+    "exploratory": 208,
+    "reserved": 210
+  },
+  "issues": [
+    {
+      "condition": "1000test_1%",
+      "id": "08438",
+      "issues": [
+        "MISS_type_count_disagreement"
+      ]
+    },
+    {
+      "condition": "1000test_1%",
+      "id": "08596",
+      "issues": [
+        "MISS_type_count_disagreement"
+      ]
+    },
+    {
+      "condition": "1000test_1%",
+      "id": "08692",
+      "issues": [
+        "inconsistent_zero_example"
+      ]
+    },
+    {
+      "condition": "1000test_1%",
+      "id": "08695",
+      "issues": [
+        "location_invalid_column",
+        "location_missing_row"
+      ]
+    },
+    {
+      "condition": "1000test_10%",
+      "id": "08692",
+      "issues": [
+        "inconsistent_zero_example"
+      ]
+    },
+    {
+      "condition": "1000test_10%",
+      "id": "08695",
+      "issues": [
+        "location_invalid_column",
+        "location_missing_row"
+      ]
+    },
+    {
+      "condition": "1000test_50%",
+      "id": "08692",
+      "issues": [
+        "inconsistent_zero_example"
+      ]
+    },
+    {
+      "condition": "1000test_50%",
+      "id": "08695",
+      "issues": [
+        "location_invalid_column",
+        "location_missing_row"
+      ]
+    }
+  ],
+  "split_policy": "canonical base ID grouped; reserved is not evaluated by new methods",
+  "licence_files": []
+}

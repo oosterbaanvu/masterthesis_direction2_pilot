@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dq-rule-pilot"
+version = "0.1.0"
+description = "Evidence and governance for data-quality rule qualification"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pandas==2.3.3", "numpy==2.3.4", "PyYAML==6.0.3", "xlrd==2.0.2", "httpx==0.28.1", "scikit-learn==1.7.2"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2", "ruff==0.14.1"]
+
+[project.scripts]
+dqp = "dqpilot.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dqpilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+

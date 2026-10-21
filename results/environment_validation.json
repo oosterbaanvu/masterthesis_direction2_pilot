@@ -1,0 +1,11 @@
+{
+  "tests_passed": 36,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "ruff": "PASS",
+  "frozen_input_and_output_hashes": "PASS",
+  "setup_script_repeatability": "PASS; acquisition/result manifest hashes unchanged",
+  "paid_calls": 0,
+  "setup_log_sha256": "b927967d164ad6f032ed2bbf685e7765da73cc1dc81a4849cec8ef9ac24554e8",
+  "full_documented_reproduction": "PASS: 360 cases and all eight scientific artifacts match in a fresh output directory"
+}

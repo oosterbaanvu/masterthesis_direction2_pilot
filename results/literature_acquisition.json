@@ -1,0 +1,67 @@
+[
+  {
+    "key": "sec",
+    "status": "VERIFIED",
+    "sha256": "88fe20f787d20edfa8f78dbab1b66d1091514f5db1dd245bdfa19dbb8cf70e83"
+  },
+  {
+    "key": "akella",
+    "status": "VERIFIED",
+    "sha256": "a015baa6cb168172380602a3b15fbd5cae9259e52567d65d0abd40187119ad54"
+  },
+  {
+    "key": "autotest",
+    "status": "VERIFIED",
+    "sha256": "99017301642072b60c08c32ee7b6af583da1a1567f7cbd5eed35d088b6188485"
+  },
+  {
+    "key": "deequ",
+    "status": "VERIFIED",
+    "sha256": "d451ecf77b0fdc0756f91ec82aaa511c86bdb18229af13ab943c0f9e89a350cc"
+  },
+  {
+    "key": "llm_dqr_metadata",
+    "status": "VERIFIED",
+    "sha256": "6e1ffc4f34edfb48fad157a12a01576adad14df35d013bda48f5322b4b2dd496"
+  },
+  {
+    "key": "bayesian_metadata",
+    "status": "VERIFIED",
+    "sha256": "6ccb9e8dc72d0c77c9d726f16cc4725215be0012b971a2fa9b6d82a0005e671f"
+  },
+  {
+    "key": "power_grid_metadata",
+    "status": "VERIFIED",
+    "sha256": "5f73349c37b43f8fa4f79e55309d20ccde98c7bfd11452174ceac0152372821d"
+  },
+  {
+    "key": "raha",
+    "status": "VERIFIED",
+    "sha256": "1ea1aafa0f4ad9989db4ef659497259f164c5c3a2a17febb497647bfd65bb1ea"
+  },
+  {
+    "key": "holoclean",
+    "status": "VERIFIED",
+    "sha256": "16bed239ef5a07b7acc2e53e5ec0f1306cc72ab2b195ca32e68c470777b9369e"
+  },
+  {
+    "key": "deequ",
+    "status": "VERIFIED",
+    "sha256": "e5d26497e908d0f34a081866120a3c4792e38e18487fbc82c06c47e9a04112e3"
+  },
+  {
+    "key": "dbt",
+    "status": "VERIFIED",
+    "sha256": "a003fe448ca06aebb748467227d2dc8b8be263173c6c070400efb95dfb9cb618"
+  },
+  {
+    "key": "great_expectations",
+    "status": "VERIFIED",
+    "sha256": "2f459afbebfec0520f83f1c2681bd19ecdd62c18bc1ffc04c311e11b785d9373"
+  },
+  {
+    "key": "rein",
+    "status": "VERIFIED",
+    "sha256": "866201cb6fe76b04892b5e66164c1bb7ebc6c03cd01419e6b09efbdff19d7381"
+  }
+]

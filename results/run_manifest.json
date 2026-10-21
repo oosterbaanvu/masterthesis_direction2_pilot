@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-10-21T10:01:09.833793+00:00",
+  "outcomes": {
+    "regular": {
+      "status": "COMPLETE",
+      "records": 360
+    },
+    "published_pairs": {
+      "status": "COMPLETE",
+      "records": 7
+    },
+    "sec_baseline": {
+      "status": "COMPLETE",
+      "records": 6
+    },
+    "service_demo": {
+      "status": "COMPLETE",
+      "records": 14
+    },
+    "robustness": {
+      "status": "COMPLETE",
+      "records": 6
+    },
+    "B_live_detection": {
+      "status": "NOT_RUN",
+      "reason": "No explicit inference spend authorization or configured model"
+    },
+    "C_generated_rules": {
+      "status": "NOT_RUN",
+      "reason": "No explicit inference spend authorization or configured model"
+    },
+    "D_validated_generated_rules": {
+      "status": "NOT_RUN",
+      "reason": "No explicit inference spend authorization or configured model"
+    },
+    "C_vs_D": {
+      "status": "NOT_RUN",
+      "reason": "No explicit inference spend authorization or configured model"
+    }
+  },
+  "runtime_seconds": 180.96926325099957,
+  "artifacts": {
+    "results/acquisition.json": "b86862bab7d10b29cba263b7c4cdd9b9777dc61da824ac3f4a4024569a4cdc85",
+    "results/frozen_inputs.json": "1041f2734cb90850f659f208b0369876a221cf81c5f5564a52faf952553d6d85",
+    "results/literature_acquisition.json": "36ee43857c581367928686b19384e09d242f53234dc350cb2076ca909643755c",
+    "results/published_pairs.json": "91eaccd223342f028e072369b61b8f431d03d6ba1cde58e07f99e097d111d6ff",
+    "results/regular_experiments.json": "e7c731119cb1670f7225eb54db0df71cd35fc2596cfd823e76105dfd79add846",
+    "results/robustness.json": "51df3b7a9da897043dbfcde952cbe612309bcf679adf4f45e8236f7f8ce6a8eb",
+    "results/sec_audit.json": "2a0aa5542382a8226835b554bc007c45bbc1ce1bd2fa4ab6ef504fb35be04f23",
+    "results/sec_baseline.json": "ae517d288f89ce2e602df644031f9a986f3a936c66f7cdc7d34cde9ed35fd58b",
+    "results/sec_reproduction.json": "800b02479bae0d5b868f37a2613eb8e1c4518e2d20f8dc9c23ec628080c137dc",
+    "results/sec_splits.json": "4b3864385ee7d958d637350db5b763b3becc7a1dc5ea4f2f457e3c99cf84878c",
+    "results/service_demo.json": "939c76ba014654066c967baaaba52a2a467bb55f0a9033733db1e4b9ebd0484e"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "draft_save_confirmed": true,
+  "install_script_readback_match": true,
+  "start_skill_readback_match": true,
+  "network_domains": [
+    "aclanthology.org",
+    "api.crossref.org",
+    "api.elsevier.com",
+    "archive.ics.uci.edu",
+    "arxiv.org",
+    "dl.acm.org",
+    "doi.org",
+    "export.arxiv.org",
+    "link.springer.com",
+    "www.emerald.com",
+    "www.sciencedirect.com",
+    "www.vldb.org"
+  ],
+  "repositories_unchanged": true,
+  "published": false,
+  "fresh_cloud_task_restoration_tested": false,
+  "note": "User must review/save settings and publish through the product; local reproduction is not new-cloud-task validation"
+}

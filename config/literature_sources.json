@@ -1,0 +1,108 @@
+{
+  "acquired": "2026-10-21",
+  "sources": [
+    {
+      "key": "sec",
+      "url": "https://aclanthology.org/2026.findings-acl.764.pdf",
+      "file": "sec.pdf",
+      "sha256": "88fe20f787d20edfa8f78dbab1b66d1091514f5db1dd245bdfa19dbb8cf70e83",
+      "access": "full_text"
+    },
+    {
+      "key": "akella",
+      "url": "https://aclanthology.org/2025.emnlp-industry.183.pdf",
+      "file": "akella.pdf",
+      "sha256": "a015baa6cb168172380602a3b15fbd5cae9259e52567d65d0abd40187119ad54",
+      "access": "full_text"
+    },
+    {
+      "key": "autotest",
+      "url": "https://arxiv.org/pdf/2504.10762",
+      "file": "autotest.pdf",
+      "sha256": "99017301642072b60c08c32ee7b6af583da1a1567f7cbd5eed35d088b6188485",
+      "access": "full_text"
+    },
+    {
+      "key": "deequ",
+      "url": "https://www.vldb.org/pvldb/vol11/p1781-schelter.pdf",
+      "file": "deequ.pdf",
+      "sha256": "d451ecf77b0fdc0756f91ec82aaa511c86bdb18229af13ab943c0f9e89a350cc",
+      "access": "full_text"
+    },
+    {
+      "key": "llm_dqr_metadata",
+      "url": "https://api.crossref.org/works/10.1016/j.jbi.2025.104951",
+      "file": "llm-dqr-crossref.json",
+      "sha256": "6e1ffc4f34edfb48fad157a12a01576adad14df35d013bda48f5322b4b2dd496",
+      "access": "publisher_metadata_or_abstract"
+    },
+    {
+      "key": "bayesian_metadata",
+      "url": "https://api.crossref.org/works/10.1108/DTA-07-2026-0785",
+      "file": "bayesian-metadata.json",
+      "sha256": "6ccb9e8dc72d0c77c9d726f16cc4725215be0012b971a2fa9b6d82a0005e671f",
+      "access": "publisher_metadata_or_abstract"
+    },
+    {
+      "key": "power_grid_metadata",
+      "url": "https://api.crossref.org/works/10.1007/s10791-026-09963-5",
+      "file": "power_grid-metadata.json",
+      "sha256": "5f73349c37b43f8fa4f79e55309d20ccde98c7bfd11452174ceac0152372821d",
+      "access": "publisher_metadata_or_abstract"
+    },
+    {
+      "key": "raha",
+      "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/README.md",
+      "file": "raha-README.txt",
+      "sha256": "1ea1aafa0f4ad9989db4ef659497259f164c5c3a2a17febb497647bfd65bb1ea",
+      "commit": "7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c",
+      "access": "official_implementation_readme"
+    },
+    {
+      "key": "holoclean",
+      "url": "https://raw.githubusercontent.com/HoloClean/holoclean/d4f5929a8e4d92d4f41eb058c04c96cdcb0af767/README.md",
+      "file": "holoclean-README.txt",
+      "sha256": "16bed239ef5a07b7acc2e53e5ec0f1306cc72ab2b195ca32e68c470777b9369e",
+      "commit": "d4f5929a8e4d92d4f41eb058c04c96cdcb0af767",
+      "access": "official_implementation_readme"
+    },
+    {
+      "key": "deequ",
+      "url": "https://raw.githubusercontent.com/awslabs/deequ/d7f778310cadcfaf7ad641bdfe07368416cc7c64/README.md",
+      "file": "deequ-README.txt",
+      "sha256": "e5d26497e908d0f34a081866120a3c4792e38e18487fbc82c06c47e9a04112e3",
+      "commit": "d7f778310cadcfaf7ad641bdfe07368416cc7c64",
+      "access": "official_implementation_readme"
+    },
+    {
+      "key": "dbt",
+      "url": "https://raw.githubusercontent.com/dbt-labs/dbt-core/6c62423c0eda54d5185aff0e23f8022c96561763/README.md",
+      "file": "dbt-README.txt",
+      "sha256": "a003fe448ca06aebb748467227d2dc8b8be263173c6c070400efb95dfb9cb618",
+      "commit": "6c62423c0eda54d5185aff0e23f8022c96561763",
+      "access": "official_implementation_readme"
+    },
+    {
+      "key": "great_expectations",
+      "url": "https://raw.githubusercontent.com/great-expectations/great_expectations/bcde7b56218fa84fd7d888f75141733038e68ce1/README.md",
+      "file": "great_expectations-README.txt",
+      "sha256": "2f459afbebfec0520f83f1c2681bd19ecdd62c18bc1ffc04c311e11b785d9373",
+      "commit": "bcde7b56218fa84fd7d888f75141733038e68ce1",
+      "access": "official_implementation_readme"
+    },
+    {
+      "key": "rein",
+      "url": "https://raw.githubusercontent.com/mohamedyd/rein-benchmark/b8a0727fdeb6d295eb88c702a344093a1d9096d1/README.md",
+      "file": "rein-README.txt",
+      "sha256": "866201cb6fe76b04892b5e66164c1bb7ebc6c03cd01419e6b09efbdff19d7381",
+      "commit": "b8a0727fdeb6d295eb88c702a344093a1d9096d1",
+      "access": "official_implementation_readme"
+    }
+  ],
+  "blocked_full_text": [
+    "LLM-DQR publisher API 403",
+    "Bayesian-inspired verification publisher PDF 403",
+    "Power grid Springer PDF proxy 403"
+  ],
+  "search_limitations": "Bounded ACL/Crossref/arXiv and official-repository search, not an exhaustive systematic review"
+}

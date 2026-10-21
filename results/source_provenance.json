@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "pilot1": {
+      "repository": "oosterbaanvu/masterthesis2",
+      "commit": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6"
+    },
+    "sec": {
+      "repository": "XIEFOX/SEC-Fintables",
+      "commit": "f82f80363da1afedbe8b35cede0bae802edab20c"
+    },
+    "llm_dqr": {
+      "repository": "casperx6/LLM-DQR",
+      "commit": "b92f83ad5878d6a81245872270677d203075a4a2"
+    }
+  },
+  "pilot1_files": {
+    "config/datasets.yaml": "5b2b9ba89ce98d7e9bcf6804afc3a826d685e72a86f2e37a11bcfe0bea2a22ba",
+    "docs/dataset_overview.md": "f8458cac644a5990f67502011add821f723098acef7af6784415ffe008f2d019",
+    "docs/dataset_qualification.md": "3c31b5a800d35bbdbe8b5238962037e857743e091ec424e016b08c167ede7140",
+    "docs/independent_validation.md": "1cd0bd223acec3151f95196a45f0e129efd6d29181b88b37f04bb9f26f241d39",
+    "docs/thesis_scale_pilot_report.md": "a72949845e153a40be9f064c684e0a3455c649c8caa4becd21b559af6d412658",
+    "docs/thesis_research_design.md": "8d742871d484e6a43f5da4901e5d8de8e8ffa6fdcc37cad9dad14c96a3597753",
+    "docs/thesis_literature_review.md": "92a4b3e5d4279e979a0de10c3538290bdef69f72f74d9bc5bf89f4eb660ae927"
+  },
+  "reuse": "Dataset registry and contract metadata, attributed; no Pilot 1 code or scientific outcomes executed in Pilot 2"
+}
