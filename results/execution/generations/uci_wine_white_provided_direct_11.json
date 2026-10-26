@@ -1,0 +1,100 @@
+{
+  "request": {
+    "id": "uci_wine_white:provided:direct:11",
+    "source": "uci_wine_white",
+    "documentation": "provided",
+    "prompt_variant": "direct",
+    "seed": 11,
+    "prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb",
+    "prompt_utf8_bytes": 4291,
+    "path": "data/cache/free_gemini/prompts/uci_wine_white_provided_direct_11.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb",
+    "request_sha256": "dc236c65da9494c5c4ef6b0fdb3ae31b084624fb0d5cccb90eaf0b0ca55d7fa3",
+    "response_canonical_sha256": "ebc529c2541dbbfc3fb3165510c82cc4b6e5e644cf3a91507296c6889ee0727b",
+    "settings": {
+      "temperature": 0,
+      "seed": 11,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 308,
+      "prompt_tokens": 1101,
+      "total_tokens": 1409,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 1101,
+      "prompt_ms": 30651.447,
+      "prompt_per_token_ms": 27.839643051771116,
+      "prompt_per_second": 35.92000077516732,
+      "predicted_n": 308,
+      "predicted_ms": 66470.822,
+      "predicted_per_token_ms": 216.517335504886,
+      "predicted_per_second": 4.618567828151726
+    },
+    "runtime_seconds": 97.16881354199722,
+    "peak_server_tree_RSS_bytes": 0,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "4fa009d15c950ee86cb34f5b20016cf2c7e4f7d50633bf7070b5ddec070f576e"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_NONNEG_ALL",
+      "description": "All numeric values should be nonnegative.",
+      "gx_code": "gx.expectations.ExpectAllValuesToBeNonNegative",
+      "evidence_references": [
+        "Nonnegative concentration, density, percentage or pH; no clean-test range fitting."
+      ]
+    },
+    {
+      "id": "D_PH_RANGE",
+      "description": "pH values should be within the conventional aqueous pH screening range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween",
+      "evidence_references": [
+        "Conventional aqueous pH screening range, not an empirical min/max."
+      ],
+      "kwargs": {
+        "min_value": 0,
+        "max_value": 14
+      }
+    },
+    {
+      "id": "D_TOTAL_SULFUR",
+      "description": "Total sulfur dioxide should be greater than or equal to free sulfur dioxide.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeGreaterThan",
+      "evidence_references": [
+        "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations."
+      ],
+      "kwargs": {
+        "column": "total sulfur dioxide",
+        "threshold": "free sulfur dioxide"
+      }
+    }
+  ],
+  "abstentions": [
+    "D_FREE_TOTAL",
+    "D_NONNEG_{i}"
+  ]
+}

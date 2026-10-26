@@ -1,0 +1,510 @@
+{
+  "responses": [
+    {
+      "condition": "original",
+      "request_id": "synthetic_balanced_journals:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "original",
+      "request_id": "uci_bank_marketing:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "original",
+      "request_id": "uci_credit:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "original",
+      "request_id": "uci_wine_white:provided:direct:11",
+      "raw_declared_rule_objects": 3,
+      "parsed_accepted_rules": 3,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:cautious:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:cautious:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:cautious:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:cautious:11",
+      "raw_declared_rule_objects": 3,
+      "parsed_accepted_rules": 3,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:cautious:23",
+      "raw_declared_rule_objects": 3,
+      "parsed_accepted_rules": 3,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:cautious:37",
+      "raw_declared_rule_objects": 3,
+      "parsed_accepted_rules": 3,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:cautious:11",
+      "raw_declared_rule_objects": 1,
+      "parsed_accepted_rules": 1,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:cautious:23",
+      "raw_declared_rule_objects": 1,
+      "parsed_accepted_rules": 1,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:cautious:37",
+      "raw_declared_rule_objects": 1,
+      "parsed_accepted_rules": 1,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:cautious:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:cautious:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:cautious:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:cautious:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:cautious:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:cautious:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:cautious:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:cautious:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:cautious:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 0,
+      "bundle_status": "MALFORMED_OR_TRUNCATED",
+      "failure_diagnostic": "DUPLICATE_RULE_IDS",
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:cautious:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:cautious:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:cautious:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:cautious:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:cautious:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:cautious:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:direct:11",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:direct:23",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:direct:37",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_beers:provided",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_beers:withheld",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_hospital:provided",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_hospital:withheld",
+      "raw_declared_rule_objects": 4,
+      "parsed_accepted_rules": 4,
+      "bundle_status": "PARSED",
+      "failure_diagnostic": null,
+      "raw_rule_objects_are_not_salvaged_into_selection": true
+    }
+  ],
+  "raw_declared_rule_objects": 211,
+  "strict_all_or_nothing_bundle_parser": true
+}

@@ -1,0 +1,102 @@
+{
+  "request": {
+    "id": "uci_credit:provided:direct:37",
+    "source": "uci_credit",
+    "documentation": "provided",
+    "prompt_variant": "direct",
+    "seed": 37,
+    "prompt_sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e",
+    "prompt_utf8_bytes": 11883,
+    "path": "data/cache/execution/guided_prompts/uci_credit_provided_direct_37.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "e0c97624c45d519c696ea33507df604ed2255984765183c15872640936e8fdf0"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e",
+    "request_sha256": "42e631b2ae2e95d7fd278276db697c6f9c56020a9af448120d37fe8126aacb41",
+    "response_canonical_sha256": "701c870672578888bdc97354e9af03a23a0f8ae4868362ac6495638824d3670e",
+    "settings": {
+      "temperature": 0,
+      "seed": 37,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 713,
+      "prompt_tokens": 3619,
+      "total_tokens": 4332,
+      "prompt_tokens_details": {
+        "cached_tokens": 3213
+      }
+    },
+    "timings": {
+      "cache_n": 3213,
+      "prompt_n": 406,
+      "prompt_ms": 16837.971,
+      "prompt_per_token_ms": 41.47283497536946,
+      "prompt_per_second": 24.11216885930021,
+      "predicted_n": 713,
+      "predicted_ms": 226313.261,
+      "predicted_per_token_ms": 317.8557036516854,
+      "predicted_per_second": 3.1460816606765256
+    },
+    "runtime_seconds": 244.2092150200042,
+    "peak_server_tree_RSS_bytes": 9649504256,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "68410c395cf74def16d96a8c50e4c5dc8069c02a179b63b86c95dca801c5519a"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_PAY_AMT_DOMAIN",
+      "description": "Ensure payment amounts are within the documented domain.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='PAY_AMT1', value_set=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9])",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ]
+    },
+    {
+      "id": "D_BILL_AMT_DOMAIN",
+      "description": "Ensure bill amounts are within the documented domain.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='BILL_AMT1', value_set=[-10000, -5000, -2500, -1000, -500, -250, -100, -50, -25, -10, -5, -2, -1, 0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000])",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ]
+    },
+    {
+      "id": "D_LIMIT_BAL_MULTIPLE",
+      "description": "Ensure credit limits are multiples of 10,000.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='LIMIT_BAL', value_set=[10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000, 150000, 160000, 170000, 180000, 190000, 200000, 210000, 220000, 230000, 240000, 250000, 260000, 270000, 280000, 290000, 300000])",
+      "evidence_references": [
+        "D_LIMIT_GRANULARITY"
+      ]
+    },
+    {
+      "id": "D_AGE_RANGE",
+      "description": "Ensure age is within the plausible range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='AGE', min_value=18, max_value=100)",
+      "evidence_references": [
+        "D_AGE_RANGE"
+      ]
+    }
+  ],
+  "abstentions": [
+    "D_EDUCATION_DOCUMENTED",
+    "D_BILL_OVER_LIMIT"
+  ]
+}

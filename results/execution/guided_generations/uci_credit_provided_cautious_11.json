@@ -1,0 +1,102 @@
+{
+  "request": {
+    "id": "uci_credit:provided:cautious:11",
+    "source": "uci_credit",
+    "documentation": "provided",
+    "prompt_variant": "cautious",
+    "seed": 11,
+    "prompt_sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788",
+    "prompt_utf8_bytes": 11970,
+    "path": "data/cache/execution/guided_prompts/uci_credit_provided_cautious_11.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "2fb52a721038c9070138ed88b4fa91e8b9c51939be605aaf8ef175f6ab5d8c6d"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788",
+    "request_sha256": "e4bf42747a4cecb8bd51e09bd6df792fc24f00826f9cd7d78e4ff846123c90c3",
+    "response_canonical_sha256": "8ba7513c652277e20db2e5df9d9d17a7d3173ed40564d64be96c502243d27924",
+    "settings": {
+      "temperature": 0,
+      "seed": 11,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 613,
+      "prompt_tokens": 3633,
+      "total_tokens": 4246,
+      "prompt_tokens_details": {
+        "cached_tokens": 3213
+      }
+    },
+    "timings": {
+      "cache_n": 3213,
+      "prompt_n": 420,
+      "prompt_ms": 20620.025,
+      "prompt_per_token_ms": 49.09529761904762,
+      "prompt_per_second": 20.368549504668398,
+      "predicted_n": 613,
+      "predicted_ms": 176435.959,
+      "predicted_per_token_ms": 288.29405065359475,
+      "predicted_per_second": 3.4686806673009327
+    },
+    "runtime_seconds": 347.436629577016,
+    "peak_server_tree_RSS_bytes": 9659514880,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "d6d2c3973c943d7ff53d95e5602f7643b60e314c6bbfa1e02cf7ef027273ac99"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_PAY_{i}_DOMAIN",
+      "description": "Ensure that the repayment status values are within the documented and observed range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='PAY_{i}', value_set=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9])",
+      "evidence_references": [
+        "D_PAY_{i}_DOMAIN"
+      ]
+    },
+    {
+      "id": "D_LIMIT_GRANULARITY",
+      "description": "Verify that the credit limits are multiples of 10,000.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='LIMIT_BAL', value_set=[0, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000, 150000, 160000, 170000, 180000, 190000, 200000, 210000, 220000, 230000, 240000, 250000, 260000, 270000, 280000, 290000, 300000])",
+      "evidence_references": [
+        "D_LIMIT_GRANULARITY"
+      ]
+    },
+    {
+      "id": "D_PAY_AMT{i}_NONNEG",
+      "description": "Ensure that the payment amounts are non-negative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeNonNegative(column='PAY_AMT{i}')",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ]
+    },
+    {
+      "id": "D_BILL_OVER_LIMIT",
+      "description": "Verify that the bill amounts are within the credit limit.",
+      "gx_code": "gx.expectations.ExpectColumnPairValuesAToBeLessThanOrEqualToB(column_A='BILL_AMT{i}', column_B='LIMIT_BAL', or_equal=True)",
+      "evidence_references": [
+        "D_BILL_OVER_LIMIT"
+      ]
+    }
+  ],
+  "abstentions": [
+    "D_EDUCATION_DOCUMENTED",
+    "D_BILL_OVER_LIMIT"
+  ]
+}

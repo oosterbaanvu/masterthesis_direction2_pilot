@@ -1,0 +1,37 @@
+Generate at most FOUR proposed data-quality checks for SOURCE_CONTEXT.
+Return a JSON object with rules (a list) and abstentions (a list of strings).
+Each rule has id, description, gx_code and evidence_references (list of strings).
+gx_code must be ONE standard gx.expectations.Expect... constructor with literal
+keyword arguments, supported by Great Expectations 1.9.1 on pandas. No imports,
+SQL/query checks, user-defined functions, files, network or arbitrary Python.
+Use only the schema and supplied documentation. There are no known dirty examples,
+error labels or reference repairs. Do not treat prediction targets as DQ labels.
+Do not silently strengthen provisional screening assumptions into universal rules.
+Respect signed balances, unknown/sentinel conventions, units and source scope.
+Successful execution does not prove semantic validity. Unsupported checks may be
+proposed only with their assumption explicit; abstain when meaning is insufficient.
+No rule is activated automatically. Avoid checks already listed in existing_controls.
+SOURCE_CONTEXT:
+{"citation": "https://doi.org/10.24432/C56S3T", "convention_notes": [], "existing_controls": [{"columns": "all", "evidence": "UCI winequality.names: no missing values in the published measurements.", "id": "D_REQUIRED", "kind": "not_null", "status": "verified"}, {"columns": ["{i}"], "evidence": "Nonnegative concentration, density, percentage or pH; no clean-test range fitting.", "for_each": ["fixed acidity", "volatile acidity", "citric acid", "residual sugar", "chlorides", "free sulfur dioxide", "total sulfur dioxide", "density", "pH", "sulphates", "alcohol"], "id": "D_NONNEG_{i}", "kind": "range", "min": 0, "status": "provisional"}, {"columns": ["pH"], "evidence": "Conventional aqueous pH screening range, not an empirical min/max.", "id": "D_PH", "kind": "range", "max": 14, "min": 0, "status": "provisional"}, {"columns": ["free sulfur dioxide", "total sulfur dioxide"], "evidence": "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations.", "expression": "\"free sulfur dioxide\" <= \"total sulfur dioxide\"", "id": "D_FREE_TOTAL", "kind": "expression", "status": "provisional"}], "licence_basis": "UCI public dataset metadata, CC BY 4.0, citation retained; inherited provisional assumptions remain marked", "raw_rows_transmitted": false, "sample": [], "sample_note": "No individual records are transmitted; schema/documentation-only generation.", "schema": [{"name": "fixed acidity", "type": "numeric"}, {"name": "volatile acidity", "type": "numeric"}, {"name": "citric acid", "type": "numeric"}, {"name": "residual sugar", "type": "numeric"}, {"name": "chlorides", "type": "numeric"}, {"name": "free sulfur dioxide", "type": "numeric"}, {"name": "total sulfur dioxide", "type": "numeric"}, {"name": "density", "type": "numeric"}, {"name": "pH", "type": "numeric"}, {"name": "sulphates", "type": "numeric"}, {"name": "alcohol", "type": "numeric"}], "source": "uci_wine_white", "source_contract_sha256": "a127d67b165ef86722f50a2ccc1759dd1c59bac8bb002475e02facbe45bdd646", "source_documentation": "Documentation intentionally withheld."}
+Explicitly list unsupported assumptions and abstain where source semantics are absent.
+GX 1.9.1 API syntax reference (generic library documentation, NOT dataset rules):
+gx_code must contain ONE COMPLETE CONSTRUCTOR EXPRESSION, including parentheses and
+literal arguments INSIDE the gx_code string. Do not put kwargs in a separate field.
+Example of the JSON format only:
+{"rules":[{"id":"example","description":"A proposed check","gx_code":"gx.expectations.ExpectColumnValuesToBeBetween(column='FIELD', min_value=0, max_value=10)","evidence_references":[]}],"abstentions":[]}
+FIELD above is a placeholder; use only actual SOURCE_CONTEXT column names.
+Allowed pandas constructors and their argument names:
+- gx.expectations.ExpectColumnValuesToNotBeNull(column='FIELD')
+- gx.expectations.ExpectColumnValuesToBeBetween(column='FIELD', min_value=0, max_value=10)
+- gx.expectations.ExpectColumnValuesToBeInSet(column='FIELD', value_set=['DOCUMENTED_VALUE'])
+- gx.expectations.ExpectColumnValuesToBeUnique(column='FIELD')
+- gx.expectations.ExpectColumnValuesToMatchRegex(column='FIELD', regex='DOCUMENTED_PATTERN')
+- gx.expectations.ExpectColumnValuesToBeOfType(column='FIELD', type_='float64')
+- gx.expectations.ExpectColumnPairValuesToBeEqual(column_A='FIELD_A', column_B='FIELD_B')
+- gx.expectations.ExpectColumnPairValuesAToBeGreaterThanB(column_A='FIELD_A', column_B='FIELD_B', or_equal=True)
+- gx.expectations.ExpectMulticolumnSumToEqual(column_list=['FIELD_A','FIELD_B'], sum_total=0)
+These parameter values are syntax examples, NOT justified constraints. Do not copy
+them unless source documentation independently supports them. Do not use old
+gx.expect_column_* methods, imaginary GX classes, column() functions, row_condition,
+SQL, imports, arithmetic expressions or dynamic arguments. A class name without
+its constructor arguments is not executable. Return JSON only, at most FOUR rules.

@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-26T12:40:18.896030+00:00",
+  "primary_row_metric": "Raw corrupted-batch union of fixed baseline and selected candidates vs labelled rows",
+  "increment": "Candidate alerts beyond the same fixed baseline on the same batch",
+  "delta_diagnostic": "Union of baseline new alerts and per-candidate new alerts relative to unmodified source; reported separately",
+  "why": "Subtracting aggregate before/after union can mask additional findings when baseline already flagged an unmodified row",
+  "before_any_new_UCI_holdout_scoring": true,
+  "published_scores_unchanged": true,
+  "protocol_deviation": "published_benchmark_generation mentions development samples; actual prompts contain schemas and provisional source descriptions only, no data rows or error labels",
+  "parallelism": "One inference slot. Two clients briefly queued requests during benchmark generation; walltime can include queueing. No concurrent model evaluation slots."
+}

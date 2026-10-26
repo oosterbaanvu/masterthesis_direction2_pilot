@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-10-26T12:18:34.422516+00:00",
+  "reason": "Ensure original labelled greedy is always downstream of technical filtering; add held-out execution diagnostics and isolated reproduction output paths. No threshold, prompt or candidate changed.",
+  "previous_hospital_result_preserved_sha256": "4f7a3fb476ad4be57f68094c26a85ee1a73f97c8151ee7150f1173eaa2bebcdf",
+  "completed_hospital_technical_pool_size": 8,
+  "impact_on_completed_hospital_selection": "None: all eight candidates passed the gate; original result retained, no rescoring overwrite.",
+  "new_uci_holdout_scored_before_fix": false
+}

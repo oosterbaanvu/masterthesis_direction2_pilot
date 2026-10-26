@@ -1,0 +1,8 @@
+{
+  "initial_manifest": "artifact_freeze_initial_unverified.json",
+  "initial_validation": "FAILED due to legacy completed benchmark files lacking newer completion-metadata key",
+  "scientific_outputs_changed": false,
+  "correction": "Verify actual expected per-source generation counts directly, retain assertion when metadata exists; do not rewrite completed scientific results",
+  "plot_update": "Standalone caption now explicitly says missing/type screens instead of strong controls",
+  "old_initial_manifest_preserved": true
+}

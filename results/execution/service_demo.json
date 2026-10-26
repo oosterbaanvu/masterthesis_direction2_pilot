@@ -1,0 +1,153 @@
+{
+  "status": "FUNCTIONAL_PUBLIC_CONTROLLED_DEMONSTRATION",
+  "real_generated_rules_imported": [
+    {
+      "id": "model_g_c3915e71cd6cc5146227",
+      "state": "REJECTED",
+      "origin": "ACTUAL_MODEL_GENERATED",
+      "gx_candidate_id": "g_c3915e71cd6cc5146227",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='currency', value_set=['USD', 'EUR'])",
+      "native_proposal": {
+        "id": "model_g_c3915e71cd6cc5146227",
+        "kind": "allowed",
+        "columns": [
+          "currency"
+        ],
+        "parameters": {
+          "values": [
+            "USD",
+            "EUR"
+          ]
+        },
+        "evidence": "Actual locally generated candidate; independent semantic approval PENDING",
+        "origin": "LLM"
+      }
+    },
+    {
+      "id": "model_g_535a468b6573a4a4da88",
+      "state": "VALIDATED",
+      "origin": "ACTUAL_MODEL_GENERATED",
+      "gx_candidate_id": "g_535a468b6573a4a4da88",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='total_debits', min_value=0, max_value=1000000000)",
+      "native_proposal": {
+        "id": "model_g_535a468b6573a4a4da88",
+        "kind": "range",
+        "columns": [
+          "total_debits"
+        ],
+        "parameters": {
+          "min": 0,
+          "max": 1000000000
+        },
+        "evidence": "Actual locally generated candidate; independent semantic approval PENDING",
+        "origin": "LLM"
+      }
+    },
+    {
+      "id": "model_g_83aa4f0f16f9dbe023da",
+      "state": "REJECTED",
+      "origin": "ACTUAL_MODEL_GENERATED",
+      "gx_candidate_id": "g_83aa4f0f16f9dbe023da",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeUnique(column='journal_id')",
+      "native_proposal": {
+        "id": "model_g_83aa4f0f16f9dbe023da",
+        "kind": "unique",
+        "columns": [
+          "journal_id"
+        ],
+        "parameters": {},
+        "evidence": "Actual locally generated candidate; independent semantic approval PENDING",
+        "origin": "LLM"
+      }
+    },
+    {
+      "id": "model_g_e708a4b361d2299256c1",
+      "state": "VALIDATED",
+      "origin": "ACTUAL_MODEL_GENERATED",
+      "gx_candidate_id": "g_e708a4b361d2299256c1",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='total_credits', min_value=0, max_value=1000000000)",
+      "native_proposal": {
+        "id": "model_g_e708a4b361d2299256c1",
+        "kind": "range",
+        "columns": [
+          "total_credits"
+        ],
+        "parameters": {
+          "min": 0,
+          "max": 1000000000
+        },
+        "evidence": "Actual locally generated candidate; independent semantic approval PENDING",
+        "origin": "LLM"
+      }
+    },
+    {
+      "id": "model_g_20a6d7f2665c86318e79",
+      "state": "NEEDS_REVIEW",
+      "origin": "ACTUAL_MODEL_GENERATED",
+      "gx_candidate_id": "g_20a6d7f2665c86318e79",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='currency', value_set=['USD'])",
+      "native_proposal": {
+        "id": "model_g_20a6d7f2665c86318e79",
+        "kind": "allowed",
+        "columns": [
+          "currency"
+        ],
+        "parameters": {
+          "values": [
+            "USD"
+          ]
+        },
+        "evidence": "Actual locally generated candidate; independent semantic approval PENDING",
+        "origin": "LLM"
+      }
+    },
+    {
+      "id": "model_g_d88df0e90e823370dc66",
+      "state": "REJECTED",
+      "origin": "ACTUAL_MODEL_GENERATED",
+      "gx_candidate_id": "g_d88df0e90e823370dc66",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='total_credits', min_value=0, max_value=None)",
+      "native_proposal": {
+        "id": "model_g_d88df0e90e823370dc66",
+        "kind": "range",
+        "columns": [
+          "total_credits"
+        ],
+        "parameters": {
+          "min": 0
+        },
+        "evidence": "Actual locally generated candidate; independent semantic approval PENDING",
+        "origin": "LLM"
+      }
+    }
+  ],
+  "unsupported_native_service_mapping": [
+    "g_9df575e0bc141b5e2d76"
+  ],
+  "model_states": {
+    "NEEDS_REVIEW": 1,
+    "REJECTED": 3,
+    "VALIDATED": 2
+  },
+  "model_rules_active": 0,
+  "independent_human_approvals": 0,
+  "clean_scenario_scan": {
+    "batch": 1,
+    "source": "journal_demo",
+    "rows": 256,
+    "findings": 0
+  },
+  "changed_scenario_scan": {
+    "batch": 2,
+    "source": "journal_demo",
+    "rows": 256,
+    "findings": 48
+  },
+  "events": 54,
+  "monitoring_records": 8,
+  "approval_interpretation": "Only conventional self-authored contract controls activated; actual model proposals remain gated.",
+  "identity_limit": "Local actor strings are attribution, not enterprise authentication",
+  "native_mapping_limit": "Native numeric/code normalization can differ from exact GX semantics under representation changes; original GX and mapped proposal retained, no generated proposal activated",
+  "financial_scope": "Explicit per-journal same-currency integer-cent debit/credit equality; no universal table-total assumption",
+  "preserved_SEC_financial_adapter": "src/dqpilot_final/financial.py; prior development proposals remain pending independent review"
+}

@@ -1,0 +1,36 @@
+Generate at most FOUR proposed data-quality checks for SOURCE_CONTEXT.
+Return a JSON object with rules (a list) and abstentions (a list of strings).
+Each rule has id, description, gx_code and evidence_references (list of strings).
+gx_code must be ONE standard gx.expectations.Expect... constructor with literal
+keyword arguments, supported by Great Expectations 1.9.1 on pandas. No imports,
+SQL/query checks, user-defined functions, files, network or arbitrary Python.
+Use only the schema and supplied documentation. There are no known dirty examples,
+error labels or reference repairs. Do not treat prediction targets as DQ labels.
+Do not silently strengthen provisional screening assumptions into universal rules.
+Respect signed balances, unknown/sentinel conventions, units and source scope.
+Successful execution does not prove semantic validity. Unsupported checks may be
+proposed only with their assumption explicit; abstain when meaning is insufficient.
+No rule is activated automatically. Avoid checks already listed in existing_controls.
+SOURCE_CONTEXT:
+{"citation": "https://github.com/BigDaMa/raha/tree/master/datasets/hospital", "existing_controls": [{"column": "provider_number", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "name", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "address_1", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "address_2", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "address_3", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "city", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "state", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "zip", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "county", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "phone", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "type", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "owner", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "emergency_service", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "condition", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "measure_code", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "measure_name", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "score", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "sample", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}, {"column": "state_average", "kind": "missing_token_screen", "mandatory_status": "NOT_ESTABLISHED"}], "format_note": "CSV fields are delivered as strings. Numeric-named fields are not automatically floating-point dataframe columns.", "sample": [], "schema": [{"name": "provider_number", "type": "string"}, {"name": "name", "type": "string"}, {"name": "address_1", "type": "string"}, {"name": "address_2", "type": "string"}, {"name": "address_3", "type": "string"}, {"name": "city", "type": "string"}, {"name": "state", "type": "string"}, {"name": "zip", "type": "string"}, {"name": "county", "type": "string"}, {"name": "phone", "type": "string"}, {"name": "type", "type": "string"}, {"name": "owner", "type": "string"}, {"name": "emergency_service", "type": "string"}, {"name": "condition", "type": "string"}, {"name": "measure_code", "type": "string"}, {"name": "measure_name", "type": "string"}, {"name": "score", "type": "string"}, {"name": "sample", "type": "string"}, {"name": "state_average", "type": "string"}], "source": "raha_hospital", "source_documentation": "Additional source documentation withheld."}
+GX 1.9.1 API syntax reference (generic library documentation, NOT dataset rules):
+gx_code must contain ONE COMPLETE CONSTRUCTOR EXPRESSION, including parentheses and
+literal arguments INSIDE the gx_code string. Do not put kwargs in a separate field.
+Example of the JSON format only:
+{"rules":[{"id":"example","description":"A proposed check","gx_code":"gx.expectations.ExpectColumnValuesToBeBetween(column='FIELD', min_value=0, max_value=10)","evidence_references":[]}],"abstentions":[]}
+FIELD above is a placeholder; use only actual SOURCE_CONTEXT column names.
+Allowed pandas constructors and their argument names:
+- gx.expectations.ExpectColumnValuesToNotBeNull(column='FIELD')
+- gx.expectations.ExpectColumnValuesToBeBetween(column='FIELD', min_value=0, max_value=10)
+- gx.expectations.ExpectColumnValuesToBeInSet(column='FIELD', value_set=['DOCUMENTED_VALUE'])
+- gx.expectations.ExpectColumnValuesToBeUnique(column='FIELD')
+- gx.expectations.ExpectColumnValuesToMatchRegex(column='FIELD', regex='DOCUMENTED_PATTERN')
+- gx.expectations.ExpectColumnValuesToBeOfType(column='FIELD', type_='float64')
+- gx.expectations.ExpectColumnPairValuesToBeEqual(column_A='FIELD_A', column_B='FIELD_B')
+- gx.expectations.ExpectColumnPairValuesAToBeGreaterThanB(column_A='FIELD_A', column_B='FIELD_B', or_equal=True)
+- gx.expectations.ExpectMulticolumnSumToEqual(column_list=['FIELD_A','FIELD_B'], sum_total=0)
+These parameter values are syntax examples, NOT justified constraints. Do not copy
+them unless source documentation independently supports them. Do not use old
+gx.expect_column_* methods, imaginary GX classes, column() functions, row_condition,
+SQL, imports, arithmetic expressions or dynamic arguments. A class name without
+its constructor arguments is not executable. Return JSON only, at most FOUR rules.

@@ -1,0 +1,99 @@
+{
+  "request": {
+    "id": "uci_wine_white:withheld:direct:37",
+    "source": "uci_wine_white",
+    "documentation": "withheld",
+    "prompt_variant": "direct",
+    "seed": 37,
+    "prompt_sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902",
+    "prompt_utf8_bytes": 4964,
+    "path": "data/cache/execution/guided_prompts/uci_wine_white_withheld_direct_37.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "bafb194541afea94860799bf53a143a594942c6e3653e0cdd65e8bb38863a95d"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902",
+    "request_sha256": "14eb457bc80b039b3027a3d0a62e25c2b0a96df4474cbe8ef86398e46bad107d",
+    "response_canonical_sha256": "649c2273e2c92c04b9975704a8ae58ccd7c476110322e01b7e434e78dc44f0e1",
+    "settings": {
+      "temperature": 0,
+      "seed": 37,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 385,
+      "prompt_tokens": 1242,
+      "total_tokens": 1627,
+      "prompt_tokens_details": {
+        "cached_tokens": 836
+      }
+    },
+    "timings": {
+      "cache_n": 836,
+      "prompt_n": 406,
+      "prompt_ms": 11593.18,
+      "prompt_per_token_ms": 28.554630541871923,
+      "prompt_per_second": 35.02058969152553,
+      "predicted_n": 385,
+      "predicted_ms": 77824.347,
+      "predicted_per_token_ms": 202.66757031249998,
+      "predicted_per_second": 4.93418852586068
+    },
+    "runtime_seconds": 89.62053506099619,
+    "peak_server_tree_RSS_bytes": 9574944768,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "5dd96b570b54f86acf15cc201eccbc4267c3cc9e5e91881b36a1b8790f9403ca"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_ALCOHOL_RANGE",
+      "description": "Alcohol concentration should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='alcohol', min_value=8, max_value=15)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C56S3T"
+      ]
+    },
+    {
+      "id": "D_SULPHATES_RANGE",
+      "description": "Sulphates concentration should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='sulphates', min_value=0, max_value=2)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C56S3T"
+      ]
+    },
+    {
+      "id": "D_DENSITY_RANGE",
+      "description": "Density should be within a reasonable range for wine.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='density', min_value=0.98, max_value=1.04)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C56S3T"
+      ]
+    },
+    {
+      "id": "D_RESIDUAL_SUGAR_RANGE",
+      "description": "Residual sugar should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='residual sugar', min_value=0, max_value=15)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C56S3T"
+      ]
+    }
+  ],
+  "abstentions": []
+}

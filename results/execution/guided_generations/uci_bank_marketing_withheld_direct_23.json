@@ -1,0 +1,101 @@
+{
+  "request": {
+    "id": "uci_bank_marketing:withheld:direct:23",
+    "source": "uci_bank_marketing",
+    "documentation": "withheld",
+    "prompt_variant": "direct",
+    "seed": 23,
+    "prompt_sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc",
+    "prompt_utf8_bytes": 6550,
+    "path": "data/cache/execution/guided_prompts/uci_bank_marketing_withheld_direct_23.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "5e636ed25a84837cbd2df1eb4751e19e807bcfd82ee83781a79dac3d213f7cbb"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc",
+    "request_sha256": "2ea15461650d8b2382087390b372cdc875eea2aca92db39e21cb5aa016e32ed5",
+    "response_canonical_sha256": "e1581b12d0271e5f16b2b76b36e83e5d9788feca174a123cd1b6827ff93f1690",
+    "settings": {
+      "temperature": 0,
+      "seed": 23,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 412,
+      "prompt_tokens": 1762,
+      "total_tokens": 2174,
+      "prompt_tokens_details": {
+        "cached_tokens": 1356
+      }
+    },
+    "timings": {
+      "cache_n": 1356,
+      "prompt_n": 406,
+      "prompt_ms": 12156.523,
+      "prompt_per_token_ms": 29.94217487684729,
+      "prompt_per_second": 33.39770755173992,
+      "predicted_n": 412,
+      "predicted_ms": 87839.602,
+      "predicted_per_token_ms": 213.7216593673966,
+      "predicted_per_second": 4.678982948943689
+    },
+    "runtime_seconds": 100.30445075698663,
+    "peak_server_tree_RSS_bytes": 9545150464,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "b4fc0799d7678ebddb6be105c0ff80a581e03df9ae47901a7b8199427d9e7319"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_EMP_VAR_RATE_RANGE",
+      "description": "Emp.var.rate should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='emp.var.rate', min_value=-10, max_value=10)",
+      "evidence_references": [
+        "Documentation: emp.var.rate represents employment variation rate, which is expected to be within a reasonable range."
+      ]
+    },
+    {
+      "id": "D_CONS_PRICE_IDX_RANGE",
+      "description": "Cons.price.idx should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='cons.price.idx', min_value=90, max_value=110)",
+      "evidence_references": [
+        "Documentation: cons.price.idx represents consumer price index, which is expected to be within a reasonable range."
+      ]
+    },
+    {
+      "id": "D_CONS_CONF_IDX_RANGE",
+      "description": "Cons.conf.idx should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='cons.conf.idx', min_value=-50, max_value=50)",
+      "evidence_references": [
+        "Documentation: cons.conf.idx represents consumer confidence index, which is expected to be within a reasonable range."
+      ]
+    },
+    {
+      "id": "D_EURIBOR3M_RANGE",
+      "description": "Euribor3m should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='euribor3m', min_value=0, max_value=5)",
+      "evidence_references": [
+        "Documentation: euribor3m represents the three-month Euribor interest rate, which is expected to be within a reasonable range."
+      ]
+    }
+  ],
+  "abstentions": [
+    "D_PDAYS999_NO_PREVIOUS"
+  ]
+}

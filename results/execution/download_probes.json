@@ -1,0 +1,14 @@
+[
+  {
+    "key": "ollama_binary",
+    "status": 200,
+    "host": "release-assets.githubusercontent.com",
+    "length": "1508659610"
+  },
+  {
+    "key": "qwen_weights",
+    "status": 200,
+    "host": "us.aws.cdn.hf.co",
+    "length": "4683073536"
+  }
+]

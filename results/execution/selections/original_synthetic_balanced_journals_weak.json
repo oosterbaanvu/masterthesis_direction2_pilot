@@ -1,0 +1,53 @@
+{
+  "source": "synthetic_balanced_journals",
+  "condition": "original",
+  "baseline": "weak",
+  "arms": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": []
+  },
+  "C_decisions": [
+    {
+      "id": "g_806d16caa26e7dc47f3d",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_2b2ae4be8ef34e9eecce",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_0e3047473003f68346a5",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_98d1929687744b36f93f",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "sensitivity": {
+    "C_0.0": [],
+    "C_0.01": [],
+    "C_0.05": [],
+    "B_0.8": [],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "0a8241b023f5f0ac8e257ecf0ddff58bd8249618dfcc8a3de09179e751f95509",
+  "time_utc": "2026-10-26T12:42:01.938402+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

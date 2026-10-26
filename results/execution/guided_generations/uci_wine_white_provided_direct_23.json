@@ -1,0 +1,102 @@
+{
+  "request": {
+    "id": "uci_wine_white:provided:direct:23",
+    "source": "uci_wine_white",
+    "documentation": "provided",
+    "prompt_variant": "direct",
+    "seed": 23,
+    "prompt_sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58",
+    "prompt_utf8_bytes": 6099,
+    "path": "data/cache/execution/guided_prompts/uci_wine_white_provided_direct_23.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58",
+    "request_sha256": "71ea7f8522a3559efe596522445ac79c5a17d3982cd97b2f2c7fe34ead2f87e9",
+    "response_canonical_sha256": "e97cfd5657a6037064d2cb1a5ddfff21bf09eaa8f7bf58a1119647af3bb4e0ff",
+    "settings": {
+      "temperature": 0,
+      "seed": 23,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 338,
+      "prompt_tokens": 1502,
+      "total_tokens": 1840,
+      "prompt_tokens_details": {
+        "cached_tokens": 1096
+      }
+    },
+    "timings": {
+      "cache_n": 1096,
+      "prompt_n": 406,
+      "prompt_ms": 11810.775,
+      "prompt_per_token_ms": 29.090578817733988,
+      "prompt_per_second": 34.375390268631826,
+      "predicted_n": 338,
+      "predicted_ms": 114003.808,
+      "predicted_per_token_ms": 338.29023145400595,
+      "predicted_per_second": 2.956041608715386
+    },
+    "runtime_seconds": 126.33914698002627,
+    "peak_server_tree_RSS_bytes": 9670619136,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "eab1a5afa589e70bdfbef76ada4de513eace4feddfd9ce0a1746b0a64f5dbffa"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_NONNEG_fixed_acidity",
+      "description": "Fixed acidity should be nonnegative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='fixed acidity', min_value=0, max_value=100)",
+      "evidence_references": [
+        "D_NONNEG_{i}"
+      ]
+    },
+    {
+      "id": "D_NONNEG_volatile_acidity",
+      "description": "Volatile acidity should be nonnegative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='volatile acidity', min_value=0, max_value=10)",
+      "evidence_references": [
+        "D_NONNEG_{i}"
+      ]
+    },
+    {
+      "id": "D_NONNEG_citric_acid",
+      "description": "Citric acid should be nonnegative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='citric acid', min_value=0, max_value=10)",
+      "evidence_references": [
+        "D_NONNEG_{i}"
+      ]
+    },
+    {
+      "id": "D_NONNEG_sulphates",
+      "description": "Sulphates should be nonnegative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='sulphates', min_value=0, max_value=10)",
+      "evidence_references": [
+        "D_NONNEG_{i}"
+      ]
+    }
+  ],
+  "abstentions": [
+    "D_PH",
+    "D_FREE_TOTAL"
+  ]
+}

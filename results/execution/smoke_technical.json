@@ -1,0 +1,30 @@
+{
+  "status": "TRIAGED",
+  "rows": 256,
+  "role": "UNLABELLED_DEVELOPMENT_ONLY",
+  "results": [
+    {
+      "id": "D_NONNEG_ALL",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "technical_pass": false,
+      "exception_type": "ValueError"
+    },
+    {
+      "id": "D_PH_RANGE",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "technical_pass": false,
+      "exception_type": "ValueError"
+    },
+    {
+      "id": "D_TOTAL_SULFUR",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "technical_pass": false,
+      "exception_type": "ValueError"
+    }
+  ],
+  "held_out_error_performance": "NOT_MEASURED",
+  "independent_semantic_judgments": 0
+}

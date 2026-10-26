@@ -1,0 +1,90 @@
+{
+  "source": "raha_beers",
+  "condition": "benchmark",
+  "baseline": "weak",
+  "arms": {
+    "A": [
+      "g_05b520e07bfbab0b6a48",
+      "g_0f1b35b7ba1cca72ad16",
+      "g_2b0bfb53f443996862b5",
+      "g_45c5bfaa8baf66fc8499",
+      "g_48f86044f49c2eb70ed8",
+      "g_81a6675b396609dc78a5",
+      "g_90a1c06066f9e4df1aa4",
+      "g_9ede2fde0b1dc38efd15"
+    ],
+    "B": [
+      "g_05b520e07bfbab0b6a48"
+    ],
+    "C": [],
+    "D": []
+  },
+  "C_decisions": [
+    {
+      "id": "g_2b0bfb53f443996862b5",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_90a1c06066f9e4df1aa4",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_0f1b35b7ba1cca72ad16",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_05b520e07bfbab0b6a48",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_81a6675b396609dc78a5",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_9ede2fde0b1dc38efd15",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_45c5bfaa8baf66fc8499",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_48f86044f49c2eb70ed8",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "sensitivity": {
+    "C_0.0": [],
+    "C_0.01": [],
+    "C_0.05": [],
+    "B_0.8": [
+      "g_05b520e07bfbab0b6a48"
+    ],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "9cef66a67d0d38d3d00266766f005fb5c0b5fc11b6a0297b16b0045ff37824bb",
+  "time_utc": "2026-10-26T12:19:20.101156+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

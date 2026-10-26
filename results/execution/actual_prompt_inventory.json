@@ -1,0 +1,341 @@
+{
+  "prompts": [
+    {
+      "condition": "original",
+      "request_id": "synthetic_balanced_journals:provided:direct:11",
+      "path": "results/execution/prompts/original/synthetic_balanced_journals_provided_direct_11.txt",
+      "sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21"
+    },
+    {
+      "condition": "original",
+      "request_id": "uci_bank_marketing:provided:direct:11",
+      "path": "results/execution/prompts/original/uci_bank_marketing_provided_direct_11.txt",
+      "sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d"
+    },
+    {
+      "condition": "original",
+      "request_id": "uci_credit:provided:direct:11",
+      "path": "results/execution/prompts/original/uci_credit_provided_direct_11.txt",
+      "sha256": "e0c97624c45d519c696ea33507df604ed2255984765183c15872640936e8fdf0"
+    },
+    {
+      "condition": "original",
+      "request_id": "uci_wine_white:provided:direct:11",
+      "path": "results/execution/prompts/original/uci_wine_white_provided_direct_11.txt",
+      "sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:cautious:11",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_provided_cautious_11.txt",
+      "sha256": "a60eb33366a3c3c20900a98e9baa1079df3b637ec1e193d20b92bda7cf12012f"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:cautious:23",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_provided_cautious_23.txt",
+      "sha256": "a60eb33366a3c3c20900a98e9baa1079df3b637ec1e193d20b92bda7cf12012f"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:cautious:37",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_provided_cautious_37.txt",
+      "sha256": "a60eb33366a3c3c20900a98e9baa1079df3b637ec1e193d20b92bda7cf12012f"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:direct:11",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_provided_direct_11.txt",
+      "sha256": "3310b6e48a2230cf677f781f0784ad75a8bfe303ac9336130a759f16352f3777"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:direct:23",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_provided_direct_23.txt",
+      "sha256": "3310b6e48a2230cf677f781f0784ad75a8bfe303ac9336130a759f16352f3777"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:provided:direct:37",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_provided_direct_37.txt",
+      "sha256": "3310b6e48a2230cf677f781f0784ad75a8bfe303ac9336130a759f16352f3777"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:cautious:11",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_withheld_cautious_11.txt",
+      "sha256": "47af81649f69cb5b2c565c51395922684b53ec8e209715f5e78ad994da2bd70f"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:cautious:23",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_withheld_cautious_23.txt",
+      "sha256": "47af81649f69cb5b2c565c51395922684b53ec8e209715f5e78ad994da2bd70f"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:cautious:37",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_withheld_cautious_37.txt",
+      "sha256": "47af81649f69cb5b2c565c51395922684b53ec8e209715f5e78ad994da2bd70f"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:direct:11",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_withheld_direct_11.txt",
+      "sha256": "99529016d0d09558cb6e0dd1986c968dee1ab8723379eecfe889302524b16581"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:direct:23",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_withheld_direct_23.txt",
+      "sha256": "99529016d0d09558cb6e0dd1986c968dee1ab8723379eecfe889302524b16581"
+    },
+    {
+      "condition": "guided",
+      "request_id": "synthetic_balanced_journals:withheld:direct:37",
+      "path": "results/execution/prompts/guided/synthetic_balanced_journals_withheld_direct_37.txt",
+      "sha256": "99529016d0d09558cb6e0dd1986c968dee1ab8723379eecfe889302524b16581"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:cautious:11",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_provided_cautious_11.txt",
+      "sha256": "93ce8fda00a9b18a25a4e90e5697af9c8562d721898bc88317462b05ed9ddb92"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:cautious:23",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_provided_cautious_23.txt",
+      "sha256": "93ce8fda00a9b18a25a4e90e5697af9c8562d721898bc88317462b05ed9ddb92"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:cautious:37",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_provided_cautious_37.txt",
+      "sha256": "93ce8fda00a9b18a25a4e90e5697af9c8562d721898bc88317462b05ed9ddb92"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:direct:11",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_provided_direct_11.txt",
+      "sha256": "6987670fa89e17d6643715c2d8393e7c0b3c3839718202f5c45287224b30a81a"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:direct:23",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_provided_direct_23.txt",
+      "sha256": "6987670fa89e17d6643715c2d8393e7c0b3c3839718202f5c45287224b30a81a"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:provided:direct:37",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_provided_direct_37.txt",
+      "sha256": "6987670fa89e17d6643715c2d8393e7c0b3c3839718202f5c45287224b30a81a"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:cautious:11",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_withheld_cautious_11.txt",
+      "sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:cautious:23",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_withheld_cautious_23.txt",
+      "sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:cautious:37",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_withheld_cautious_37.txt",
+      "sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:direct:11",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_withheld_direct_11.txt",
+      "sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:direct:23",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_withheld_direct_23.txt",
+      "sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_bank_marketing:withheld:direct:37",
+      "path": "results/execution/prompts/guided/uci_bank_marketing_withheld_direct_37.txt",
+      "sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:cautious:11",
+      "path": "results/execution/prompts/guided/uci_credit_provided_cautious_11.txt",
+      "sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:cautious:23",
+      "path": "results/execution/prompts/guided/uci_credit_provided_cautious_23.txt",
+      "sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:cautious:37",
+      "path": "results/execution/prompts/guided/uci_credit_provided_cautious_37.txt",
+      "sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:direct:11",
+      "path": "results/execution/prompts/guided/uci_credit_provided_direct_11.txt",
+      "sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:direct:23",
+      "path": "results/execution/prompts/guided/uci_credit_provided_direct_23.txt",
+      "sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:provided:direct:37",
+      "path": "results/execution/prompts/guided/uci_credit_provided_direct_37.txt",
+      "sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:cautious:11",
+      "path": "results/execution/prompts/guided/uci_credit_withheld_cautious_11.txt",
+      "sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:cautious:23",
+      "path": "results/execution/prompts/guided/uci_credit_withheld_cautious_23.txt",
+      "sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:cautious:37",
+      "path": "results/execution/prompts/guided/uci_credit_withheld_cautious_37.txt",
+      "sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:direct:11",
+      "path": "results/execution/prompts/guided/uci_credit_withheld_direct_11.txt",
+      "sha256": "6a4005af69f7ce3e85ea5498ad32880c14e9dcf7adceca7486ed8a7c8d61ee4e"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:direct:23",
+      "path": "results/execution/prompts/guided/uci_credit_withheld_direct_23.txt",
+      "sha256": "6a4005af69f7ce3e85ea5498ad32880c14e9dcf7adceca7486ed8a7c8d61ee4e"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_credit:withheld:direct:37",
+      "path": "results/execution/prompts/guided/uci_credit_withheld_direct_37.txt",
+      "sha256": "6a4005af69f7ce3e85ea5498ad32880c14e9dcf7adceca7486ed8a7c8d61ee4e"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:cautious:11",
+      "path": "results/execution/prompts/guided/uci_wine_white_provided_cautious_11.txt",
+      "sha256": "d78a1c456f698cc1d3072f7a72fc25e4d460c47cc5c23ccb323ae393c8a75218"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:cautious:23",
+      "path": "results/execution/prompts/guided/uci_wine_white_provided_cautious_23.txt",
+      "sha256": "d78a1c456f698cc1d3072f7a72fc25e4d460c47cc5c23ccb323ae393c8a75218"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:cautious:37",
+      "path": "results/execution/prompts/guided/uci_wine_white_provided_cautious_37.txt",
+      "sha256": "d78a1c456f698cc1d3072f7a72fc25e4d460c47cc5c23ccb323ae393c8a75218"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:direct:11",
+      "path": "results/execution/prompts/guided/uci_wine_white_provided_direct_11.txt",
+      "sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:direct:23",
+      "path": "results/execution/prompts/guided/uci_wine_white_provided_direct_23.txt",
+      "sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:provided:direct:37",
+      "path": "results/execution/prompts/guided/uci_wine_white_provided_direct_37.txt",
+      "sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:cautious:11",
+      "path": "results/execution/prompts/guided/uci_wine_white_withheld_cautious_11.txt",
+      "sha256": "4d077afce3a65331677b0a4fabfe28d76c98e12424235855864875494b6fdec8"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:cautious:23",
+      "path": "results/execution/prompts/guided/uci_wine_white_withheld_cautious_23.txt",
+      "sha256": "4d077afce3a65331677b0a4fabfe28d76c98e12424235855864875494b6fdec8"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:cautious:37",
+      "path": "results/execution/prompts/guided/uci_wine_white_withheld_cautious_37.txt",
+      "sha256": "4d077afce3a65331677b0a4fabfe28d76c98e12424235855864875494b6fdec8"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:direct:11",
+      "path": "results/execution/prompts/guided/uci_wine_white_withheld_direct_11.txt",
+      "sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:direct:23",
+      "path": "results/execution/prompts/guided/uci_wine_white_withheld_direct_23.txt",
+      "sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902"
+    },
+    {
+      "condition": "guided",
+      "request_id": "uci_wine_white:withheld:direct:37",
+      "path": "results/execution/prompts/guided/uci_wine_white_withheld_direct_37.txt",
+      "sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902"
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_beers:provided",
+      "path": "results/execution/prompts/benchmark/raha_beers_provided.txt",
+      "sha256": "ecde7fbb06e6406e9411bd6751ec532f9b2361b4bf345c9070dce55435c47be8"
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_beers:withheld",
+      "path": "results/execution/prompts/benchmark/raha_beers_withheld.txt",
+      "sha256": "3582279648880e64509aa0218cbe23d2b042bd70ac4f2a76d9e3937cac30dfae"
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_hospital:provided",
+      "path": "results/execution/prompts/benchmark/raha_hospital_provided.txt",
+      "sha256": "20bdfd89b1dc8198ebf1f96ada1c3d245b92768dff41d617809b7bb4612a19ad"
+    },
+    {
+      "condition": "benchmark",
+      "request_id": "raha_hospital:withheld",
+      "path": "results/execution/prompts/benchmark/raha_hospital_withheld.txt",
+      "sha256": "98be8653c8834ece2c14baa48ee111ac23ef221f8f96b898f7b0aa347a65d481"
+    }
+  ],
+  "source_records_included": false
+}

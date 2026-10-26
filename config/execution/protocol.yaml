@@ -1,0 +1,49 @@
+phase: free_model_execution_v1
+parent_commit: bf11edd1504ad25e52741ddcdd9315a986cd4dc7
+seed: 20261026
+paid_apis_authorized: false
+local_model: Qwen2.5-Coder-7B-Instruct
+quantization: Q4_K_M
+runtime_fallback: llama.cpp
+max_context_tokens: 8192
+max_output_tokens: 2048
+cpu_threads: 4
+parallel_requests: 1
+temperature: 0
+top_p: 1
+repeat_penalty: 1
+request_timeout_seconds: 600
+original_prompt_manifest: results/free_gemini/prepared_inputs.json
+original_prompts_unchanged: true
+stages: [smoke_wine, balanced_first_16, full_48_if_viable]
+selection_arms:
+  A: technical_supported_executable
+  B: original_LeDQeR_greedy_development_label_assisted_precision_1
+  C: documented_constraint_entailment_plus_unlabelled_stability_and_abstention
+  D: conventional_controls_only
+baseline_strengths: [schema_missing_type, full_preexisting_contract_and_historical_envelopes]
+C_max_unlabelled_alert_fraction: 0.01
+C_required_format_invariance: true
+C_unknown_semantics: ABSTAIN
+C_extra_documentation_whitelisted_before_generation: true
+primary_reporting: incremental_labelled_hits_lost_hits_and_additional_workload_separately
+metric_unit: row_flag_primary_single_column_cell_flags_secondary
+multi_column_localization: participating_rows_not_claims_about_uniquely_corrupted_cells
+B_unit_adaptation: original_pair_coverage_function_with_row_proxy_col_token
+UCI_group_salt: uci-pilot2-11
+UCI_dev_and_test_cap: 512
+injection_seed: 20261026
+injection_families: [missing, invalid_type_or_code, gross_scale, plausible_swap]
+injected_rows_per_family: 24
+published_reference_groups: {raha_hospital: ProviderNumber, raha_beers: brewery_id}
+published_reference_partition_salt: free-model-execution-v1
+published_conventional_controls: [generic_missing_token, lexical_numeric_when_documented]
+threshold_sensitivity: {B_precision: [0.8, 1.0], C_alert_fraction: [0.0, 0.01, 0.05]}
+independent_unit: source_or_provider_entity_group_not_prompt_or_injected_cell
+UCI_evaluation: controlled_injections_into_eligible_cells_plus_unlabelled_source_workload
+published_reference_evaluation: Hospital_and_Beers_conditional_author_reference_agreement
+published_benchmark_generation: schema_unlabelled_development_sample_no_dirty_or_clean_labels
+financial_demo: controlled_journals_plus_existing_development_SEC_contract_adapter
+reserved_SEC: no_new_reads_or_scores
+human_adjudication: PENDING_no_simulated_review
+freeze_before_scoring: true

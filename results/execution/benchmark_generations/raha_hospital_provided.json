@@ -1,0 +1,96 @@
+{
+  "request": {
+    "id": "raha_hospital:provided",
+    "source": "raha_hospital",
+    "documentation": "provided",
+    "seed": 11,
+    "path": "data/cache/execution/benchmark_prompts/raha_hospital_provided.txt",
+    "prompt_sha256": "20bdfd89b1dc8198ebf1f96ada1c3d245b92768dff41d617809b7bb4612a19ad"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "published_schema_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "20bdfd89b1dc8198ebf1f96ada1c3d245b92768dff41d617809b7bb4612a19ad",
+    "request_sha256": "017a4858e1a7da5cec22aa29d1ee4092f7bd3666c29566b673ea89367163e8cb",
+    "response_canonical_sha256": "e6edea52a63a85070402222d1f9a9bd5c74af3f63bb692b982092fe33d6b9ed6",
+    "settings": {
+      "temperature": 0,
+      "seed": 11,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 443,
+      "prompt_tokens": 1469,
+      "total_tokens": 1912,
+      "prompt_tokens_details": {
+        "cached_tokens": 231
+      }
+    },
+    "timings": {
+      "cache_n": 231,
+      "prompt_n": 1238,
+      "prompt_ms": 34799.937,
+      "prompt_per_token_ms": 28.109803715670434,
+      "prompt_per_second": 35.57477704629178,
+      "predicted_n": 443,
+      "predicted_ms": 96635.905,
+      "predicted_per_token_ms": 218.63326923076923,
+      "predicted_per_second": 4.573869308721226
+    },
+    "runtime_seconds": 250.93920943897683,
+    "peak_server_tree_RSS_bytes": 9367904256,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "101864f7373b0c15cc3594ba9120cfffed1ce140cee66e98e847990b6c8bbdfc"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "check_phone_format",
+      "description": "Ensure that the phone numbers are in a valid format (e.g., 123-456-7890).",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='phone', regex='^[0-9]{3}-[0-9]{3}-[0-9]{4}$')",
+      "evidence_references": [
+        "https://www.regular-expressions.info/phonenumber.html"
+      ]
+    },
+    {
+      "id": "check_zip_format",
+      "description": "Ensure that the zip codes are in a valid format (e.g., 12345 or 12345-6789).",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='zip', regex='^[0-9]{5}(-[0-9]{4})?$')",
+      "evidence_references": [
+        "https://www.regular-expressions.info/zip.html"
+      ]
+    },
+    {
+      "id": "check_state_code",
+      "description": "Ensure that the state codes are in a valid format (e.g., two-letter abbreviation).",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='state', regex='^[A-Z]{2}$')",
+      "evidence_references": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations"
+      ]
+    },
+    {
+      "id": "check_owner_type",
+      "description": "Ensure that the owner types are one of the documented values (e.g., 'Public', 'Private').",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='owner', value_set=['Public', 'Private'])",
+      "evidence_references": [
+        "SOURCE_CONTEXT documentation"
+      ]
+    }
+  ],
+  "abstentions": [
+    "The schema does not provide specific constraints for the 'score' and 'sample' columns, so their data quality cannot be checked without additional assumptions."
+  ]
+}

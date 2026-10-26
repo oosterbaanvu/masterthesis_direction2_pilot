@@ -1,0 +1,28 @@
+{
+  "source": "uci_bank_marketing",
+  "condition": "original",
+  "baseline": "strong",
+  "arms": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": []
+  },
+  "C_decisions": [],
+  "sensitivity": {
+    "C_0.0": [],
+    "C_0.01": [],
+    "C_0.05": [],
+    "B_0.8": [],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "time_utc": "2026-10-26T12:41:49.842901+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

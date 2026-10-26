@@ -1,0 +1,37 @@
+Generate at most FOUR proposed data-quality checks for SOURCE_CONTEXT.
+Return a JSON object with rules (a list) and abstentions (a list of strings).
+Each rule has id, description, gx_code and evidence_references (list of strings).
+gx_code must be ONE standard gx.expectations.Expect... constructor with literal
+keyword arguments, supported by Great Expectations 1.9.1 on pandas. No imports,
+SQL/query checks, user-defined functions, files, network or arbitrary Python.
+Use only the schema and supplied documentation. There are no known dirty examples,
+error labels or reference repairs. Do not treat prediction targets as DQ labels.
+Do not silently strengthen provisional screening assumptions into universal rules.
+Respect signed balances, unknown/sentinel conventions, units and source scope.
+Successful execution does not prove semantic validity. Unsupported checks may be
+proposed only with their assumption explicit; abstain when meaning is insufficient.
+No rule is activated automatically. Avoid checks already listed in existing_controls.
+SOURCE_CONTEXT:
+{"citation": "https://doi.org/10.24432/C5K306", "convention_notes": [], "existing_controls": [{"columns": "all", "evidence": "Documentation: missing values are coded 'unknown' (categorical) or 999 (pdays); no empty fields.", "id": "D_NOT_NULL", "kind": "not_null", "status": "verified"}, {"columns": ["{i}"], "evidence": "Documented category list in bank-additional-names.txt.", "for_each": ["job", "marital", "education", "default", "housing", "loan", "contact", "month", "day_of_week", "poutcome"], "from_documented": true, "id": "D_DOMAIN_{i}", "kind": "accepted_values", "status": "verified"}, {"columns": ["age"], "evidence": "Plausible adult client ages; observed 17-98, 0 violations.", "id": "D_AGE_RANGE", "kind": "range", "max": 100, "min": 17, "status": "provisional"}, {"columns": ["duration"], "evidence": "A duration in seconds is non-negative.", "id": "D_DURATION_NONNEG", "kind": "range", "min": 0, "status": "verified"}, {"columns": ["campaign"], "evidence": "Documented: number of contacts in this campaign, includes the last contact.", "id": "D_CAMPAIGN_MIN1", "kind": "range", "min": 1, "status": "verified"}, {"columns": ["previous"], "evidence": "A count is non-negative.", "id": "D_PREVIOUS_NONNEG", "kind": "range", "min": 0, "status": "verified"}, {"columns": ["pdays"], "evidence": "Days >= 0 or the documented sentinel 999.", "id": "D_PDAYS_RANGE", "kind": "range", "max": 999, "min": 0, "status": "verified"}, {"columns": ["previous", "poutcome"], "evidence": "poutcome is the outcome of the previous campaign, 'nonexistent' iff there was no previous contact; 0 violations.", "expression": "(\"previous\" = 0) = (\"poutcome\" = 'nonexistent')", "id": "D_POUTCOME_PREVIOUS", "kind": "expression", "status": "verified"}, {"columns": ["pdays", "previous"], "evidence": "A known number of days since a previous contact implies at least one previous contact; 0 violations.", "expression": "\"pdays\" = 999 or \"previous\" > 0", "id": "D_PDAYS_PREVIOUS", "kind": "expression", "status": "verified"}, {"columns": ["pdays", "previous"], "enabled": false, "evidence": "Literal reading of the documentation (999 = not previously contacted) is contradicted by 4,110 untouched rows with previous > 0.", "expression": "\"pdays\" < 999 or \"previous\" = 0", "id": "D_PDAYS999_NO_PREVIOUS", "kind": "expression", "status": "unsupported"}], "licence_basis": "UCI public dataset metadata, CC BY 4.0, citation retained; inherited provisional assumptions remain marked", "raw_rows_transmitted": false, "sample": [], "sample_note": "No individual records are transmitted; schema/documentation-only generation.", "schema": [{"name": "age", "type": "numeric"}, {"name": "job", "type": "categorical"}, {"name": "marital", "type": "categorical"}, {"name": "education", "type": "categorical"}, {"name": "default", "type": "categorical"}, {"name": "housing", "type": "categorical"}, {"name": "loan", "type": "categorical"}, {"name": "contact", "type": "categorical"}, {"name": "month", "type": "categorical"}, {"name": "day_of_week", "type": "categorical"}, {"name": "duration", "type": "numeric"}, {"name": "campaign", "type": "numeric"}, {"name": "pdays", "type": "numeric"}, {"name": "previous", "type": "numeric"}, {"name": "poutcome", "type": "categorical"}, {"name": "emp.var.rate", "type": "numeric"}, {"name": "cons.price.idx", "type": "numeric"}, {"name": "cons.conf.idx", "type": "numeric"}, {"name": "euribor3m", "type": "numeric"}, {"name": "nr.employed", "type": "numeric"}], "source": "uci_bank_marketing", "source_contract_sha256": "1e011985f715f6e4956adf0db6ef07402ae8106a00b28bdf91e7b65083ce4981", "source_documentation": "Documentation intentionally withheld."}
+Explicitly list unsupported assumptions and abstain where source semantics are absent.
+GX 1.9.1 API syntax reference (generic library documentation, NOT dataset rules):
+gx_code must contain ONE COMPLETE CONSTRUCTOR EXPRESSION, including parentheses and
+literal arguments INSIDE the gx_code string. Do not put kwargs in a separate field.
+Example of the JSON format only:
+{"rules":[{"id":"example","description":"A proposed check","gx_code":"gx.expectations.ExpectColumnValuesToBeBetween(column='FIELD', min_value=0, max_value=10)","evidence_references":[]}],"abstentions":[]}
+FIELD above is a placeholder; use only actual SOURCE_CONTEXT column names.
+Allowed pandas constructors and their argument names:
+- gx.expectations.ExpectColumnValuesToNotBeNull(column='FIELD')
+- gx.expectations.ExpectColumnValuesToBeBetween(column='FIELD', min_value=0, max_value=10)
+- gx.expectations.ExpectColumnValuesToBeInSet(column='FIELD', value_set=['DOCUMENTED_VALUE'])
+- gx.expectations.ExpectColumnValuesToBeUnique(column='FIELD')
+- gx.expectations.ExpectColumnValuesToMatchRegex(column='FIELD', regex='DOCUMENTED_PATTERN')
+- gx.expectations.ExpectColumnValuesToBeOfType(column='FIELD', type_='float64')
+- gx.expectations.ExpectColumnPairValuesToBeEqual(column_A='FIELD_A', column_B='FIELD_B')
+- gx.expectations.ExpectColumnPairValuesAToBeGreaterThanB(column_A='FIELD_A', column_B='FIELD_B', or_equal=True)
+- gx.expectations.ExpectMulticolumnSumToEqual(column_list=['FIELD_A','FIELD_B'], sum_total=0)
+These parameter values are syntax examples, NOT justified constraints. Do not copy
+them unless source documentation independently supports them. Do not use old
+gx.expect_column_* methods, imaginary GX classes, column() functions, row_condition,
+SQL, imports, arithmetic expressions or dynamic arguments. A class name without
+its constructor arguments is not executable. Return JSON only, at most FOUR rules.

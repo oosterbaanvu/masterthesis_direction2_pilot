@@ -1,0 +1,17 @@
+[
+  {
+    "key": "ollama_release",
+    "status": 200,
+    "bytes": 30961
+  },
+  {
+    "key": "ollama_model",
+    "http_status": null,
+    "exception_type": "URLError"
+  },
+  {
+    "key": "qwen_gguf",
+    "status": 200,
+    "bytes": 8698
+  }
+]

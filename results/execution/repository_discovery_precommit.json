@@ -1,0 +1,160 @@
+{
+  "discovery_complete": true,
+  "errors": [],
+  "symlink_checkout_aliases": [],
+  "records": [
+    {
+      "path": "/workspace",
+      "real_path": "/workspace",
+      "classification": "Empty .git directory, no HEAD/config; not a checkout"
+    },
+    {
+      "path": "/workspace/.cache/uv/sdists-v9",
+      "real_path": "/workspace/.cache/uv/sdists-v9",
+      "classification": "Dependency build/source cache, not a project"
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot",
+      "real_path": "/workspace/masterthesis_direction2_pilot",
+      "root": "/workspace/masterthesis_direction2_pilot",
+      "head": "bf11edd1504ad25e52741ddcdd9315a986cd4dc7",
+      "host": "github.com",
+      "repository": "oosterbaanvu/masterthesis_direction2_pilot",
+      "status_clean": false,
+      "submodules": "",
+      "classification": "Requested project",
+      "mount_path": "masterthesis_direction2_pilot"
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/ledqer",
+      "real_path": "/workspace/masterthesis_direction2_pilot/data/vendor/ledqer",
+      "root": "/workspace/masterthesis_direction2_pilot/data/vendor/ledqer",
+      "head": "fb42051026ee6ccded9347349ff95b597804962d",
+      "host": "github.com",
+      "repository": "Anna-Christina-Glock/dq_rule_generation",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/llm_dqr",
+      "real_path": "/workspace/masterthesis_direction2_pilot/data/vendor/llm_dqr",
+      "root": "/workspace/masterthesis_direction2_pilot/data/vendor/llm_dqr",
+      "head": "b92f83ad5878d6a81245872270677d203075a4a2",
+      "host": "github.com",
+      "repository": "casperx6/LLM-DQR",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/pilot1",
+      "real_path": "/workspace/masterthesis_direction2_pilot/data/vendor/pilot1",
+      "root": "/workspace/masterthesis_direction2_pilot/data/vendor/pilot1",
+      "head": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6",
+      "host": "github.com",
+      "repository": "oosterbaanvu/masterthesis2",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/masterthesis_direction2_pilot/data/vendor/sec",
+      "real_path": "/workspace/masterthesis_direction2_pilot/data/vendor/sec",
+      "root": "/workspace/masterthesis_direction2_pilot/data/vendor/sec",
+      "head": "f82f80363da1afedbe8b35cede0bae802edab20c",
+      "host": "github.com",
+      "repository": "XIEFOX/SEC-Fintables",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/acl-anthology",
+      "real_path": "/workspace/research-sources/acl-anthology",
+      "root": "/workspace/research-sources/acl-anthology",
+      "head": "2dd9f3c21ed7281fad3e5f57b2ac5cdaf18d7ca0",
+      "host": "github.com",
+      "repository": "acl-org/acl-anthology",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/baf-publisher",
+      "real_path": "/workspace/research-sources/baf-publisher",
+      "root": "/workspace/research-sources/baf-publisher",
+      "head": "3377cfd8fc20edcda3dd9dd14c10ed3dd276c6de",
+      "host": "github.com",
+      "repository": "feedzai/bank-account-fraud",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/ledqer",
+      "real_path": "/workspace/research-sources/ledqer",
+      "root": "/workspace/research-sources/ledqer",
+      "head": "fb42051026ee6ccded9347349ff95b597804962d",
+      "host": "github.com",
+      "repository": "Anna-Christina-Glock/dq_rule_generation",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/llm-dqr",
+      "real_path": "/workspace/research-sources/llm-dqr",
+      "root": "/workspace/research-sources/llm-dqr",
+      "head": "b92f83ad5878d6a81245872270677d203075a4a2",
+      "host": "github.com",
+      "repository": "casperx6/LLM-DQR",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/models-dev",
+      "real_path": "/workspace/research-sources/models-dev",
+      "root": "/workspace/research-sources/models-dev",
+      "head": "42565000781fc2900a5b63fd7abce690972e89b0",
+      "host": "github.com",
+      "repository": "anomalyco/models.dev",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/pilot1",
+      "real_path": "/workspace/research-sources/pilot1",
+      "root": "/workspace/research-sources/pilot1",
+      "head": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6",
+      "host": "github.com",
+      "repository": "oosterbaanvu/masterthesis2",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    },
+    {
+      "path": "/workspace/research-sources/sec-fintables",
+      "real_path": "/workspace/research-sources/sec-fintables",
+      "root": "/workspace/research-sources/sec-fintables",
+      "head": "f82f80363da1afedbe8b35cede0bae802edab20c",
+      "host": "github.com",
+      "repository": "XIEFOX/SEC-Fintables",
+      "status_clean": true,
+      "submodules": "",
+      "classification": "Preserved read-only research reference or ignored vendor dependency; not independent project membership"
+    }
+  ],
+  "project_membership": [
+    {
+      "name": "oosterbaanvu/masterthesis_direction2_pilot",
+      "host": "github.com",
+      "commit": "bf11edd1504ad25e52741ddcdd9315a986cd4dc7",
+      "mount_path": "masterthesis_direction2_pilot"
+    }
+  ],
+  "discovery_stage": "Before final execution commit; scientific and setup additions still untracked",
+  "postcommit_audit_required_before_cloud_membership_update": true
+}

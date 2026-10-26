@@ -1,0 +1,23 @@
+[
+  {
+    "key": "bayesian_github",
+    "url": "https://api.github.com/search/repositories?q=%22Bayesian-inspired%22+%22verification%22&per_page=5",
+    "status": 200,
+    "sha256": "931feeca7d6d5c78fb6274e1bfbed7524e9f08288f5a54ebe3fef8fc706747c2",
+    "total_count": 1,
+    "items": [
+      {
+        "name": "yaoxinyaoxinyaoxin/CB-Chat",
+        "url": "https://github.com/yaoxinyaoxinyaoxin/CB-Chat",
+        "description": "可视化贝叶斯式人机协同框架 · 人类作为概率空间的高维观测者，通过 UI 层精准干预引导 LLM 推理收敛 · A Bayesian-inspired human-AI collaboration framework with dynamic controllability, Harness-based verification, and multimodal cross-validation"
+      }
+    ]
+  },
+  {
+    "key": "bayesian_arxiv",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Bayesian-inspired+verification%22&start=0&max_results=5",
+    "status": 200,
+    "sha256": "f04b8d2499f5f59ff6f81e52de3d9d221004fb71a49153130e961b6fa0868ae8",
+    "items": []
+  }
+]

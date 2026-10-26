@@ -1,0 +1,3028 @@
+{
+  "actual_completed_generation_requests": 56,
+  "files": [
+    {
+      "request_cache_key": "ad55fea204475c817f5d72bafddee5211db35e212d09ca81190ebb9e8af7ed45",
+      "response_wire_sha256": "4fa009d15c950ee86cb34f5b20016cf2c7e4f7d50633bf7070b5ddec070f576e",
+      "path": "results/execution/raw_model_responses/ad55fea204475c817f5d72bafddee5211db35e212d09ca81190ebb9e8af7ed45.json",
+      "request_path": "results/execution/raw_model_requests/ad55fea204475c817f5d72bafddee5211db35e212d09ca81190ebb9e8af7ed45.json",
+      "request_canonical_sha256": "dc236c65da9494c5c4ef6b0fdb3ae31b084624fb0d5cccb90eaf0b0ca55d7fa3",
+      "provenance": {
+        "provider": "llamacpp",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "89c4a09464ff10e292ec444d77e542af8e633a0154a33b92c3dcae09151f7fdb",
+        "request_sha256": "dc236c65da9494c5c4ef6b0fdb3ae31b084624fb0d5cccb90eaf0b0ca55d7fa3",
+        "response_canonical_sha256": "ebc529c2541dbbfc3fb3165510c82cc4b6e5e644cf3a91507296c6889ee0727b",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 308,
+          "prompt_tokens": 1101,
+          "total_tokens": 1409,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 1101,
+          "prompt_ms": 30651.447,
+          "prompt_per_token_ms": 27.839643051771116,
+          "prompt_per_second": 35.92000077516732,
+          "predicted_n": 308,
+          "predicted_ms": 66470.822,
+          "predicted_per_token_ms": 216.517335504886,
+          "predicted_per_second": 4.618567828151726
+        },
+        "runtime_seconds": 97.16881354199722,
+        "peak_server_tree_RSS_bytes": 0,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "4fa009d15c950ee86cb34f5b20016cf2c7e4f7d50633bf7070b5ddec070f576e"
+      }
+    },
+    {
+      "request_cache_key": "efa90b281f10299d099ab069335a25edb522e187afb13787fd3b62c19ecb71af",
+      "response_wire_sha256": "58cb42d1487c48b9bd9d7af0f8644683846d124e97a626bb099d36c8eae67d99",
+      "path": "results/execution/raw_model_responses/efa90b281f10299d099ab069335a25edb522e187afb13787fd3b62c19ecb71af.json",
+      "request_path": "results/execution/raw_model_requests/efa90b281f10299d099ab069335a25edb522e187afb13787fd3b62c19ecb71af.json",
+      "request_canonical_sha256": "6205618fe20b937b17c34cedb58044d088c817415dba4ef45ff3eaa0faa62951",
+      "provenance": {
+        "provider": "llamacpp",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "e0c97624c45d519c696ea33507df604ed2255984765183c15872640936e8fdf0",
+        "request_sha256": "6205618fe20b937b17c34cedb58044d088c817415dba4ef45ff3eaa0faa62951",
+        "response_canonical_sha256": "aaba6cb5aff3ab320eff8a055f00f7a716351ccea6b31fed748da965f50d3a79",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 581,
+          "prompt_tokens": 3218,
+          "total_tokens": 3799,
+          "prompt_tokens_details": {
+            "cached_tokens": 244
+          }
+        },
+        "timings": {
+          "cache_n": 244,
+          "prompt_n": 2974,
+          "prompt_ms": 95686.194,
+          "prompt_per_token_ms": 32.17424142568931,
+          "prompt_per_second": 31.08076385606893,
+          "predicted_n": 581,
+          "predicted_ms": 155417.472,
+          "predicted_per_token_ms": 267.9611586206897,
+          "predicted_per_second": 3.7318841474914737
+        },
+        "runtime_seconds": 251.24122258397983,
+        "peak_server_tree_RSS_bytes": 0,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "58cb42d1487c48b9bd9d7af0f8644683846d124e97a626bb099d36c8eae67d99"
+      }
+    },
+    {
+      "request_cache_key": "0138cbcb1b6b535f105f30f38e48a85bf935ed469a7a27bef745928b64d11a7b",
+      "response_wire_sha256": "e0df5f9c1373f22054000693b4284c1c169e763dca2b453042f8eaae51f1851a",
+      "path": "results/execution/raw_model_responses/0138cbcb1b6b535f105f30f38e48a85bf935ed469a7a27bef745928b64d11a7b.json",
+      "request_path": "results/execution/raw_model_requests/0138cbcb1b6b535f105f30f38e48a85bf935ed469a7a27bef745928b64d11a7b.json",
+      "request_canonical_sha256": "c368302ef0b2686e013144c3ecb6e6df06241b95fcd762e52ac17add4a1e3fb4",
+      "provenance": {
+        "provider": "llamacpp",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d",
+        "request_sha256": "c368302ef0b2686e013144c3ecb6e6df06241b95fcd762e52ac17add4a1e3fb4",
+        "response_canonical_sha256": "8bab26a5b0978cb10c8d8671e2feb033283b51d7569c921d52023f9c62e4a60c",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 393,
+          "prompt_tokens": 2264,
+          "total_tokens": 2657,
+          "prompt_tokens_details": {
+            "cached_tokens": 244
+          }
+        },
+        "timings": {
+          "cache_n": 244,
+          "prompt_n": 2020,
+          "prompt_ms": 68719.512,
+          "prompt_per_token_ms": 34.01956039603961,
+          "prompt_per_second": 29.394853677075005,
+          "predicted_n": 393,
+          "predicted_ms": 106900.049,
+          "predicted_per_token_ms": 272.70420663265304,
+          "predicted_per_second": 3.666976803724384
+        },
+        "runtime_seconds": 175.8495937800035,
+        "peak_server_tree_RSS_bytes": 0,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "e0df5f9c1373f22054000693b4284c1c169e763dca2b453042f8eaae51f1851a"
+      }
+    },
+    {
+      "request_cache_key": "44d5f75d79a45f4478f62e576d0519199bb668c05be9c0cec577c71d5701926b",
+      "response_wire_sha256": "52f2f67a5f7c90061362ae0e2880bbbcc0d05533c2a4bd89358d27d3c56465df",
+      "path": "results/execution/raw_model_responses/44d5f75d79a45f4478f62e576d0519199bb668c05be9c0cec577c71d5701926b.json",
+      "request_path": "results/execution/raw_model_requests/44d5f75d79a45f4478f62e576d0519199bb668c05be9c0cec577c71d5701926b.json",
+      "request_canonical_sha256": "b716219d9e749ef133e0e7806c9c381ade9c5068fb7e79951406a3026c6292ed",
+      "provenance": {
+        "provider": "llamacpp",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21",
+        "request_sha256": "b716219d9e749ef133e0e7806c9c381ade9c5068fb7e79951406a3026c6292ed",
+        "response_canonical_sha256": "e669cba97ade15c7cecf03e3ab0abf90c8942b9337c1442175f15853478c4b31",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 291,
+          "prompt_tokens": 697,
+          "total_tokens": 988,
+          "prompt_tokens_details": {
+            "cached_tokens": 229
+          }
+        },
+        "timings": {
+          "cache_n": 229,
+          "prompt_n": 468,
+          "prompt_ms": 14718.438,
+          "prompt_per_token_ms": 31.449653846153847,
+          "prompt_per_second": 31.79685235620791,
+          "predicted_n": 291,
+          "predicted_ms": 76929.077,
+          "predicted_per_token_ms": 265.27267931034487,
+          "predicted_per_second": 3.7697059591654787
+        },
+        "runtime_seconds": 91.85664506698959,
+        "peak_server_tree_RSS_bytes": 0,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "52f2f67a5f7c90061362ae0e2880bbbcc0d05533c2a4bd89358d27d3c56465df"
+      }
+    },
+    {
+      "request_cache_key": "6a5ca9c314a5c385744535b52458ffae985ada171aa3ca440bc1dc9d6be98a60",
+      "response_wire_sha256": "d6a276c3f7f2cdb0e3440309f48374829a5ab4011aa9099a37ce4b6f862b9bc9",
+      "path": "results/execution/raw_model_responses/6a5ca9c314a5c385744535b52458ffae985ada171aa3ca440bc1dc9d6be98a60.json",
+      "request_path": "results/execution/raw_model_requests/6a5ca9c314a5c385744535b52458ffae985ada171aa3ca440bc1dc9d6be98a60.json",
+      "request_canonical_sha256": "878b437a28b11472ab95f970c54db3d2c1476c1b0eb70125e5143724a5fc37aa",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58",
+        "request_sha256": "878b437a28b11472ab95f970c54db3d2c1476c1b0eb70125e5143724a5fc37aa",
+        "response_canonical_sha256": "5618af5399fe7d75b09c621c9f13b88d0b2724bfa4b0e146552280302531d79c",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1502,
+          "total_tokens": 1844,
+          "prompt_tokens_details": {
+            "cached_tokens": 1095
+          }
+        },
+        "timings": {
+          "cache_n": 1095,
+          "prompt_n": 407,
+          "prompt_ms": 14913.129,
+          "prompt_per_token_ms": 36.641594594594594,
+          "prompt_per_second": 27.291388681744788,
+          "predicted_n": 342,
+          "predicted_ms": 88175.909,
+          "predicted_per_token_ms": 258.58037829912024,
+          "predicted_per_second": 3.867269460187816
+        },
+        "runtime_seconds": 117.7215188019909,
+        "peak_server_tree_RSS_bytes": 9006067712,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "d6a276c3f7f2cdb0e3440309f48374829a5ab4011aa9099a37ce4b6f862b9bc9"
+      }
+    },
+    {
+      "request_cache_key": "645af02403d2db9411ff3638a5fde3428e342c5979d4ebb5c05e941d827af705",
+      "response_wire_sha256": "fb464a686ca8400de51e28bd977ff7235b2d41ce19905505609790e09b95e1de",
+      "path": "results/execution/raw_model_responses/645af02403d2db9411ff3638a5fde3428e342c5979d4ebb5c05e941d827af705.json",
+      "request_path": "results/execution/raw_model_requests/645af02403d2db9411ff3638a5fde3428e342c5979d4ebb5c05e941d827af705.json",
+      "request_canonical_sha256": "a2b6738e5d1439df0f61652107361cd2a1a8020206484a88525c9c9b22f69b1b",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e",
+        "request_sha256": "a2b6738e5d1439df0f61652107361cd2a1a8020206484a88525c9c9b22f69b1b",
+        "response_canonical_sha256": "a40cc52e66ba83d4841dbf6ca3f3fee7ba744d0c9b9df4d3aec42e725817a477",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 496,
+          "prompt_tokens": 3619,
+          "total_tokens": 4115,
+          "prompt_tokens_details": {
+            "cached_tokens": 3212
+          }
+        },
+        "timings": {
+          "cache_n": 3212,
+          "prompt_n": 407,
+          "prompt_ms": 19137.72,
+          "prompt_per_token_ms": 47.02142506142506,
+          "prompt_per_second": 21.26690117736073,
+          "predicted_n": 496,
+          "predicted_ms": 150360.0,
+          "predicted_per_token_ms": 303.75757575757575,
+          "predicted_per_second": 3.292098962490024
+        },
+        "runtime_seconds": 170.12207081902307,
+        "peak_server_tree_RSS_bytes": 9031475200,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "fb464a686ca8400de51e28bd977ff7235b2d41ce19905505609790e09b95e1de"
+      }
+    },
+    {
+      "request_cache_key": "2ba44c5241ffe7bcff397c8877d32db0a42956443c0a6f07cc02dd3de880e745",
+      "response_wire_sha256": "9735b7dffe9f464bfa1a8a2565027034fdf4bd408779be2f73d95513f2cf484d",
+      "path": "results/execution/raw_model_responses/2ba44c5241ffe7bcff397c8877d32db0a42956443c0a6f07cc02dd3de880e745.json",
+      "request_path": "results/execution/raw_model_requests/2ba44c5241ffe7bcff397c8877d32db0a42956443c0a6f07cc02dd3de880e745.json",
+      "request_canonical_sha256": "ec32a290c2628c0e7af02c990c367feb57ab9b49f4d352d1b8a63ff5a5138cae",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6987670fa89e17d6643715c2d8393e7c0b3c3839718202f5c45287224b30a81a",
+        "request_sha256": "ec32a290c2628c0e7af02c990c367feb57ab9b49f4d352d1b8a63ff5a5138cae",
+        "response_canonical_sha256": "332e9fa2d76a302d75b7e78656d928e554e3eca122e22e043161c0592fb779eb",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 463,
+          "prompt_tokens": 2665,
+          "total_tokens": 3128,
+          "prompt_tokens_details": {
+            "cached_tokens": 2258
+          }
+        },
+        "timings": {
+          "cache_n": 2258,
+          "prompt_n": 407,
+          "prompt_ms": 14742.669,
+          "prompt_per_token_ms": 36.22277395577395,
+          "prompt_per_second": 27.606941456801344,
+          "predicted_n": 463,
+          "predicted_ms": 118070.313,
+          "predicted_per_token_ms": 255.56344805194803,
+          "predicted_per_second": 3.9129226328044036
+        },
+        "runtime_seconds": 133.48551348701585,
+        "peak_server_tree_RSS_bytes": 9049845760,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "9735b7dffe9f464bfa1a8a2565027034fdf4bd408779be2f73d95513f2cf484d"
+      }
+    },
+    {
+      "request_cache_key": "1c0faa306c86479138df6ef87f6b506d92545471e572614e0aab2cb3ff247148",
+      "response_wire_sha256": "bc50ea06e4af2f2029136217173e8c77be70490e5cdbb5576f3071b4bb4449f0",
+      "path": "results/execution/raw_model_responses/1c0faa306c86479138df6ef87f6b506d92545471e572614e0aab2cb3ff247148.json",
+      "request_path": "results/execution/raw_model_requests/1c0faa306c86479138df6ef87f6b506d92545471e572614e0aab2cb3ff247148.json",
+      "request_canonical_sha256": "5a4ee088f2b9bf19da46de966f65a2740aa400e4437d028b8da1f36a1c8862b6",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "3310b6e48a2230cf677f781f0784ad75a8bfe303ac9336130a759f16352f3777",
+        "request_sha256": "5a4ee088f2b9bf19da46de966f65a2740aa400e4437d028b8da1f36a1c8862b6",
+        "response_canonical_sha256": "c0eded77cc0fbecca6bb52690258fc8271e4e3d793e61fe8cb463a2451c1eadf",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 310,
+          "prompt_tokens": 1098,
+          "total_tokens": 1408,
+          "prompt_tokens_details": {
+            "cached_tokens": 691
+          }
+        },
+        "timings": {
+          "cache_n": 691,
+          "prompt_n": 407,
+          "prompt_ms": 12137.962,
+          "prompt_per_token_ms": 29.823002457002456,
+          "prompt_per_second": 33.53116445742704,
+          "predicted_n": 310,
+          "predicted_ms": 66636.705,
+          "predicted_per_token_ms": 215.65276699029127,
+          "predicted_per_second": 4.6370840214863565
+        },
+        "runtime_seconds": 79.15372373402352,
+        "peak_server_tree_RSS_bytes": 9020248064,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "bc50ea06e4af2f2029136217173e8c77be70490e5cdbb5576f3071b4bb4449f0"
+      }
+    },
+    {
+      "request_cache_key": "684498013c640a56cdecf2a7057eb2872397980a4d91577f6c7078556364ae10",
+      "response_wire_sha256": "6547f77a5326bc3a29b862a31cefb75fb8ad8c0cee68abf872b53344e4a0d95f",
+      "path": "results/execution/raw_model_responses/684498013c640a56cdecf2a7057eb2872397980a4d91577f6c7078556364ae10.json",
+      "request_path": "results/execution/raw_model_requests/684498013c640a56cdecf2a7057eb2872397980a4d91577f6c7078556364ae10.json",
+      "request_canonical_sha256": "aa0aa3fc4b3fc2d6b9c63edf9f8369041c8da7b2a33a0d2362936434443e3314",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6a4005af69f7ce3e85ea5498ad32880c14e9dcf7adceca7486ed8a7c8d61ee4e",
+        "request_sha256": "aa0aa3fc4b3fc2d6b9c63edf9f8369041c8da7b2a33a0d2362936434443e3314",
+        "response_canonical_sha256": "6de4d13a0dd2923da5935c9c5045b753488a45b11396fdc0826d2fd5555031f7",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 384,
+          "prompt_tokens": 2091,
+          "total_tokens": 2475,
+          "prompt_tokens_details": {
+            "cached_tokens": 229
+          }
+        },
+        "timings": {
+          "cache_n": 229,
+          "prompt_n": 1862,
+          "prompt_ms": 58067.825,
+          "prompt_per_token_ms": 31.185727712137485,
+          "prompt_per_second": 32.065950463961755,
+          "predicted_n": 384,
+          "predicted_ms": 89593.824,
+          "predicted_per_token_ms": 233.92643342036553,
+          "predicted_per_second": 4.274848230610182
+        },
+        "runtime_seconds": 147.77382331801346,
+        "peak_server_tree_RSS_bytes": 9101238272,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "6547f77a5326bc3a29b862a31cefb75fb8ad8c0cee68abf872b53344e4a0d95f"
+      }
+    },
+    {
+      "request_cache_key": "b484726b82c6e8ac5c9272978f52aeb0dfefedfc7df166f0600b816cb19e00b7",
+      "response_wire_sha256": "0e46ac761ac2eaca9687f1257b25f5f2c7924a89742312761893153d1b0f0ee5",
+      "path": "results/execution/raw_model_responses/b484726b82c6e8ac5c9272978f52aeb0dfefedfc7df166f0600b816cb19e00b7.json",
+      "request_path": "results/execution/raw_model_requests/b484726b82c6e8ac5c9272978f52aeb0dfefedfc7df166f0600b816cb19e00b7.json",
+      "request_canonical_sha256": "a4adcec53d8b014a06769e03d760b9bbe1840d4811a118835581dd1fce352752",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc",
+        "request_sha256": "a4adcec53d8b014a06769e03d760b9bbe1840d4811a118835581dd1fce352752",
+        "response_canonical_sha256": "b84baf186882631933e021452cca71701b4c73f205241c3e52f753380697d64c",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 412,
+          "prompt_tokens": 1762,
+          "total_tokens": 2174,
+          "prompt_tokens_details": {
+            "cached_tokens": 244
+          }
+        },
+        "timings": {
+          "cache_n": 244,
+          "prompt_n": 1518,
+          "prompt_ms": 51914.588,
+          "prompt_per_token_ms": 34.199333333333335,
+          "prompt_per_second": 29.240336068929217,
+          "predicted_n": 412,
+          "predicted_ms": 88717.519,
+          "predicted_per_token_ms": 215.85771046228712,
+          "predicted_per_second": 4.632681398586
+        },
+        "runtime_seconds": 140.8106655710144,
+        "peak_server_tree_RSS_bytes": 9243267072,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "0e46ac761ac2eaca9687f1257b25f5f2c7924a89742312761893153d1b0f0ee5"
+      }
+    },
+    {
+      "request_cache_key": "9a7d92b71a8ba5a7453afc1b0f756f62383a91b1ecd36c68b41c77815b6ab0a7",
+      "response_wire_sha256": "7af4b7b15f99bbd5e76adafe19c82d1ac8b38299fdf73881ebda700fd683f20c",
+      "path": "results/execution/raw_model_responses/9a7d92b71a8ba5a7453afc1b0f756f62383a91b1ecd36c68b41c77815b6ab0a7.json",
+      "request_path": "results/execution/raw_model_requests/9a7d92b71a8ba5a7453afc1b0f756f62383a91b1ecd36c68b41c77815b6ab0a7.json",
+      "request_canonical_sha256": "3786044e33ddab36a76c80bd1a1992397a0ceaf067c7d3f7fac186d377d96290",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902",
+        "request_sha256": "3786044e33ddab36a76c80bd1a1992397a0ceaf067c7d3f7fac186d377d96290",
+        "response_canonical_sha256": "1490364610985855f23e8c68585724e79e0d8c9161d1e5448e88925cf1e02964",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 402,
+          "prompt_tokens": 1242,
+          "total_tokens": 1644,
+          "prompt_tokens_details": {
+            "cached_tokens": 231
+          }
+        },
+        "timings": {
+          "cache_n": 231,
+          "prompt_n": 1011,
+          "prompt_ms": 31772.578,
+          "prompt_per_token_ms": 31.426882294757668,
+          "prompt_per_second": 31.819891983584082,
+          "predicted_n": 402,
+          "predicted_ms": 100542.281,
+          "predicted_per_token_ms": 250.72888029925187,
+          "predicted_per_second": 3.988371817424751
+        },
+        "runtime_seconds": 263.920893292001,
+        "peak_server_tree_RSS_bytes": 9477513216,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "7af4b7b15f99bbd5e76adafe19c82d1ac8b38299fdf73881ebda700fd683f20c"
+      }
+    },
+    {
+      "request_cache_key": "cec08f6160bfcc78404cd2038c21074794a8f3768db35d5500c729ee48fccb7a",
+      "response_wire_sha256": "4bedad247b1ebe6bce84362b4e661cd3d35e3cbbfe53cf00ab53e9446918bf8d",
+      "path": "results/execution/raw_model_responses/cec08f6160bfcc78404cd2038c21074794a8f3768db35d5500c729ee48fccb7a.json",
+      "request_path": "results/execution/raw_model_requests/cec08f6160bfcc78404cd2038c21074794a8f3768db35d5500c729ee48fccb7a.json",
+      "request_canonical_sha256": "4fd8cb664ed9de41b9c99eb1a7db59effeb2ad4e3b4571e5418f98ff113d298a",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "99529016d0d09558cb6e0dd1986c968dee1ab8723379eecfe889302524b16581",
+        "request_sha256": "4fd8cb664ed9de41b9c99eb1a7db59effeb2ad4e3b4571e5418f98ff113d298a",
+        "response_canonical_sha256": "5dac440b8f2b93316bd016ff88a879f4eaf3331037326749fe8f774a44a00522",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 288,
+          "prompt_tokens": 1034,
+          "total_tokens": 1322,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 411,
+          "prompt_ms": 14604.661,
+          "prompt_per_token_ms": 35.53445498783455,
+          "prompt_per_second": 28.14170078990536,
+          "predicted_n": 288,
+          "predicted_ms": 73345.706,
+          "predicted_per_token_ms": 255.55995121951221,
+          "predicted_per_second": 3.912976173410888
+        },
+        "runtime_seconds": 246.5862847570097,
+        "peak_server_tree_RSS_bytes": 9573240832,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "4bedad247b1ebe6bce84362b4e661cd3d35e3cbbfe53cf00ab53e9446918bf8d"
+      }
+    },
+    {
+      "request_cache_key": "7ec2eae028222bd1f5a221ed9e6f37f9096ba55ca53d488554f8286599987cf8",
+      "response_wire_sha256": "d6d2c3973c943d7ff53d95e5602f7643b60e314c6bbfa1e02cf7ef027273ac99",
+      "path": "results/execution/raw_model_responses/7ec2eae028222bd1f5a221ed9e6f37f9096ba55ca53d488554f8286599987cf8.json",
+      "request_path": "results/execution/raw_model_requests/7ec2eae028222bd1f5a221ed9e6f37f9096ba55ca53d488554f8286599987cf8.json",
+      "request_canonical_sha256": "e4bf42747a4cecb8bd51e09bd6df792fc24f00826f9cd7d78e4ff846123c90c3",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788",
+        "request_sha256": "e4bf42747a4cecb8bd51e09bd6df792fc24f00826f9cd7d78e4ff846123c90c3",
+        "response_canonical_sha256": "8ba7513c652277e20db2e5df9d9d17a7d3173ed40564d64be96c502243d27924",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 613,
+          "prompt_tokens": 3633,
+          "total_tokens": 4246,
+          "prompt_tokens_details": {
+            "cached_tokens": 3213
+          }
+        },
+        "timings": {
+          "cache_n": 3213,
+          "prompt_n": 420,
+          "prompt_ms": 20620.025,
+          "prompt_per_token_ms": 49.09529761904762,
+          "prompt_per_second": 20.368549504668398,
+          "predicted_n": 613,
+          "predicted_ms": 176435.959,
+          "predicted_per_token_ms": 288.29405065359475,
+          "predicted_per_second": 3.4686806673009327
+        },
+        "runtime_seconds": 347.436629577016,
+        "peak_server_tree_RSS_bytes": 9659514880,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "d6d2c3973c943d7ff53d95e5602f7643b60e314c6bbfa1e02cf7ef027273ac99"
+      }
+    },
+    {
+      "request_cache_key": "27f4596ee7c2aabe4b3bd3cbaf2b3e12df400c18d162eea70be1eeb0a9f8ab8b",
+      "response_wire_sha256": "ba1347ca572a8965c3fb424ac6320ec9fb9458ec574b87b1e7ff32b3fc985607",
+      "path": "results/execution/raw_model_responses/27f4596ee7c2aabe4b3bd3cbaf2b3e12df400c18d162eea70be1eeb0a9f8ab8b.json",
+      "request_path": "results/execution/raw_model_requests/27f4596ee7c2aabe4b3bd3cbaf2b3e12df400c18d162eea70be1eeb0a9f8ab8b.json",
+      "request_canonical_sha256": "0e2cccf6d37b9d35ffc83976426668793fc3dab273334978dda8aada3ebe2f70",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "93ce8fda00a9b18a25a4e90e5697af9c8562d721898bc88317462b05ed9ddb92",
+        "request_sha256": "0e2cccf6d37b9d35ffc83976426668793fc3dab273334978dda8aada3ebe2f70",
+        "response_canonical_sha256": "017dae2d3110b93091df23b9e4ceb1faa02597ecbfce809304a6f29acc1c8a7d",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 124,
+          "prompt_tokens": 2679,
+          "total_tokens": 2803,
+          "prompt_tokens_details": {
+            "cached_tokens": 2259
+          }
+        },
+        "timings": {
+          "cache_n": 2259,
+          "prompt_n": 420,
+          "prompt_ms": 13867.205,
+          "prompt_per_token_ms": 33.01715476190476,
+          "prompt_per_second": 30.28728572196055,
+          "predicted_n": 124,
+          "predicted_ms": 34441.201,
+          "predicted_per_token_ms": 280.0097642276423,
+          "predicted_per_second": 3.5713040320516116
+        },
+        "runtime_seconds": 152.80722158402205,
+        "peak_server_tree_RSS_bytes": 9661005824,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "ba1347ca572a8965c3fb424ac6320ec9fb9458ec574b87b1e7ff32b3fc985607"
+      }
+    },
+    {
+      "request_cache_key": "e2101ffada3205da3dc1071bb0a0eb926e8be5de63e4021b9b63eacec50eaf2c",
+      "response_wire_sha256": "d467e48f6296d8c37ec37894ebdd3ddbe6aae0cac065ad0dd9a52bd7895c4330",
+      "path": "results/execution/raw_model_responses/e2101ffada3205da3dc1071bb0a0eb926e8be5de63e4021b9b63eacec50eaf2c.json",
+      "request_path": "results/execution/raw_model_requests/e2101ffada3205da3dc1071bb0a0eb926e8be5de63e4021b9b63eacec50eaf2c.json",
+      "request_canonical_sha256": "95af9ae9f945d6ae456f9bfa6a627e0401f9098d190d950bcb6ff22c2cf0e077",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "d78a1c456f698cc1d3072f7a72fc25e4d460c47cc5c23ccb323ae393c8a75218",
+        "request_sha256": "95af9ae9f945d6ae456f9bfa6a627e0401f9098d190d950bcb6ff22c2cf0e077",
+        "response_canonical_sha256": "f9d45bfb2d0715ca3699eea047a69e7bb3c77b4d9c8b37d157612ff67544f9b9",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1516,
+          "total_tokens": 1858,
+          "prompt_tokens_details": {
+            "cached_tokens": 1096
+          }
+        },
+        "timings": {
+          "cache_n": 1096,
+          "prompt_n": 420,
+          "prompt_ms": 14507.082,
+          "prompt_per_token_ms": 34.54067142857143,
+          "prompt_per_second": 28.95137698952829,
+          "predicted_n": 342,
+          "predicted_ms": 78175.576,
+          "predicted_per_token_ms": 229.25388856304986,
+          "predicted_per_second": 4.3619761752698825
+        },
+        "runtime_seconds": 93.07130600902019,
+        "peak_server_tree_RSS_bytes": 9536655360,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "d467e48f6296d8c37ec37894ebdd3ddbe6aae0cac065ad0dd9a52bd7895c4330"
+      }
+    },
+    {
+      "request_cache_key": "19bf27daa6511178f4ab94873d180b7cf60f968c2b22d0c452e79d790495b548",
+      "response_wire_sha256": "8f224444373ec85aba9aaca92dfb579ba037d13ca13e98c44744a66aac4550e7",
+      "path": "results/execution/raw_model_responses/19bf27daa6511178f4ab94873d180b7cf60f968c2b22d0c452e79d790495b548.json",
+      "request_path": "results/execution/raw_model_requests/19bf27daa6511178f4ab94873d180b7cf60f968c2b22d0c452e79d790495b548.json",
+      "request_canonical_sha256": "0158947decbbbf8b7f1d91b9bc82e969104aaaac92d4c11b6814f9b2ca4197cd",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "a60eb33366a3c3c20900a98e9baa1079df3b637ec1e193d20b92bda7cf12012f",
+        "request_sha256": "0158947decbbbf8b7f1d91b9bc82e969104aaaac92d4c11b6814f9b2ca4197cd",
+        "response_canonical_sha256": "ed119af4fa579026a170428023eeb292445d6a227a025f43d3f68b6e9d31832c",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1112,
+          "total_tokens": 1454,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 489,
+          "prompt_ms": 15698.594,
+          "prompt_per_token_ms": 32.10346421267894,
+          "prompt_per_second": 31.14928636284243,
+          "predicted_n": 342,
+          "predicted_ms": 76901.662,
+          "predicted_per_token_ms": 225.51807038123167,
+          "predicted_per_second": 4.434234464269446
+        },
+        "runtime_seconds": 92.85698393400526,
+        "peak_server_tree_RSS_bytes": 9567395840,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "8f224444373ec85aba9aaca92dfb579ba037d13ca13e98c44744a66aac4550e7"
+      }
+    },
+    {
+      "request_cache_key": "a64b40e0d25d73e2228805d51b82b1f084fa6a36c94073e868497254a51b1db2",
+      "response_wire_sha256": "fb0ff1477a4cc052c9b9f3914e3d9cf3cda02aba9f0ade174e60686fefed0e99",
+      "path": "results/execution/raw_model_responses/a64b40e0d25d73e2228805d51b82b1f084fa6a36c94073e868497254a51b1db2.json",
+      "request_path": "results/execution/raw_model_requests/a64b40e0d25d73e2228805d51b82b1f084fa6a36c94073e868497254a51b1db2.json",
+      "request_canonical_sha256": "9c97b71f965a23596cf42b99f6f14e65700b70262e7dd5f1d493428ec4f919ba",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481",
+        "request_sha256": "9c97b71f965a23596cf42b99f6f14e65700b70262e7dd5f1d493428ec4f919ba",
+        "response_canonical_sha256": "9b1e0ccd427e898d39c13bfc667b0eae2fdb168b7fd431bcecfa165debc0fe73",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 492,
+          "prompt_tokens": 2105,
+          "total_tokens": 2597,
+          "prompt_tokens_details": {
+            "cached_tokens": 1685
+          }
+        },
+        "timings": {
+          "cache_n": 1685,
+          "prompt_n": 420,
+          "prompt_ms": 13507.19,
+          "prompt_per_token_ms": 32.15997619047619,
+          "prompt_per_second": 31.094550383906643,
+          "predicted_n": 492,
+          "predicted_ms": 124917.345,
+          "predicted_per_token_ms": 254.41414460285134,
+          "predicted_per_second": 3.9305990693286033
+        },
+        "runtime_seconds": 138.79192761401646,
+        "peak_server_tree_RSS_bytes": 9567395840,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "fb0ff1477a4cc052c9b9f3914e3d9cf3cda02aba9f0ade174e60686fefed0e99"
+      }
+    },
+    {
+      "request_cache_key": "b63540e1ff9e8685ab9bfb8a29233ee9f3a9e8c4d45578ec89a469d5256d378f",
+      "response_wire_sha256": "ec9fe1ef27cf7fbb7f94ab3f83c8787bd6962b1c3d7191c330e5470d948742e7",
+      "path": "results/execution/raw_model_responses/b63540e1ff9e8685ab9bfb8a29233ee9f3a9e8c4d45578ec89a469d5256d378f.json",
+      "request_path": "results/execution/raw_model_requests/b63540e1ff9e8685ab9bfb8a29233ee9f3a9e8c4d45578ec89a469d5256d378f.json",
+      "request_canonical_sha256": "4e72e0e72b8e5a031490464622d6b9c5aff6d374274acb83b04979dd39248b4e",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc",
+        "request_sha256": "4e72e0e72b8e5a031490464622d6b9c5aff6d374274acb83b04979dd39248b4e",
+        "response_canonical_sha256": "6aacfce25c3cd7f1e033035118c0276fc3d49815bf19e81ad40d0dd29e9a86b7",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 404,
+          "prompt_tokens": 1776,
+          "total_tokens": 2180,
+          "prompt_tokens_details": {
+            "cached_tokens": 1356
+          }
+        },
+        "timings": {
+          "cache_n": 1356,
+          "prompt_n": 420,
+          "prompt_ms": 13507.424,
+          "prompt_per_token_ms": 32.16053333333333,
+          "prompt_per_second": 31.094011707931873,
+          "predicted_n": 404,
+          "predicted_ms": 86820.555,
+          "predicted_per_token_ms": 215.43562034739452,
+          "predicted_per_second": 4.641757933936267
+        },
+        "runtime_seconds": 100.57747579901479,
+        "peak_server_tree_RSS_bytes": 9533095936,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "ec9fe1ef27cf7fbb7f94ab3f83c8787bd6962b1c3d7191c330e5470d948742e7"
+      }
+    },
+    {
+      "request_cache_key": "ea419e896c21ca2a4ac27858cd84a926300569fd3251f0b27061dfbb5967304f",
+      "response_wire_sha256": "da56449f65f8992b68f24f510a455cace219bffacfd1b836104cade9138a16d5",
+      "path": "results/execution/raw_model_responses/ea419e896c21ca2a4ac27858cd84a926300569fd3251f0b27061dfbb5967304f.json",
+      "request_path": "results/execution/raw_model_requests/ea419e896c21ca2a4ac27858cd84a926300569fd3251f0b27061dfbb5967304f.json",
+      "request_canonical_sha256": "5e6041525339c7dee073dd33b7062a6442b83d92e677c07280b52b1102230f7f",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "4d077afce3a65331677b0a4fabfe28d76c98e12424235855864875494b6fdec8",
+        "request_sha256": "5e6041525339c7dee073dd33b7062a6442b83d92e677c07280b52b1102230f7f",
+        "response_canonical_sha256": "d4bec8f52fd97bf7eb705caad4d9ff1345755851c0bc3d1bec88e6a1ed7557bc",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 404,
+          "prompt_tokens": 1256,
+          "total_tokens": 1660,
+          "prompt_tokens_details": {
+            "cached_tokens": 836
+          }
+        },
+        "timings": {
+          "cache_n": 836,
+          "prompt_n": 420,
+          "prompt_ms": 12121.859,
+          "prompt_per_token_ms": 28.86156904761905,
+          "prompt_per_second": 34.64815091480605,
+          "predicted_n": 404,
+          "predicted_ms": 81432.964,
+          "predicted_per_token_ms": 202.06690818858561,
+          "predicted_per_second": 4.948855846632329
+        },
+        "runtime_seconds": 93.76722374302335,
+        "peak_server_tree_RSS_bytes": 9563840512,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "da56449f65f8992b68f24f510a455cace219bffacfd1b836104cade9138a16d5"
+      }
+    },
+    {
+      "request_cache_key": "8bcb8dedacda7aaa8d8f0e93c49b70c1b23116a853d7771a636f59bcbaffeee2",
+      "response_wire_sha256": "e93da9d6df182af70134f18e49a54a39b5a26c72df609f83d9f25b79db7c732a",
+      "path": "results/execution/raw_model_responses/8bcb8dedacda7aaa8d8f0e93c49b70c1b23116a853d7771a636f59bcbaffeee2.json",
+      "request_path": "results/execution/raw_model_requests/8bcb8dedacda7aaa8d8f0e93c49b70c1b23116a853d7771a636f59bcbaffeee2.json",
+      "request_canonical_sha256": "35d4bca183a942067248e855846b9b91d26be3e2649c1a08ae37756910d5af63",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "47af81649f69cb5b2c565c51395922684b53ec8e209715f5e78ad994da2bd70f",
+        "request_sha256": "35d4bca183a942067248e855846b9b91d26be3e2649c1a08ae37756910d5af63",
+        "response_canonical_sha256": "88b98ea9d630b6355e85422b0387dfaaa673a64c80b023adf9db32d2417963e5",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 229,
+          "prompt_tokens": 1048,
+          "total_tokens": 1277,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 425,
+          "prompt_ms": 11845.107,
+          "prompt_per_token_ms": 27.87084,
+          "prompt_per_second": 35.87979407868582,
+          "predicted_n": 229,
+          "predicted_ms": 45815.025,
+          "predicted_per_token_ms": 200.94309210526316,
+          "predicted_per_second": 4.976533353414082
+        },
+        "runtime_seconds": 57.910730785981286,
+        "peak_server_tree_RSS_bytes": 9575657472,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "e93da9d6df182af70134f18e49a54a39b5a26c72df609f83d9f25b79db7c732a"
+      }
+    },
+    {
+      "request_cache_key": "27f64cb6a459d5fafe4ac883390d222fdb48ac948d949c090507c4586e930490",
+      "response_wire_sha256": "c8485d6f2bd4987e77b61473ea828daddfa05ec4e1e82b1ff95ea4401ad04ac2",
+      "path": "results/execution/raw_model_responses/27f64cb6a459d5fafe4ac883390d222fdb48ac948d949c090507c4586e930490.json",
+      "request_path": "results/execution/raw_model_requests/27f64cb6a459d5fafe4ac883390d222fdb48ac948d949c090507c4586e930490.json",
+      "request_canonical_sha256": "ff88e44d7aae4ded29a38436d5978f67b91aec47e7119abca4e5599c1e28b061",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e",
+        "request_sha256": "ff88e44d7aae4ded29a38436d5978f67b91aec47e7119abca4e5599c1e28b061",
+        "response_canonical_sha256": "2423507e1363cc010bcdfaef37e75084a67ff957c1d59ae18f2e639c97f54eae",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 713,
+          "prompt_tokens": 3619,
+          "total_tokens": 4332,
+          "prompt_tokens_details": {
+            "cached_tokens": 3213
+          }
+        },
+        "timings": {
+          "cache_n": 3213,
+          "prompt_n": 406,
+          "prompt_ms": 14803.958,
+          "prompt_per_token_ms": 36.462950738916255,
+          "prompt_per_second": 27.425098071745406,
+          "predicted_n": 713,
+          "predicted_ms": 190237.907,
+          "predicted_per_token_ms": 267.1880716292135,
+          "predicted_per_second": 3.7426820512696244
+        },
+        "runtime_seconds": 205.92663980700308,
+        "peak_server_tree_RSS_bytes": 9649168384,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "c8485d6f2bd4987e77b61473ea828daddfa05ec4e1e82b1ff95ea4401ad04ac2"
+      }
+    },
+    {
+      "request_cache_key": "3a61bd585a9c6374810fbe6f39b690a6df0cb310457270905b969aad4add8bf4",
+      "response_wire_sha256": "f73fdeaa4b47b5da9b4fa24b69cb4b0ab66fc1dec2483006851b2bbc9059c58a",
+      "path": "results/execution/raw_model_responses/3a61bd585a9c6374810fbe6f39b690a6df0cb310457270905b969aad4add8bf4.json",
+      "request_path": "results/execution/raw_model_requests/3a61bd585a9c6374810fbe6f39b690a6df0cb310457270905b969aad4add8bf4.json",
+      "request_canonical_sha256": "5207599892c30987722344ea0c53f4f55ba7ce4b887feef802beddbe8325b0aa",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6987670fa89e17d6643715c2d8393e7c0b3c3839718202f5c45287224b30a81a",
+        "request_sha256": "5207599892c30987722344ea0c53f4f55ba7ce4b887feef802beddbe8325b0aa",
+        "response_canonical_sha256": "09c4b16bc3a159519ac6ade1172c20e749fb1ec7ce5f9fe895c4b6e057964779",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 426,
+          "prompt_tokens": 2665,
+          "total_tokens": 3091,
+          "prompt_tokens_details": {
+            "cached_tokens": 2259
+          }
+        },
+        "timings": {
+          "cache_n": 2259,
+          "prompt_n": 406,
+          "prompt_ms": 13271.264,
+          "prompt_per_token_ms": 32.68784236453202,
+          "prompt_per_second": 30.592413804743842,
+          "predicted_n": 426,
+          "predicted_ms": 100757.857,
+          "predicted_per_token_ms": 237.0773105882353,
+          "predicted_per_second": 4.218033339077468
+        },
+        "runtime_seconds": 114.88040211901534,
+        "peak_server_tree_RSS_bytes": 9640038400,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "f73fdeaa4b47b5da9b4fa24b69cb4b0ab66fc1dec2483006851b2bbc9059c58a"
+      }
+    },
+    {
+      "request_cache_key": "16674d529ee4a8ad08d477ab8671a5ce2587bb7da9bce4f7c2be5f901d9989c2",
+      "response_wire_sha256": "eab1a5afa589e70bdfbef76ada4de513eace4feddfd9ce0a1746b0a64f5dbffa",
+      "path": "results/execution/raw_model_responses/16674d529ee4a8ad08d477ab8671a5ce2587bb7da9bce4f7c2be5f901d9989c2.json",
+      "request_path": "results/execution/raw_model_requests/16674d529ee4a8ad08d477ab8671a5ce2587bb7da9bce4f7c2be5f901d9989c2.json",
+      "request_canonical_sha256": "71ea7f8522a3559efe596522445ac79c5a17d3982cd97b2f2c7fe34ead2f87e9",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58",
+        "request_sha256": "71ea7f8522a3559efe596522445ac79c5a17d3982cd97b2f2c7fe34ead2f87e9",
+        "response_canonical_sha256": "e97cfd5657a6037064d2cb1a5ddfff21bf09eaa8f7bf58a1119647af3bb4e0ff",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 338,
+          "prompt_tokens": 1502,
+          "total_tokens": 1840,
+          "prompt_tokens_details": {
+            "cached_tokens": 1096
+          }
+        },
+        "timings": {
+          "cache_n": 1096,
+          "prompt_n": 406,
+          "prompt_ms": 11810.775,
+          "prompt_per_token_ms": 29.090578817733988,
+          "prompt_per_second": 34.375390268631826,
+          "predicted_n": 338,
+          "predicted_ms": 114003.808,
+          "predicted_per_token_ms": 338.29023145400595,
+          "predicted_per_second": 2.956041608715386
+        },
+        "runtime_seconds": 126.33914698002627,
+        "peak_server_tree_RSS_bytes": 9670619136,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "eab1a5afa589e70bdfbef76ada4de513eace4feddfd9ce0a1746b0a64f5dbffa"
+      }
+    },
+    {
+      "request_cache_key": "3836d5f9552af69aca4cc9176c90e2571116fb6efd644680566b8e1e1f98bde0",
+      "response_wire_sha256": "92bf2e4c020fa3712e014330ed8392f8f7bd87084296d5c6c52413b1801b1bca",
+      "path": "results/execution/raw_model_responses/3836d5f9552af69aca4cc9176c90e2571116fb6efd644680566b8e1e1f98bde0.json",
+      "request_path": "results/execution/raw_model_requests/3836d5f9552af69aca4cc9176c90e2571116fb6efd644680566b8e1e1f98bde0.json",
+      "request_canonical_sha256": "6849390e24417ec03aab813303020b4b32a9df0fcb29cfad7c22efe42ab906a8",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "3310b6e48a2230cf677f781f0784ad75a8bfe303ac9336130a759f16352f3777",
+        "request_sha256": "6849390e24417ec03aab813303020b4b32a9df0fcb29cfad7c22efe42ab906a8",
+        "response_canonical_sha256": "47b40456b0764457fa10e7cb97c1006b9c4800058330ee31c0b881c1fcfc4da0",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 310,
+          "prompt_tokens": 1098,
+          "total_tokens": 1408,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 475,
+          "prompt_ms": 23735.686,
+          "prompt_per_token_ms": 49.9698652631579,
+          "prompt_per_second": 20.012061163936867,
+          "predicted_n": 310,
+          "predicted_ms": 139018.581,
+          "predicted_per_token_ms": 449.89832038834953,
+          "predicted_per_second": 2.2227244572435967
+        },
+        "runtime_seconds": 163.25822000502376,
+        "peak_server_tree_RSS_bytes": 9596399616,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "92bf2e4c020fa3712e014330ed8392f8f7bd87084296d5c6c52413b1801b1bca"
+      }
+    },
+    {
+      "request_cache_key": "8bac91398e863719ebda8af4db62f91a672053133e0e56d6ce617b0918f812f9",
+      "response_wire_sha256": "8899e2c5730e762d60bdcb15a7cdcd6a11fcc089e76e34be941a4b5a4e7368af",
+      "path": "results/execution/raw_model_responses/8bac91398e863719ebda8af4db62f91a672053133e0e56d6ce617b0918f812f9.json",
+      "request_path": "results/execution/raw_model_requests/8bac91398e863719ebda8af4db62f91a672053133e0e56d6ce617b0918f812f9.json",
+      "request_canonical_sha256": "be9641226127df64232b70b2230617fb3cc4e6fb0600d1738c82ff4fdee20382",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6a4005af69f7ce3e85ea5498ad32880c14e9dcf7adceca7486ed8a7c8d61ee4e",
+        "request_sha256": "be9641226127df64232b70b2230617fb3cc4e6fb0600d1738c82ff4fdee20382",
+        "response_canonical_sha256": "22ef7a0a3e670c8abdd35dbb84e2d2dc5206934ad03bdf554046acda0b629c44",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 384,
+          "prompt_tokens": 2091,
+          "total_tokens": 2475,
+          "prompt_tokens_details": {
+            "cached_tokens": 1685
+          }
+        },
+        "timings": {
+          "cache_n": 1685,
+          "prompt_n": 406,
+          "prompt_ms": 18259.71,
+          "prompt_per_token_ms": 44.97465517241379,
+          "prompt_per_second": 22.234745239656053,
+          "predicted_n": 384,
+          "predicted_ms": 125123.54,
+          "predicted_per_token_ms": 326.6933159268929,
+          "predicted_per_second": 3.060974777407992
+        },
+        "runtime_seconds": 143.74543709499994,
+        "peak_server_tree_RSS_bytes": 9596399616,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "8899e2c5730e762d60bdcb15a7cdcd6a11fcc089e76e34be941a4b5a4e7368af"
+      }
+    },
+    {
+      "request_cache_key": "43fcecdab279521771e34746171f76e1f4abd0d6ab70ff198bb20e4a408c70d7",
+      "response_wire_sha256": "b4fc0799d7678ebddb6be105c0ff80a581e03df9ae47901a7b8199427d9e7319",
+      "path": "results/execution/raw_model_responses/43fcecdab279521771e34746171f76e1f4abd0d6ab70ff198bb20e4a408c70d7.json",
+      "request_path": "results/execution/raw_model_requests/43fcecdab279521771e34746171f76e1f4abd0d6ab70ff198bb20e4a408c70d7.json",
+      "request_canonical_sha256": "2ea15461650d8b2382087390b372cdc875eea2aca92db39e21cb5aa016e32ed5",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc",
+        "request_sha256": "2ea15461650d8b2382087390b372cdc875eea2aca92db39e21cb5aa016e32ed5",
+        "response_canonical_sha256": "e1581b12d0271e5f16b2b76b36e83e5d9788feca174a123cd1b6827ff93f1690",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 412,
+          "prompt_tokens": 1762,
+          "total_tokens": 2174,
+          "prompt_tokens_details": {
+            "cached_tokens": 1356
+          }
+        },
+        "timings": {
+          "cache_n": 1356,
+          "prompt_n": 406,
+          "prompt_ms": 12156.523,
+          "prompt_per_token_ms": 29.94217487684729,
+          "prompt_per_second": 33.39770755173992,
+          "predicted_n": 412,
+          "predicted_ms": 87839.602,
+          "predicted_per_token_ms": 213.7216593673966,
+          "predicted_per_second": 4.678982948943689
+        },
+        "runtime_seconds": 100.30445075698663,
+        "peak_server_tree_RSS_bytes": 9545150464,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "b4fc0799d7678ebddb6be105c0ff80a581e03df9ae47901a7b8199427d9e7319"
+      }
+    },
+    {
+      "request_cache_key": "a77010e2a221b8b0ec9f97c7b2cb8535965c181e25305f1c0a529a818a03d613",
+      "response_wire_sha256": "bb6dfcd076260f874f4e1a72161b06afbe9b558212ca40230effb1c0a9fd16e5",
+      "path": "results/execution/raw_model_responses/a77010e2a221b8b0ec9f97c7b2cb8535965c181e25305f1c0a529a818a03d613.json",
+      "request_path": "results/execution/raw_model_requests/a77010e2a221b8b0ec9f97c7b2cb8535965c181e25305f1c0a529a818a03d613.json",
+      "request_canonical_sha256": "9e11c140bd6a4e2a7c13ad024f20560ee2293532477b207c501922b040ccd2cc",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902",
+        "request_sha256": "9e11c140bd6a4e2a7c13ad024f20560ee2293532477b207c501922b040ccd2cc",
+        "response_canonical_sha256": "0096b90e283324a16632f6b6a108db6d3da6edaee65bbefcbdfb2a0fbd97d06d",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 385,
+          "prompt_tokens": 1242,
+          "total_tokens": 1627,
+          "prompt_tokens_details": {
+            "cached_tokens": 836
+          }
+        },
+        "timings": {
+          "cache_n": 836,
+          "prompt_n": 406,
+          "prompt_ms": 11603.542,
+          "prompt_per_token_ms": 28.580152709359606,
+          "prompt_per_second": 34.989316193279606,
+          "predicted_n": 385,
+          "predicted_ms": 79041.372,
+          "predicted_per_token_ms": 205.83690625,
+          "predicted_per_second": 4.8582152647856365
+        },
+        "runtime_seconds": 90.8969066660502,
+        "peak_server_tree_RSS_bytes": 9574629376,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "bb6dfcd076260f874f4e1a72161b06afbe9b558212ca40230effb1c0a9fd16e5"
+      }
+    },
+    {
+      "request_cache_key": "e1198e32ff712d3c98294e7e25ca381cbcb7374bdead57ba7b7d1ae4b934e693",
+      "response_wire_sha256": "7415dd90af3b8e0f8e4dcb875544a41296f7a2dc5c14fd0073d8bad02b86a0cf",
+      "path": "results/execution/raw_model_responses/e1198e32ff712d3c98294e7e25ca381cbcb7374bdead57ba7b7d1ae4b934e693.json",
+      "request_path": "results/execution/raw_model_requests/e1198e32ff712d3c98294e7e25ca381cbcb7374bdead57ba7b7d1ae4b934e693.json",
+      "request_canonical_sha256": "63c08bb2ac9a976c1b7f389f75eb2f9f883408b682deb167f0df53fce6c88195",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "99529016d0d09558cb6e0dd1986c968dee1ab8723379eecfe889302524b16581",
+        "request_sha256": "63c08bb2ac9a976c1b7f389f75eb2f9f883408b682deb167f0df53fce6c88195",
+        "response_canonical_sha256": "3d871a8522f32bce228f26d2bffb9ef000a730bf0f8f1b7f158d557f2b5c68a3",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 288,
+          "prompt_tokens": 1034,
+          "total_tokens": 1322,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 411,
+          "prompt_ms": 11651.921,
+          "prompt_per_token_ms": 28.350172749391728,
+          "prompt_per_second": 35.27315367139891,
+          "predicted_n": 288,
+          "predicted_ms": 72082.15,
+          "predicted_per_token_ms": 251.1573170731707,
+          "predicted_per_second": 3.981568252334316
+        },
+        "runtime_seconds": 84.03096866700798,
+        "peak_server_tree_RSS_bytes": 9587187712,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "7415dd90af3b8e0f8e4dcb875544a41296f7a2dc5c14fd0073d8bad02b86a0cf"
+      }
+    },
+    {
+      "request_cache_key": "d56be6eb9bab5ce6c2dc2d5c1b7c0bbe890632894b0f822685120b0a2520617b",
+      "response_wire_sha256": "ea42211b5cb94b8a0604d4734dd80474c11b8e85723b793172fae0be53d629dc",
+      "path": "results/execution/raw_model_responses/d56be6eb9bab5ce6c2dc2d5c1b7c0bbe890632894b0f822685120b0a2520617b.json",
+      "request_path": "results/execution/raw_model_requests/d56be6eb9bab5ce6c2dc2d5c1b7c0bbe890632894b0f822685120b0a2520617b.json",
+      "request_canonical_sha256": "f2fa0706009abd3878ecb98c75695c303dd7633b36e6f56354f3f6377630c00e",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788",
+        "request_sha256": "f2fa0706009abd3878ecb98c75695c303dd7633b36e6f56354f3f6377630c00e",
+        "response_canonical_sha256": "3f452d5a44939ea854cd71ca1e8dcea69600ba8e29bf5aaefeb727269601fbb5",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 613,
+          "prompt_tokens": 3633,
+          "total_tokens": 4246,
+          "prompt_tokens_details": {
+            "cached_tokens": 3213
+          }
+        },
+        "timings": {
+          "cache_n": 3213,
+          "prompt_n": 420,
+          "prompt_ms": 21515.866,
+          "prompt_per_token_ms": 51.228252380952384,
+          "prompt_per_second": 19.520478515714867,
+          "predicted_n": 613,
+          "predicted_ms": 218242.449,
+          "predicted_per_token_ms": 356.6053088235294,
+          "predicted_per_second": 2.8042207315956214
+        },
+        "runtime_seconds": 240.7259530989686,
+        "peak_server_tree_RSS_bytes": 9663168512,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "ea42211b5cb94b8a0604d4734dd80474c11b8e85723b793172fae0be53d629dc"
+      }
+    },
+    {
+      "request_cache_key": "87d144e96efdab29291efc4e0e6f44ab5076bc9e8b9dcbd479345d1187d6f7cf",
+      "response_wire_sha256": "80e0fa1f290b9bdeeceb7fb00d0b37fd6b4ce5c71ef0d331d2ef8fab751cad95",
+      "path": "results/execution/raw_model_responses/87d144e96efdab29291efc4e0e6f44ab5076bc9e8b9dcbd479345d1187d6f7cf.json",
+      "request_path": "results/execution/raw_model_requests/87d144e96efdab29291efc4e0e6f44ab5076bc9e8b9dcbd479345d1187d6f7cf.json",
+      "request_canonical_sha256": "b6841ae360ad3986903216e722ea43843b1f1b6d07ea07c6f067394d8eed2178",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "93ce8fda00a9b18a25a4e90e5697af9c8562d721898bc88317462b05ed9ddb92",
+        "request_sha256": "b6841ae360ad3986903216e722ea43843b1f1b6d07ea07c6f067394d8eed2178",
+        "response_canonical_sha256": "6d4d48860401e5cf9efcd2265073cc15892e7d67009eeaec73334b9b13fcbb0e",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 124,
+          "prompt_tokens": 2679,
+          "total_tokens": 2803,
+          "prompt_tokens_details": {
+            "cached_tokens": 2259
+          }
+        },
+        "timings": {
+          "cache_n": 2259,
+          "prompt_n": 420,
+          "prompt_ms": 19657.658,
+          "prompt_per_token_ms": 46.80394761904762,
+          "prompt_per_second": 21.365719151284452,
+          "predicted_n": 124,
+          "predicted_ms": 37608.631,
+          "predicted_per_token_ms": 305.7612276422764,
+          "predicted_per_second": 3.2705258534935773
+        },
+        "runtime_seconds": 58.287672787031624,
+        "peak_server_tree_RSS_bytes": 9634721792,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "80e0fa1f290b9bdeeceb7fb00d0b37fd6b4ce5c71ef0d331d2ef8fab751cad95"
+      }
+    },
+    {
+      "request_cache_key": "fb58bdae0b4ef3cc4bda8daf8b9558519738e00ecf3ace4578e10ba8056286e2",
+      "response_wire_sha256": "d4a827a24dbe8ee91686bf725e5212ff91ce14b11f828b2a9b4f9ca24955ef2b",
+      "path": "results/execution/raw_model_responses/fb58bdae0b4ef3cc4bda8daf8b9558519738e00ecf3ace4578e10ba8056286e2.json",
+      "request_path": "results/execution/raw_model_requests/fb58bdae0b4ef3cc4bda8daf8b9558519738e00ecf3ace4578e10ba8056286e2.json",
+      "request_canonical_sha256": "2265552dfab50ff82535e5a0e7112ce2233158b3253fc747c2e4f33f5e5d6ad7",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "d78a1c456f698cc1d3072f7a72fc25e4d460c47cc5c23ccb323ae393c8a75218",
+        "request_sha256": "2265552dfab50ff82535e5a0e7112ce2233158b3253fc747c2e4f33f5e5d6ad7",
+        "response_canonical_sha256": "0f5558081b04c51bc9cd2365416dd2a4c1c946aa8d9b6c57a96bbb6fdaa74b88",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1516,
+          "total_tokens": 1858,
+          "prompt_tokens_details": {
+            "cached_tokens": 1096
+          }
+        },
+        "timings": {
+          "cache_n": 1096,
+          "prompt_n": 420,
+          "prompt_ms": 13619.503,
+          "prompt_per_token_ms": 32.42738809523809,
+          "prompt_per_second": 30.838129702677108,
+          "predicted_n": 342,
+          "predicted_ms": 85837.281,
+          "predicted_per_token_ms": 251.72223167155425,
+          "predicted_per_second": 3.9726328237260917
+        },
+        "runtime_seconds": 99.84741399099585,
+        "peak_server_tree_RSS_bytes": 9536237568,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "d4a827a24dbe8ee91686bf725e5212ff91ce14b11f828b2a9b4f9ca24955ef2b"
+      }
+    },
+    {
+      "request_cache_key": "563ea724639fa8d265a55156106e9ac92a7106bb550c8c8919f4f394f7fe5c1c",
+      "response_wire_sha256": "0db7943b8768a00607b4c863eaeab370ffe08f04c28e33be59ca9500c96b315f",
+      "path": "results/execution/raw_model_responses/563ea724639fa8d265a55156106e9ac92a7106bb550c8c8919f4f394f7fe5c1c.json",
+      "request_path": "results/execution/raw_model_requests/563ea724639fa8d265a55156106e9ac92a7106bb550c8c8919f4f394f7fe5c1c.json",
+      "request_canonical_sha256": "41c3d2381a25227283771f67182b475d3c8fd1721f12b951df0327fd96ea31fc",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "a60eb33366a3c3c20900a98e9baa1079df3b637ec1e193d20b92bda7cf12012f",
+        "request_sha256": "41c3d2381a25227283771f67182b475d3c8fd1721f12b951df0327fd96ea31fc",
+        "response_canonical_sha256": "c15a6d130d934be72dafde9a7c0f988e1e68de069c97adc86772224dfe61583f",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1112,
+          "total_tokens": 1454,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 489,
+          "prompt_ms": 20914.822,
+          "prompt_per_token_ms": 42.77059713701431,
+          "prompt_per_second": 23.380548015182725,
+          "predicted_n": 342,
+          "predicted_ms": 82130.584,
+          "predicted_per_token_ms": 240.85215249266864,
+          "predicted_per_second": 4.151924695920828
+        },
+        "runtime_seconds": 103.5103620570153,
+        "peak_server_tree_RSS_bytes": 9566978048,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "0db7943b8768a00607b4c863eaeab370ffe08f04c28e33be59ca9500c96b315f"
+      }
+    },
+    {
+      "request_cache_key": "2654446979af0ff498c31a1b21b80896111cbb35fc6322cac2be81b5d36e8470",
+      "response_wire_sha256": "9f643d6f66f796e807a7029a61ea31019551de2dc7253abbe648d8602e539734",
+      "path": "results/execution/raw_model_responses/2654446979af0ff498c31a1b21b80896111cbb35fc6322cac2be81b5d36e8470.json",
+      "request_path": "results/execution/raw_model_requests/2654446979af0ff498c31a1b21b80896111cbb35fc6322cac2be81b5d36e8470.json",
+      "request_canonical_sha256": "502bfa5178b62c75cfc39995211587b80d0874390827fbad42144ce1edd17377",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481",
+        "request_sha256": "502bfa5178b62c75cfc39995211587b80d0874390827fbad42144ce1edd17377",
+        "response_canonical_sha256": "7e64849d7d661265fcd404ea42d768881f736661d34b59c73c24cc6f2f75a3f8",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 492,
+          "prompt_tokens": 2105,
+          "total_tokens": 2597,
+          "prompt_tokens_details": {
+            "cached_tokens": 1685
+          }
+        },
+        "timings": {
+          "cache_n": 1685,
+          "prompt_n": 420,
+          "prompt_ms": 13824.731,
+          "prompt_per_token_ms": 32.91602619047619,
+          "prompt_per_second": 30.38033796100626,
+          "predicted_n": 492,
+          "predicted_ms": 143442.524,
+          "predicted_per_token_ms": 292.143633401222,
+          "predicted_per_second": 3.422973789836548
+        },
+        "runtime_seconds": 157.6771057790029,
+        "peak_server_tree_RSS_bytes": 9566978048,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "9f643d6f66f796e807a7029a61ea31019551de2dc7253abbe648d8602e539734"
+      }
+    },
+    {
+      "request_cache_key": "420e52387542da8c3ca45c5077d4b10a38ec04af217c191bcd1590bc4c441da7",
+      "response_wire_sha256": "a4a5dddc05288e76bc98b2b118b8f736795bf711af62cb5a870f93d553489885",
+      "path": "results/execution/raw_model_responses/420e52387542da8c3ca45c5077d4b10a38ec04af217c191bcd1590bc4c441da7.json",
+      "request_path": "results/execution/raw_model_requests/420e52387542da8c3ca45c5077d4b10a38ec04af217c191bcd1590bc4c441da7.json",
+      "request_canonical_sha256": "3fd739d9337c8e06d1d4f63850cccc70a26d155f2b4d213c11465d69f2882171",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc",
+        "request_sha256": "3fd739d9337c8e06d1d4f63850cccc70a26d155f2b4d213c11465d69f2882171",
+        "response_canonical_sha256": "2ac75f21c1ce5146071eb6560c4c67edde2d70f131384cd69c8c90ce33706209",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 404,
+          "prompt_tokens": 1776,
+          "total_tokens": 2180,
+          "prompt_tokens_details": {
+            "cached_tokens": 1356
+          }
+        },
+        "timings": {
+          "cache_n": 1356,
+          "prompt_n": 420,
+          "prompt_ms": 13574.697,
+          "prompt_per_token_ms": 32.320707142857145,
+          "prompt_per_second": 30.939917111962057,
+          "predicted_n": 404,
+          "predicted_ms": 97708.431,
+          "predicted_per_token_ms": 242.452682382134,
+          "predicted_per_second": 4.124516133106262
+        },
+        "runtime_seconds": 111.63762816402595,
+        "peak_server_tree_RSS_bytes": 9532678144,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "a4a5dddc05288e76bc98b2b118b8f736795bf711af62cb5a870f93d553489885"
+      }
+    },
+    {
+      "request_cache_key": "77638c3dc94ea4f2b757311a966b9c07b07d6b6d466a46b8dc89eab6b321c09e",
+      "response_wire_sha256": "4e58d3e5f93b571b98d448ed100dc2943f48419bf3509a991872f64244df33b5",
+      "path": "results/execution/raw_model_responses/77638c3dc94ea4f2b757311a966b9c07b07d6b6d466a46b8dc89eab6b321c09e.json",
+      "request_path": "results/execution/raw_model_requests/77638c3dc94ea4f2b757311a966b9c07b07d6b6d466a46b8dc89eab6b321c09e.json",
+      "request_canonical_sha256": "712e86f7a66564fb90136d6ae58f065a1d05972a0300b95b80ecc1413846eb8b",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "4d077afce3a65331677b0a4fabfe28d76c98e12424235855864875494b6fdec8",
+        "request_sha256": "712e86f7a66564fb90136d6ae58f065a1d05972a0300b95b80ecc1413846eb8b",
+        "response_canonical_sha256": "d0ce103bdbf519d67f10a44209401cc1780da676e522af3e39e317edd81d44a3",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 404,
+          "prompt_tokens": 1256,
+          "total_tokens": 1660,
+          "prompt_tokens_details": {
+            "cached_tokens": 836
+          }
+        },
+        "timings": {
+          "cache_n": 836,
+          "prompt_n": 420,
+          "prompt_ms": 13126.092,
+          "prompt_per_token_ms": 31.2526,
+          "prompt_per_second": 31.997337821493254,
+          "predicted_n": 404,
+          "predicted_ms": 95083.607,
+          "predicted_per_token_ms": 235.93947146401987,
+          "predicted_per_second": 4.238375180697552
+        },
+        "runtime_seconds": 108.44860782998148,
+        "peak_server_tree_RSS_bytes": 9564397568,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "4e58d3e5f93b571b98d448ed100dc2943f48419bf3509a991872f64244df33b5"
+      }
+    },
+    {
+      "request_cache_key": "9f65adf8aad1f98bfc4f7634116a4cc1a015472daded40d11d57d30fb7b5f2c2",
+      "response_wire_sha256": "e35fe09a285c4eea5034fba99a9d310a13395c10ce5f6da5cdc361e891d5def4",
+      "path": "results/execution/raw_model_responses/9f65adf8aad1f98bfc4f7634116a4cc1a015472daded40d11d57d30fb7b5f2c2.json",
+      "request_path": "results/execution/raw_model_requests/9f65adf8aad1f98bfc4f7634116a4cc1a015472daded40d11d57d30fb7b5f2c2.json",
+      "request_canonical_sha256": "1ba5c61bdaf7fb869ee7661b6ab72d245ce1a6ba6e4b5e6c2c2ae9d0e4d61c0e",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "47af81649f69cb5b2c565c51395922684b53ec8e209715f5e78ad994da2bd70f",
+        "request_sha256": "1ba5c61bdaf7fb869ee7661b6ab72d245ce1a6ba6e4b5e6c2c2ae9d0e4d61c0e",
+        "response_canonical_sha256": "917f622d06137708ccd3ef6870ab02c73404de0e585a2aa58f9c86556a7d95fc",
+        "settings": {
+          "temperature": 0,
+          "seed": 23,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 229,
+          "prompt_tokens": 1048,
+          "total_tokens": 1277,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 425,
+          "prompt_ms": 12839.505,
+          "prompt_per_token_ms": 30.2106,
+          "prompt_per_second": 33.10096456210734,
+          "predicted_n": 229,
+          "predicted_ms": 56561.685,
+          "predicted_per_token_ms": 248.07756578947368,
+          "predicted_per_second": 4.0309973085137045
+        },
+        "runtime_seconds": 69.7005954660126,
+        "peak_server_tree_RSS_bytes": 9576214528,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "e35fe09a285c4eea5034fba99a9d310a13395c10ce5f6da5cdc361e891d5def4"
+      }
+    },
+    {
+      "request_cache_key": "a12fcdb4684f0776a70b0d2d901e56f6682ac1352a2066ddb018e40aa45647ae",
+      "response_wire_sha256": "68410c395cf74def16d96a8c50e4c5dc8069c02a179b63b86c95dca801c5519a",
+      "path": "results/execution/raw_model_responses/a12fcdb4684f0776a70b0d2d901e56f6682ac1352a2066ddb018e40aa45647ae.json",
+      "request_path": "results/execution/raw_model_requests/a12fcdb4684f0776a70b0d2d901e56f6682ac1352a2066ddb018e40aa45647ae.json",
+      "request_canonical_sha256": "42e631b2ae2e95d7fd278276db697c6f9c56020a9af448120d37fe8126aacb41",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "13865f9c1a51443f2517c476b9a981ab19e1c2cad7983da8b9c2582ad9ee8c6e",
+        "request_sha256": "42e631b2ae2e95d7fd278276db697c6f9c56020a9af448120d37fe8126aacb41",
+        "response_canonical_sha256": "701c870672578888bdc97354e9af03a23a0f8ae4868362ac6495638824d3670e",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 713,
+          "prompt_tokens": 3619,
+          "total_tokens": 4332,
+          "prompt_tokens_details": {
+            "cached_tokens": 3213
+          }
+        },
+        "timings": {
+          "cache_n": 3213,
+          "prompt_n": 406,
+          "prompt_ms": 16837.971,
+          "prompt_per_token_ms": 41.47283497536946,
+          "prompt_per_second": 24.11216885930021,
+          "predicted_n": 713,
+          "predicted_ms": 226313.261,
+          "predicted_per_token_ms": 317.8557036516854,
+          "predicted_per_second": 3.1460816606765256
+        },
+        "runtime_seconds": 244.2092150200042,
+        "peak_server_tree_RSS_bytes": 9649504256,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "68410c395cf74def16d96a8c50e4c5dc8069c02a179b63b86c95dca801c5519a"
+      }
+    },
+    {
+      "request_cache_key": "96d6d9ae49f0535e0cd835d002dfe2d6b4f8a4cac78ec46fa2b132a5ec12e73a",
+      "response_wire_sha256": "0a020f26c4e07e26ea2623d58c6444d017a981533e4120abb02c493495bb0ffc",
+      "path": "results/execution/raw_model_responses/96d6d9ae49f0535e0cd835d002dfe2d6b4f8a4cac78ec46fa2b132a5ec12e73a.json",
+      "request_path": "results/execution/raw_model_requests/96d6d9ae49f0535e0cd835d002dfe2d6b4f8a4cac78ec46fa2b132a5ec12e73a.json",
+      "request_canonical_sha256": "bf7aafaf15ad24e945499919ba0473b2ee6c8c114f744178810fae036532591f",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6987670fa89e17d6643715c2d8393e7c0b3c3839718202f5c45287224b30a81a",
+        "request_sha256": "bf7aafaf15ad24e945499919ba0473b2ee6c8c114f744178810fae036532591f",
+        "response_canonical_sha256": "d3f7953f4400a8286874129c6dd6521b0590c8f6e92c8a3c20b591a2b2b87b00",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 426,
+          "prompt_tokens": 2665,
+          "total_tokens": 3091,
+          "prompt_tokens_details": {
+            "cached_tokens": 2259
+          }
+        },
+        "timings": {
+          "cache_n": 2259,
+          "prompt_n": 406,
+          "prompt_ms": 16817.417,
+          "prompt_per_token_ms": 41.422209359605915,
+          "prompt_per_second": 24.1416383978586,
+          "predicted_n": 426,
+          "predicted_ms": 126296.225,
+          "predicted_per_token_ms": 297.16758823529415,
+          "predicted_per_second": 3.3651045389519756
+        },
+        "runtime_seconds": 144.19130990596022,
+        "peak_server_tree_RSS_bytes": 9654439936,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "0a020f26c4e07e26ea2623d58c6444d017a981533e4120abb02c493495bb0ffc"
+      }
+    },
+    {
+      "request_cache_key": "69af4b54718c6445630235841d635f815fe74514f671ccebff55e34fbe2a6a33",
+      "response_wire_sha256": "bf8b68d761649b53cd1ed0df9bbb25d9b229583e3e08bcf7692c2fca4c97b303",
+      "path": "results/execution/raw_model_responses/69af4b54718c6445630235841d635f815fe74514f671ccebff55e34fbe2a6a33.json",
+      "request_path": "results/execution/raw_model_requests/69af4b54718c6445630235841d635f815fe74514f671ccebff55e34fbe2a6a33.json",
+      "request_canonical_sha256": "c738859f6795765116c185d3189cee10969d448252092407d4eed3a441e1c338",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "01745fcdf8df029745ca29944cef66c6a81e2efdbfe0cca3ad1714bea3946d58",
+        "request_sha256": "c738859f6795765116c185d3189cee10969d448252092407d4eed3a441e1c338",
+        "response_canonical_sha256": "a075ab5847b3f878254b43516e436705930d3ae910dd88d81af03589056d9ab8",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 338,
+          "prompt_tokens": 1502,
+          "total_tokens": 1840,
+          "prompt_tokens_details": {
+            "cached_tokens": 1096
+          }
+        },
+        "timings": {
+          "cache_n": 1096,
+          "prompt_n": 406,
+          "prompt_ms": 17015.382,
+          "prompt_per_token_ms": 41.9098078817734,
+          "prompt_per_second": 23.86076316123846,
+          "predicted_n": 338,
+          "predicted_ms": 82924.24,
+          "predicted_per_token_ms": 246.06599406528193,
+          "predicted_per_second": 4.063950420287241
+        },
+        "runtime_seconds": 100.64408891100902,
+        "peak_server_tree_RSS_bytes": 9670959104,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "bf8b68d761649b53cd1ed0df9bbb25d9b229583e3e08bcf7692c2fca4c97b303"
+      }
+    },
+    {
+      "request_cache_key": "f42f20ba2b7a600fd475cd947859184b86a79f9b30eb2db9625cb15045f2bc84",
+      "response_wire_sha256": "d1782253e2c5bda3ac332340b2ff4b67b42dc1a8061eec26352d8b212d3a4cdd",
+      "path": "results/execution/raw_model_responses/f42f20ba2b7a600fd475cd947859184b86a79f9b30eb2db9625cb15045f2bc84.json",
+      "request_path": "results/execution/raw_model_requests/f42f20ba2b7a600fd475cd947859184b86a79f9b30eb2db9625cb15045f2bc84.json",
+      "request_canonical_sha256": "6d1e22e1b383a846fbbd977767499d35516e1ad2f0197a3000eea57b2ab0fd6c",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "3310b6e48a2230cf677f781f0784ad75a8bfe303ac9336130a759f16352f3777",
+        "request_sha256": "6d1e22e1b383a846fbbd977767499d35516e1ad2f0197a3000eea57b2ab0fd6c",
+        "response_canonical_sha256": "02b0dbb18c47cdff880166b04c6351aa368121041c23552bf813928f9df5c146",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 310,
+          "prompt_tokens": 1098,
+          "total_tokens": 1408,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 475,
+          "prompt_ms": 19107.151,
+          "prompt_per_token_ms": 40.22558105263158,
+          "prompt_per_second": 24.859802489654264,
+          "predicted_n": 310,
+          "predicted_ms": 69120.607,
+          "predicted_per_token_ms": 223.69128478964402,
+          "predicted_per_second": 4.470446852412624
+        },
+        "runtime_seconds": 88.58766314794775,
+        "peak_server_tree_RSS_bytes": 9596739584,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "d1782253e2c5bda3ac332340b2ff4b67b42dc1a8061eec26352d8b212d3a4cdd"
+      }
+    },
+    {
+      "request_cache_key": "440fbfea7843af7529ace3fb2d76e84dbb745b7f40910b42fb776ce8f848672c",
+      "response_wire_sha256": "81bb5c969b51740aa56d7e876da5ec0480bf861a64c09449cce9c419108ae227",
+      "path": "results/execution/raw_model_responses/440fbfea7843af7529ace3fb2d76e84dbb745b7f40910b42fb776ce8f848672c.json",
+      "request_path": "results/execution/raw_model_requests/440fbfea7843af7529ace3fb2d76e84dbb745b7f40910b42fb776ce8f848672c.json",
+      "request_canonical_sha256": "da99e53362167e91d0717bc9b0e75fc87800aecdfc6bcc5edbaf5c3e24e05c34",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6a4005af69f7ce3e85ea5498ad32880c14e9dcf7adceca7486ed8a7c8d61ee4e",
+        "request_sha256": "da99e53362167e91d0717bc9b0e75fc87800aecdfc6bcc5edbaf5c3e24e05c34",
+        "response_canonical_sha256": "4793595dc441698567892e59eae8cacbe1ca2c8c317befa76b266a2abe651672",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 384,
+          "prompt_tokens": 2091,
+          "total_tokens": 2475,
+          "prompt_tokens_details": {
+            "cached_tokens": 1685
+          }
+        },
+        "timings": {
+          "cache_n": 1685,
+          "prompt_n": 406,
+          "prompt_ms": 13366.526,
+          "prompt_per_token_ms": 32.922477832512314,
+          "prompt_per_second": 30.374384488535014,
+          "predicted_n": 384,
+          "predicted_ms": 84071.229,
+          "predicted_per_token_ms": 219.50712532637078,
+          "predicted_per_second": 4.555660771891415
+        },
+        "runtime_seconds": 97.99145741201937,
+        "peak_server_tree_RSS_bytes": 9677443072,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "81bb5c969b51740aa56d7e876da5ec0480bf861a64c09449cce9c419108ae227"
+      }
+    },
+    {
+      "request_cache_key": "807a8927c9d8bac38e9baa97a5d95afa6737cde404ce0376195b508dc6fcccc4",
+      "response_wire_sha256": "0f698b2afeb8ebd9c2fb1e317d01c89593f0d1670746be30270710e444a71371",
+      "path": "results/execution/raw_model_responses/807a8927c9d8bac38e9baa97a5d95afa6737cde404ce0376195b508dc6fcccc4.json",
+      "request_path": "results/execution/raw_model_requests/807a8927c9d8bac38e9baa97a5d95afa6737cde404ce0376195b508dc6fcccc4.json",
+      "request_canonical_sha256": "2eab0c0bf93b02d038c8d5bca477cae95981e1b1c2431a38c94c14d8b6dfae0a",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "995dabefd7538304e7fa9e11ec3bb8e441cfcc81fe33f4a1cffd6e1dc815bdfc",
+        "request_sha256": "2eab0c0bf93b02d038c8d5bca477cae95981e1b1c2431a38c94c14d8b6dfae0a",
+        "response_canonical_sha256": "e7bd89f1ac1d15aa910155dea0bd52f52283eeeba435c110b83c0e754854f168",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 412,
+          "prompt_tokens": 1762,
+          "total_tokens": 2174,
+          "prompt_tokens_details": {
+            "cached_tokens": 1356
+          }
+        },
+        "timings": {
+          "cache_n": 1356,
+          "prompt_n": 406,
+          "prompt_ms": 13589.54,
+          "prompt_per_token_ms": 33.47177339901478,
+          "prompt_per_second": 29.875919273205714,
+          "predicted_n": 412,
+          "predicted_ms": 85835.645,
+          "predicted_per_token_ms": 208.84585158150853,
+          "predicted_per_second": 4.788220558021088
+        },
+        "runtime_seconds": 99.747348897974,
+        "peak_server_tree_RSS_bytes": 9545465856,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "0f698b2afeb8ebd9c2fb1e317d01c89593f0d1670746be30270710e444a71371"
+      }
+    },
+    {
+      "request_cache_key": "76eb442016164a9458cebe2852270aa626609cc54d5b42875ce5ac52ea08e6ed",
+      "response_wire_sha256": "5dd96b570b54f86acf15cc201eccbc4267c3cc9e5e91881b36a1b8790f9403ca",
+      "path": "results/execution/raw_model_responses/76eb442016164a9458cebe2852270aa626609cc54d5b42875ce5ac52ea08e6ed.json",
+      "request_path": "results/execution/raw_model_requests/76eb442016164a9458cebe2852270aa626609cc54d5b42875ce5ac52ea08e6ed.json",
+      "request_canonical_sha256": "14eb457bc80b039b3027a3d0a62e25c2b0a96df4474cbe8ef86398e46bad107d",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "b1c69f6533e1281a790786389f24b019d46a1e685e36dac31be39380f9358902",
+        "request_sha256": "14eb457bc80b039b3027a3d0a62e25c2b0a96df4474cbe8ef86398e46bad107d",
+        "response_canonical_sha256": "649c2273e2c92c04b9975704a8ae58ccd7c476110322e01b7e434e78dc44f0e1",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 385,
+          "prompt_tokens": 1242,
+          "total_tokens": 1627,
+          "prompt_tokens_details": {
+            "cached_tokens": 836
+          }
+        },
+        "timings": {
+          "cache_n": 836,
+          "prompt_n": 406,
+          "prompt_ms": 11593.18,
+          "prompt_per_token_ms": 28.554630541871923,
+          "prompt_per_second": 35.02058969152553,
+          "predicted_n": 385,
+          "predicted_ms": 77824.347,
+          "predicted_per_token_ms": 202.66757031249998,
+          "predicted_per_second": 4.93418852586068
+        },
+        "runtime_seconds": 89.62053506099619,
+        "peak_server_tree_RSS_bytes": 9574944768,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "5dd96b570b54f86acf15cc201eccbc4267c3cc9e5e91881b36a1b8790f9403ca"
+      }
+    },
+    {
+      "request_cache_key": "aad0f4ff6daa0c8f40c63f21e2a988ab61ab665ea79dd11bf70cd8d888bdf11b",
+      "response_wire_sha256": "1d974baff7a2758ffa48218a90fd0ba4b53566e12fa371e9c5a3237e15ef6c02",
+      "path": "results/execution/raw_model_responses/aad0f4ff6daa0c8f40c63f21e2a988ab61ab665ea79dd11bf70cd8d888bdf11b.json",
+      "request_path": "results/execution/raw_model_requests/aad0f4ff6daa0c8f40c63f21e2a988ab61ab665ea79dd11bf70cd8d888bdf11b.json",
+      "request_canonical_sha256": "5369ce356fe131a3ec36bc415da705a4f6f78a0167dd99a51a9138c69777f3dd",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "99529016d0d09558cb6e0dd1986c968dee1ab8723379eecfe889302524b16581",
+        "request_sha256": "5369ce356fe131a3ec36bc415da705a4f6f78a0167dd99a51a9138c69777f3dd",
+        "response_canonical_sha256": "4c9fa36f197d837cf40b04fd59a6bec9430dad56cdf91cdb9eb9acddcd87c900",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 288,
+          "prompt_tokens": 1034,
+          "total_tokens": 1322,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 411,
+          "prompt_ms": 11913.679,
+          "prompt_per_token_ms": 28.987053527980535,
+          "prompt_per_second": 34.498159636498514,
+          "predicted_n": 288,
+          "predicted_ms": 59201.877,
+          "predicted_per_token_ms": 206.27831707317074,
+          "predicted_per_second": 4.847819267622207
+        },
+        "runtime_seconds": 71.42823309003143,
+        "peak_server_tree_RSS_bytes": 9587503104,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "1d974baff7a2758ffa48218a90fd0ba4b53566e12fa371e9c5a3237e15ef6c02"
+      }
+    },
+    {
+      "request_cache_key": "f9e0d7532dfa9053ca0392bb7452cdd1910d857cc68d7db9c976293003e9448a",
+      "response_wire_sha256": "94c3c432263c8b0ecc7f22ef46dcfdb8f3ae0b18d0c90c8ba7774ba616cb9db2",
+      "path": "results/execution/raw_model_responses/f9e0d7532dfa9053ca0392bb7452cdd1910d857cc68d7db9c976293003e9448a.json",
+      "request_path": "results/execution/raw_model_requests/f9e0d7532dfa9053ca0392bb7452cdd1910d857cc68d7db9c976293003e9448a.json",
+      "request_canonical_sha256": "ff9717ef35854436f4f21b9d83b0cf4f782e3731c03baef12f109ea8077f9f0f",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "6589a57247e1a07f4fc1e18d05644c703b2425f74e702ec4b1916dcafb903788",
+        "request_sha256": "ff9717ef35854436f4f21b9d83b0cf4f782e3731c03baef12f109ea8077f9f0f",
+        "response_canonical_sha256": "4ca1f519377e82971f34623d99a3b0e0dddc26b446256ec83a65a23356fc7300",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 613,
+          "prompt_tokens": 3633,
+          "total_tokens": 4246,
+          "prompt_tokens_details": {
+            "cached_tokens": 3213
+          }
+        },
+        "timings": {
+          "cache_n": 3213,
+          "prompt_n": 420,
+          "prompt_ms": 15813.798,
+          "prompt_per_token_ms": 37.651900000000005,
+          "prompt_per_second": 26.55908466770601,
+          "predicted_n": 613,
+          "predicted_ms": 161290.507,
+          "predicted_per_token_ms": 263.5465800653595,
+          "predicted_per_second": 3.7943956614880006
+        },
+        "runtime_seconds": 178.22919959796127,
+        "peak_server_tree_RSS_bytes": 9663287296,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "94c3c432263c8b0ecc7f22ef46dcfdb8f3ae0b18d0c90c8ba7774ba616cb9db2"
+      }
+    },
+    {
+      "request_cache_key": "11ab08a54c7fbf3a09e2bf94ac9f7e815a09688a83c3ade7f4173da344b2fceb",
+      "response_wire_sha256": "ae1c6a9596d458ebf18ffc24ce8be6596f6e660e7ef92c465c422b633c51e6d4",
+      "path": "results/execution/raw_model_responses/11ab08a54c7fbf3a09e2bf94ac9f7e815a09688a83c3ade7f4173da344b2fceb.json",
+      "request_path": "results/execution/raw_model_requests/11ab08a54c7fbf3a09e2bf94ac9f7e815a09688a83c3ade7f4173da344b2fceb.json",
+      "request_canonical_sha256": "ee273799fd4fb135f0990da1130922e669ae3e0d779c201687bf69408e07d27f",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "93ce8fda00a9b18a25a4e90e5697af9c8562d721898bc88317462b05ed9ddb92",
+        "request_sha256": "ee273799fd4fb135f0990da1130922e669ae3e0d779c201687bf69408e07d27f",
+        "response_canonical_sha256": "1193629c089f45e2e89283320384a7c8fb5dcbe91a37ec127b63b29d950b1a13",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 124,
+          "prompt_tokens": 2679,
+          "total_tokens": 2803,
+          "prompt_tokens_details": {
+            "cached_tokens": 2259
+          }
+        },
+        "timings": {
+          "cache_n": 2259,
+          "prompt_n": 420,
+          "prompt_ms": 13343.851,
+          "prompt_per_token_ms": 31.77107380952381,
+          "prompt_per_second": 31.47517159776439,
+          "predicted_n": 124,
+          "predicted_ms": 28584.541,
+          "predicted_per_token_ms": 232.3946422764228,
+          "predicted_per_second": 4.303025191133907
+        },
+        "runtime_seconds": 42.993344431975856,
+        "peak_server_tree_RSS_bytes": 9658355712,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "ae1c6a9596d458ebf18ffc24ce8be6596f6e660e7ef92c465c422b633c51e6d4"
+      }
+    },
+    {
+      "request_cache_key": "4ea9b903aafdd55ec0e8832d6aa3f06a1ffe39f8ed517a1f0dc75d301f0ded15",
+      "response_wire_sha256": "2855649c0da4aa6bf08bc2fce7888b7194d719bc20110483ff80a4940f4ae7a4",
+      "path": "results/execution/raw_model_responses/4ea9b903aafdd55ec0e8832d6aa3f06a1ffe39f8ed517a1f0dc75d301f0ded15.json",
+      "request_path": "results/execution/raw_model_requests/4ea9b903aafdd55ec0e8832d6aa3f06a1ffe39f8ed517a1f0dc75d301f0ded15.json",
+      "request_canonical_sha256": "06660e6a60697066077bba87d6d923a2bd2cda663dbb56e24b4a9bce6d8d0bbe",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "d78a1c456f698cc1d3072f7a72fc25e4d460c47cc5c23ccb323ae393c8a75218",
+        "request_sha256": "06660e6a60697066077bba87d6d923a2bd2cda663dbb56e24b4a9bce6d8d0bbe",
+        "response_canonical_sha256": "dc42f1d918905b287f8464b5574efddf843a770da41f94c49694d2537c9627a5",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1516,
+          "total_tokens": 1858,
+          "prompt_tokens_details": {
+            "cached_tokens": 1096
+          }
+        },
+        "timings": {
+          "cache_n": 1096,
+          "prompt_n": 420,
+          "prompt_ms": 12353.305,
+          "prompt_per_token_ms": 29.412630952380955,
+          "prompt_per_second": 33.9989986485398,
+          "predicted_n": 342,
+          "predicted_ms": 73246.925,
+          "predicted_per_token_ms": 214.80036656891497,
+          "predicted_per_second": 4.655485537447476
+        },
+        "runtime_seconds": 85.97812242998043,
+        "peak_server_tree_RSS_bytes": 9536356352,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "2855649c0da4aa6bf08bc2fce7888b7194d719bc20110483ff80a4940f4ae7a4"
+      }
+    },
+    {
+      "request_cache_key": "ecf678653f49f24643240b4d333b02404552ac9772d2c09a9e2fa0eedd186757",
+      "response_wire_sha256": "269511e22ecb8ee73125acd4e88cddc717c1addf7b434d372447ec3a54404f6a",
+      "path": "results/execution/raw_model_responses/ecf678653f49f24643240b4d333b02404552ac9772d2c09a9e2fa0eedd186757.json",
+      "request_path": "results/execution/raw_model_requests/ecf678653f49f24643240b4d333b02404552ac9772d2c09a9e2fa0eedd186757.json",
+      "request_canonical_sha256": "b5a9ef3564562425c292d97a53136ed5461506603a93b2511dce15513fe65d66",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "a60eb33366a3c3c20900a98e9baa1079df3b637ec1e193d20b92bda7cf12012f",
+        "request_sha256": "b5a9ef3564562425c292d97a53136ed5461506603a93b2511dce15513fe65d66",
+        "response_canonical_sha256": "b1ce5771b4b4b1b586519bf2e7abe0b7102704bc37bc01e65a96dc9610927ccf",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 342,
+          "prompt_tokens": 1112,
+          "total_tokens": 1454,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 489,
+          "prompt_ms": 15242.723,
+          "prompt_per_token_ms": 31.171212678936605,
+          "prompt_per_second": 32.080882136347945,
+          "predicted_n": 342,
+          "predicted_ms": 68750.143,
+          "predicted_per_token_ms": 201.61332258064516,
+          "predicted_per_second": 4.959989683221459
+        },
+        "runtime_seconds": 84.44224623695482,
+        "peak_server_tree_RSS_bytes": 9567096832,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "269511e22ecb8ee73125acd4e88cddc717c1addf7b434d372447ec3a54404f6a"
+      }
+    },
+    {
+      "request_cache_key": "e1633928cac7beb5d5de45fa559c4cf5a9da07d79154535ed6620b99e4a1475c",
+      "response_wire_sha256": "8fb91ad152c8d74b78a3225b52815d37711d8e4211ca848eedb19329a66a499f",
+      "path": "results/execution/raw_model_responses/e1633928cac7beb5d5de45fa559c4cf5a9da07d79154535ed6620b99e4a1475c.json",
+      "request_path": "results/execution/raw_model_requests/e1633928cac7beb5d5de45fa559c4cf5a9da07d79154535ed6620b99e4a1475c.json",
+      "request_canonical_sha256": "f04bcf7f8899c6dc95853f83da09b1d0566cbc19e3706ff3860d52cc251ec4f3",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481",
+        "request_sha256": "f04bcf7f8899c6dc95853f83da09b1d0566cbc19e3706ff3860d52cc251ec4f3",
+        "response_canonical_sha256": "df858ccdd2a30f164315f6a1db53d1877418d46f9bfcdcb7131de7c4448ab7ca",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 492,
+          "prompt_tokens": 2105,
+          "total_tokens": 2597,
+          "prompt_tokens_details": {
+            "cached_tokens": 1685
+          }
+        },
+        "timings": {
+          "cache_n": 1685,
+          "prompt_n": 420,
+          "prompt_ms": 12884.82,
+          "prompt_per_token_ms": 30.678142857142856,
+          "prompt_per_second": 32.59649727353584,
+          "predicted_n": 492,
+          "predicted_ms": 106599.204,
+          "predicted_per_token_ms": 217.1063217922607,
+          "predicted_per_second": 4.606038146401168
+        },
+        "runtime_seconds": 119.98127480002586,
+        "peak_server_tree_RSS_bytes": 9567096832,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "8fb91ad152c8d74b78a3225b52815d37711d8e4211ca848eedb19329a66a499f"
+      }
+    },
+    {
+      "request_cache_key": "9fb067a2ee63c4f7ec544953cab3bfd3b2dc60d2e3520477e0b7e690f08d7871",
+      "response_wire_sha256": "ed51c6a25acfe3f4bfbd3e21a7f23b41da46cde47c2c8368fdd5f8f7d2c3fa4d",
+      "path": "results/execution/raw_model_responses/9fb067a2ee63c4f7ec544953cab3bfd3b2dc60d2e3520477e0b7e690f08d7871.json",
+      "request_path": "results/execution/raw_model_requests/9fb067a2ee63c4f7ec544953cab3bfd3b2dc60d2e3520477e0b7e690f08d7871.json",
+      "request_canonical_sha256": "87b9dbb1b4bf7481290aa98232679f648ffbbf536eb9f170178c8e96126729c0",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc",
+        "request_sha256": "87b9dbb1b4bf7481290aa98232679f648ffbbf536eb9f170178c8e96126729c0",
+        "response_canonical_sha256": "754c312109b49945214880df753901f51454bd30c22b5bffd2ebd4f2ce025565",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 404,
+          "prompt_tokens": 1776,
+          "total_tokens": 2180,
+          "prompt_tokens_details": {
+            "cached_tokens": 1356
+          }
+        },
+        "timings": {
+          "cache_n": 1356,
+          "prompt_n": 420,
+          "prompt_ms": 15963.717,
+          "prompt_per_token_ms": 38.00885,
+          "prompt_per_second": 26.309662091854925,
+          "predicted_n": 404,
+          "predicted_ms": 95459.354,
+          "predicted_per_token_ms": 236.87184615384618,
+          "predicted_per_second": 4.221692093160404
+        },
+        "runtime_seconds": 111.85755026503466,
+        "peak_server_tree_RSS_bytes": 9532796928,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "ed51c6a25acfe3f4bfbd3e21a7f23b41da46cde47c2c8368fdd5f8f7d2c3fa4d"
+      }
+    },
+    {
+      "request_cache_key": "a9de6adfe7f63d3bcb2f483262110658e3fc349bfa8cbc4e8cf3e97c28bca3b5",
+      "response_wire_sha256": "abbae68595f9616e4d5d3d59c29e8f43472cff666eeec3f2c6186e7a5a58931e",
+      "path": "results/execution/raw_model_responses/a9de6adfe7f63d3bcb2f483262110658e3fc349bfa8cbc4e8cf3e97c28bca3b5.json",
+      "request_path": "results/execution/raw_model_requests/a9de6adfe7f63d3bcb2f483262110658e3fc349bfa8cbc4e8cf3e97c28bca3b5.json",
+      "request_canonical_sha256": "43f59fb765b1aa75cc774781e3ca255b496bc3c5f95372fbedd6a532747ce182",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "4d077afce3a65331677b0a4fabfe28d76c98e12424235855864875494b6fdec8",
+        "request_sha256": "43f59fb765b1aa75cc774781e3ca255b496bc3c5f95372fbedd6a532747ce182",
+        "response_canonical_sha256": "22680b5d2e1cfd4d529aa295523133fd982072f77447dff38b999fba007d8367",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 404,
+          "prompt_tokens": 1256,
+          "total_tokens": 1660,
+          "prompt_tokens_details": {
+            "cached_tokens": 836
+          }
+        },
+        "timings": {
+          "cache_n": 836,
+          "prompt_n": 420,
+          "prompt_ms": 19358.986,
+          "prompt_per_token_ms": 46.092823809523814,
+          "prompt_per_second": 21.695351192464315,
+          "predicted_n": 404,
+          "predicted_ms": 86025.962,
+          "predicted_per_token_ms": 213.46392555831267,
+          "predicted_per_second": 4.684632297398778
+        },
+        "runtime_seconds": 105.60694270505337,
+        "peak_server_tree_RSS_bytes": 9564516352,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "abbae68595f9616e4d5d3d59c29e8f43472cff666eeec3f2c6186e7a5a58931e"
+      }
+    },
+    {
+      "request_cache_key": "e6f4c0c24b9b055753244cd01e9d69dae0340a863700be59b3b99f73509b0afb",
+      "response_wire_sha256": "b27f1aa4f4c7afc7828c6a3d29727bb134630fe76a93831cfa05454c53c2f062",
+      "path": "results/execution/raw_model_responses/e6f4c0c24b9b055753244cd01e9d69dae0340a863700be59b3b99f73509b0afb.json",
+      "request_path": "results/execution/raw_model_requests/e6f4c0c24b9b055753244cd01e9d69dae0340a863700be59b3b99f73509b0afb.json",
+      "request_canonical_sha256": "66c492c6eb2aae124f6b4d11debe4231ab68db6388c7e85d26a67c7f7118b343",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "gx_syntax_guided_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "47af81649f69cb5b2c565c51395922684b53ec8e209715f5e78ad994da2bd70f",
+        "request_sha256": "66c492c6eb2aae124f6b4d11debe4231ab68db6388c7e85d26a67c7f7118b343",
+        "response_canonical_sha256": "68bd8d3e2385817e05f8bf27396f96e290312082648fdb90d3ba8fd0d8eb78e5",
+        "settings": {
+          "temperature": 0,
+          "seed": 37,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 229,
+          "prompt_tokens": 1048,
+          "total_tokens": 1277,
+          "prompt_tokens_details": {
+            "cached_tokens": 623
+          }
+        },
+        "timings": {
+          "cache_n": 623,
+          "prompt_n": 425,
+          "prompt_ms": 14768.366,
+          "prompt_per_token_ms": 34.749096470588235,
+          "prompt_per_second": 28.777726662516358,
+          "predicted_n": 229,
+          "predicted_ms": 54189.257,
+          "predicted_per_token_ms": 237.6721798245614,
+          "predicted_per_second": 4.207476031642213
+        },
+        "runtime_seconds": 69.31274882005528,
+        "peak_server_tree_RSS_bytes": 9576333312,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "b27f1aa4f4c7afc7828c6a3d29727bb134630fe76a93831cfa05454c53c2f062"
+      }
+    },
+    {
+      "request_cache_key": "34f2f8d3ba1fe8825f331a650d4cffc287063c038cff2f2171aaa5dada050abb",
+      "response_wire_sha256": "101864f7373b0c15cc3594ba9120cfffed1ce140cee66e98e847990b6c8bbdfc",
+      "path": "results/execution/raw_model_responses/34f2f8d3ba1fe8825f331a650d4cffc287063c038cff2f2171aaa5dada050abb.json",
+      "request_path": "results/execution/raw_model_requests/34f2f8d3ba1fe8825f331a650d4cffc287063c038cff2f2171aaa5dada050abb.json",
+      "request_canonical_sha256": "017a4858e1a7da5cec22aa29d1ee4092f7bd3666c29566b673ea89367163e8cb",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "published_schema_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "20bdfd89b1dc8198ebf1f96ada1c3d245b92768dff41d617809b7bb4612a19ad",
+        "request_sha256": "017a4858e1a7da5cec22aa29d1ee4092f7bd3666c29566b673ea89367163e8cb",
+        "response_canonical_sha256": "e6edea52a63a85070402222d1f9a9bd5c74af3f63bb692b982092fe33d6b9ed6",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 443,
+          "prompt_tokens": 1469,
+          "total_tokens": 1912,
+          "prompt_tokens_details": {
+            "cached_tokens": 231
+          }
+        },
+        "timings": {
+          "cache_n": 231,
+          "prompt_n": 1238,
+          "prompt_ms": 34799.937,
+          "prompt_per_token_ms": 28.109803715670434,
+          "prompt_per_second": 35.57477704629178,
+          "predicted_n": 443,
+          "predicted_ms": 96635.905,
+          "predicted_per_token_ms": 218.63326923076923,
+          "predicted_per_second": 4.573869308721226
+        },
+        "runtime_seconds": 250.93920943897683,
+        "peak_server_tree_RSS_bytes": 9367904256,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "101864f7373b0c15cc3594ba9120cfffed1ce140cee66e98e847990b6c8bbdfc"
+      }
+    },
+    {
+      "request_cache_key": "704db38a4cfe949e2136b4f628f7142a74843e6c41921e05d6f4d83e88458eb4",
+      "response_wire_sha256": "1e497e52b38278e3fe78888c72ef500826fa74e6b6437cb49f9cb50a90ebb812",
+      "path": "results/execution/raw_model_responses/704db38a4cfe949e2136b4f628f7142a74843e6c41921e05d6f4d83e88458eb4.json",
+      "request_path": "results/execution/raw_model_requests/704db38a4cfe949e2136b4f628f7142a74843e6c41921e05d6f4d83e88458eb4.json",
+      "request_canonical_sha256": "dd11a221cb0d103dd3fe70c6e94abcd713cee6a008b60e534dce34f264b413da",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "published_schema_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "98be8653c8834ece2c14baa48ee111ac23ef221f8f96b898f7b0aa347a65d481",
+        "request_sha256": "dd11a221cb0d103dd3fe70c6e94abcd713cee6a008b60e534dce34f264b413da",
+        "response_canonical_sha256": "858aaf3000b4562acd995f9c147117284ef81ff1a9811a61b2d392b0b0b2420f",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 521,
+          "prompt_tokens": 1417,
+          "total_tokens": 1938,
+          "prompt_tokens_details": {
+            "cached_tokens": 1005
+          }
+        },
+        "timings": {
+          "cache_n": 1005,
+          "prompt_n": 412,
+          "prompt_ms": 14162.891,
+          "prompt_per_token_ms": 34.37594902912621,
+          "prompt_per_second": 29.09010596777169,
+          "predicted_n": 521,
+          "predicted_ms": 144136.143,
+          "predicted_per_token_ms": 277.1848903846154,
+          "predicted_per_second": 3.6077002560003284
+        },
+        "runtime_seconds": 290.83533124200767,
+        "peak_server_tree_RSS_bytes": 9477513216,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "1e497e52b38278e3fe78888c72ef500826fa74e6b6437cb49f9cb50a90ebb812"
+      }
+    },
+    {
+      "request_cache_key": "cd4a6ea81feb7834d00a3ef18d661bb89e087b6bea9143a0db1440c127f9dea8",
+      "response_wire_sha256": "c702f17b695366f496769d7107e888044849a54573196f180b844cd5f008b812",
+      "path": "results/execution/raw_model_responses/cd4a6ea81feb7834d00a3ef18d661bb89e087b6bea9143a0db1440c127f9dea8.json",
+      "request_path": "results/execution/raw_model_requests/cd4a6ea81feb7834d00a3ef18d661bb89e087b6bea9143a0db1440c127f9dea8.json",
+      "request_canonical_sha256": "5be08b7d9e7ebefa66fa050f226b8d1ac3112ff4fcbc7f3bbfd9a0d96a93da41",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "published_schema_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "ecde7fbb06e6406e9411bd6751ec532f9b2361b4bf345c9070dce55435c47be8",
+        "request_sha256": "5be08b7d9e7ebefa66fa050f226b8d1ac3112ff4fcbc7f3bbfd9a0d96a93da41",
+        "response_canonical_sha256": "e9e17486f2b2e0290fe187fc2e4e0be5871f2122a77e278ab53e8d0cecc41537",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 458,
+          "prompt_tokens": 1133,
+          "total_tokens": 1591,
+          "prompt_tokens_details": {
+            "cached_tokens": 229
+          }
+        },
+        "timings": {
+          "cache_n": 229,
+          "prompt_n": 904,
+          "prompt_ms": 36436.927,
+          "prompt_per_token_ms": 40.306335176991155,
+          "prompt_per_second": 24.809995639862823,
+          "predicted_n": 458,
+          "predicted_ms": 112820.27,
+          "predicted_per_token_ms": 246.87148796498906,
+          "predicted_per_second": 4.050690536372586
+        },
+        "runtime_seconds": 237.45579815894598,
+        "peak_server_tree_RSS_bytes": 9568317440,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "c702f17b695366f496769d7107e888044849a54573196f180b844cd5f008b812"
+      }
+    },
+    {
+      "request_cache_key": "1ab241f2a217c937a1b599583d0f603d46fa8b7516950697e856bd5cf0d9ceef",
+      "response_wire_sha256": "8b8d7a8547da2c891966897e8a6c32f6f939883b22663e7ed29bdca354196afe",
+      "path": "results/execution/raw_model_responses/1ab241f2a217c937a1b599583d0f603d46fa8b7516950697e856bd5cf0d9ceef.json",
+      "request_path": "results/execution/raw_model_requests/1ab241f2a217c937a1b599583d0f603d46fa8b7516950697e856bd5cf0d9ceef.json",
+      "request_canonical_sha256": "8967b1cf18834a376017b7f200bcd11e2e38004e5191f2bfa25366ee95611702",
+      "provenance": {
+        "provider": "llamacpp",
+        "experimental_condition": "published_schema_v1",
+        "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_alias": "qwen2.5-coder-7b-q4km",
+        "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+        "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+        "quantization": "Q4_K_M",
+        "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+        "prompt_sha256": "3582279648880e64509aa0218cbe23d2b042bd70ac4f2a76d9e3937cac30dfae",
+        "request_sha256": "8967b1cf18834a376017b7f200bcd11e2e38004e5191f2bfa25366ee95611702",
+        "response_canonical_sha256": "49e586fd39a7a8af7a3057919d0773f03e1be3b0708b72e275b31c98e14e3f59",
+        "settings": {
+          "temperature": 0,
+          "seed": 11,
+          "top_p": 1,
+          "repeat_penalty": 1,
+          "max_tokens": 2048,
+          "context_tokens": 8192,
+          "cpu_threads": 4
+        },
+        "usage": {
+          "completion_tokens": 400,
+          "prompt_tokens": 1083,
+          "total_tokens": 1483,
+          "prompt_tokens_details": {
+            "cached_tokens": 671
+          }
+        },
+        "timings": {
+          "cache_n": 671,
+          "prompt_n": 412,
+          "prompt_ms": 15685.991,
+          "prompt_per_token_ms": 38.07279368932039,
+          "prompt_per_second": 26.26547471562364,
+          "predicted_n": 400,
+          "predicted_ms": 87872.545,
+          "predicted_per_token_ms": 220.23194235588971,
+          "predicted_per_second": 4.5406673950322025
+        },
+        "runtime_seconds": 302.1513153950218,
+        "peak_server_tree_RSS_bytes": 9659514880,
+        "finish_reason": "stop",
+        "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+        "paid_calls": 0,
+        "response_wire_sha256": "8b8d7a8547da2c891966897e8a6c32f6f939883b22663e7ed29bdca354196afe"
+      }
+    }
+  ],
+  "model_input_scope": "Public source metadata and self-authored examples only; no source records transmitted",
+  "responses_are_actual_new_experiments": true,
+  "raw_datasets_or_weights_redistributed": false
+}

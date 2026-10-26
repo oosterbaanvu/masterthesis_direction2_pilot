@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-10-26T12:58:22.245864+00:00",
+  "completed_guided_requests": 32,
+  "status_counts": {
+    "PARSED": 28,
+    "MALFORMED_OR_TRUNCATED": 4
+  },
+  "server_RSS_bytes": 9406025728,
+  "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n",
+  "protocol_changes": false,
+  "new_model_or_prompt_condition": false,
+  "heldout_outcomes_used_for_continuation": false,
+  "decision": "Continue precommitted full48; per-request durable checkpoints, same one-slot CPU model",
+  "next_request_may_already_be_running": true
+}

@@ -1,0 +1,77 @@
+{
+  "citation": "Self-authored controlled engineering scenario v1",
+  "convention_notes": [],
+  "existing_controls": [
+    {
+      "columns": "all",
+      "kind": "not_null"
+    },
+    {
+      "column": "journal_id",
+      "kind": "unique"
+    },
+    {
+      "column": "currency",
+      "kind": "allowed",
+      "values": [
+        "USD",
+        "EUR"
+      ]
+    }
+  ],
+  "licence_basis": "Self-authored synthetic content",
+  "raw_rows_transmitted": false,
+  "sample": [
+    {
+      "currency": "USD",
+      "journal_id": "SYNTHETIC_0",
+      "total_credits": 10000,
+      "total_debits": 10000
+    },
+    {
+      "currency": "USD",
+      "journal_id": "SYNTHETIC_1",
+      "total_credits": 10001,
+      "total_debits": 10001
+    },
+    {
+      "currency": "USD",
+      "journal_id": "SYNTHETIC_2",
+      "total_credits": 10002,
+      "total_debits": 10002
+    },
+    {
+      "currency": "USD",
+      "journal_id": "SYNTHETIC_3",
+      "total_credits": 10003,
+      "total_debits": 10003
+    },
+    {
+      "currency": "USD",
+      "journal_id": "SYNTHETIC_4",
+      "total_credits": 10004,
+      "total_debits": 10004
+    }
+  ],
+  "sample_note": "Entirely self-authored artificial examples, not bank/customer data.",
+  "schema": [
+    {
+      "name": "journal_id",
+      "type": "string"
+    },
+    {
+      "name": "currency",
+      "type": "string"
+    },
+    {
+      "name": "total_debits",
+      "type": "numeric"
+    },
+    {
+      "name": "total_credits",
+      "type": "numeric"
+    }
+  ],
+  "source": "synthetic_balanced_journals",
+  "source_documentation": "One row is a whole balanced journal within one currency. IDs are unique and required. Currency is USD or EUR. Amounts are nonnegative integer cents, not rounded display values. Total debits equal total credits exactly. No presentation blanks or missing-value sentinels exist. These are stipulated synthetic semantics, not independently verified accounting records."
+}

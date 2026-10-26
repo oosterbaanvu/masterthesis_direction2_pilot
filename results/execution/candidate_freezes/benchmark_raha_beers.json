@@ -1,0 +1,109 @@
+{
+  "time_utc": "2026-10-26T12:19:15.489281+00:00",
+  "raw_candidate_count": 8,
+  "unique_count": 8,
+  "candidate_sha256": "9cef66a67d0d38d3d00266766f005fb5c0b5fc11b6a0297b16b0045ff37824bb",
+  "candidates": [
+    {
+      "id": "g_2b0bfb53f443996862b5",
+      "description": "Ensure that the 'ounces' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='ounces', min_value=0.5, max_value=12)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-101/beer-basics/beer-volume/"
+      ],
+      "original_id": "check_ounces",
+      "origins": [
+        "raha_beers:provided"
+      ]
+    },
+    {
+      "id": "g_90a1c06066f9e4df1aa4",
+      "description": "Ensure that the 'abv' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='abv', min_value=3, max_value=15)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-101/beer-basics/beer-alcohol-content/"
+      ],
+      "original_id": "check_abv",
+      "origins": [
+        "raha_beers:provided"
+      ]
+    },
+    {
+      "id": "g_0f1b35b7ba1cca72ad16",
+      "description": "Ensure that the 'ibu' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='ibu', min_value=0, max_value=100)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-101/beer-basics/beer-bitterness/"
+      ],
+      "original_id": "checkibu",
+      "origins": [
+        "raha_beers:provided"
+      ]
+    },
+    {
+      "id": "g_05b520e07bfbab0b6a48",
+      "description": "Ensure that the 'brewery_name' column contains unique values.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeUnique(column='brewery_name')",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-101/beer-basics/beer-breweries/"
+      ],
+      "original_id": "check_unique_brewery_names",
+      "origins": [
+        "raha_beers:provided"
+      ]
+    },
+    {
+      "id": "g_81a6675b396609dc78a5",
+      "description": "Ensure that the 'ounces' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='ounces', min_value=0, max_value=100)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ],
+      "original_id": "check_ounces",
+      "origins": [
+        "raha_beers:withheld"
+      ]
+    },
+    {
+      "id": "g_9ede2fde0b1dc38efd15",
+      "description": "Ensure that the 'abv' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='abv', min_value=0, max_value=20)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ],
+      "original_id": "check_abv",
+      "origins": [
+        "raha_beers:withheld"
+      ]
+    },
+    {
+      "id": "g_45c5bfaa8baf66fc8499",
+      "description": "Ensure that the 'ibu' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='ibu', min_value=0, max_value=150)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ],
+      "original_id": "checkibu",
+      "origins": [
+        "raha_beers:withheld"
+      ]
+    },
+    {
+      "id": "g_48f86044f49c2eb70ed8",
+      "description": "Ensure that the 'brewery_id' column contains unique values.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeUnique(column='brewery_id')",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ],
+      "original_id": "check_unique_breweries",
+      "origins": [
+        "raha_beers:withheld"
+      ]
+    }
+  ],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "a5ca6e9c17e3c229b5859033ae0f28cc8c755ae09c7f725786cfbd90137e1f1e",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

@@ -1,0 +1,11 @@
+condition,source,requests,parsed_responses,candidate_occurrences,unique_candidates,duplicate_occurrences,executable_unique,executable_occurrences,unique_execution_rate,technical_status_counts
+benchmark,raha_beers,2,2,8,8,0,8,8,1.0,"{""EXECUTED"": 8}"
+benchmark,raha_hospital,2,2,8,8,0,8,8,1.0,"{""EXECUTED"": 8}"
+guided,synthetic_balanced_journals,12,12,45,7,38,7,45,1.0,"{""EXECUTED"": 7}"
+guided,uci_bank_marketing,12,9,27,5,22,5,27,1.0,"{""EXECUTED"": 5}"
+guided,uci_credit,12,9,36,12,24,8,24,0.6666666666666666,"{""EXECUTED"": 8, ""SAFETY_OR_COMPATIBILITY_REJECTED"": 4}"
+guided,uci_wine_white,12,12,48,11,37,11,48,1.0,"{""EXECUTED"": 11}"
+original,synthetic_balanced_journals,1,1,4,4,0,0,0,0.0,"{""SAFETY_OR_COMPATIBILITY_REJECTED"": 4}"
+original,uci_bank_marketing,1,0,0,0,0,0,0,,{}
+original,uci_credit,1,1,4,4,0,0,0,0.0,"{""SAFETY_OR_COMPATIBILITY_REJECTED"": 4}"
+original,uci_wine_white,1,1,3,3,0,0,0,0.0,"{""SAFETY_OR_COMPATIBILITY_REJECTED"": 3}"

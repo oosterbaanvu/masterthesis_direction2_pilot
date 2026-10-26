@@ -1,0 +1,41 @@
+{
+  "time_utc": "2026-10-26T11:50:43.440668+00:00",
+  "requests": [
+    {
+      "id": "raha_hospital:provided",
+      "source": "raha_hospital",
+      "documentation": "provided",
+      "seed": 11,
+      "path": "data/cache/execution/benchmark_prompts/raha_hospital_provided.txt",
+      "prompt_sha256": "20bdfd89b1dc8198ebf1f96ada1c3d245b92768dff41d617809b7bb4612a19ad"
+    },
+    {
+      "id": "raha_hospital:withheld",
+      "source": "raha_hospital",
+      "documentation": "withheld",
+      "seed": 11,
+      "path": "data/cache/execution/benchmark_prompts/raha_hospital_withheld.txt",
+      "prompt_sha256": "98be8653c8834ece2c14baa48ee111ac23ef221f8f96b898f7b0aa347a65d481"
+    },
+    {
+      "id": "raha_beers:provided",
+      "source": "raha_beers",
+      "documentation": "provided",
+      "seed": 11,
+      "path": "data/cache/execution/benchmark_prompts/raha_beers_provided.txt",
+      "prompt_sha256": "ecde7fbb06e6406e9411bd6751ec532f9b2361b4bf345c9070dce55435c47be8"
+    },
+    {
+      "id": "raha_beers:withheld",
+      "source": "raha_beers",
+      "documentation": "withheld",
+      "seed": 11,
+      "path": "data/cache/execution/benchmark_prompts/raha_beers_withheld.txt",
+      "prompt_sha256": "3582279648880e64509aa0218cbe23d2b042bd70ac4f2a76d9e3937cac30dfae"
+    }
+  ],
+  "labels_or_clean_values_in_prompt": false,
+  "raw_records_in_prompt": false,
+  "local_inference_only": true,
+  "source_rights": "Conditional public research reuse; no raw dataset redistributed or externally transmitted"
+}

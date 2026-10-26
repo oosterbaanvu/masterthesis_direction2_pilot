@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-10-26T12:03:24.482457+00:00",
+  "heldout_outcomes_observed": false,
+  "files": {
+    "src/dqpilot_execution/data.py": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+    "src/dqpilot_execution/evaluate.py": "a5329d6ef1363e83a7a87867523444855e79a8d2f477f437e57219ec094648b5",
+    "src/dqpilot_execution/safety.py": "8102197973dd828d40cb2f2efdd9dc4ebf8877bb53506fca726f5cc049bf045f",
+    "src/dqpilot_execution/eval_worker.py": "0e779d612ce4e4569601b716c283e11545e77551a147c51560fdf61f9ff16a79"
+  },
+  "amendments": [
+    "Published single-column cell track retained alongside row workload because all-participant relational findings cannot be scored as uniquely altered cells.",
+    "Controlled bad-type/code labels separated from generic alteration recovery; swaps and scales are not automatically genuine DQ errors.",
+    "Per-candidate delta union preserves baseline detections; old alerts remain separately reported.",
+    "All changes fixed before new heldout scoring; generic syntax adaptation used model smoke only. Study remains exploratory, not pristine confirmation."
+  ]
+}

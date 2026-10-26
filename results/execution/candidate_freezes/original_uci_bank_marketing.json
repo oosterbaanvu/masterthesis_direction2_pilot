@@ -1,0 +1,12 @@
+{
+  "time_utc": "2026-10-26T12:41:49.439575+00:00",
+  "raw_candidate_count": 0,
+  "unique_count": 0,
+  "candidate_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "candidates": [],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "5bb7e2e811773d34e38e2fa4c803dfcb1f0486de89bf6fd1cc1ea8a27c6a3361",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

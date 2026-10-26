@@ -1,0 +1,53 @@
+{
+  "source": "uci_credit",
+  "condition": "original",
+  "baseline": "weak",
+  "arms": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": []
+  },
+  "C_decisions": [
+    {
+      "id": "g_28f74d1ef342456ce56f",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_955e94d0fa5b1e6003c7",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_4749a39cfbf94ccb06f6",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_48d17d7f74a33ebb4d66",
+      "decision": "REJECT",
+      "reason": "TECHNICAL_FAILURE_OR_UNSUPPORTED",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "sensitivity": {
+    "C_0.0": [],
+    "C_0.01": [],
+    "C_0.05": [],
+    "B_0.8": [],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "8691d05f97e9978794fc6daf056b800637657a0e8985318f4142da06326b693e",
+  "time_utc": "2026-10-26T12:41:42.629187+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

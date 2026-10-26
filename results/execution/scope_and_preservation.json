@@ -1,0 +1,19 @@
+{
+  "readonly_references": [
+    {
+      "path": "/workspace/research-sources/pilot1",
+      "head": "0dcf2c3cb7f0c1ddb0666ebd83e70fb255946af6",
+      "status_clean": true
+    },
+    {
+      "path": "data/vendor/ledqer",
+      "head": "fb42051026ee6ccded9347349ff95b597804962d",
+      "status_clean": true
+    }
+  ],
+  "time_utc": "2026-10-26T13:20:05.382633+00:00",
+  "protected_parent_files_unmodified": true,
+  "reserved_SEC_new_scientific_reads": false,
+  "natural_financial_human_labels": "NOT_AVAILABLE",
+  "full_paper_model_reproduction": false
+}

@@ -1,0 +1,97 @@
+{
+  "source": "synthetic_balanced_journals",
+  "condition": "guided",
+  "baseline": "weak",
+  "arms": {
+    "A": [
+      "g_20a6d7f2665c86318e79",
+      "g_535a468b6573a4a4da88",
+      "g_83aa4f0f16f9dbe023da",
+      "g_9df575e0bc141b5e2d76",
+      "g_c3915e71cd6cc5146227",
+      "g_d88df0e90e823370dc66",
+      "g_e708a4b361d2299256c1"
+    ],
+    "B": [
+      "g_c3915e71cd6cc5146227",
+      "g_20a6d7f2665c86318e79"
+    ],
+    "C": [
+      "g_83aa4f0f16f9dbe023da",
+      "g_d88df0e90e823370dc66"
+    ],
+    "D": []
+  },
+  "C_decisions": [
+    {
+      "id": "g_c3915e71cd6cc5146227",
+      "decision": "ABSTAIN",
+      "reason": "FORMATTING_SENSITIVITY",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_9df575e0bc141b5e2d76",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_535a468b6573a4a4da88",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_83aa4f0f16f9dbe023da",
+      "decision": "PROPOSE_FOR_REVIEW",
+      "reason": "INHERITED_DOCUMENTARY_ENTAILMENT_NOT_INDEPENDENT_VALIDITY",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_e708a4b361d2299256c1",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_20a6d7f2665c86318e79",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_d88df0e90e823370dc66",
+      "decision": "PROPOSE_FOR_REVIEW",
+      "reason": "INHERITED_DOCUMENTARY_ENTAILMENT_NOT_INDEPENDENT_VALIDITY",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "sensitivity": {
+    "C_0.0": [
+      "g_83aa4f0f16f9dbe023da",
+      "g_d88df0e90e823370dc66"
+    ],
+    "C_0.01": [
+      "g_83aa4f0f16f9dbe023da",
+      "g_d88df0e90e823370dc66"
+    ],
+    "C_0.05": [
+      "g_83aa4f0f16f9dbe023da",
+      "g_d88df0e90e823370dc66"
+    ],
+    "B_0.8": [
+      "g_c3915e71cd6cc5146227",
+      "g_20a6d7f2665c86318e79"
+    ],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "59304e1c5b89349c91d01aa0fa7657017b661546511a4326ab63e809b278ba50",
+  "time_utc": "2026-10-26T13:25:40.537920+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

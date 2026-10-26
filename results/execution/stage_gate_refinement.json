@@ -1,0 +1,6 @@
+{
+  "time_utc": "2026-10-26T11:36:00.960698+00:00",
+  "stage_cap_distinct_requests": 4,
+  "scope": "One initial real request per source, same provided/direct/seed11 condition",
+  "reason": "Original Wine syntax failure merits cross-source smoke review before full factorial. No held-out labels inspected; prompt/candidate bytes preserved."
+}

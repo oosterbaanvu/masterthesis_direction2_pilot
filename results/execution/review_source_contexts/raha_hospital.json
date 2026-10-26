@@ -1,0 +1,182 @@
+{
+  "citation": "https://github.com/BigDaMa/raha/tree/master/datasets/hospital",
+  "existing_controls": [
+    {
+      "column": "provider_number",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "name",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "address_1",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "address_2",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "address_3",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "city",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "state",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "zip",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "county",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "phone",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "type",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "owner",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "emergency_service",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "condition",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "measure_code",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "measure_name",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "score",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "sample",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "state_average",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    }
+  ],
+  "format_note": "CSV fields are delivered as strings. Numeric-named fields are not automatically floating-point dataframe columns.",
+  "sample": [],
+  "schema": [
+    {
+      "name": "provider_number",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "address_1",
+      "type": "string"
+    },
+    {
+      "name": "address_2",
+      "type": "string"
+    },
+    {
+      "name": "address_3",
+      "type": "string"
+    },
+    {
+      "name": "city",
+      "type": "string"
+    },
+    {
+      "name": "state",
+      "type": "string"
+    },
+    {
+      "name": "zip",
+      "type": "string"
+    },
+    {
+      "name": "county",
+      "type": "string"
+    },
+    {
+      "name": "phone",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "owner",
+      "type": "string"
+    },
+    {
+      "name": "emergency_service",
+      "type": "string"
+    },
+    {
+      "name": "condition",
+      "type": "string"
+    },
+    {
+      "name": "measure_code",
+      "type": "string"
+    },
+    {
+      "name": "measure_name",
+      "type": "string"
+    },
+    {
+      "name": "score",
+      "type": "string"
+    },
+    {
+      "name": "sample",
+      "type": "string"
+    },
+    {
+      "name": "state_average",
+      "type": "string"
+    }
+  ],
+  "source": "raha_hospital",
+  "source_documentation": "US hospital/provider quality-measure records. A provider can appear in multiple measure rows. Postal/telephone/provider codes are text identifiers. Optionality and exact business formats are not independently established. Any additional assumptions are provisional. This is a public research benchmark, not patient-level private clinical data."
+}

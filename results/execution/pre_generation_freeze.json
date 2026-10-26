@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-10-26T11:25:47.058860+00:00",
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "prompt_manifest_sha256": "399407229e681b08477d7aabdc90f9d117c861afae9626bd29869c1561404cdb",
+  "generation_outputs_observed": false,
+  "note": "Metric unit, selector thresholds, splits and baselines fixed before first genuine generation/evaluation."
+}

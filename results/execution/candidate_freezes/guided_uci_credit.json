@@ -1,0 +1,181 @@
+{
+  "time_utc": "2026-10-26T13:20:40.438546+00:00",
+  "raw_candidate_count": 36,
+  "unique_count": 12,
+  "candidate_sha256": "a3c89ca8eb6902339e68b979516e7f994f812e101428db19ed12e6a91774b060",
+  "candidates": [
+    {
+      "id": "g_16afc517825603e5a2dc",
+      "description": "Ensure that the repayment status values are within the documented and observed range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='PAY_{i}', value_set=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9])",
+      "evidence_references": [
+        "D_PAY_{i}_DOMAIN"
+      ],
+      "original_id": "D_PAY_{i}_DOMAIN",
+      "origins": [
+        "uci_credit:provided:cautious:11",
+        "uci_credit:provided:cautious:23",
+        "uci_credit:provided:cautious:37"
+      ]
+    },
+    {
+      "id": "g_a34130896ae291f282d6",
+      "description": "Verify that the credit limits are multiples of 10,000.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='LIMIT_BAL', value_set=[0, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000, 150000, 160000, 170000, 180000, 190000, 200000, 210000, 220000, 230000, 240000, 250000, 260000, 270000, 280000, 290000, 300000])",
+      "evidence_references": [
+        "D_LIMIT_GRANULARITY"
+      ],
+      "original_id": "D_LIMIT_GRANULARITY",
+      "origins": [
+        "uci_credit:provided:cautious:11",
+        "uci_credit:provided:cautious:23",
+        "uci_credit:provided:cautious:37"
+      ]
+    },
+    {
+      "id": "g_5d4aa9d03451ff85f9d7",
+      "description": "Ensure that the payment amounts are non-negative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeNonNegative(column='PAY_AMT{i}')",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ],
+      "original_id": "D_PAY_AMT{i}_NONNEG",
+      "origins": [
+        "uci_credit:provided:cautious:11",
+        "uci_credit:provided:cautious:23",
+        "uci_credit:provided:cautious:37"
+      ]
+    },
+    {
+      "id": "g_38de0b7da2a1422a79cc",
+      "description": "Verify that the bill amounts are within the credit limit.",
+      "gx_code": "gx.expectations.ExpectColumnPairValuesAToBeLessThanOrEqualToB(column_A='BILL_AMT{i}', column_B='LIMIT_BAL', or_equal=True)",
+      "evidence_references": [
+        "D_BILL_OVER_LIMIT"
+      ],
+      "original_id": "D_BILL_OVER_LIMIT",
+      "origins": [
+        "uci_credit:provided:cautious:11",
+        "uci_credit:provided:cautious:23",
+        "uci_credit:provided:cautious:37"
+      ]
+    },
+    {
+      "id": "g_f004fbf232d446f58d7d",
+      "description": "Ensure payment amounts are within the documented domain.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='PAY_AMT1', value_set=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9])",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ],
+      "original_id": "D_PAY_AMT_DOMAIN",
+      "origins": [
+        "uci_credit:provided:direct:11",
+        "uci_credit:provided:direct:23",
+        "uci_credit:provided:direct:37"
+      ]
+    },
+    {
+      "id": "g_e3a1c17adc82d3c7f8d3",
+      "description": "Ensure bill amounts are within the documented domain.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='BILL_AMT1', value_set=[-10000, -5000, -2500, -1000, -500, -250, -100, -50, -25, -10, -5, -2, -1, 0, 1, 2, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000])",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ],
+      "original_id": "D_BILL_AMT_DOMAIN",
+      "origins": [
+        "uci_credit:provided:direct:11",
+        "uci_credit:provided:direct:23",
+        "uci_credit:provided:direct:37"
+      ]
+    },
+    {
+      "id": "g_c95a09173adacd9f0833",
+      "description": "Ensure credit limits are multiples of 10,000.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='LIMIT_BAL', min_value=0, max_value=300000000)",
+      "evidence_references": [
+        "D_LIMIT_GRANULARITY"
+      ],
+      "original_id": "D_LIMIT_BAL_MULTIPLE",
+      "origins": [
+        "uci_credit:provided:direct:11"
+      ]
+    },
+    {
+      "id": "g_40b4f411465f38023d34",
+      "description": "Ensure ages are within the plausible range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='AGE', min_value=18, max_value=100)",
+      "evidence_references": [
+        "D_AGE_RANGE"
+      ],
+      "original_id": "D_AGE_RANGE",
+      "origins": [
+        "uci_credit:provided:direct:11",
+        "uci_credit:provided:direct:23",
+        "uci_credit:provided:direct:37",
+        "uci_credit:withheld:direct:11",
+        "uci_credit:withheld:direct:23",
+        "uci_credit:withheld:direct:37"
+      ]
+    },
+    {
+      "id": "g_3e5b9a1c63585568f894",
+      "description": "Ensure credit limits are multiples of 10,000.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='LIMIT_BAL', value_set=[10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000, 150000, 160000, 170000, 180000, 190000, 200000, 210000, 220000, 230000, 240000, 250000, 260000, 270000, 280000, 290000, 300000])",
+      "evidence_references": [
+        "D_LIMIT_GRANULARITY"
+      ],
+      "original_id": "D_LIMIT_BAL_MULTIPLE",
+      "origins": [
+        "uci_credit:provided:direct:23",
+        "uci_credit:provided:direct:37"
+      ]
+    },
+    {
+      "id": "g_854e85f93aa5e03bce11",
+      "description": "Ensure PAY_AMT{i} values are within the documented and observed range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='PAY_0', value_set=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9])",
+      "evidence_references": [
+        "D_PAY_{i}_DOMAIN"
+      ],
+      "original_id": "D_PAY_AMT{i}_DOMAIN",
+      "origins": [
+        "uci_credit:withheld:direct:11",
+        "uci_credit:withheld:direct:23",
+        "uci_credit:withheld:direct:37"
+      ]
+    },
+    {
+      "id": "g_55409a27f06dfd2679a1",
+      "description": "Ensure PAY_AMT{i} values are non-negative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeNonNegative(column='PAY_0')",
+      "evidence_references": [
+        "D_PAY_AMT{i}_NONNEG"
+      ],
+      "original_id": "D_PAY_AMT{i}_NONNEG",
+      "origins": [
+        "uci_credit:withheld:direct:11",
+        "uci_credit:withheld:direct:23",
+        "uci_credit:withheld:direct:37"
+      ]
+    },
+    {
+      "id": "g_cb1c5bcad811df41cbf5",
+      "description": "Ensure LIMIT_BAL values are multiples of 10,000.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='LIMIT_BAL', regex='^[0-9]*0000$')",
+      "evidence_references": [
+        "D_LIMIT_GRANULARITY"
+      ],
+      "original_id": "D_LIMIT_GRANULARITY",
+      "origins": [
+        "uci_credit:withheld:direct:11",
+        "uci_credit:withheld:direct:23",
+        "uci_credit:withheld:direct:37"
+      ]
+    }
+  ],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "5bb7e2e811773d34e38e2fa4c803dfcb1f0486de89bf6fd1cc1ea8a27c6a3361",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

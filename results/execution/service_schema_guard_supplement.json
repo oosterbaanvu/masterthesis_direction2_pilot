@@ -1,0 +1,18 @@
+{
+  "status": "POST_EXPERIMENT_ENGINEERING_SCHEMA_CORRECTION",
+  "principal_A_B_C_D_results_modified": false,
+  "reason": "Principal journal strong suite omitted explicit numeric checks; native ranges/equalities skip nonnumeric strings. Initial schema already specified numeric amounts, but this correction was made after observing exploratory outputs.",
+  "added_conventional_numeric_guards": 2,
+  "scan": {
+    "batch": 3,
+    "source": "journal_demo",
+    "rows": 256,
+    "findings": 24
+  },
+  "controlled_labelled_rows_detected": 24,
+  "controlled_labelled_rows": 24,
+  "off_scenario_labelled_rows": 0,
+  "model_rules_active": 0,
+  "human_model_approvals": 0,
+  "interpretation": "Functional self-authored scenario only; post hoc engineering correction, not confirmatory detection improvement or model benefit"
+}

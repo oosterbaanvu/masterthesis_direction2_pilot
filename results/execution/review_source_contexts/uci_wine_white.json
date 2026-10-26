@@ -1,0 +1,143 @@
+{
+  "citation": "https://doi.org/10.24432/C56S3T",
+  "convention_notes": [
+    {
+      "evidence": "UCI winequality.names: no missing values in the published measurements.",
+      "id": "D_REQUIRED",
+      "status": "verified"
+    },
+    {
+      "evidence": "Nonnegative concentration, density, percentage or pH; no clean-test range fitting.",
+      "id": "D_NONNEG_{i}",
+      "status": "provisional"
+    },
+    {
+      "evidence": "Conventional aqueous pH screening range, not an empirical min/max.",
+      "id": "D_PH",
+      "status": "provisional"
+    },
+    {
+      "evidence": "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations.",
+      "id": "D_FREE_TOTAL",
+      "status": "provisional"
+    }
+  ],
+  "existing_controls": [
+    {
+      "columns": "all",
+      "evidence": "UCI winequality.names: no missing values in the published measurements.",
+      "id": "D_REQUIRED",
+      "kind": "not_null",
+      "status": "verified"
+    },
+    {
+      "columns": [
+        "{i}"
+      ],
+      "evidence": "Nonnegative concentration, density, percentage or pH; no clean-test range fitting.",
+      "for_each": [
+        "fixed acidity",
+        "volatile acidity",
+        "citric acid",
+        "residual sugar",
+        "chlorides",
+        "free sulfur dioxide",
+        "total sulfur dioxide",
+        "density",
+        "pH",
+        "sulphates",
+        "alcohol"
+      ],
+      "id": "D_NONNEG_{i}",
+      "kind": "range",
+      "min": 0,
+      "status": "provisional"
+    },
+    {
+      "columns": [
+        "pH"
+      ],
+      "evidence": "Conventional aqueous pH screening range, not an empirical min/max.",
+      "id": "D_PH",
+      "kind": "range",
+      "max": 14,
+      "min": 0,
+      "status": "provisional"
+    },
+    {
+      "columns": [
+        "free sulfur dioxide",
+        "total sulfur dioxide"
+      ],
+      "evidence": "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations.",
+      "expression": "\"free sulfur dioxide\" <= \"total sulfur dioxide\"",
+      "id": "D_FREE_TOTAL",
+      "kind": "expression",
+      "status": "provisional"
+    }
+  ],
+  "licence_basis": "UCI public dataset metadata, CC BY 4.0, citation retained; inherited provisional assumptions remain marked",
+  "raw_rows_transmitted": false,
+  "sample": [],
+  "sample_note": "No individual records are transmitted; schema/documentation-only generation.",
+  "schema": [
+    {
+      "name": "fixed acidity",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "volatile acidity",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "citric acid",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "residual sugar",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "chlorides",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "free sulfur dioxide",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "total sulfur dioxide",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "density",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "pH",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "sulphates",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    },
+    {
+      "name": "alcohol",
+      "semantic": "physicochemical_measurement",
+      "type": "numeric"
+    }
+  ],
+  "source": "uci_wine_white",
+  "source_contract_sha256": "a127d67b165ef86722f50a2ccc1759dd1c59bac8bb002475e02facbe45bdd646",
+  "source_documentation": "White Vinho Verde physicochemical inputs; sensory quality target excluded. Historical measurements are not assumed verified error-free."
+}

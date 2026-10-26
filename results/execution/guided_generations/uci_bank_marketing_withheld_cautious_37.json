@@ -1,0 +1,101 @@
+{
+  "request": {
+    "id": "uci_bank_marketing:withheld:cautious:37",
+    "source": "uci_bank_marketing",
+    "documentation": "withheld",
+    "prompt_variant": "cautious",
+    "seed": 37,
+    "prompt_sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc",
+    "prompt_utf8_bytes": 6637,
+    "path": "data/cache/execution/guided_prompts/uci_bank_marketing_withheld_cautious_37.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "dc66b2a5a937bebfd9177dba71062b1a9e1742de8a402f9d4f4c402761dbee03"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "df781679a880372848b5abf585a3a5cb3f18aa618075e0c32d1e32678920c9fc",
+    "request_sha256": "87b9dbb1b4bf7481290aa98232679f648ffbbf536eb9f170178c8e96126729c0",
+    "response_canonical_sha256": "754c312109b49945214880df753901f51454bd30c22b5bffd2ebd4f2ce025565",
+    "settings": {
+      "temperature": 0,
+      "seed": 37,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 404,
+      "prompt_tokens": 1776,
+      "total_tokens": 2180,
+      "prompt_tokens_details": {
+        "cached_tokens": 1356
+      }
+    },
+    "timings": {
+      "cache_n": 1356,
+      "prompt_n": 420,
+      "prompt_ms": 15963.717,
+      "prompt_per_token_ms": 38.00885,
+      "prompt_per_second": 26.309662091854925,
+      "predicted_n": 404,
+      "predicted_ms": 95459.354,
+      "predicted_per_token_ms": 236.87184615384618,
+      "predicted_per_second": 4.221692093160404
+    },
+    "runtime_seconds": 111.85755026503466,
+    "peak_server_tree_RSS_bytes": 9532796928,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "ed51c6a25acfe3f4bfbd3e21a7f23b41da46cde47c2c8368fdd5f8f7d2c3fa4d"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "D_EMP_VAR_RATE_RANGE",
+      "description": "Emp.var.rate should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='emp.var.rate', min_value=-10, max_value=10)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C5K306"
+      ]
+    },
+    {
+      "id": "D_CONS_PRICE_IDX_RANGE",
+      "description": "Cons.price.idx should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='cons.price.idx', min_value=90, max_value=110)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C5K306"
+      ]
+    },
+    {
+      "id": "D_CONS_CONF_IDX_RANGE",
+      "description": "Cons.conf.idx should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='cons.conf.idx', min_value=-50, max_value=50)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C5K306"
+      ]
+    },
+    {
+      "id": "D_EURIBOR3M_RANGE",
+      "description": "Euribor3m should be within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='euribor3m', min_value=0, max_value=5)",
+      "evidence_references": [
+        "https://doi.org/10.24432/C5K306"
+      ]
+    }
+  ],
+  "abstentions": [
+    "D_PDAYS999_NO_PREVIOUS"
+  ]
+}

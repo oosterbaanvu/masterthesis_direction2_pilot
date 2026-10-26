@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-10-26T13:29:41.535188+00:00",
+  "parent_tests": {
+    "passed": 36,
+    "xml": "results/execution/parent_software_tests.xml"
+  },
+  "additional_tests": {
+    "passed": 76,
+    "xml": "results/execution/combined_software_tests.xml",
+    "composition": {
+      "final": 38,
+      "free": 21,
+      "execution": 17
+    }
+  },
+  "Ruff_execution_package": "PASSED",
+  "old_scientific_freezes": "VERIFIED_UNCHANGED",
+  "pinned_model_acquisition_helper": "VERIFIED_REUSE_PATH_EXECUTED",
+  "start_helper": "AUTHENTICATED_EXISTING_SERVER_AND_TOKENIZER_PASSED",
+  "new_server_restart": "PASSED_AUTHENTICATED_MODEL_LIST_AND_TOKENIZATION",
+  "fresh_task_restore": "NOT_TESTED",
+  "new_paid_calls": 0,
+  "saved_install_script_sha256": "c48d28976a2cba9eb63e7c99723290cbfe8f2337d0307167c35464c78bded8e5",
+  "full_install_rerun_in_this_phase": false,
+  "rationale": "Frozen dependencies and earlier acquisition workflow retained; all relevant suites and newly affected artifact acquisition/startup paths exercised. No scientific use of reserved SEC tables.",
+  "complete_scientific_evaluations": 10,
+  "isolated_reproduction": "ALL_TEN_ORIGINAL_SCIENTIFIC_FIELDS_MATCH",
+  "actual_model_generation_requests": 56,
+  "original_scorer_actual_comparisons": 276,
+  "engineering_schema_supplement": "EXECUTED: 24/24 stipulated invalid rows, zero active model rules; post hoc engineering only"
+}

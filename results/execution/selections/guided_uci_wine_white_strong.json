@@ -1,0 +1,113 @@
+{
+  "source": "uci_wine_white",
+  "condition": "guided",
+  "baseline": "strong",
+  "arms": {
+    "A": [
+      "g_0f1c700a992e55cf2bf6",
+      "g_15fa3d21725f38371916",
+      "g_223694d1ba8c06cbb2dc",
+      "g_2bd4c5133b8db2fdbc22",
+      "g_73e180005a510cf888ce",
+      "g_92e6bde4c77746a66ac2",
+      "g_b56aa261f35ab1435b3d",
+      "g_b6a0b65df5c43e25698e",
+      "g_ccaf938f3581dc015e48",
+      "g_e452928e48c45696f34d",
+      "g_f2d2eb842cd435d7100d"
+    ],
+    "B": [
+      "g_15fa3d21725f38371916",
+      "g_f2d2eb842cd435d7100d"
+    ],
+    "C": [],
+    "D": []
+  },
+  "C_decisions": [
+    {
+      "id": "g_e452928e48c45696f34d",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_92e6bde4c77746a66ac2",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_0f1c700a992e55cf2bf6",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_73e180005a510cf888ce",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_15fa3d21725f38371916",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_b6a0b65df5c43e25698e",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_f2d2eb842cd435d7100d",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_223694d1ba8c06cbb2dc",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_ccaf938f3581dc015e48",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_b56aa261f35ab1435b3d",
+      "decision": "REJECT",
+      "reason": "LOGICALLY_REDUNDANT_WITH_INSTALLED_CONTROLS",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_2bd4c5133b8db2fdbc22",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "sensitivity": {
+    "C_0.0": [],
+    "C_0.01": [],
+    "C_0.05": [],
+    "B_0.8": [
+      "g_15fa3d21725f38371916",
+      "g_f2d2eb842cd435d7100d"
+    ],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "b08fc2fb251ad5178c256a1c239623506ed8b21f21bd1877324f23991c920fe9",
+  "time_utc": "2026-10-26T13:24:42.825979+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-10-26T11:32:41.855552+00:00",
+  "stage_cap_distinct_requests": 16,
+  "reason": "First genuine Wine response parsed but all three gx_code fields failed constructor validation. Bounded diagnostic stage before any full run or held-out scoring.",
+  "implementation": "Durable SQLite pre-call trigger; no request 17 can be sent before review.",
+  "model_or_prompt_changed": false,
+  "first_response_preserved": true
+}

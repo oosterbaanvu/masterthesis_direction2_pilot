@@ -1,0 +1,64 @@
+{
+  "request": {
+    "id": "uci_bank_marketing:provided:direct:11",
+    "source": "uci_bank_marketing",
+    "documentation": "provided",
+    "prompt_variant": "direct",
+    "seed": 11,
+    "prompt_sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d",
+    "prompt_utf8_bytes": 8000,
+    "path": "data/cache/free_gemini/prompts/uci_bank_marketing_provided_direct_11.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "d751e6a78bd9b7e6bca725694138e66bcddea0d46f534299b84c150466a1e51d",
+    "request_sha256": "c368302ef0b2686e013144c3ecb6e6df06241b95fcd762e52ac17add4a1e3fb4",
+    "response_canonical_sha256": "8bab26a5b0978cb10c8d8671e2feb033283b51d7569c921d52023f9c62e4a60c",
+    "settings": {
+      "temperature": 0,
+      "seed": 11,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 393,
+      "prompt_tokens": 2264,
+      "total_tokens": 2657,
+      "prompt_tokens_details": {
+        "cached_tokens": 244
+      }
+    },
+    "timings": {
+      "cache_n": 244,
+      "prompt_n": 2020,
+      "prompt_ms": 68719.512,
+      "prompt_per_token_ms": 34.01956039603961,
+      "prompt_per_second": 29.394853677075005,
+      "predicted_n": 393,
+      "predicted_ms": 106900.049,
+      "predicted_per_token_ms": 272.70420663265304,
+      "predicted_per_second": 3.666976803724384
+    },
+    "runtime_seconds": 175.8495937800035,
+    "peak_server_tree_RSS_bytes": 0,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "e0df5f9c1373f22054000693b4284c1c169e763dca2b453042f8eaae51f1851a"
+  },
+  "cached": false,
+  "status": "MALFORMED_OR_TRUNCATED",
+  "failure_type": "ValueError",
+  "rules": []
+}

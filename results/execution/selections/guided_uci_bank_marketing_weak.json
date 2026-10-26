@@ -1,0 +1,69 @@
+{
+  "source": "uci_bank_marketing",
+  "condition": "guided",
+  "baseline": "weak",
+  "arms": {
+    "A": [
+      "g_09177d1e33c14c8813dc",
+      "g_1a06c4627c0bdd0917fe",
+      "g_2fc3203f7e8937bd64e2",
+      "g_43cd045e45a418527c52",
+      "g_be16788e0db092b17b4d"
+    ],
+    "B": [
+      "g_1a06c4627c0bdd0917fe"
+    ],
+    "C": [],
+    "D": []
+  },
+  "C_decisions": [
+    {
+      "id": "g_43cd045e45a418527c52",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_2fc3203f7e8937bd64e2",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_be16788e0db092b17b4d",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_09177d1e33c14c8813dc",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_1a06c4627c0bdd0917fe",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "sensitivity": {
+    "C_0.0": [],
+    "C_0.01": [],
+    "C_0.05": [],
+    "B_0.8": [
+      "g_1a06c4627c0bdd0917fe"
+    ],
+    "C_no_extra_documentation": []
+  },
+  "candidate_sha256": "2521e67465156050403e347f5a618b144c251d8bfb2595d9b592bdee3156ae54",
+  "time_utc": "2026-10-26T13:22:43.071704+00:00",
+  "test_labels_used": false,
+  "selection_information": {
+    "A": "technical",
+    "B": "development labels",
+    "C": "inherited source contracts and unlabelled development only",
+    "D": "fixed conventional suite"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "arms": {
+    "A": [
+      "g_45c5bfaa8baf66fc8499",
+      "g_05b520e07bfbab0b6a48",
+      "g_2b0bfb53f443996862b5",
+      "g_90a1c06066f9e4df1aa4",
+      "g_0f1b35b7ba1cca72ad16",
+      "g_48f86044f49c2eb70ed8",
+      "g_9ede2fde0b1dc38efd15",
+      "g_81a6675b396609dc78a5"
+    ],
+    "B": [],
+    "C": [],
+    "D": []
+  },
+  "candidate_sha256": "9cef66a67d0d38d3d00266766f005fb5c0b5fc11b6a0297b16b0045ff37824bb",
+  "label_access": "B development cells only",
+  "test_labels_used": false,
+  "C_decisions": [
+    {
+      "id": "g_2b0bfb53f443996862b5",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_90a1c06066f9e4df1aa4",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_0f1b35b7ba1cca72ad16",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_05b520e07bfbab0b6a48",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_81a6675b396609dc78a5",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_9ede2fde0b1dc38efd15",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_45c5bfaa8baf66fc8499",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_48f86044f49c2eb70ed8",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "unit": "single-column predicted cells",
+  "excluded_multicolumn_or_unsupported_candidates": 0
+}

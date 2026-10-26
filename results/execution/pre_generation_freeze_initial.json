@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-10-26T11:21:07.686032+00:00",
+  "protocol_sha256": "6cc4447a8ec5bd759084fa2deb84fdecba2aaf521a6791a1750346d45d7ddbfc",
+  "prompt_manifest_sha256": "399407229e681b08477d7aabdc90f9d117c861afae9626bd29869c1561404cdb",
+  "generation_outputs_observed": false,
+  "note": "Main selector protocol fixed before first new model output or held-out evaluation; existing public diagnostics are historical."
+}

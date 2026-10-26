@@ -1,0 +1,61 @@
+{
+  "time_utc": "2026-10-26T12:42:01.658603+00:00",
+  "raw_candidate_count": 4,
+  "unique_count": 4,
+  "candidate_sha256": "0a8241b023f5f0ac8e257ecf0ddff58bd8249618dfcc8a3de09179e751f95509",
+  "candidates": [
+    {
+      "id": "g_806d16caa26e7dc47f3d",
+      "description": "Ensure that the total debits and total credits are equal for each journal entry.",
+      "gx_code": "gx.expect_column_values_to_be_equal_to_constant(column='total_debits', constant_value='total_credits')",
+      "evidence_references": [
+        "source_documentation"
+      ],
+      "original_id": "rule_1",
+      "origins": [
+        "synthetic_balanced_journals:provided:direct:11"
+      ]
+    },
+    {
+      "id": "g_2b2ae4be8ef34e9eecce",
+      "description": "Ensure that the total debits and total credits are nonnegative integers.",
+      "gx_code": "gx.expect_column_values_to_be_between(column='total_debits', min_value=0, max_value=None)",
+      "evidence_references": [
+        "source_documentation"
+      ],
+      "original_id": "rule_2",
+      "origins": [
+        "synthetic_balanced_journals:provided:direct:11"
+      ]
+    },
+    {
+      "id": "g_0e3047473003f68346a5",
+      "description": "Ensure that the currency is either USD or EUR.",
+      "gx_code": "gx.expect_column_values_to_be_in_set(column='currency', value_set=['USD', 'EUR'])",
+      "evidence_references": [
+        "source_documentation"
+      ],
+      "original_id": "rule_3",
+      "origins": [
+        "synthetic_balanced_journals:provided:direct:11"
+      ]
+    },
+    {
+      "id": "g_98d1929687744b36f93f",
+      "description": "Ensure that the journal_id is unique across all entries.",
+      "gx_code": "gx.expect_column_values_to_be_unique(column='journal_id')",
+      "evidence_references": [
+        "source_documentation"
+      ],
+      "original_id": "rule_4",
+      "origins": [
+        "synthetic_balanced_journals:provided:direct:11"
+      ]
+    }
+  ],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "5bb7e2e811773d34e38e2fa4c803dfcb1f0486de89bf6fd1cc1ea8a27c6a3361",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

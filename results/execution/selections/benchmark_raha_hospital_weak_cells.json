@@ -1,0 +1,74 @@
+{
+  "arms": {
+    "A": [
+      "g_afb01a50b5144688a88b",
+      "g_e54d4776fd1e0dad594f",
+      "g_4bb4130f2f003ba8e049",
+      "g_8ec14674338dd082d585",
+      "g_e016eec3ef795cac23e2",
+      "g_b3ef20a74fe0fb654fa8",
+      "g_8ca79207d6639f509fd0",
+      "g_b12cf498bc54898607e9"
+    ],
+    "B": [
+      "g_b12cf498bc54898607e9"
+    ],
+    "C": [],
+    "D": []
+  },
+  "candidate_sha256": "639d8e87648559b69d9dc801760480516019d43da5778e28e002a6626c2d1321",
+  "label_access": "B development cells only",
+  "test_labels_used": false,
+  "C_decisions": [
+    {
+      "id": "g_e54d4776fd1e0dad594f",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_b12cf498bc54898607e9",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_b3ef20a74fe0fb654fa8",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_8ca79207d6639f509fd0",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_e016eec3ef795cac23e2",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_8ec14674338dd082d585",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_4bb4130f2f003ba8e049",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    },
+    {
+      "id": "g_afb01a50b5144688a88b",
+      "decision": "ABSTAIN",
+      "reason": "NO_DOCUMENTARY_CERTIFICATE",
+      "independent_semantic_validity": "NOT_ADJUDICATED"
+    }
+  ],
+  "unit": "single-column predicted cells",
+  "excluded_multicolumn_or_unsupported_candidates": 0
+}

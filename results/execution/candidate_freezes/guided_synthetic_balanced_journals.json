@@ -1,0 +1,131 @@
+{
+  "time_utc": "2026-10-26T13:25:27.650261+00:00",
+  "raw_candidate_count": 45,
+  "unique_count": 7,
+  "candidate_sha256": "59304e1c5b89349c91d01aa0fa7657017b661546511a4326ab63e809b278ba50",
+  "candidates": [
+    {
+      "id": "g_c3915e71cd6cc5146227",
+      "description": "Ensure that the currency values are either 'USD' or 'EUR'.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='currency', value_set=['USD', 'EUR'])",
+      "evidence_references": [
+        "SOURCE_CONTEXT.schema"
+      ],
+      "original_id": "check_currency_allowed",
+      "origins": [
+        "synthetic_balanced_journals:provided:cautious:11",
+        "synthetic_balanced_journals:provided:cautious:23",
+        "synthetic_balanced_journals:provided:cautious:37",
+        "synthetic_balanced_journals:provided:direct:11",
+        "synthetic_balanced_journals:provided:direct:23",
+        "synthetic_balanced_journals:provided:direct:37",
+        "synthetic_balanced_journals:withheld:direct:11",
+        "synthetic_balanced_journals:withheld:direct:23",
+        "synthetic_balanced_journals:withheld:direct:37"
+      ]
+    },
+    {
+      "id": "g_9df575e0bc141b5e2d76",
+      "description": "Ensure that the total debits equal the total credits for each journal.",
+      "gx_code": "gx.expectations.ExpectMulticolumnSumToEqual(column_list=['total_debits', 'total_credits'], sum_total=0)",
+      "evidence_references": [
+        "SOURCE_CONTEXT.source_documentation"
+      ],
+      "original_id": "check_balanced_journals",
+      "origins": [
+        "synthetic_balanced_journals:provided:cautious:11",
+        "synthetic_balanced_journals:provided:cautious:23",
+        "synthetic_balanced_journals:provided:cautious:37",
+        "synthetic_balanced_journals:provided:direct:11",
+        "synthetic_balanced_journals:provided:direct:23",
+        "synthetic_balanced_journals:provided:direct:37",
+        "synthetic_balanced_journals:withheld:cautious:11",
+        "synthetic_balanced_journals:withheld:cautious:23",
+        "synthetic_balanced_journals:withheld:cautious:37",
+        "synthetic_balanced_journals:withheld:direct:11",
+        "synthetic_balanced_journals:withheld:direct:23",
+        "synthetic_balanced_journals:withheld:direct:37"
+      ]
+    },
+    {
+      "id": "g_535a468b6573a4a4da88",
+      "description": "Ensure that the total debits and total credits are nonnegative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='total_debits', min_value=0, max_value=1000000000)",
+      "evidence_references": [
+        "SOURCE_CONTEXT.source_documentation"
+      ],
+      "original_id": "check_nonnegative_amounts",
+      "origins": [
+        "synthetic_balanced_journals:provided:cautious:11",
+        "synthetic_balanced_journals:provided:cautious:23",
+        "synthetic_balanced_journals:provided:cautious:37"
+      ]
+    },
+    {
+      "id": "g_83aa4f0f16f9dbe023da",
+      "description": "Ensure that the journal IDs are unique.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeUnique(column='journal_id')",
+      "evidence_references": [
+        "SOURCE_CONTEXT.existing_controls"
+      ],
+      "original_id": "check_unique_journal_ids",
+      "origins": [
+        "synthetic_balanced_journals:provided:cautious:11",
+        "synthetic_balanced_journals:provided:cautious:23",
+        "synthetic_balanced_journals:provided:cautious:37",
+        "synthetic_balanced_journals:provided:direct:11",
+        "synthetic_balanced_journals:provided:direct:23",
+        "synthetic_balanced_journals:provided:direct:37",
+        "synthetic_balanced_journals:withheld:cautious:11",
+        "synthetic_balanced_journals:withheld:cautious:23",
+        "synthetic_balanced_journals:withheld:cautious:37",
+        "synthetic_balanced_journals:withheld:direct:11",
+        "synthetic_balanced_journals:withheld:direct:23",
+        "synthetic_balanced_journals:withheld:direct:37"
+      ]
+    },
+    {
+      "id": "g_e708a4b361d2299256c1",
+      "description": "Ensure that the total_credits column contains nonnegative values.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='total_credits', min_value=0, max_value=1000000000)",
+      "evidence_references": [
+        "source_documentation"
+      ],
+      "original_id": "check_total_credits_nonnegative",
+      "origins": [
+        "synthetic_balanced_journals:provided:direct:11",
+        "synthetic_balanced_journals:provided:direct:23",
+        "synthetic_balanced_journals:provided:direct:37"
+      ]
+    },
+    {
+      "id": "g_20a6d7f2665c86318e79",
+      "description": "Ensure that all journal entries use the same currency.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='currency', value_set=['USD'])",
+      "evidence_references": [],
+      "original_id": "check_currency_consistency",
+      "origins": [
+        "synthetic_balanced_journals:withheld:cautious:11",
+        "synthetic_balanced_journals:withheld:cautious:23",
+        "synthetic_balanced_journals:withheld:cautious:37"
+      ]
+    },
+    {
+      "id": "g_d88df0e90e823370dc66",
+      "description": "Ensure that the total_credits values are non-negative.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='total_credits', min_value=0, max_value=None)",
+      "evidence_references": [],
+      "original_id": "check_total_credits_non_negative",
+      "origins": [
+        "synthetic_balanced_journals:withheld:direct:11",
+        "synthetic_balanced_journals:withheld:direct:23",
+        "synthetic_balanced_journals:withheld:direct:37"
+      ]
+    }
+  ],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "5bb7e2e811773d34e38e2fa4c803dfcb1f0486de89bf6fd1cc1ea8a27c6a3361",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

@@ -1,0 +1,57 @@
+{
+  "time_utc": "2026-10-26T12:41:56.376239+00:00",
+  "raw_candidate_count": 3,
+  "unique_count": 3,
+  "candidate_sha256": "de8f98fc3c49344b84457db537d3effe35aee9d4d081be396fbba3aa2f187483",
+  "candidates": [
+    {
+      "id": "g_01443b8313f6ccb9ffc5",
+      "description": "All numeric values should be nonnegative.",
+      "gx_code": "gx.expectations.ExpectAllValuesToBeNonNegative",
+      "evidence_references": [
+        "Nonnegative concentration, density, percentage or pH; no clean-test range fitting."
+      ],
+      "original_id": "D_NONNEG_ALL",
+      "origins": [
+        "uci_wine_white:provided:direct:11"
+      ]
+    },
+    {
+      "id": "g_9e340f87cb3ded2c7c8a",
+      "description": "pH values should be within the conventional aqueous pH screening range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween",
+      "evidence_references": [
+        "Conventional aqueous pH screening range, not an empirical min/max."
+      ],
+      "kwargs": {
+        "min_value": 0,
+        "max_value": 14
+      },
+      "original_id": "D_PH_RANGE",
+      "origins": [
+        "uci_wine_white:provided:direct:11"
+      ]
+    },
+    {
+      "id": "g_46b04b09500533b2b9fb",
+      "description": "Total sulfur dioxide should be greater than or equal to free sulfur dioxide.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeGreaterThan",
+      "evidence_references": [
+        "Free sulfur is a component of total sulfur; laboratory measurement uncertainty can cause violations."
+      ],
+      "kwargs": {
+        "column": "total sulfur dioxide",
+        "threshold": "free sulfur dioxide"
+      },
+      "original_id": "D_TOTAL_SULFUR",
+      "origins": [
+        "uci_wine_white:provided:direct:11"
+      ]
+    }
+  ],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "5bb7e2e811773d34e38e2fa4c803dfcb1f0486de89bf6fd1cc1ea8a27c6a3361",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

@@ -1,0 +1,229 @@
+{
+  "actual_completed_requests": 56,
+  "raw_declared_rule_objects": 211,
+  "request_conditions": {
+    "original": 4,
+    "guided": 48,
+    "benchmark": 4
+  },
+  "candidate_occurrences": 183,
+  "unique_candidates_within_source_and_condition": 62,
+  "executable_unique_within_source_and_condition": 47,
+  "executable_occurrences": 160,
+  "parsed_responses": 49,
+  "legitimate_empty_parsed_responses": 0,
+  "response_failures": [
+    {
+      "id": "uci_bank_marketing:provided:direct:11",
+      "condition": "original",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    },
+    {
+      "id": "uci_bank_marketing:provided:direct:11",
+      "condition": "guided",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    },
+    {
+      "id": "uci_bank_marketing:provided:direct:23",
+      "condition": "guided",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    },
+    {
+      "id": "uci_bank_marketing:provided:direct:37",
+      "condition": "guided",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    },
+    {
+      "id": "uci_credit:withheld:cautious:11",
+      "condition": "guided",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    },
+    {
+      "id": "uci_credit:withheld:cautious:23",
+      "condition": "guided",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    },
+    {
+      "id": "uci_credit:withheld:cautious:37",
+      "condition": "guided",
+      "status": "MALFORMED_OR_TRUNCATED",
+      "finish": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102796,
+    "completion_tokens": 21854,
+    "total_tokens": 124650
+  },
+  "paid_calls": 0,
+  "api_inference_cost_USD": 0,
+  "infrastructure_and_labor_cost": "NOT_ESTIMATED",
+  "human_reviews_completed": 0,
+  "timing": {
+    "median_wall_seconds": 111.74758921453031,
+    "sum_wall_seconds_including_queueing": 7788.330714036245,
+    "median_prompt_tokens_per_second": 30.377361224770638,
+    "median_generation_tokens_per_second": 4.138220414513545,
+    "peak_observed_server_RSS_bytes": 9677443072,
+    "missing_RSS_instrumentation_count": 4
+  },
+  "generation_yield": [
+    {
+      "condition": "benchmark",
+      "source": "raha_beers",
+      "requests": 2,
+      "parsed_responses": 2,
+      "candidate_occurrences": 8,
+      "unique_candidates": 8,
+      "duplicate_occurrences": 0,
+      "executable_unique": 8,
+      "executable_occurrences": 8,
+      "unique_execution_rate": 1.0,
+      "technical_status_counts": {
+        "EXECUTED": 8
+      }
+    },
+    {
+      "condition": "benchmark",
+      "source": "raha_hospital",
+      "requests": 2,
+      "parsed_responses": 2,
+      "candidate_occurrences": 8,
+      "unique_candidates": 8,
+      "duplicate_occurrences": 0,
+      "executable_unique": 8,
+      "executable_occurrences": 8,
+      "unique_execution_rate": 1.0,
+      "technical_status_counts": {
+        "EXECUTED": 8
+      }
+    },
+    {
+      "condition": "guided",
+      "source": "synthetic_balanced_journals",
+      "requests": 12,
+      "parsed_responses": 12,
+      "candidate_occurrences": 45,
+      "unique_candidates": 7,
+      "duplicate_occurrences": 38,
+      "executable_unique": 7,
+      "executable_occurrences": 45,
+      "unique_execution_rate": 1.0,
+      "technical_status_counts": {
+        "EXECUTED": 7
+      }
+    },
+    {
+      "condition": "guided",
+      "source": "uci_bank_marketing",
+      "requests": 12,
+      "parsed_responses": 9,
+      "candidate_occurrences": 27,
+      "unique_candidates": 5,
+      "duplicate_occurrences": 22,
+      "executable_unique": 5,
+      "executable_occurrences": 27,
+      "unique_execution_rate": 1.0,
+      "technical_status_counts": {
+        "EXECUTED": 5
+      }
+    },
+    {
+      "condition": "guided",
+      "source": "uci_credit",
+      "requests": 12,
+      "parsed_responses": 9,
+      "candidate_occurrences": 36,
+      "unique_candidates": 12,
+      "duplicate_occurrences": 24,
+      "executable_unique": 8,
+      "executable_occurrences": 24,
+      "unique_execution_rate": 0.6666666666666666,
+      "technical_status_counts": {
+        "SAFETY_OR_COMPATIBILITY_REJECTED": 4,
+        "EXECUTED": 8
+      }
+    },
+    {
+      "condition": "guided",
+      "source": "uci_wine_white",
+      "requests": 12,
+      "parsed_responses": 12,
+      "candidate_occurrences": 48,
+      "unique_candidates": 11,
+      "duplicate_occurrences": 37,
+      "executable_unique": 11,
+      "executable_occurrences": 48,
+      "unique_execution_rate": 1.0,
+      "technical_status_counts": {
+        "EXECUTED": 11
+      }
+    },
+    {
+      "condition": "original",
+      "source": "synthetic_balanced_journals",
+      "requests": 1,
+      "parsed_responses": 1,
+      "candidate_occurrences": 4,
+      "unique_candidates": 4,
+      "duplicate_occurrences": 0,
+      "executable_unique": 0,
+      "executable_occurrences": 0,
+      "unique_execution_rate": 0.0,
+      "technical_status_counts": {
+        "SAFETY_OR_COMPATIBILITY_REJECTED": 4
+      }
+    },
+    {
+      "condition": "original",
+      "source": "uci_bank_marketing",
+      "requests": 1,
+      "parsed_responses": 0,
+      "candidate_occurrences": 0,
+      "unique_candidates": 0,
+      "duplicate_occurrences": 0,
+      "executable_unique": 0,
+      "executable_occurrences": 0,
+      "unique_execution_rate": null,
+      "technical_status_counts": {}
+    },
+    {
+      "condition": "original",
+      "source": "uci_credit",
+      "requests": 1,
+      "parsed_responses": 1,
+      "candidate_occurrences": 4,
+      "unique_candidates": 4,
+      "duplicate_occurrences": 0,
+      "executable_unique": 0,
+      "executable_occurrences": 0,
+      "unique_execution_rate": 0.0,
+      "technical_status_counts": {
+        "SAFETY_OR_COMPATIBILITY_REJECTED": 4
+      }
+    },
+    {
+      "condition": "original",
+      "source": "uci_wine_white",
+      "requests": 1,
+      "parsed_responses": 1,
+      "candidate_occurrences": 3,
+      "unique_candidates": 3,
+      "duplicate_occurrences": 0,
+      "executable_unique": 0,
+      "executable_occurrences": 0,
+      "unique_execution_rate": 0.0,
+      "technical_status_counts": {
+        "SAFETY_OR_COMPATIBILITY_REJECTED": 3
+      }
+    }
+  ],
+  "reviewable_unique_source_code_pairs": 62,
+  "interpretation": "Exploratory fixed-model study. Candidate uniqueness is within source/condition, not independent source replication; same rules can occur across conditions."
+}

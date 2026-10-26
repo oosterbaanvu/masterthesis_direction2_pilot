@@ -1,0 +1,57 @@
+{
+  "status": "TRIAGED",
+  "rows": 256,
+  "role": "UNLABELLED_DEVELOPMENT_ONLY",
+  "results": [
+    {
+      "id": "D_NONNEG_fixed_acidity",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "EXECUTED",
+      "technical_pass": true,
+      "columns": [
+        "fixed acidity"
+      ],
+      "unexpected_count": 0,
+      "unexpected_rows": [],
+      "interpretation": "Unlabelled development workload, not error precision/recall"
+    },
+    {
+      "id": "D_NONNEG_volatile_acidity",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "EXECUTED",
+      "technical_pass": true,
+      "columns": [
+        "volatile acidity"
+      ],
+      "unexpected_count": 0,
+      "unexpected_rows": [],
+      "interpretation": "Unlabelled development workload, not error precision/recall"
+    },
+    {
+      "id": "D_NONNEG_citric_acid",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "EXECUTED",
+      "technical_pass": true,
+      "columns": [
+        "citric acid"
+      ],
+      "unexpected_count": 0,
+      "unexpected_rows": [],
+      "interpretation": "Unlabelled development workload, not error precision/recall"
+    },
+    {
+      "id": "D_NONNEG_sulphates",
+      "semantic_validity": "NOT_ADJUDICATED",
+      "status": "EXECUTED",
+      "technical_pass": true,
+      "columns": [
+        "sulphates"
+      ],
+      "unexpected_count": 0,
+      "unexpected_rows": [],
+      "interpretation": "Unlabelled development workload, not error precision/recall"
+    }
+  ],
+  "held_out_error_performance": "NOT_MEASURED",
+  "independent_semantic_judgments": 0
+}

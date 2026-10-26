@@ -1,0 +1,16 @@
+{
+  "source": "synthetic_balanced_journals",
+  "evidence_type": "SELF_AUTHORED_STIPULATED_VALID_EXAMPLE_COUNTEREXAMPLES_NOT_HUMAN_ADJUDICATION",
+  "rows": 256,
+  "technical_passes_flagging_stipulated_valid_rows": [
+    {
+      "id": "g_9df575e0bc141b5e2d76",
+      "valid_scenario_rows_flagged": 256
+    },
+    {
+      "id": "g_20a6d7f2665c86318e79",
+      "valid_scenario_rows_flagged": 128
+    }
+  ],
+  "interpretation": "A flag on a stipulated valid scenario supplies a counterexample to universality within that scenario. Zero flags do not certify universal validity or financial transfer."
+}

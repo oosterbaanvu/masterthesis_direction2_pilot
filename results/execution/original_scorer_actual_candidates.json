@@ -1,0 +1,2216 @@
+{
+  "status": "UNCHANGED_ORIGINAL_SCORER_COMPONENT_REPRODUCED_ON_ACTUAL_MODEL_DETECTIONS",
+  "checks": [
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_2b0bfb53f443996862b5",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_2b0bfb53f443996862b5",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_90a1c06066f9e4df1aa4",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_90a1c06066f9e4df1aa4",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_0f1b35b7ba1cca72ad16",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_0f1b35b7ba1cca72ad16",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_05b520e07bfbab0b6a48",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_05b520e07bfbab0b6a48",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_81a6675b396609dc78a5",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_81a6675b396609dc78a5",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_9ede2fde0b1dc38efd15",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_9ede2fde0b1dc38efd15",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_45c5bfaa8baf66fc8499",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_45c5bfaa8baf66fc8499",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_48f86044f49c2eb70ed8",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_beers",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_48f86044f49c2eb70ed8",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_e54d4776fd1e0dad594f",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_e54d4776fd1e0dad594f",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_b12cf498bc54898607e9",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_b12cf498bc54898607e9",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_b3ef20a74fe0fb654fa8",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_b3ef20a74fe0fb654fa8",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_8ca79207d6639f509fd0",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_8ca79207d6639f509fd0",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_e016eec3ef795cac23e2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_e016eec3ef795cac23e2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_8ec14674338dd082d585",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_8ec14674338dd082d585",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_4bb4130f2f003ba8e049",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_4bb4130f2f003ba8e049",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_afb01a50b5144688a88b",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "raha_hospital",
+      "condition": "benchmark",
+      "family": "reference",
+      "candidate": "g_afb01a50b5144688a88b",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_9df575e0bc141b5e2d76",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_9df575e0bc141b5e2d76",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_9df575e0bc141b5e2d76",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_c3915e71cd6cc5146227",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_9df575e0bc141b5e2d76",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_535a468b6573a4a4da88",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_83aa4f0f16f9dbe023da",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_e708a4b361d2299256c1",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_20a6d7f2665c86318e79",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "synthetic_balanced_journals",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_d88df0e90e823370dc66",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_43cd045e45a418527c52",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_2fc3203f7e8937bd64e2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_be16788e0db092b17b4d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_09177d1e33c14c8813dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_bank_marketing",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_1a06c4627c0bdd0917fe",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_a34130896ae291f282d6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_f004fbf232d446f58d7d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_e3a1c17adc82d3c7f8d3",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_c95a09173adacd9f0833",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_40b4f411465f38023d34",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_3e5b9a1c63585568f894",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_854e85f93aa5e03bce11",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_credit",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_cb1c5bcad811df41cbf5",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "missing",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "invalid_type_or_code",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "gross_scale",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_e452928e48c45696f34d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_92e6bde4c77746a66ac2",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_0f1c700a992e55cf2bf6",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_73e180005a510cf888ce",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_15fa3d21725f38371916",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_b6a0b65df5c43e25698e",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_f2d2eb842cd435d7100d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_223694d1ba8c06cbb2dc",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_ccaf938f3581dc015e48",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_b56aa261f35ab1435b3d",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "row",
+      "counts_and_precision_recall_match": true
+    },
+    {
+      "source": "uci_wine_white",
+      "condition": "guided",
+      "family": "plausible_swap",
+      "candidate": "g_2bd4c5133b8db2fdbc22",
+      "unit": "single_column_cell",
+      "counts_and_precision_recall_match": true
+    }
+  ],
+  "count": 276,
+  "new_model_requests": 0,
+  "full_paper_performance_reproduction": false
+}

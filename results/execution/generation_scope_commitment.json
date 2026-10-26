@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-10-26T12:08:24.883918+00:00",
+  "guided_target_requests": 48,
+  "published_target_requests": 4,
+  "original_smoke_requests": 4,
+  "continued_workload_will_not_depend_on_heldout_detection_results": true,
+  "technical_viability_evidence": "Wine syntax-guided smoke: four actual generated constructors executed; model stable, ~4.6 generation tokens/s in initial isolated request",
+  "batch_checkpoints": [
+    16,
+    32,
+    48
+  ],
+  "model_or_prompt_change_after_heldout_scoring": false,
+  "stopping_conditions": [
+    "resource/runtime failure",
+    "server or integrity failure"
+  ],
+  "paid_calls_allowed": false
+}

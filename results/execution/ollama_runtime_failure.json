@@ -1,0 +1,11 @@
+{
+  "version": "0.40.11",
+  "verified_release_sha256": "7bedab90dd122661be78798e9f0edf37fccf0cccf2699d2c58ea1a3afdc04b6d",
+  "installation": "User-local binary and libraries extracted successfully",
+  "serve_status": "FAILED_HOME_DIRECTORY_READ_ONLY",
+  "cause": "serve attempts /home/agent/.ollama/id_ed25519; mkdir denied by read-only home",
+  "HOME_overridden": false,
+  "fallback_actually_working": "Pinned CPU llama.cpp with official Qwen GGUF; actual responses recorded",
+  "ollama_inference_requests": 0,
+  "registry_pull_also_restricted": true
+}

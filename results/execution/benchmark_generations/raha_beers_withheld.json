@@ -1,0 +1,96 @@
+{
+  "request": {
+    "id": "raha_beers:withheld",
+    "source": "raha_beers",
+    "documentation": "withheld",
+    "seed": 11,
+    "path": "data/cache/execution/benchmark_prompts/raha_beers_withheld.txt",
+    "prompt_sha256": "3582279648880e64509aa0218cbe23d2b042bd70ac4f2a76d9e3937cac30dfae"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "published_schema_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "3582279648880e64509aa0218cbe23d2b042bd70ac4f2a76d9e3937cac30dfae",
+    "request_sha256": "8967b1cf18834a376017b7f200bcd11e2e38004e5191f2bfa25366ee95611702",
+    "response_canonical_sha256": "49e586fd39a7a8af7a3057919d0773f03e1be3b0708b72e275b31c98e14e3f59",
+    "settings": {
+      "temperature": 0,
+      "seed": 11,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 400,
+      "prompt_tokens": 1083,
+      "total_tokens": 1483,
+      "prompt_tokens_details": {
+        "cached_tokens": 671
+      }
+    },
+    "timings": {
+      "cache_n": 671,
+      "prompt_n": 412,
+      "prompt_ms": 15685.991,
+      "prompt_per_token_ms": 38.07279368932039,
+      "prompt_per_second": 26.26547471562364,
+      "predicted_n": 400,
+      "predicted_ms": 87872.545,
+      "predicted_per_token_ms": 220.23194235588971,
+      "predicted_per_second": 4.5406673950322025
+    },
+    "runtime_seconds": 302.1513153950218,
+    "peak_server_tree_RSS_bytes": 9659514880,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "8b8d7a8547da2c891966897e8a6c32f6f939883b22663e7ed29bdca354196afe"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "check_ounces",
+      "description": "Ensure that the 'ounces' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='ounces', min_value=0, max_value=100)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ]
+    },
+    {
+      "id": "check_abv",
+      "description": "Ensure that the 'abv' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='abv', min_value=0, max_value=20)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ]
+    },
+    {
+      "id": "checkibu",
+      "description": "Ensure that the 'ibu' column contains numeric values within a reasonable range.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeBetween(column='ibu', min_value=0, max_value=150)",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ]
+    },
+    {
+      "id": "check_unique_breweries",
+      "description": "Ensure that the 'brewery_id' column contains unique values.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeUnique(column='brewery_id')",
+      "evidence_references": [
+        "https://www.brewersassociation.org/education-and-resources/beer-styles/"
+      ]
+    }
+  ],
+  "abstentions": [
+    "The 'city' and 'state' columns may contain varying formats and are not strictly numeric, so a specific check may not be appropriate."
+  ]
+}

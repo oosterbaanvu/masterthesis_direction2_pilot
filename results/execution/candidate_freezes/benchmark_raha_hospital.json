@@ -1,0 +1,109 @@
+{
+  "time_utc": "2026-10-26T12:08:28.623661+00:00",
+  "raw_candidate_count": 8,
+  "unique_count": 8,
+  "candidate_sha256": "639d8e87648559b69d9dc801760480516019d43da5778e28e002a6626c2d1321",
+  "candidates": [
+    {
+      "id": "g_e54d4776fd1e0dad594f",
+      "description": "Ensure that the phone numbers are in a valid format (e.g., 123-456-7890).",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='phone', regex='^[0-9]{3}-[0-9]{3}-[0-9]{4}$')",
+      "evidence_references": [
+        "https://www.regular-expressions.info/phonenumber.html"
+      ],
+      "original_id": "check_phone_format",
+      "origins": [
+        "raha_hospital:provided"
+      ]
+    },
+    {
+      "id": "g_b12cf498bc54898607e9",
+      "description": "Ensure that the zip codes are in a valid format (e.g., 12345 or 12345-6789).",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='zip', regex='^[0-9]{5}(-[0-9]{4})?$')",
+      "evidence_references": [
+        "https://www.regular-expressions.info/zip.html"
+      ],
+      "original_id": "check_zip_format",
+      "origins": [
+        "raha_hospital:provided"
+      ]
+    },
+    {
+      "id": "g_b3ef20a74fe0fb654fa8",
+      "description": "Ensure that the state codes are in a valid format (e.g., two-letter abbreviation).",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='state', regex='^[A-Z]{2}$')",
+      "evidence_references": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations"
+      ],
+      "original_id": "check_state_code",
+      "origins": [
+        "raha_hospital:provided"
+      ]
+    },
+    {
+      "id": "g_8ca79207d6639f509fd0",
+      "description": "Ensure that the owner types are one of the documented values (e.g., 'Public', 'Private').",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='owner', value_set=['Public', 'Private'])",
+      "evidence_references": [
+        "SOURCE_CONTEXT documentation"
+      ],
+      "original_id": "check_owner_type",
+      "origins": [
+        "raha_hospital:provided"
+      ]
+    },
+    {
+      "id": "g_e016eec3ef795cac23e2",
+      "description": "Ensure that the phone numbers are in a valid format.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='phone', regex='\\d{3}-\\d{3}-\\d{4}')",
+      "evidence_references": [
+        "https://en.wikipedia.org/wiki/Telephone_number_formatting"
+      ],
+      "original_id": "check_phone_format",
+      "origins": [
+        "raha_hospital:withheld"
+      ]
+    },
+    {
+      "id": "g_8ec14674338dd082d585",
+      "description": "Ensure that the zip codes are in a valid format.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToMatchRegex(column='zip', regex='\\d{5}(-\\d{4})?')",
+      "evidence_references": [
+        "https://en.wikipedia.org/wiki/ZIP_code"
+      ],
+      "original_id": "check_zip_format",
+      "origins": [
+        "raha_hospital:withheld"
+      ]
+    },
+    {
+      "id": "g_4bb4130f2f003ba8e049",
+      "description": "Ensure that the state codes are in a valid format.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='state', value_set=['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'])",
+      "evidence_references": [
+        "https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations"
+      ],
+      "original_id": "check_state_code",
+      "origins": [
+        "raha_hospital:withheld"
+      ]
+    },
+    {
+      "id": "g_afb01a50b5144688a88b",
+      "description": "Ensure that the owner types are in a valid set of values.",
+      "gx_code": "gx.expectations.ExpectColumnValuesToBeInSet(column='owner', value_set=['Public', 'Private', 'Non-Profit'])",
+      "evidence_references": [
+        "https://www.healthcare.gov/glossary/owner-type/"
+      ],
+      "original_id": "check_owner_type",
+      "origins": [
+        "raha_hospital:withheld"
+      ]
+    }
+  ],
+  "protocol_sha256": "33a261b156f0ab0c522de59046dd11faae3d2724eee16135b960cc9dfeb7cadf",
+  "evaluation_implementation_sha256": "a5329d6ef1363e83a7a87867523444855e79a8d2f477f437e57219ec094648b5",
+  "data_implementation_sha256": "96217bfd4b7491c06104f8200b95bdcdfa4de8e673fc7ff0d8bfe7024952cde6",
+  "selection_uses_heldout_labels": false,
+  "raw_records_or_error_labels_in_generation": false
+}

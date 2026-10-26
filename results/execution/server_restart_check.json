@@ -1,0 +1,10 @@
+{
+  "time_utc": "2026-10-26T13:28:44.899207+00:00",
+  "old_owned_server_pid": 255554,
+  "old_server_stopped": true,
+  "ownership_evidence": "Created by this task, recorded original server PID and matching /proc/comm",
+  "initial_exe_symlink_check": "Access denied; no server stopped during that first attempt",
+  "new_server_start": "PASSED_AUTHENTICATED_MODEL_LIST_AND_TOKENIZATION",
+  "new_server_pid": 262891,
+  "new_generation_requests": 0
+}

@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-10-26T13:15:16.619299+00:00",
+  "monitors_asked_to_stop": true,
+  "logs": [
+    {
+      "name": "memory_samples.jsonl",
+      "sha256_at_checkpoint": "5597d19dda589d618581262e067e0a8e389e385f73b62b2f836035b438d59ccb",
+      "samples": 40,
+      "positive_samples": 0,
+      "peak_positive_RSS_bytes": null,
+      "zero_interpretation": "Instrumentation unavailable, not zero memory"
+    },
+    {
+      "name": "memory_samples_corrected.jsonl",
+      "sha256_at_checkpoint": "a2f9292554344d46ad7bcb74bd1279a7f92a56dd41e043eb6d1e57f77b0a4531",
+      "samples": 1014,
+      "positive_samples": 1014,
+      "peak_positive_RSS_bytes": 9654099968,
+      "zero_interpretation": "Instrumentation unavailable, not zero memory"
+    }
+  ],
+  "peak_positive_server_RSS_bytes": 9654099968,
+  "cgroup_memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n",
+  "per_request_provenance_monitoring_continues": true
+}

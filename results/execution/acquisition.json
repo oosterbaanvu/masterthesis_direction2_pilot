@@ -1,0 +1,23 @@
+{
+  "ollama_version": "0.40.11",
+  "weights_repository": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+  "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+  "files": [
+    {
+      "name": "ollama-linux-amd64.tar.zst",
+      "url": "https://github.com/ollama/ollama/releases/download/v0.40.11/ollama-linux-amd64.tar.zst",
+      "bytes": 1508659610,
+      "sha256": "7bedab90dd122661be78798e9f0edf37fccf0cccf2699d2c58ea1a3afdc04b6d",
+      "local_path": "data/cache/execution/downloads/ollama-linux-amd64.tar.zst",
+      "runtime_seconds": 26.96054863196332
+    },
+    {
+      "name": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/13fb94bfda8c8cf22497dc57b78f391a9acb426a/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "bytes": 4683073536,
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "local_path": "data/cache/execution/downloads/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "runtime_seconds": 346.8703790419968
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-10-26T12:48:58.059826+00:00",
+  "model": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+  "revision": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
+  "publisher_weight_bytes": 18556689568,
+  "publisher_sha256": "fadc3e5f8d42bf7e894a785b05082e47daee4df26680389817e2093056f088ad",
+  "full_weights_verified": false,
+  "model_loaded": false,
+  "inference_requests": 0,
+  "generation_tokens_per_second": null,
+  "cpu_quota": "400000 100000",
+  "memory_limit_bytes": 34359738368,
+  "nvidia_device": false,
+  "disk_free_bytes": 21960519680,
+  "reserve_bytes": 8589934592,
+  "fits_current_disk_with_reserve": false,
+  "GGUF_memory_sizing_only": "Prior explicit 8192 KV estimate and 4GiB planning overhead fit 32GiB; runtime peak and CPU throughput unmeasured",
+  "AWQ_paper_stack": "No CUDA device; exact stack unavailable",
+  "decision": "Do not interrupt viable measured 7B experiment to download another 18.56GB. Larger GGUF could be revisited after deliberate cache/storage planning and an actual benchmark; no conclusion of inherent impossibility or speed scaling from 7B."
+}

@@ -1,0 +1,101 @@
+{
+  "citation": "https://github.com/BigDaMa/raha/tree/master/datasets/beers",
+  "existing_controls": [
+    {
+      "column": "id",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "beer_name",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "style",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "ounces",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "abv",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "ibu",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "brewery_id",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "brewery_name",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "city",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    },
+    {
+      "column": "state",
+      "kind": "missing_token_screen",
+      "mandatory_status": "NOT_ESTABLISHED"
+    }
+  ],
+  "format_note": "CSV fields are delivered as strings. Numeric-named fields are not automatically floating-point dataframe columns.",
+  "sample": [],
+  "schema": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "beer_name",
+      "type": "string"
+    },
+    {
+      "name": "style",
+      "type": "string"
+    },
+    {
+      "name": "ounces",
+      "type": "string"
+    },
+    {
+      "name": "abv",
+      "type": "string"
+    },
+    {
+      "name": "ibu",
+      "type": "string"
+    },
+    {
+      "name": "brewery_id",
+      "type": "string"
+    },
+    {
+      "name": "brewery_name",
+      "type": "string"
+    },
+    {
+      "name": "city",
+      "type": "string"
+    },
+    {
+      "name": "state",
+      "type": "string"
+    }
+  ],
+  "source": "raha_beers",
+  "source_documentation": "Craft beer and brewery lookup records. Multiple beers can share a brewery. ABV is alcohol-by-volume, IBU bitterness, ounces package capacity. Exact required-field and unit-format policies are not established here; do not infer them from a clean reference. Additional assumptions are provisional."
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "key": "bayesian_full",
+    "url": "https://www.emerald.com/dta/article-pdf/doi/10.1108/DTA-07-2026-0785/11918457/dta-07-2026-0785en.pdf",
+    "http_status": 403,
+    "exception_type": "HTTPError"
+  },
+  {
+    "key": "qwen_card",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
+    "http_status": 200,
+    "sha256": "3c090be37f829adc1e4cdb78733667437732541470430ab2cd785d7f0d460077",
+    "PDF_verified": false
+  }
+]

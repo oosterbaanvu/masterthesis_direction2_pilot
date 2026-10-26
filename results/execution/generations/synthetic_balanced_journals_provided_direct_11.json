@@ -1,0 +1,97 @@
+{
+  "request": {
+    "id": "synthetic_balanced_journals:provided:direct:11",
+    "source": "synthetic_balanced_journals",
+    "documentation": "provided",
+    "prompt_variant": "direct",
+    "seed": 11,
+    "prompt_sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21",
+    "prompt_utf8_bytes": 2610,
+    "path": "data/cache/free_gemini/prompts/synthetic_balanced_journals_provided_direct_11.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "01520d3eced1980ab42bac37776b3b99f5cf8d113f78b179ebf5bb9be97eab21",
+    "request_sha256": "b716219d9e749ef133e0e7806c9c381ade9c5068fb7e79951406a3026c6292ed",
+    "response_canonical_sha256": "e669cba97ade15c7cecf03e3ab0abf90c8942b9337c1442175f15853478c4b31",
+    "settings": {
+      "temperature": 0,
+      "seed": 11,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 291,
+      "prompt_tokens": 697,
+      "total_tokens": 988,
+      "prompt_tokens_details": {
+        "cached_tokens": 229
+      }
+    },
+    "timings": {
+      "cache_n": 229,
+      "prompt_n": 468,
+      "prompt_ms": 14718.438,
+      "prompt_per_token_ms": 31.449653846153847,
+      "prompt_per_second": 31.79685235620791,
+      "predicted_n": 291,
+      "predicted_ms": 76929.077,
+      "predicted_per_token_ms": 265.27267931034487,
+      "predicted_per_second": 3.7697059591654787
+    },
+    "runtime_seconds": 91.85664506698959,
+    "peak_server_tree_RSS_bytes": 0,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "52f2f67a5f7c90061362ae0e2880bbbcc0d05533c2a4bd89358d27d3c56465df"
+  },
+  "cached": false,
+  "status": "PARSED",
+  "rules": [
+    {
+      "id": "rule_1",
+      "description": "Ensure that the total debits and total credits are equal for each journal entry.",
+      "gx_code": "gx.expect_column_values_to_be_equal_to_constant(column='total_debits', constant_value='total_credits')",
+      "evidence_references": [
+        "source_documentation"
+      ]
+    },
+    {
+      "id": "rule_2",
+      "description": "Ensure that the total debits and total credits are nonnegative integers.",
+      "gx_code": "gx.expect_column_values_to_be_between(column='total_debits', min_value=0, max_value=None)",
+      "evidence_references": [
+        "source_documentation"
+      ]
+    },
+    {
+      "id": "rule_3",
+      "description": "Ensure that the currency is either USD or EUR.",
+      "gx_code": "gx.expect_column_values_to_be_in_set(column='currency', value_set=['USD', 'EUR'])",
+      "evidence_references": [
+        "source_documentation"
+      ]
+    },
+    {
+      "id": "rule_4",
+      "description": "Ensure that the journal_id is unique across all entries.",
+      "gx_code": "gx.expect_column_values_to_be_unique(column='journal_id')",
+      "evidence_references": [
+        "source_documentation"
+      ]
+    }
+  ],
+  "abstentions": []
+}

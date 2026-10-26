@@ -1,0 +1,48 @@
+{
+  "time_utc": "2026-10-26T13:27:39.213201+00:00",
+  "new_model_requests": 0,
+  "sources": [
+    {
+      "file": "benchmark_raha_beers.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "benchmark_raha_hospital.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "guided_synthetic_balanced_journals.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "guided_uci_bank_marketing.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "guided_uci_credit.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "guided_uci_wine_white.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "original_synthetic_balanced_journals.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "original_uci_bank_marketing.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "original_uci_credit.json",
+      "all_original_scientific_fields_equal": true
+    },
+    {
+      "file": "original_uci_wine_white.json",
+      "all_original_scientific_fields_equal": true
+    }
+  ],
+  "isolated_output": "data/cache/execution/rescore_kifctmym",
+  "comparison": "All original scientific result fields, including candidate execution and confusion counts; final code may add explicit diagnostics"
+}

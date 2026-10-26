@@ -1,0 +1,66 @@
+{
+  "request": {
+    "id": "uci_credit:withheld:cautious:37",
+    "source": "uci_credit",
+    "documentation": "withheld",
+    "prompt_variant": "cautious",
+    "seed": 37,
+    "prompt_sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481",
+    "prompt_utf8_bytes": 7309,
+    "path": "data/cache/execution/guided_prompts/uci_credit_withheld_cautious_37.txt",
+    "approved_source_class": "PUBLIC_METADATA_OR_SELF_AUTHORED_SYNTHETIC",
+    "real_person_records_transmitted": false,
+    "original_prompt_sha256": "e4489c4cb7c7eaee93a47d6be4ec433aa669c9a97cdd73e1eb79614682450590"
+  },
+  "provenance": {
+    "provider": "llamacpp",
+    "experimental_condition": "gx_syntax_guided_v1",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "model_alias": "qwen2.5-coder-7b-q4km",
+    "weights_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+    "quantization": "Q4_K_M",
+    "runtime_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "prompt_sha256": "cf0ce948a9152e1b9c846b3e128185262828c0b12dae6a566b528d45648a9481",
+    "request_sha256": "f04bcf7f8899c6dc95853f83da09b1d0566cbc19e3706ff3860d52cc251ec4f3",
+    "response_canonical_sha256": "df858ccdd2a30f164315f6a1db53d1877418d46f9bfcdcb7131de7c4448ab7ca",
+    "settings": {
+      "temperature": 0,
+      "seed": 37,
+      "top_p": 1,
+      "repeat_penalty": 1,
+      "max_tokens": 2048,
+      "context_tokens": 8192,
+      "cpu_threads": 4
+    },
+    "usage": {
+      "completion_tokens": 492,
+      "prompt_tokens": 2105,
+      "total_tokens": 2597,
+      "prompt_tokens_details": {
+        "cached_tokens": 1685
+      }
+    },
+    "timings": {
+      "cache_n": 1685,
+      "prompt_n": 420,
+      "prompt_ms": 12884.82,
+      "prompt_per_token_ms": 30.678142857142856,
+      "prompt_per_second": 32.59649727353584,
+      "predicted_n": 492,
+      "predicted_ms": 106599.204,
+      "predicted_per_token_ms": 217.1063217922607,
+      "predicted_per_second": 4.606038146401168
+    },
+    "runtime_seconds": 119.98127480002586,
+    "peak_server_tree_RSS_bytes": 9567096832,
+    "finish_reason": "stop",
+    "origin": "EXPERIMENTAL_MODEL_RESPONSE",
+    "paid_calls": 0,
+    "response_wire_sha256": "8fb91ad152c8d74b78a3225b52815d37711d8e4211ca848eedb19329a66a499f"
+  },
+  "cached": false,
+  "status": "MALFORMED_OR_TRUNCATED",
+  "failure_type": "ValueError",
+  "rules": []
+}
